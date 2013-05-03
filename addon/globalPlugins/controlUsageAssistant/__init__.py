@@ -27,7 +27,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		myObj = api.getFocusObject()
 		curControl = myObj.role
 		ui.message(self.getHelpMessage(curControl)) # The actual function is below.
-	
+	script_obtainControlHelp.__doc__=_("Presents a short message on how to interact with the focused control.")
 		
 	def getHelpMessage(self, rolenumber): # Here, rolenumber is the role's unique ID number. See the dictionary imported above.
 		if rolenumber not in ctrltypelist.helpMessages:
