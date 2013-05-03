@@ -34,7 +34,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			# Translators: Message presented when there is no help message for the focused control.
 			ui.message(_("No help for this control"))
 		else:
-			return ctrltypelist.helpMessages[rolenumber]
+			ui.message(_(ctrltypelist.helpMessages[rolenumber]))
+		
 	
 	
 	__gestures={
