@@ -10,9 +10,9 @@
 import globalPluginHandler # Basics of Global Plugin.
 import tones # For debugging and testing, to be removed in the release.
 import ui # For speaking and brailling help messages.
-import api # To fetch obj properties.
+import api # To fetch object properties.
 import controlTypes # The heart of this module.
-import ctrltypelist # The control types dictionary.
+import ctrltypelist # The control types and help messages dictionary.
 import addonHandler # Addon basics.
 addonHandler.initTranslation() # Internationalization.
 
@@ -20,21 +20,23 @@ addonHandler.initTranslation() # Internationalization.
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	
 # 		 NVDA+H: Obtain usage help on a particular control.
-	# Depending on the type of control, lookup a dictionary of control types and help messages.
+	# Depending on the type of control and its state(s), lookup a dictionary of control types and help messages.
 	# Partially implemented.
 	def script_obtainControlHelp(self, gesture):
 		tones.beep(500, 100) # For testing purposes, to be removed in official release.
-		myObj = api.getFocusObject()
-		curControl = myObj.role
-		ui.message(self.getHelpMessage(curControl)) # The actual function is below.
+		ui.message(self.getHelpMessage(api.getFocusObject())) # The actual function is below.
 	script_obtainControlHelp.__doc__=_("Presents a short message on how to interact with the focused control.")
 		
-	def getHelpMessage(self, rolenumber): # Here, rolenumber is the role's unique ID number. See the dictionary imported above.
-		if rolenumber not in ctrltypelist.helpMessages:
+	def getHelpMessage(self, curObj): # Here, we want to present the appropriate help message based on role and state.
+		curRole = curObj.role # Just an int, the key to the help messages dictionary.
+		curState = curObj._get_states() # To work with states to present appropriate help message.
+		if curRole not in ctrltypelist.helpMessages:
 			# Translators: Message presented when there is no help message for the focused control.
 			ui.message(_("No help for this control"))
+		elif curRole == 8 and controlTypes.STATE_READONLY in curState:
+			ui.message(_(ctrltypelist.helpMessages[-8]))
 		else:
-			ui.message(_(ctrltypelist.helpMessages[rolenumber]))
+			ui.message(_(ctrltypelist.helpMessages[curRole]))
 		
 	
 	
