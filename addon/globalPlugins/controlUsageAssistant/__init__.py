@@ -25,6 +25,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_obtainControlHelp(self, gesture):
 		tones.beep(500, 100) # For testing purposes, to be removed in official release.
 		ui.message(self.getHelpMessage(api.getFocusObject())) # The actual function is below.
+	# Translators: Input help message for obtain control help command.
 	script_obtainControlHelp.__doc__=_("Presents a short message on how to interact with the focused control.")
 		
 	def getHelpMessage(self, curObj): # Here, we want to present the appropriate help message based on role and state.
