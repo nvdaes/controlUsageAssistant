@@ -10,8 +10,8 @@
 helpMessages = {
 	# Translators: Help message for a checkbox.
 	5:_("Press space to check or uncheck the checkbox"),
-	# Translators: Help message for a combo box.
-	6:_("Use the arrow keys to choose an option"),
+	# Translators: Help message for working with radio buttons.
+	6:_("Use the arrow keys to choose a radio button"),
 	# Translators: Help message for a list box.
 	7:_("Use the arrow keys to read this box"),
 	# Translators: Help message for an edit field.

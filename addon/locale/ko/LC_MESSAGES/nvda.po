@@ -8,13 +8,19 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '0.2codeReview'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-05-03 08:17-0800\n"
+"PO-Revision-Date: 2013-05-06 16:50-0800\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.5\n"
+
+#. For testing purposes, to be removed in official release.
+#. The actual function is below.
+#. Translators: Input help message for obtain control help command.
+msgid "Presents a short message on how to interact with the focused control."
+msgstr "특정 컨트롤 사용법을 간단하게 알려줍니다"
 
 #. Translators: Message presented when there is no help message for the focused control.
 msgid "No help for this control"
@@ -24,12 +30,64 @@ msgstr "컨트롤에 대한 도움말이 없습니다"
 msgid "Press space to check or uncheck the checkbox"
 msgstr "스페이스를 눌러 선택 또는 해제하십시오"
 
+#. Translators: Help message for a combo box.
+msgid "Use the arrow keys to choose an option"
+msgstr "방향키를 사용하여 옵션을 선택하십시오"
+
+#. Translators: Help message for a list box.
+msgid "Use the arrow keys to read this box"
+msgstr ""
+
+#. Translators: Help message for an edit field.
+msgid "Type text here"
+msgstr "텍스트를 입력하십시오"
+
+#. Translators: Help message for a read-only control.
+msgid "Use the text navigation commands to read text"
+msgstr "텍스트 읽기 명령을 사용하여 텍스트를 읽으십시오"
+
+#. Translators: Help message for a button.
+msgid "Press SPACE or ENTER to activate this button"
+msgstr "스페이느나 엔터를 눌러 버튼을 실행하십시오"
+
+#. Translators: Help message for menu items.
+msgid "Use the arrow keys to move between the menu items"
+msgstr "방향키를 사용하여 각 메뉴 옵션으로 이동하십시오"
+
+#. Translators: Help message for a combo box.
+msgid ""
+"Use the arrow keys to move among choices in the combo box until the desired "
+"option is found"
+msgstr "방향키를 사용하여 콤보 박스 내 옵션으로 이동하십시오"
+
+#. Translators: Help message for a list view.
+msgid "Use the arrow keys to move to the next or previous item in this list"
+msgstr "위나 아래 방향키를 사용하여 목록 항목을 선택하십시오"
+
+#. Translators: Help message for working with tree view items.
+msgid ""
+"Use the up and down arrow keys to select the items. Use left arrow to "
+"collapse and right arrow to expand"
+msgstr ""
+"위/아래 방향키로 항목을 선택하고 왼쪽/오른쪽 방향키를 사용하여 트리뷰를 열거"
+"나 닫으십시오"
+
+#. Translators: Help message for navigating tables.
+msgid ""
+"Press control, alt and arrow keys together to move between rows and columns"
+msgstr "컴트로, 얼트와 방향키를 사용하여 표 셀을 이동하십시오"
+
+#. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
+msgid ""
+"Use the arrow keys or object navigation commands to move through the document"
+msgstr "방향키나 객체 탐색 명령을 사용하여 문서를 읽으십시오"
+
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
 msgid ""
 "Control Usage Assistant - get brief help on interacting with the focused "
 "control"
-msgstr ""
+msgstr "컨트롤 사용 도우미"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
