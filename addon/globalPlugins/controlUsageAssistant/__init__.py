@@ -13,6 +13,7 @@ import ui # For speaking and brailling help messages.
 import api # To fetch object properties.
 import controlTypes # The heart of this module.
 import ctrltypelist # The control types and help messages dictionary.
+#import virtualBuffers # Virtual Buffer handling.
 import addonHandler # Addon basics.
 addonHandler.initTranslation() # Internationalization.
 
