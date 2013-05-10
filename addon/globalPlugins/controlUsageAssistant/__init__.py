@@ -12,7 +12,6 @@ import ui # For speaking and brailling help messages.
 import api # To fetch object properties.
 import controlTypes # The heart of this module.
 import ctrltypelist # The control types and help messages dictionary.
-#import virtualBuffers # Virtual Buffer handling.
 import addonHandler # Addon basics.
 addonHandler.initTranslation() # Internationalization.
 
@@ -37,13 +36,17 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			ui.message(_(ctrltypelist.helpMessages[-8]))
 		else:
 			ui.message(_(ctrltypelist.helpMessages[curRole]))
-		
+	
 	# For development testing:
 	# GetAppName: To see if one can even print the name of the appModule.
 	def script_getAppName(self, gesture):
 		appObj = api.getFocusObject()
 		app = appObj.appModule
 		ui.message(app)
+	
+			
+			
+>>>>>>> master
 	
 	
 	__gestures={
