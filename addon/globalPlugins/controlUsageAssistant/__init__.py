@@ -29,6 +29,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def getHelpMessage(self, curObj): # Here, we want to present the appropriate help message based on role and state.
 		curRole = curObj.role # Just an int, the key to the help messages dictionary.
 		curState = curObj._get_states() # To work with states to present appropriate help message.
+		#app = curObj.appModule # Detect which app we're running so to give custom help messages for controls.
 		if curRole not in ctrltypelist.helpMessages:
 			# Translators: Message presented when there is no help message for the focused control.
 			ui.message(_("No help for this control"))
