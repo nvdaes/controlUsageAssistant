@@ -35,9 +35,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			ui.message(_("No help for this control"))
 		elif curRole == 8 and controlTypes.STATE_READONLY in curState:
 			ui.message(_(ctrltypelist.helpMessages[-8]))
-		elif isinstance(curObj, virtualBuffer): # Detect virtual buffer (browse mode).
-			tones(256, 100) # For debugging purposes.:
-		else:
+		#elif isinstance(curObj, virtualBuffer): # Detect virtual buffer (browse mode).
+		#	tones(256, 100) # For debugging purposes.:
+		#else:
 			ui.message(_(ctrltypelist.helpMessages[curRole]))
 			
 			
