@@ -42,11 +42,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_getAppName(self, gesture):
 		appObj = api.getFocusObject()
 		app = appObj.appModule
-		ui.message(app)
+		ui.message(app.appModuleName.split(".")[0])
 	
 			
 			
->>>>>>> master
 	
 	
 	__gestures={
