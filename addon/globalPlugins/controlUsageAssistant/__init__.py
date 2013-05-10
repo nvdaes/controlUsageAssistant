@@ -38,9 +38,16 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		else:
 			ui.message(_(ctrltypelist.helpMessages[curRole]))
 		
+	# For development testing:
+	# GetAppName: To see if one can even print the name of the appModule.
+	def script_getAppName(self, gesture):
+		appObj = api.getFocusObject()
+		app = appObj.appModule
+		ui.message(app)
 	
 	
 	__gestures={
 		"KB:NVDA+H":"obtainControlHelp",
+		"KB:NVDA+G":"getAppName",
 			}
 # End.
