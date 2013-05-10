@@ -12,10 +12,10 @@ import ui # For speaking and brailling help messages.
 import api # To fetch object properties.
 import controlTypes # The heart of this module.
 import ctrltypelist # The control types and help messages dictionary.
-from virtualBuffers import virtualBuffer # Virtual Buffer handling.
+#from virtualBuffers import virtualBuffer # Virtual Buffer handling.
 import addonHandler # Addon basics.
 addonHandler.initTranslation() # Internationalization.
-import tones # Debugging.
+#import tones # Debugging.
 
 # Init:
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
