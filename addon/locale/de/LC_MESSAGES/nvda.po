@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 'controlUsageAssistant' '0.2codeReview'\n"
+"Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2013-05-08 22:27-0700\n"
-"PO-Revision-Date: 2013-05-09 06:15-0800\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2013-05-10 09:17+0100\n"
+"Last-Translator: david Parduhn <xkill85@gmx.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,69 +20,86 @@ msgstr ""
 #. Translators: Input help message for obtain control help command.
 #: addon\globalPlugins\controlUsageAssistant\__init__.py:28
 msgid "Presents a short message on how to interact with the focused control."
-msgstr "특정 컨트롤 사용법을 간단하게 알려줍니다"
+msgstr "Zeigt eine kurze Meldung zur Verwendung des fokussierten Objekts an."
 
 #. Translators: Message presented when there is no help message for the focused control.
 #: addon\globalPlugins\controlUsageAssistant\__init__.py:35
 msgid "No help for this control"
-msgstr "컨트롤에 대한 도움말이 없습니다"
+msgstr "für das Aktuelle Element steht keine Hilfe zur Verfügung"
 
 #. Translators: Help message for a checkbox.
 #: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:12
 msgid "Press space to check or uncheck the checkbox"
-msgstr "스페이스를 눌러 선택 또는 해제하십시오"
+msgstr ""
+"Dies ist ein Kontrollkästchen. drücken Sie die Leertaste, um es zu "
+"aktivieren oder zu deaktivieren."
 
 #. Translators: Help message for working with radio buttons.
 #: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:14
 msgid "Use the arrow keys to choose a radio button"
-msgstr "방향키를 사용하여 라디오 버튼을을 선택하십시오"
+msgstr ""
+"Dies ist ein Auswahlschalter. Verwenden Sie die Pfeiltasten, um zwischen den "
+"Optionen zu wählen."
 
 #. Translators: Help message for a list box.
 #: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:16
 msgid "Use the arrow keys to read this box"
-msgstr "방향키를 사용하여 박스 내용을 읽으십시오"
+msgstr ""
+"Dies ist eine Liste. Verwenden Sie die Pfeiltasten, um einen Eintrag "
+"auszuwählen."
 
 #. Translators: Help message for an edit field.
 #: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:18
 msgid "Type text here"
-msgstr "텍스트를 입력하십시오"
+msgstr "Dies ist ein Eingabefehld. Hier können Sie Text eingeben."
 
 #. Translators: Help message for a read-only control.
 #: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:20
 msgid "Use the text navigation commands to read text"
-msgstr "텍스트 읽기 명령을 사용하여 텍스트를 읽으십시오"
+msgstr ""
+"Verwenden Sie die Befehle zum Betrachten von Text, um sich im Text zu "
+"bewegen."
 
 #. Translators: Help message for a button.
 #: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:22
 msgid "Press SPACE or ENTER to activate this button"
-msgstr "스페이스나 엔터를 눌러 버튼을 실행하십시오"
+msgstr ""
+"Dies ist ein Schalter. Drücken Sie die Leertaste oder die Eingabetaste, um "
+"ihn zu aktivieren."
 
 #. Translators: Help message for menu items.
 #: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:24
 msgid "Use the arrow keys to move between the menu items"
-msgstr "방향키를 사용하여 각 메뉴 옵션으로 이동하십시오"
+msgstr ""
+"Verwenden Sie die Pfeiltasten, um zwischen den Einträgen des Menüs zu "
+"navigieren."
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
 #: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:26
 msgid "Use up and down arrow keys to move through options in the pop-up menu"
-msgstr "위/아래 방향키를 사용하여 팝업 메뉴 옵션으로 이동하십시오"
+msgstr ""
+"Verwenden Sie die Pfeiltasten auf und ab, um einen Menüeintrag auszuwählen."
 
 #. Translators: Help message for a combo box.
 #: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:28
 msgid ""
 "Use the arrow keys to move among choices in the combo box until the desired "
 "option is found"
-msgstr "방향키를 사용하여 콤보 박스 내 옵션으로 이동하십시오"
+msgstr ""
+"Werwenden Sie die Pfeiltasten, um einen Eintrag dieses Kombinationsfeldes "
+"auszuwählen."
 
 #. Translators: Help message for a list view.
 #: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:30
 msgid "Use the arrow keys to move to the next or previous item in this list"
-msgstr "위나 아래 방향키를 사용하여 목록 항목을 선택하십시오"
+msgstr ""
+"Verwenden Sie die Pfeiltasten, um einen Eintrag aus der Liste auszuwählen."
 
 #. Translators: Help message for activating links.
 #: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:32
 msgid "Press SPACE or ENTER to activate this link"
-msgstr "스페이스나 엔터를 눌러 링크를 실행하십시오"
+msgstr ""
+"Drücken Sie die Leertaste oder die Eingabetaste, um den Link auszuwählen."
 
 #. Translators: Help message for working with tree view items.
 #: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:34
@@ -90,8 +107,9 @@ msgid ""
 "Use the up and down arrow keys to select the items. Use left arrow to "
 "collapse and right arrow to expand"
 msgstr ""
-"위/아래 방향키로 항목을 선택하고 왼쪽/오른쪽 방향키를 사용하여 트리뷰를 열거"
-"나 닫으십시오"
+"Verwenden Sie die Pfeiltasten auf und ab, um einen Eintrag auszuwählen. "
+"Verwenden Sie Pfeil links Bzw. rechts, um einen eintrag zu reduzieren Bzw. "
+"zu erweitern."
 
 #. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
 #: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:36
@@ -99,8 +117,9 @@ msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
 "for next tab and control+shift+tab for previous tab"
 msgstr ""
-"왼쪽/오른쪽 방향키를 사용하여 탭을 이동하거나 CTRL+Tab을 눌러 다음 탭으로 "
-"CTRL+Shift+TAB을 눌러 이전 탭으로 이동하십시오"
+"Verwenden sie die Pfeiltasten links und rechts, um zwischen den "
+"Registerkarten zu wechseln. Alternativ können Sie auch strg+tab und strg"
+"+Umschalt+Tab verwenden."
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
 #: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:38
@@ -110,23 +129,31 @@ msgid ""
 "decrease in larger values, and press home and end keys to select maximum and "
 "minimum value"
 msgstr ""
+"Verwenden Sie die Pfeiltasten auf Bzw. Links, um den Wert zu verringern oder "
+"ab bzw. rechts, um den Wert zu erhöhen."
 
 #. Translators: Help message for navigating tables.
 #: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:40
 msgid ""
 "Press control, alt and arrow keys together to move between rows and columns"
-msgstr "컴트로, 얼트와 방향키를 사용하여 표 셀을 이동하십시오"
+msgstr ""
+"Drücken Sie die Pfeiltasten zusammen mit strg und alt, um zwischen den "
+"Reihen und Spalten der Tabelle zu navigieren."
 
 #. Translators: Help message for navigating table cells.
 #: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:42
 msgid "Press control, alt and arrow keys together to move between table cells"
-msgstr "컴트롤, Alt와 방향키를 사용하여 표 셀을 이동하십시오"
+msgstr ""
+"Drücken Sie die Pfeiltasten zusammen mit strg und alt, um zwischen den "
+"Zellen der Tabelle zu navigieren."
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
 #: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:44
 msgid ""
 "Use the arrow keys or object navigation commands to move through the document"
-msgstr "방향키나 객체 탐색 명령을 사용하여 문서를 읽으십시오"
+msgstr ""
+"Verwenden Sie die Pfeiltasten oder den Navigator, um sich im Dokument zu "
+"bewegen."
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
@@ -134,7 +161,9 @@ msgstr "방향키나 객체 탐색 명령을 사용하여 문서를 읽으십시
 msgid ""
 "Control Usage Assistant - get brief help on interacting with the focused "
 "control"
-msgstr "컨트롤 사용 도우미"
+msgstr ""
+"Steuerelement-Hilfe - Zeigt eine Hilfe zur Verwendung des fokussierten "
+"Steuerelements an."
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
@@ -145,3 +174,6 @@ msgid ""
 "Press NvDA+H to get a short help message on using the focused control, such "
 "as moving through tables, checkboxes and so on."
 msgstr ""
+"Drücken Sie nvda-h, um zu erfahren, wie sie das aktuell fokussierte "
+"Steuerelement verwenden können. Dies ist für Anwender nützlich, die "
+"unerfahren im Umgang mit Windows oder NVDA sind."

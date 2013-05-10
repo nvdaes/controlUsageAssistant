@@ -12,9 +12,10 @@ import ui # For speaking and brailling help messages.
 import api # To fetch object properties.
 import controlTypes # The heart of this module.
 import ctrltypelist # The control types and help messages dictionary.
-#import virtualBuffers # Virtual Buffer handling.
+#from virtualBuffers import virtualBuffer # Virtual Buffer handling.
 import addonHandler # Addon basics.
 addonHandler.initTranslation() # Internationalization.
+#import tones # Debugging.
 
 # Init:
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
@@ -34,9 +35,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			ui.message(_("No help for this control"))
 		elif curRole == 8 and controlTypes.STATE_READONLY in curState:
 			ui.message(_(ctrltypelist.helpMessages[-8]))
-		else:
+		#elif isinstance(curObj, virtualBuffer): # Detect virtual buffer (browse mode).
+		#	tones(256, 100) # For debugging purposes.:
+		#else:
 			ui.message(_(ctrltypelist.helpMessages[curRole]))
-		
+			
+			
 	
 	
 	__gestures={
