@@ -41,5 +41,6 @@ helpMessages = {
 	# Translators: Help message for navigating table cells.
 	29:_("Press control, alt and arrow keys together to move between table cells"),
 	# Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
-	52:_("Use the arrow keys or object navigation commands to move through the document")
+	52:_("Use the arrow keys or object navigation commands to move through the document"),
+	64:"Press enter to interact with the embedded object. Press CONTROL+NVDA+SPACE to return to the website text"
 	}

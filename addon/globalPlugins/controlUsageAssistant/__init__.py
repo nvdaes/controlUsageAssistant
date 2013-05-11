@@ -12,6 +12,8 @@ import ui # For speaking and brailling help messages.
 import api # To fetch object properties.
 import controlTypes # The heart of this module.
 import ctrltypelist # The control types and help messages dictionary.
+import apphelplist # A dictionary of appModule offset (see below for explanation).
+import appModuleHandler # Apps.
 import addonHandler # Addon basics.
 addonHandler.initTranslation() # Internationalization.
 
@@ -21,19 +23,23 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 # 		 NVDA+H: Obtain usage help on a particular control.
 	# Depending on the type of control and its state(s), lookup a dictionary of control types and help messages.
 	def script_obtainControlHelp(self, gesture):
-		ui.message(self.getHelpMessage(api.getFocusObject())) # The actual function is below.
+		obj = api.getCaretObject()
+		app = appModuleHandler.getAppNameFromProcessID(obj.processID,True)
+		ui.message(self.getHelpMessage(obj)) # The actual function is below.
 	# Translators: Input help message for obtain control help command.
 	script_obtainControlHelp.__doc__=_("Presents a short message on how to interact with the focused control.")
 		
 	def getHelpMessage(self, curObj): # Here, we want to present the appropriate help message based on role and state.
 		curRole = curObj.role # Just an int, the key to the help messages dictionary.
 		curState = curObj._get_states() # To work with states to present appropriate help message.
-		#app = curObj.appModule # Detect which app we're running so to give custom help messages for controls.
+		app = curObj.appModule # Detect which app we're running so to give custom help messages for controls.
 		if curRole not in ctrltypelist.helpMessages:
 			# Translators: Message presented when there is no help message for the focused control.
 			ui.message(_("No help for this control"))
 		elif curRole == 8 and controlTypes.STATE_READONLY in curState:
 			ui.message(_(ctrltypelist.helpMessages[-8]))
+		elif curRole == 29 and appModuleHandler.getAppNameFromProcessID(curObj.processID,True) == "EXCEL.EXE":
+			ui.message(apphelplist.excelMessages[curRole])
 		else:
 			ui.message(_(ctrltypelist.helpMessages[curRole]))
 	
