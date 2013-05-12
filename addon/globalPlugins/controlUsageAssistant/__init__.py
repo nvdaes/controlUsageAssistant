@@ -22,25 +22,32 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	
 # 		 NVDA+H: Obtain usage help on a particular control.
 	# Depending on the type of control and its state(s), lookup a dictionary of control types and help messages.
+	# If the control is used differently in apps, then lookup the app entry and give the customized message.
 	def script_obtainControlHelp(self, gesture):
 		obj = api.getCaretObject()
-		app = appModuleHandler.getAppNameFromProcessID(obj.processID,True)
-		ui.message(self.getHelpMessage(obj)) # The actual function is below.
+		# The prototype UI message, the actual processing is done below.
+		ui.message(self.getHelpMessage(obj))
 	# Translators: Input help message for obtain control help command.
 	script_obtainControlHelp.__doc__=_("Presents a short message on how to interact with the focused control.")
 		
-	def getHelpMessage(self, curObj): # Here, we want to present the appropriate help message based on role and state.
+	
+	# GetHelpMessage: The actual function behind the script above.
+	def getHelpMessage(self, curObj):
+		# The actual process of presenting the help message based on object's role, state(s) and focused app.
+		# The lookup chain is: appModule first, then executable image name then finally to default entries.
 		curRole = curObj.role # Just an int, the key to the help messages dictionary.
 		curState = curObj._get_states() # To work with states to present appropriate help message.
-		app = curObj.appModule # Detect which app we're running so to give custom help messages for controls.
+		curApp = curObj.appModule # Detect which app we're running so to give custom help messages for controls.
+		curProc = appModuleHandler.getAppNameFromProcessID(curObj.processID,True) # Borrowed from NVDA core code, used when appModule return fails.
 		if curRole not in ctrltypelist.helpMessages:
 			# Translators: Message presented when there is no help message for the focused control.
 			ui.message(_("No help for this control"))
-		elif curRole == 8 and controlTypes.STATE_READONLY in curState:
+		elif curRole == 8 and controlTypes.STATE_READONLY in curState: # Detect read-only edit box.
 			ui.message(_(ctrltypelist.helpMessages[-8]))
+		# Testing with Excel, since user can use just arrow keys for tablecell.
 		elif curRole == 29 and appModuleHandler.getAppNameFromProcessID(curObj.processID,True) == "EXCEL.EXE":
-			ui.message(apphelplist.excelMessages[curRole])
-		else:
+			ui.message(apphelplist.excelMessages[curRole]) # Turns out it works, so start applying to others.
+		else: # If lookup chain fails but got a valid role const:
 			ui.message(_(ctrltypelist.helpMessages[curRole]))
 	
 	# For development testing:
