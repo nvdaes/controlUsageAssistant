@@ -3,7 +3,7 @@
 # Author: Joseph Lee <joseph.lee22590@gmail.com>
 # Copyright 2013, released under GPL.
 
-# Press NVDA+H to hear a sentence or two on interacting with a particular control.
+# Press NVDA+H to hear (or read in braille) a sentence or two on interacting with a particular control.
 # Extension plan: ability to get context-sensitive help on NvDA options.
 
 # Import please:
@@ -18,7 +18,7 @@ addonHandler.initTranslation() # Internationalization.
 # Init:
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	
-# 		 NVDA+H: Obtain usage help on a particular control.
+		# NVDA+H: Obtain usage help on a particular control.
 	# Depending on the type of control and its state(s), lookup a dictionary of control types and help messages.
 	def script_obtainControlHelp(self, gesture):
 		ui.message(self.getHelpMessage(api.getFocusObject())) # The actual function is below.
@@ -26,17 +26,17 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	script_obtainControlHelp.__doc__=_("Presents a short message on how to interact with the focused control.")
 		
 	def getHelpMessage(self, curObj): # Here, we want to present the appropriate help message based on role and state.
+		msg = "" # An empty string to hold the message; needed to work better with braille.
 		curRole = curObj.role # Just an int, the key to the help messages dictionary.
 		curState = curObj._get_states() # To work with states to present appropriate help message.
 		if curRole not in ctrltypelist.helpMessages:
 			# Translators: Message presented when there is no help message for the focused control.
-			ui.message(_("No help for this control"))
+			msg = _("No help for this control")
 		elif curRole == 8 and controlTypes.STATE_READONLY in curState:
-			ui.message(_(ctrltypelist.helpMessages[-8]))
+			msg = _(ctrltypelist.helpMessages[-8])
 		else:
-			ui.message(_(ctrltypelist.helpMessages[curRole]))
-			
-			
+			msg = _(ctrltypelist.helpMessages[curRole])
+		return msg
 	
 	
 	__gestures={
