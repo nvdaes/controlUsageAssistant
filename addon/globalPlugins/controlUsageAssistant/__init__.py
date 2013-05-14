@@ -12,7 +12,7 @@ import ui # For speaking and brailling help messages.
 import api # To fetch object properties.
 import controlTypes # The heart of this module.
 import ctrltypelist # The control types and help messages dictionary.
-import apphelplist # A dictionary of appModule offset (see below for explanation).
+from apphelplist import appOffsets, procOffsets # A dictionary of appModule and process offset (see below for explanation).
 import appModuleHandler # Apps.
 import addonHandler # Addon basics.
 addonHandler.initTranslation() # Internationalization.
@@ -46,8 +46,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		elif curRole == 8 and controlTypes.STATE_READONLY in curState:
 			msg = _(ctrltypelist.helpMessages[-8])
 		# Testing with Excel, since user can use just arrow keys for tablecell.
-		elif curRole == 29 and appModuleHandler.getAppNameFromProcessID(curObj.processID,True) == "EXCEL.EXE":
-			msg = apphelplist.excelMessages[curRole] # Turns out it works, so start applying to others.
+		elif curRole == 29 and curProc == "EXCEL.EXE":
+			msg = _(ctrltypelist.helpMessages[procOffsets[curProc]+curRole]) # Turns out it works, so start applying to others.
 		else:
 			msg = _(ctrltypelist.helpMessages[curRole])
 		return msg

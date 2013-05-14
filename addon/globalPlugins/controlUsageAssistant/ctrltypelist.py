@@ -7,6 +7,7 @@
 	# Help Messages Dictionary: key = obj role number.
 	#a negative role number indicates restricted control, such as read-only edit field.
 	# A role number greater than 200 indicates additional features, such as multiline and virtual buffer instance.
+	# Anything above 400 means appModule or process-specific.
 helpMessages = {
 	# Translators: Help message for a checkbox.
 	5:_("Press space to check or uncheck the checkbox"),
@@ -42,5 +43,9 @@ helpMessages = {
 	29:_("Press control, alt and arrow keys together to move between table cells"),
 	# Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
 	52:_("Use the arrow keys or object navigation commands to move through the document"),
-	64:"Press enter to interact with the embedded object. Press CONTROL+NVDA+SPACE to return to the website text"
+	64:"Press enter to interact with the embedded object. Press CONTROL+NVDA+SPACE to return to the website text",
+	
+	# Second level lookup: processes themselves.
+	# 400: Excel.
+	429:_("Use the arrow keys to move between spreadsheet cells")
 	}

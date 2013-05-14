@@ -2,7 +2,13 @@
 # An add-on for NVDA
 # Copyright 2013 Joseph Lee, released under GPL.
 
-# App-specific help messages.
-excelMessages={
-	29:"Use the arrow keys to move between spreadsheet cells."
-}
+# App offsets: lookup the appModule.
+appOffsets={
+	"explorer":300
+	}
+
+# Process offsets: come here when we fail to obtain appModules.
+procOffsets={
+	"EXCEL.EXE":400,
+	}
+
