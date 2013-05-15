@@ -4,11 +4,12 @@
 
 # App offsets: lookup the appModule.
 appOffsets={
-	"explorer":300
+	"explorer":300,
+	"powerpnt":400
 	}
 
 # Process offsets: come here when we fail to obtain appModules.
 procOffsets={
-	"EXCEL.EXE":400,
+	"EXCEL.EXE":1000,
 	}
 

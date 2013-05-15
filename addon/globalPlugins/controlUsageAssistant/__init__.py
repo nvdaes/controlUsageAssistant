@@ -34,20 +34,24 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# GetHelpMessage: The actual function behind the script above.
 	def getHelpMessage(self, curObj):
 		# The actual process of presenting the help message based on object's role, state(s) and focused app.
-		# The lookup chain is: appModule first, then executable image name then finally to default entries.
-		msg = "" # An empty string to hold the message; needed to work better with braille.
-		curRole = curObj.role # Just an int, the key to the help messages dictionary.
+		# For apps, the lookup chain is: appModule first, then executable image name then finally to default entries.
+		msg = "" # A string (initially empty) to hold the message; needed to work better with braille.
+		curRole = curObj.role # Just an int (role constant from control types), the key to the help messages dictionary.
 		curState = curObj._get_states() # To work with states to present appropriate help message.
 		curApp = curObj.appModule # Detect which app we're running so to give custom help messages for controls.
 		curProc = appModuleHandler.getAppNameFromProcessID(curObj.processID,True) # Borrowed from NVDA core code, used when appModule return fails.
+		# Absolute last resort: If we fail to obtain any default or app-specific message (because there is no entry for the role in the help messages), give the below message.
 		if curRole not in ctrltypelist.helpMessages:
 			# Translators: Message presented when there is no help message for the focused control.
 			msg = _("No help for this control")
+		# Special case 1: WE have encountered a read-only edit field.
 		elif curRole == 8 and controlTypes.STATE_READONLY in curState:
 			msg = _(ctrltypelist.helpMessages[-8])
+		# App-specific messages (Todo): Find appModules, then come here to deal with proc images if there is no appModule for the current process.
 		# Testing with Excel, since user can use just arrow keys for tablecell.
 		elif curRole == 29 and curProc == "EXCEL.EXE":
 			msg = _(ctrltypelist.helpMessages[procOffsets[curProc]+curRole]) # Turns out it works, so start applying to others.
+		# Finally, deal with default messages.
 		else:
 			msg = _(ctrltypelist.helpMessages[curRole])
 		return msg
