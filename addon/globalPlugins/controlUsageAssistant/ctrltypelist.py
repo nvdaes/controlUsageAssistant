@@ -54,7 +54,7 @@ helpMessages = {
 	
 	
 	# App-specific case 2: AppeModule for app is not present (use processes).
-	# 1000: Excel.
+	# -300: Excel.
 	
-	1029:_("Use the arrow keys to move between spreadsheet cells")
+	-329:_("Use the arrow keys to move between spreadsheet cells")
 	}

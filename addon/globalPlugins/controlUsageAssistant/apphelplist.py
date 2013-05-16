@@ -2,6 +2,8 @@
 # An add-on for NVDA
 # Copyright 2013 Joseph Lee, released under GPL.
 
+# AppModule and process offsets: positive = appModule, negative = process.
+
 # App offsets: lookup the appModule.
 appOffsets={
 	"explorer":300,
@@ -10,6 +12,6 @@ appOffsets={
 
 # Process offsets: come here when we fail to obtain appModules.
 procOffsets={
-	"EXCEL.EXE":1000,
+	"EXCEL.EXE":-300
 	}
 
