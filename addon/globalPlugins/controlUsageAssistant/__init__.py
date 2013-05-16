@@ -43,7 +43,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			return appOffsets[curApp]
 		elif curApp == "appModuleHandler" and curProc in procOffsets:
 			# In case appModule is not found and we do have the current process name registered.
-			return procOffset[curProc]
+			return procOffsets[curProc]
 		else:
 			# Found nothing, so return zero.
 			return 0
@@ -65,13 +65,20 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if curObj.role == 8 and controlTypes.STATE_READONLY in curState:
 				msg = _(ctrltypelist.helpMessages[-8])
 			# For general case: let's test if the offset key exists:
-		elif offset in ctrltypelist.helpMessages:
-			# Key exists, so present the help message.
-			msg = ctrltypelist.helpMessages[offset]
-		# Absolute last resort: If we fail to obtain any default or app-specific message (because there is no entry for the role in the help messages), give the below message.
+		# First, if offset is greater than 200 or less than -200.
+		elif offset >= 200 or offset <= -200:
+			if offset in ctrltypelist.helpMessages:
+				msg = ctrltypelist.helpMessages[offset]
+			else:
+				msg = ctrltypelist.helpMessages[curObj.role]
+		# Penultimate: if we're strictly dealing with default messages.
 		else:
-			# Translators: Message presented when there is no help message for the focused control.
-			msg = _("No help for this control")
+			if offset in ctrltypelist.helpMessages:
+				msg = ctrltypelist.helpMessages[offset]
+			# Last resort: If we fail to obtain any default or app-specific message (because there is no entry for the role in the help messages), give the below message.
+			else:
+				# Translators: Message presented when there is no help message for the focused control.
+				msg = _("No help for this control")
 		return msg
 	
 		
