@@ -4,10 +4,13 @@
 
 # The list of control types and their help messages.
 			
-	# Help Messages Dictionary: key = obj role number.
-	#a negative role number indicates restricted control, such as read-only edit field.
+	# Help Messages Dictionary: key = obj role number, with offsets added based on apps and/or states.
+	#a negative role number between -1 and -199 indicates restricted control, such as read-only edit field.
 	# A role number greater than 200 indicates additional features, such as multiline and virtual buffer instance.
+	# Anything beyond +/-400 means appModule or process-specific (positive = appModule, negative = process).
 helpMessages = {
+	# Default: universal across apps and states.
+	
 	# Translators: Help message for a checkbox.
 	5:_("Press space to check or uncheck the checkbox"),
 	# Translators: Help message for working with radio buttons.
@@ -41,5 +44,17 @@ helpMessages = {
 	# Translators: Help message for navigating table cells.
 	29:_("Press control, alt and arrow keys together to move between table cells"),
 	# Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
-	52:_("Use the arrow keys or object navigation commands to move through the document")
+	52:_("Use the arrow keys or object navigation commands to move through the document"),
+	64:"Press enter to interact with the embedded object. Press CONTROL+NVDA+SPACE to return to the website text",
+	
+	# App-specific case 1: AppeModule for app is present.
+	
+	# 400: Microsoft powerpoint (powerpnt):
+	403:"Use up and down arrow keys to move between slides",
+	
+	
+	# App-specific case 2: AppeModule for app is not present (use processes).
+	# -300: Excel.
+	
+	-329:_("Use the arrow keys to move between spreadsheet cells")
 	}
