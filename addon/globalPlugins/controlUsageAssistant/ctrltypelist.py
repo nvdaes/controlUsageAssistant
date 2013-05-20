@@ -47,7 +47,13 @@ helpMessages = {
 	52:_("Use the arrow keys or object navigation commands to move through the document"),
 	64:"Press enter to interact with the embedded object. Press CONTROL+NVDA+SPACE to return to the website text",
 	
+	# 200: Virtual Buffer.
+	252:"Use the browse mode and quick navigation commands to read through the webpage",
+	
 	# App-specific case 1: AppeModule for app is present.
+	
+	# 300: Explorer (to deal with specific cases.
+	329:"Use the arrow keys to move between start screen tiles",
 	
 	# 400: Microsoft powerpoint (powerpnt):
 	403:"Use up and down arrow keys to move between slides",

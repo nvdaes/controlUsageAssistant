@@ -11,10 +11,13 @@ import globalPluginHandler # Basics of Global Plugin.
 import ui # For speaking and brailling help messages.
 import api # To fetch object properties.
 import controlTypes # The heart of this module.
+import treeInterceptorHandler # Specifically to deal with virtual buffers.
+from virtualBuffers import VirtualBuffer # Virtual buffer handling.
 import ctrltypelist # The control types and help messages dictionary.
 import appModuleHandler # Apps.
 import addonHandler # Addon basics.
 addonHandler.initTranslation() # Internationalization.
+import tones # For debugging.
 
 # Init:
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
@@ -34,16 +37,20 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def getMessageOffset(self, curObj):
 		from apphelplist import appOffsets, procOffsets # To be used in the lookup only.
 		app = curObj.appModule # Detect which app we're running so to give custom help messages for controls.
-		curAppStr = app.appModuleName.split(".")[0] # Put a formatable string.
+		curAppStr = app.appModuleName.split(".")[0] # Put a formattable string.
 		curApp = format(curAppStr)
 		curProc = appModuleHandler.getAppNameFromProcessID(curObj.processID,True) # Borrowed from NVDA core code, used when appModule return fails.
+		vbuffTest = treeInterceptorHandler.getTreeInterceptor(curObj) # To take care of virtual buffer.
 		# Lookup setup:
 		if curApp in appOffsets:
 			# If appModule is found:
 			return appOffsets[curApp]
 		elif curApp == "appModuleHandler" and curProc in procOffsets:
-			# In case appModule is not found and we do have the current process name registered.
+			# In case appModule is not found but we do have the current process name registered.
 			return procOffsets[curProc]
+		elif isinstance(vbuffTest, VirtualBuffer):
+			# We're dealing with virtual buffer, so return 200.
+			return 200
 		else:
 			# Found nothing, so return zero.
 			return 0
@@ -87,6 +94,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_getAppName(self, gesture):
 		appObj = api.getFocusObject()
 		app = appObj.appModule
+		#if isinstance(appObj, virtualBuffers.VirtualBuffer):
+			#if virtualBuffers.VirtualBuffer.event_treeInterceptor_gainFocus(appObj): tones.beep(512, 100)
+			#elif virtualBuffers.VirtualBuffer.event_treeInterceptor_loseFocus(appObj): tones.beep(256, 100)
 		test = app.appModuleName.split(".")[0]
 		offs = self.getMessageOffset(appObj)
 		test += ", %d" %offs
