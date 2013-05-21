@@ -7,123 +7,103 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
-"POT-Creation-Date: 2013-05-08 22:27-0700\n"
-"PO-Revision-Date: 2013-05-09 13:53+0100\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-05-11 10:46+0100\n"
 "Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #. The actual function is below.
 #. Translators: Input help message for obtain control help command.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:28
 msgid "Presents a short message on how to interact with the focused control."
 msgstr "Napovie, ako pracovať s aktuálnym prvkom."
 
 #. Translators: Message presented when there is no help message for the focused control.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:35
 msgid "No help for this control"
 msgstr "Žiadna pomoc pre tento prvok"
 
 #. Translators: Help message for a checkbox.
-#: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:12
 msgid "Press space to check or uncheck the checkbox"
 msgstr "Začiarkavacie políčko začiarknete alebo odčiarknete medzerou"
 
 #. Translators: Help message for working with radio buttons.
-#: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:14
 msgid "Use the arrow keys to choose a radio button"
 msgstr "Medzi možnosťami sa prepínajte šípkami"
 
 #. Translators: Help message for a list box.
-#: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:16
 msgid "Use the arrow keys to read this box"
 msgstr "Na pohyb po položkách použite šípky"
 
 #. Translators: Help message for an edit field.
-#: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:18
 msgid "Type text here"
 msgstr "napíšte text"
 
 #. Translators: Help message for a read-only control.
-#: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:20
 msgid "Use the text navigation commands to read text"
 msgstr "použite príkazy na čítanie textu"
 
 #. Translators: Help message for a button.
-#: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:22
 msgid "Press SPACE or ENTER to activate this button"
 msgstr "Tlačidlo aktivujte medzerou alebo klávesom Enter"
 
 #. Translators: Help message for menu items.
-#: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:24
 msgid "Use the arrow keys to move between the menu items"
 msgstr "Na pohyb po položkách použite šípky"
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
-#: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:26
 msgid "Use up and down arrow keys to move through options in the pop-up menu"
 msgstr "Na pohyb po položkách kontextového menu použite šípky hore a dole"
 
 #. Translators: Help message for a combo box.
-#: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:28
 msgid "Use the arrow keys to move among choices in the combo box until the desired option is found"
 msgstr "šípkami nájdite požadovanú položku"
 
 #. Translators: Help message for a list view.
-#: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:30
 msgid "Use the arrow keys to move to the next or previous item in this list"
 msgstr "na pohyb po položkách v tomto zozname použite šípky"
 
 #. Translators: Help message for activating links.
-#: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:32
 msgid "Press SPACE or ENTER to activate this link"
 msgstr "Odkaz aktivujete medzerou alebo klávesom Enter"
 
 #. Translators: Help message for working with tree view items.
-#: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:34
 msgid "Use the up and down arrow keys to select the items. Use left arrow to collapse and right arrow to expand"
 msgstr "Na pohyb po vetvách použite šípky hore a dole. Vetvu rozbalíte pravou šípkou, zabalíte ľavou šípkou."
 
 #. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
-#: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:36
 msgid "Use the left and right arrow keys to move between tabs, or press control+tab for next tab and control+shift+tab for previous tab"
 msgstr "Na pohyb po záložkách použite šípku vľavo a v pravo. Môžete tiež použiť ctrl+tab pre prechod na nasledujúcu a ctrl+shift+tab pre prechod na predchádzajúcu záložku."
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
-#: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:38
 msgid "Use the left and down arrow keys to decrease and up and right arrow keys to increase the value in this slider. Use page up and page down to increase or decrease in larger values, and press home and end keys to select maximum and minimum value"
 msgstr "Hodnotu zvýšite pravou alebo hornou šípkou a znížite dolnou alebo ľavou šípkou. Page up zvyšuje a page down znižuje po väčších úsekoch. Home nastaví najvyššiu a end najnižšiu hodnotu."
 
 #. Translators: Help message for navigating tables.
-#: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:40
 msgid "Press control, alt and arrow keys together to move between rows and columns"
 msgstr "Na pohyb po stĺpcoch a riadkoch v tabuľke použite ctrl+alt+šípky."
 
 #. Translators: Help message for navigating table cells.
-#: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:42
 msgid "Press control, alt and arrow keys together to move between table cells"
 msgstr "Na pohyb po stĺpcoch použite ctrl+alt+ľavú a pravú šípku"
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
-#: addon\globalPlugins\controlUsageAssistant\ctrltypelist.py:44
 msgid "Use the arrow keys or object navigation commands to move through the document"
 msgstr "použite príkazy na čítanie alebo objektovú navigáciu"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
-#: buildVars.py:13
 msgid "Control Usage Assistant - get brief help on interacting with the focused control"
-msgstr "Popisovač prvkov - poskytuje informácie o zameranom prvku"
+msgstr "Pomocník pre prácu s prvkami - poskytuje informácie o zameranom prvku"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
-#: buildVars.py:16
 msgid ""
 "Allows you to find out how to interact with the focused control, useful for new computer users new to Windows and to NvDA.\n"
-"Press NvDA+H to get a short help message on using the focused control, such as moving through tables, checkboxes and so on."
+"\tPress NvDA+H to get a short help message on using the focused control, such as moving through tables, checkboxes and so on."
 msgstr ""
 "Poskytuje informácie o práve zameranom prvku. Užitočné pre tých, ktorí začínajú pracovať v systéme Windows alebo sa učia pracovať s NVDA.\n"
 "Pre informácie o aktuálnom prvku, akými sú napríklad začiarkávacie políčka, stlačte NVDA+H."
