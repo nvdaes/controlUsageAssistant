@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-05-10 02:26-0800\n"
+"PO-Revision-Date: 2013-05-10 02:30-0800\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -21,80 +21,68 @@ msgstr ""
 #. Translators: Input help message for obtain control help command.
 msgid "Presents a short message on how to interact with the focused control."
 msgstr ""
-"Presenta un breve mensaje sobre cómo interactuar con el control enfocado."
 
 #. Translators: Message presented when there is no help message for the focused control.
 msgid "No help for this control"
-msgstr "No hay ayuda para este control"
+msgstr ""
 
 #. Translators: Help message for a checkbox.
 msgid "Press space to check or uncheck the checkbox"
-msgstr "Pulsa espacio para marcar o desmarcar la  casilla de verificación"
+msgstr ""
 
 #. Translators: Help message for working with radio buttons.
 msgid "Use the arrow keys to choose a radio button"
-msgstr "Utiliza las flechas para elegir un botón de opción"
+msgstr ""
 
 #. Translators: Help message for a list box.
 msgid "Use the arrow keys to read this box"
-msgstr "Utiliza las flechas para leer este cuadro"
+msgstr ""
 
 #. Translators: Help message for an edit field.
 msgid "Type text here"
-msgstr "Teclea  el texto aquí"
+msgstr ""
 
 #. Translators: Help message for a read-only control.
 msgid "Use the text navigation commands to read text"
-msgstr "Utiliza las órdenes de navegación de texto para leerlo"
+msgstr ""
 
 #. Translators: Help message for a button.
 msgid "Press SPACE or ENTER to activate this button"
-msgstr "Pulsa ESPACIO o INTRO para activar este botón"
+msgstr ""
 
 #. Translators: Help message for menu items.
 msgid "Use the arrow keys to move between the menu items"
-msgstr "Utiliza las flechas para moverte entre los elementos del menú"
+msgstr ""
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
 msgid "Use up and down arrow keys to move through options in the pop-up menu"
 msgstr ""
-"Utiliza las flechas arriba y abajo para moverte a través de las opciones del "
-"menú desplegable"
 
 #. Translators: Help message for a combo box.
 msgid ""
 "Use the arrow keys to move among choices in the combo box until the desired "
 "option is found"
 msgstr ""
-"Utiliza las flechas para moverte entre las opciones del  cuadro combinado "
-"hasta encontrar la deseada"
 
 #. Translators: Help message for a list view.
 msgid "Use the arrow keys to move to the next or previous item in this list"
 msgstr ""
-"Utiliza las flechas para moverte al elemento siguiente o al anterior en esta "
-"lista"
 
 #. Translators: Help message for activating links.
 msgid "Press SPACE or ENTER to activate this link"
-msgstr "Pulsa ESPACIO o INTRO para activar este enlace"
+msgstr ""
 
 #. Translators: Help message for working with tree view items.
 msgid ""
 "Use the up and down arrow keys to select the items. Use left arrow to "
 "collapse and right arrow to expand"
 msgstr ""
-"Utiliza  las teclas de flecha arriba o abajo para seleccionar los elementos. "
-"Utiliza flecha  izquierda para contraer y flecha derecha para expandir"
 
 #. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
 msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
 "for next tab and control+shift+tab for previous tab"
 msgstr ""
-"Utiliza las flechas izquierda y derecha para moverte entre pestañas o pulsa "
-"Control + Tab para la siguiente pestaña y control + shift + tab para la "
-"pestaña anterior"
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
 msgid ""
@@ -103,30 +91,20 @@ msgid ""
 "decrease in larger values, and press home and end keys to select maximum and "
 "minimum value"
 msgstr ""
-"Utiliza las flechas izquierda o abajo para disminuir y las flechas arriba o "
-"derecha para aumentar el valor en este deslizador. Utiliza  retroceso de "
-"página y avance de página para aumentar o disminuir en valores más grandes, "
-"y pulsa las teclas de inicio o fin para seleccionar el valor máximo o mínimo "
 
 #. Translators: Help message for navigating tables.
 msgid ""
 "Press control, alt and arrow keys together to move between rows and columns"
 msgstr ""
-"Pulsa control, alt y cualquier flecha a la vez para moverte entre filas y "
-"columnas"
 
 #. Translators: Help message for navigating table cells.
 msgid "Press control, alt and arrow keys together to move between table cells"
 msgstr ""
-"Pulsa  control, alt y cualquier flecha juntas para moverte entre celdas de "
-"una tabla"
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
 msgid ""
 "Use the arrow keys or object navigation commands to move through the document"
 msgstr ""
-"Utiliza las flechas o las órdenes de navegación de objetos para moverte a "
-"través del documento"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
@@ -134,8 +112,6 @@ msgid ""
 "Control Usage Assistant - get brief help on interacting with the focused "
 "control"
 msgstr ""
-"Control Usage Assistant - ofrece una breve ayuda sobre la interactuación con "
-"el control enfocado"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
@@ -145,8 +121,3 @@ msgid ""
 "\tPress NvDA+H to get a short help message on using the focused control, "
 "such as moving through tables, checkboxes and so on."
 msgstr ""
-"Te permite encontrar la manera de interactuar con el control enfocado, útil "
-"para usuarios aprendices de ordenadores nuevos en Windows y nuevos en NVDA.\n"
-"Pulsa NVDA+H para obtener un breve mensaje de ayuda sobre la utilización del "
-"control enfocado, tal como el movimiento a través de las tablas, casillas de "
-"verificación y así sucesivamente."
