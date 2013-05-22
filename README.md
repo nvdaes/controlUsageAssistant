@@ -6,13 +6,6 @@ Use this add-on to find out how to interact with the focused control. Press NvDA
 
 # Changelog #
 
-## 1.0 Beta 2 ##
+## 1.0 ##
 
-* You can now read help messages in braille.
-* Additional languages (more languages to come).
-
-## 1.0 Beta 1 ##
-
-* Initial testing version.
-* Translated into many languages.
-
+* Initial release.
