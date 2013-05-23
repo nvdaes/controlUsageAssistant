@@ -45,12 +45,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			# In case appModule is not found but we do have the current process name registered.
 			return procOffsets[curProc]
 		elif isinstance(curObj.treeInterceptor, VirtualBuffer):
-			# We're dealing with virtual buffer (virtual buffer is a tree interceptor). However, watch out for Adobe Reader.
-			if curProc == "AcroRd32.exe":
-				return -400
-			else:
-				# Not Adobe Reader.
-				return 200
+			# We're dealing with virtual buffer (virtual buffer is a tree interceptor). However, watch out for Adobe Reader (check using ternary operation).
+			return -400 if (curProc == "AcroRd32.exe") else 200
 		else:
 			# Found nothing, so return zero to fall back to default entries.
 			return 0
