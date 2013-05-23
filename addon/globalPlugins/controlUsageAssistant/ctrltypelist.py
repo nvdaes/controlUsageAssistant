@@ -62,5 +62,9 @@ helpMessages = {
 	# App-specific case 2: AppeModule for app is not present (use processes).
 	# -300: Excel.
 	
-	-329:_("Use the arrow keys to move between spreadsheet cells")
+	-329:_("Use the arrow keys to move between spreadsheet cells"),
+	
+	# -400: Adobe Reader (special case).
+	
+	-452:"Use the browse mode and quick navigation commands to read through the PDF document"
 	}
