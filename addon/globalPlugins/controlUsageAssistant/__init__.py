@@ -11,9 +11,8 @@ import globalPluginHandler # Basics of Global Plugin.
 import ui # For speaking and brailling help messages.
 import api # To fetch object properties.
 import controlTypes # The heart of this module.
-import treeInterceptorHandler # Specifically to deal with virtual buffers.
-from virtualBuffers import VirtualBuffer # Virtual buffer handling.
 import ctrltypelist # The control types and help messages dictionary.
+from virtualBuffers import VirtualBuffer # Virtual buffer handling.
 import appModuleHandler # Apps.
 import addonHandler # Addon basics.
 addonHandler.initTranslation() # Internationalization.
@@ -36,11 +35,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# Return value: positive = appModule, negative = processes, 0 = default.
 	def getMessageOffset(self, curObj):
 		from apphelplist import appOffsets, procOffsets # To be used in the lookup only.
-		app = curObj.appModule # Detect which app we're running so to give custom help messages for controls.
-		curAppStr = app.appModuleName.split(".")[0] # Put a formattable string.
-		curApp = format(curAppStr)
+		curApp = curObj.appModule.appName # Detect which app we're running so to give custom help messages for controls.
 		curProc = appModuleHandler.getAppNameFromProcessID(curObj.processID,True) # Borrowed from NVDA core code, used when appModule return fails.
-		vbuffTest = treeInterceptorHandler.getTreeInterceptor(curObj) # To take care of virtual buffer.
 		# Lookup setup:
 		if curApp in appOffsets:
 			# If appModule is found:
@@ -48,11 +44,11 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		elif curApp == "appModuleHandler" and curProc in procOffsets:
 			# In case appModule is not found but we do have the current process name registered.
 			return procOffsets[curProc]
-		elif isinstance(vbuffTest, VirtualBuffer):
-			# We're dealing with virtual buffer, so return 200.
+		elif isinstance(curObj.treeInterceptor, VirtualBuffer):
+			# We're dealing with virtual buffer (virtual buffer is a tree interceptor).
 			return 200
 		else:
-			# Found nothing, so return zero.
+			# Found nothing, so return zero to fall back to default entries.
 			return 0
 					
 	# GetHelpMessage: The actual function behind the script above.
@@ -67,21 +63,18 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			# No appModule, so work with processes.
 			offset -= curObj.role
 		# In case offset is zero, then test for state(s).
-		# Special case 1: WE have encountered a read-only edit field.
 		curState = curObj._get_states()
-		if curObj.role == 8 and controlTypes.STATE_READONLY in curState:
-				msg = _(ctrltypelist.helpMessages[-8])
-			# For general case: let's test if the offset key exists:
-		# First, if offset is greater than 200 or less than -200.
-		elif offset >= 200 or offset <= -200:
-			if offset in ctrltypelist.helpMessages:
-				msg = ctrltypelist.helpMessages[offset]
-			else:
-				msg = ctrltypelist.helpMessages[curObj.role]
-		# Penultimate: if we're strictly dealing with default messages.
+		# Let the key lookup begin.
+		if (offset >= 200 or offset <= -200) and offset in ctrltypelist.helpMessages:
+			# General case: if we do have an entry for the appModule/process/virtual buffer.
+			msg = ctrltypelist.helpMessages[offset]
+		elif curObj.role == 8 and controlTypes.STATE_READONLY in curState:
+			# Special case 1: WE have encountered a read-only edit field.
+			msg = _(ctrltypelist.helpMessages[-8])
 		else:
-			if offset in ctrltypelist.helpMessages:
-				msg = ctrltypelist.helpMessages[offset]
+			# Penultimate: if we're strictly dealing with default messages either because offset is 0 or there is no offset+/-role key in the helpMessages.
+			if curObj.role in ctrltypelist.helpMessages:
+				msg = ctrltypelist.helpMessages[curObj.role]
 			# Last resort: If we fail to obtain any default or app-specific message (because there is no entry for the role in the help messages), give the below message.
 			else:
 				# Translators: Message presented when there is no help message for the focused control.
