@@ -41,7 +41,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if curApp in appOffsets:
 			# If appModule is found:
 			return appOffsets[curApp]
-		elif curApp == "appModuleHandler" and curProc in procOffsets:
+		elif curProc in procOffsets:
 			# In case appModule is not found but we do have the current process name registered.
 			return procOffsets[curProc]
 		elif isinstance(curObj.treeInterceptor, VirtualBuffer):
@@ -55,24 +55,29 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def getHelpMessage(self, curObj):
 		# Present help messages based on role constant, state(s) and focused app.
 		msg = "" # A string (initially empty) to hold the message; needed to work better with braille.
-		offset = self.getMessageOffset(curObj)
-		if offset >= 0:
-			# We found an appModule. In case of 0, check object state(s).
-			offset += curObj.role
-		else:
-			# No appModule, so work with processes.
-			offset -= curObj.role
+		offset = self.getMessageOffset(curObj) # offset = lookup offset, the base for our lookup index.
+		if offset >= 0: # We found an appModule. In case of 0, check object state(s).
+			index = offset + curObj.role
+		else: # No appModule, so work with processes.
+			index = offset - curObj.role
 		# In case offset is zero, then test for state(s).
 		curState = curObj._get_states()
-		# Let the key lookup begin.
-		if (offset >= 200 or offset <= -200) and offset in ctrltypelist.helpMessages:
-			# General case: if we do have an entry for the appModule/process/virtual buffer.
-			msg = ctrltypelist.helpMessages[offset]
+		# Let the index lookup begin.
+		if (offset >= 300 or offset <= -300) and index in ctrltypelist.helpMessages:
+			# General case: if we do have an entry for the appModule/process.
+			msg= ctrltypelist.helpMessages[index]
+		elif (offset == 200 or offset == -200):
+			# Special case: deal with virtual buffers.
+			if curObj.treeInterceptor.passThrough:
+				# Special case: focus mode message.
+				msg = "You are in focus mode. To switch to browse mode, press NVDA+SPACE or escape key"
+			else: # Another ternary operation - this time, find out if +-2xx index exists.
+				msg = ctrltypelist.helpMessages[index] if index in ctrltypelist.helpMessages else ctrltypelist.helpMessages[curObj.role]
 		elif curObj.role == 8 and controlTypes.STATE_READONLY in curState:
 			# Special case 1: WE have encountered a read-only edit field.
 			msg = _(ctrltypelist.helpMessages[-8])
 		else:
-			# Penultimate: if we're strictly dealing with default messages either because offset is 0 or there is no offset+/-role key in the helpMessages.
+			# Penultimate: if we're strictly dealing with default messages either because offset is 0 or there is no offset+/-role index in the helpMessages.
 			if curObj.role in ctrltypelist.helpMessages:
 				msg = ctrltypelist.helpMessages[curObj.role]
 			# Last resort: If we fail to obtain any default or app-specific message (because there is no entry for the role in the help messages), give the below message.
@@ -93,6 +98,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		test = app.appModuleName.split(".")[0]
 		offs = self.getMessageOffset(appObj)
 		test += ", %d" %offs
+		if offs >= 0:
+			test += ", %d" %(offs+appObj.role)
+		else:
+			test += ", %d" %(offs-appObj.role)
 		ui.message(test)
 	
 	__gestures={
