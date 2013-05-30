@@ -48,32 +48,26 @@ helpMessages = {
 	64:"Press enter to interact with the embedded object. Press CONTROL+NVDA+SPACE to return to the website text",
 	
 	# 200: Virtual Buffer.
-	
-	# Translators: Help message for reading virtual buffer documents, such as webpages.
-	252:_("Use the browse mode and quick navigation commands to read through the webpage"),
+	206:"To select a radio button, switch to focus mode by pressing NVDA+SPACE or ENTER key",
+	208:"To type text into this edit field, switch to focus mode by pressing NVDA+SPACE or ENTER key",
+	213:"To select an item in the combo box, switch to focus mode by pressing NVDA+SPACE or ENTER key",
+	252:"Use the browse mode and quick navigation commands to read through the webpage",
 	
 	# App-specific case 1: AppeModule for app is present.
 	
 	# 300: Explorer (to deal with specific cases.
-	
-	# Translators: Help message for navigating start screen tiles (for Windows 8).
-	329:_("Use the arrow keys to move between start screen tiles"),
+	329:"Use the arrow keys to move between start screen tiles",
 	
 	# 400: Microsoft powerpoint (powerpnt):
-	
-	# Translators: Help message for viewing list of slides in Powerpoint.
 	403:"Use up and down arrow keys to move between slides",
 	
 	
 	# App-specific case 2: AppeModule for app is not present (use processes).
-	
 	# -300: Excel.
 	
-	# Translators: Help message for navigating spreadsheet cells in Excel.
 	-329:_("Use the arrow keys to move between spreadsheet cells"),
 	
 	# -400: Adobe Reader (special case).
 	
-	# Translators: Help message for reading PDF documents in Adobe Reader.
-	-452:_("Use the browse mode and quick navigation commands to read the PDF document")
+	-452:"Use the browse mode and quick navigation commands to read through the PDF document"
 	}

@@ -67,12 +67,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			# General case: if we do have an entry for the appModule/process.
 			msg= ctrltypelist.helpMessages[index]
 		elif (offset == 200 or offset == -200):
-			# Special case: deal with virtual buffers.
-			if curObj.treeInterceptor.passThrough:
-				# Special case: focus mode message.
-				msg = "You are in focus mode. To switch to browse mode, press NVDA+SPACE or escape key"
-			else: # Another ternary operation - this time, find out if +-2xx index exists.
-				msg = ctrltypelist.helpMessages[index] if index in ctrltypelist.helpMessages else ctrltypelist.helpMessages[curObj.role]
+			# In case we're dealing with virtual buffer, call the below method.
+			msg = self.VBufHelp(curObj, index)
 		elif curObj.role == 8 and controlTypes.STATE_READONLY in curState:
 			# Special case 1: WE have encountered a read-only edit field.
 			msg = _(ctrltypelist.helpMessages[-8])
@@ -107,5 +103,26 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	__gestures={
 		"KB:NVDA+H":"obtainControlHelp",
 		"KB:NVDA+G":"getAppName",
-			}
-# End.
+	}
+	# Any exceptions to lookup keys goes here.
+	# First case: virtual buffer control exceptions.
+	VBufForms={206, 208, 213} # Forms encountered on webpages; add custom message form them in browse mode.
+	# And the function for handling these:
+	def VBufHelp(self, obj, i): # i = index.
+		if i in self.VBufForms:
+			if not obj.treeInterceptor.passThrough:
+				VBufmsg = ctrltypelist.helpMessages[i]
+			else:
+				VBufmsg = ctrltypelist.helpMessages[obj.role]
+				VBufmsg += ". To switch to browse mode, press NVDA+SPACE or escape key"
+		elif i == 252:
+			if not obj.treeInterceptor.passThrough:
+				VBufmsg = ctrltypelist.helpMessages[252]
+			else:
+				VBufmsg = "To use browse mode and quick navigation keys to read the webpage, switch to browse mode by pressing NVDA+SPACE"
+		else:
+			VBufmsg = ctrltypelist.helpMessages[obj.role]
+		return VBufmsg
+	
+	
+	# End.
