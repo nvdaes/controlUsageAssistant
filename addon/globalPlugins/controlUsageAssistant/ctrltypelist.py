@@ -48,10 +48,14 @@ helpMessages = {
 	64:"Press enter to interact with the embedded object. Press CONTROL+NVDA+SPACE to return to the website text",
 	
 	# 200: Virtual Buffer.
-	206:"To select a radio button, switch to focus mode by pressing NVDA+SPACE or ENTER key",
-	208:"To type text into this edit field, switch to focus mode by pressing NVDA+SPACE or ENTER key",
-	213:"To select an item in the combo box, switch to focus mode by pressing NVDA+SPACE or ENTER key",
-	252:"Use the browse mode and quick navigation commands to read through the webpage",
+	# Translators: Help message for radio buttons while in browse mode.
+	206:_("To select a radio button, switch to focus mode by pressing NVDA+SPACE or ENTER key"),
+	# Translators: Help message for edit fields while in browse mode.
+	208:_("To type text into this edit field, switch to focus mode by pressing NVDA+SPACE or ENTER key"),
+	# Translators: Help message for combo boxes in browse mode.
+	213:_("To select an item in the combo box, switch to focus mode by pressing NVDA+SPACE or ENTER key"),
+	# Translators: Help message for reading webpages.
+	252:_("Use the browse mode and quick navigation commands to read through the webpage"),
 	
 	# App-specific case 1: AppeModule for app is present.
 	

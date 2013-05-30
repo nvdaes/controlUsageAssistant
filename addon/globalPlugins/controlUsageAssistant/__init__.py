@@ -114,12 +114,14 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				VBufmsg = ctrltypelist.helpMessages[i]
 			else:
 				VBufmsg = ctrltypelist.helpMessages[obj.role]
-				VBufmsg += ". To switch to browse mode, press NVDA+SPACE or escape key"
+				# Translators: Additional message when working with forms in focus mode.
+				VBufmsg += _(". To switch to browse mode, press NVDA+SPACE or escape key")
 		elif i == 252:
 			if not obj.treeInterceptor.passThrough:
 				VBufmsg = ctrltypelist.helpMessages[252]
 			else:
-				VBufmsg = "To use browse mode and quick navigation keys to read the webpage, switch to browse mode by pressing NVDA+SPACE"
+				# Translators: Help message for reading a webpage while in focus mode.
+				VBufmsg = _("To use browse mode and quick navigation keys to read the webpage, switch to browse mode by pressing NVDA+SPACE")
 		else:
 			VBufmsg = ctrltypelist.helpMessages[obj.role]
 		return VBufmsg
