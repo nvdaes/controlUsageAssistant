@@ -12,6 +12,7 @@ appOffsets={
 
 # Process offsets: come here when we fail to obtain appModules.
 procOffsets={
-	"EXCEL.EXE":-300
+	"EXCEL.EXE":-300,
+	"AcroRd32.exe":-400 #This is a special case - although Adobe reader uses virtual buffer, it is not a webpage, hence different message should be given for PDF's.
 	}
 

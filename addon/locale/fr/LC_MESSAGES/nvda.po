@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: controlUsageAssistant 1.0Beta2\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2013-05-13 05:45+0100\n"
+"PO-Revision-Date: 2013-05-16 11:13+0100\n"
+"Last-Translator: patrick ZAJDA <patrick@zajda.fr>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#. The actual function is below.
+#. Translators: Input help message for obtain control help command.
+msgid "Presents a short message on how to interact with the focused control."
+msgstr ""
+"Présente un message court sur l'utilisation de l'élément ayant le focus."
+
+#. Translators: Message presented when there is no help message for the focused control.
+msgid "No help for this control"
+msgstr "Pas d'aide pour cet élément"
+
+#. Translators: Help message for a checkbox.
+msgid "Press space to check or uncheck the checkbox"
+msgstr "Appuyez sur espace pour cocher ou décocher"
+
+#. Translators: Help message for working with radio buttons.
+msgid "Use the arrow keys to choose a radio button"
+msgstr "Utilisez les flèche pour choisir un bouton radio"
+
+#. Translators: Help message for a list box.
+msgid "Use the arrow keys to read this box"
+msgstr "Utilisez les flèches pour lire le texte"
+
+#. Translators: Help message for an edit field.
+msgid "Type text here"
+msgstr "Saisissez le texte ici"
+
+#. Translators: Help message for a read-only control.
+msgid "Use the text navigation commands to read text"
+msgstr "Utilisez les touches de navigation pour lire le texte"
+
+#. Translators: Help message for a button.
+msgid "Press SPACE or ENTER to activate this button"
+msgstr "Appuyez sur espace ou entrée pour activer ce bouton"
+
+#. Translators: Help message for menu items.
+msgid "Use the arrow keys to move between the menu items"
+msgstr "Utilisez les flèches pour vous déplacer entre les menus"
+
+#. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
+msgid "Use up and down arrow keys to move through options in the pop-up menu"
+msgstr ""
+"Utilisez les flèches haute et basse pour naviguer entre les option du menu"
+
+#. Translators: Help message for a combo box.
+msgid ""
+"Use the arrow keys to move among choices in the combo box until the desired "
+"option is found"
+msgstr ""
+"Utilisez les flèches pour faire votre choix dans cette zone de liste "
+"déroulente"
+
+#. Translators: Help message for a list view.
+msgid "Use the arrow keys to move to the next or previous item in this list"
+msgstr ""
+"Utilisez les flèches pour faire votre choix dans cette zone de liste "
+"déroulente"
+
+#. Translators: Help message for activating links.
+msgid "Press SPACE or ENTER to activate this link"
+msgstr "Appuyez sur espace ou entrée pour activer ce lien"
+
+#. Translators: Help message for working with tree view items.
+msgid ""
+"Use the up and down arrow keys to select the items. Use left arrow to "
+"collapse and right arrow to expand"
+msgstr ""
+"Utilisez les flèches haute et basse pour sélectionner un élément, et les "
+"flèches gauche et droite pour le plier ou le déplier"
+
+#. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
+msgid ""
+"Use the left and right arrow keys to move between tabs, or press control+tab "
+"for next tab and control+shift+tab for previous tab"
+msgstr ""
+"Utilisez les flèches gauches et droite pour vous déplacer entre les onglets, "
+"ou sur contrôle+tab pour l'onglet suivant et Contrôle+maj+tab pour le "
+"précédent"
+
+#. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
+msgid ""
+"Use the left and down arrow keys to decrease and up and right arrow keys to "
+"increase the value in this slider. Use page up and page down to increase or "
+"decrease in larger values, and press home and end keys to select maximum and "
+"minimum value"
+msgstr ""
+"Utilisez gauche et bas pour diminuer, droite et haut pour augmenter la "
+"valeur. Page prec/suiv changent la valeur dans un plus grand interval, "
+"origine et fin définissent à la valeur minimum/maximum"
+
+#. Translators: Help message for navigating tables.
+msgid ""
+"Press control, alt and arrow keys together to move between rows and columns"
+msgstr "Alt+contrôle+flèche permet de se déplacer dans ce tableau"
+
+#. Translators: Help message for navigating table cells.
+msgid "Press control, alt and arrow keys together to move between table cells"
+msgstr "Alt+contrôle+flèche permet de se déplacer dans ce tableau"
+
+#. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
+msgid ""
+"Use the arrow keys or object navigation commands to move through the document"
+msgstr ""
+"Utilisez les flèches ou les touches de navigation par objet pour vous "
+"déplacer dans ce document"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+msgid ""
+"Control Usage Assistant - get brief help on interacting with the focused "
+"control"
+msgstr "Control Usage Assistant - aide interactive sur l'objet actif"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+msgid ""
+"Allows you to find out how to interact with the focused control, useful for "
+"new computer users new to Windows and to NvDA.\n"
+"\tPress NvDA+H to get a short help message on using the focused control, "
+"such as moving through tables, checkboxes and so on."
+msgstr ""
+"Permet de savoir comment interagir avec l'élément actif, pratique pour un "
+"débutant sous Windows ou NVDA.\n"
+"\tPAppuyez sur NVDA+H pour obtenire l'information."

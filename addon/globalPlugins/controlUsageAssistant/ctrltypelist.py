@@ -47,7 +47,20 @@ helpMessages = {
 	52:_("Use the arrow keys or object navigation commands to move through the document"),
 	64:"Press enter to interact with the embedded object. Press CONTROL+NVDA+SPACE to return to the website text",
 	
+	# 200: Virtual Buffer.
+	# Translators: Help message for radio buttons while in browse mode.
+	206:_("To select a radio button, switch to focus mode by pressing NVDA+SPACE or ENTER key"),
+	# Translators: Help message for edit fields while in browse mode.
+	208:_("To type text into this edit field, switch to focus mode by pressing NVDA+SPACE or ENTER key"),
+	# Translators: Help message for combo boxes in browse mode.
+	213:_("To select an item in the combo box, switch to focus mode by pressing NVDA+SPACE or ENTER key"),
+	# Translators: Help message for reading webpages.
+	252:_("Use the browse mode and quick navigation commands to read through the webpage"),
+	
 	# App-specific case 1: AppeModule for app is present.
+	
+	# 300: Explorer (to deal with specific cases.
+	329:"Use the arrow keys to move between start screen tiles",
 	
 	# 400: Microsoft powerpoint (powerpnt):
 	403:"Use up and down arrow keys to move between slides",
@@ -56,5 +69,9 @@ helpMessages = {
 	# App-specific case 2: AppeModule for app is not present (use processes).
 	# -300: Excel.
 	
-	-329:_("Use the arrow keys to move between spreadsheet cells")
+	-329:_("Use the arrow keys to move between spreadsheet cells"),
+	
+	# -400: Adobe Reader (special case).
+	
+	-452:"Use the browse mode and quick navigation commands to read through the PDF document"
 	}
