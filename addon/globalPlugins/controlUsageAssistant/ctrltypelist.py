@@ -64,6 +64,7 @@ helpMessages = {
 	
 	# 400: Microsoft powerpoint (powerpnt):
 	403:"Use up and down arrow keys to move between slides",
+	403.1:"Press SPACE or BACKSPACE to move between slides in the slide show. To end the slide show, press escape",
 	
 	
 	# App-specific case 2: AppeModule for app is not present (use processes).
