@@ -14,6 +14,7 @@ import controlTypes # The heart of this module.
 import ctrltypelist # The control types and help messages dictionary.
 from virtualBuffers import VirtualBuffer # Virtual buffer handling.
 import appModuleHandler # Apps.
+from appModules import powerpnt # App modules with special personalities such as Powerpoint where one needs to differentiate between slides and slide shows.
 import addonHandler # Addon basics.
 addonHandler.initTranslation() # Internationalization.
 import tones # For debugging.
@@ -63,9 +64,14 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# In case offset is zero, then test for state(s).
 		curState = curObj._get_states()
 		# Let the index lookup begin.
-		if (offset >= 300 or offset <= -300) and index in ctrltypelist.helpMessages:
-			# General case: if we do have an entry for the appModule/process.
+		# A number of specific cases follows:
+		# PowerPoint: differentiate between slide list and slide show.
+		if isinstance(curObj, powerpnt.SlideShowWindow):
+			msg = "Slide Show active."
+		# General case: if we do have an entry for the appModule/process.
+		elif (offset >= 300 or offset <= -300) and index in ctrltypelist.helpMessages:
 			msg= ctrltypelist.helpMessages[index]
+			# Clean the above code later.
 		elif (offset == 200 or offset == -200):
 			# In case we're dealing with virtual buffer, call the below method.
 			msg = self.VBufHelp(curObj, index)
