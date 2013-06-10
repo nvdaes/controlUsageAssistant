@@ -45,7 +45,8 @@ helpMessages = {
 	29:_("Press control, alt and arrow keys together to move between table cells"),
 	# Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
 	52:_("Use the arrow keys or object navigation commands to move through the document"),
-	82:"Type commands in the terminal window and use review cursor commands to read the output",
+	# Translators: Help message for terminal windows such as command prompt.
+	82:_("Type commands in the terminal window and use review cursor commands to read the output"),
 	
 	# 200: Virtual Buffer.
 	# Translators: Help message for radio buttons while in browse mode.
