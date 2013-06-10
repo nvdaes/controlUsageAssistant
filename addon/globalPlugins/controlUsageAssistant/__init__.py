@@ -67,7 +67,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# A number of specific cases follows:
 		# PowerPoint: differentiate between slide list and slide show.
 		if isinstance(curObj, powerpnt.SlideShowWindow):
-			msg = ctrltypelist.helpMessages[403.1]		# General case: if we do have an entry for the appModule/process.
+			msg = ctrltypelist.helpMessages[403.1]	
+		# General case: if we do have an entry for the appModule/process.
 		elif (offset >= 300 or offset <= -300) and index in ctrltypelist.helpMessages:
 			msg= ctrltypelist.helpMessages[index]
 			# Clean the above code later.
