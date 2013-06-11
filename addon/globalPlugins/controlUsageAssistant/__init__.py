@@ -88,27 +88,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				msg = _("No help for this control")
 		return msg
 	
-		
-	# For development testing:
-	# GetAppName: To see if one can even print the name of the appModule.
-	def script_getAppName(self, gesture):
-		appObj = api.getFocusObject()
-		app = appObj.appModule
-		#if isinstance(appObj, virtualBuffers.VirtualBuffer):
-			#if virtualBuffers.VirtualBuffer.event_treeInterceptor_gainFocus(appObj): tones.beep(512, 100)
-			#elif virtualBuffers.VirtualBuffer.event_treeInterceptor_loseFocus(appObj): tones.beep(256, 100)
-		test = app.appModuleName.split(".")[0]
-		offs = self.getMessageOffset(appObj)
-		test += ", %d" %offs
-		if offs >= 0:
-			test += ", %d" %(offs+appObj.role)
-		else:
-			test += ", %d" %(offs-appObj.role)
-		ui.message(test)
-	
 	__gestures={
 		"KB:NVDA+H":"obtainControlHelp",
-		"KB:NVDA+G":"getAppName",
 	}
 	# Any exceptions to lookup keys goes here.
 	# First case: virtual buffer control exceptions.
