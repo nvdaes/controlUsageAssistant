@@ -28,7 +28,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_obtainControlHelp(self, gesture):
 		obj = api.getFocusObject()
 		# The prototype UI message, the actual processing is done below.
-		ui.message(self.getHelpMessage(obj))
+		ui.message(_(self.getHelpMessage(obj)))
 	# Translators: Input help message for obtain control help command.
 	script_obtainControlHelp.__doc__=_("Presents a short message on how to interact with the focused control.")
 		
