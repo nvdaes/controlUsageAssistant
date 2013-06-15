@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-05-14 03:13+0100\n"
+"PO-Revision-Date: 2013-06-11 09:25+0100\n"
 "Last-Translator: Jožef Gregorc <jozko.gregorc[@]guest.arnes.si\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,6 @@ msgstr ""
 "X-Generator: Poedit 1.5.5\n"
 
 # lahko tudi nadzornikom
-#. The actual function is below.
 #. Translators: Input help message for obtain control help command.
 msgid "Presents a short message on how to interact with the focused control."
 msgstr ""
@@ -27,6 +26,22 @@ msgstr ""
 msgid "No help for this control"
 msgstr "Ni pomoči za ta kontrolnik"
 
+#. Translators: Additional message when working with forms in focus mode.
+msgid ". To switch to browse mode, press NVDA+SPACE or escape key"
+msgstr ""
+". Za prehod na brskalniško delovanje pritisnite NVDA+preslednica ali tipko "
+"Escape"
+
+#. Translators: Help message for reading a webpage while in focus mode.
+msgid ""
+"To use browse mode and quick navigation keys to read the webpage, switch to "
+"browse mode by pressing NVDA+SPACE"
+msgstr ""
+"Za način dela v brskalniškem delovanju in uporabo hitrih tipk za krmarjenje "
+"kot pomoč pri branju spletne strani pritisnite NVDA+preslednica za prehod v "
+"brskalniško delovanje"
+
+#. Default: universal across apps and states.
 #. Translators: Help message for a checkbox.
 msgid "Press space to check or uncheck the checkbox"
 msgstr "Pritisnite Preslednico za izbor ali preklic v izbirniku"
@@ -123,6 +138,71 @@ msgid ""
 msgstr ""
 "Uporabite puščice ali tipke namenjene krmarjenju predmeta za premikanje po "
 "dokumentu"
+
+#. Translators: Help message for terminal windows such as command prompt.
+msgid ""
+"Type commands in the terminal window and use review cursor commands to read "
+"the output"
+msgstr ""
+"Natipkajte ukaz v terminalsko okno in uporabite ukaze za pomik pregledne "
+"utripalke, da preberete rezultat"
+
+#. 200: Virtual Buffer.
+#. Translators: Help message for radio buttons while in browse mode.
+msgid ""
+"To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
+"ENTER key"
+msgstr ""
+"Za izbiro radiogumba pojdite v žariščno delovanje s pritiskom kombinacije "
+"NVDA+preslednica ali tipke ENTER"
+
+#. Translators: Help message for edit fields while in browse mode.
+msgid ""
+"To type text into this edit field, switch to focus mode by pressing NVDA"
+"+SPACE or ENTER key"
+msgstr ""
+"Za vnos besedila v to vnosno polje prestavite v žariščno delovanje s "
+"kombinacijo NVDA+preslednica ali tipko ENTER"
+
+#. Translators: Help message for combo boxes in browse mode.
+msgid ""
+"To select an item in the combo box, switch to focus mode by pressing NVDA"
+"+SPACE or ENTER key"
+msgstr ""
+"Za izbiro elementa v spustnem seznamu pojdite v žariščno delovanje s "
+"pritiskom kombinacije NVDA+preslednica ali tipke ENTER"
+
+#. Translators: Help message for reading webpages.
+msgid ""
+"Use the browse mode and quick navigation commands to read through the webpage"
+msgstr ""
+"Uporabite brskalniško delovanje in ukaze hitrega krmarjenja za branje po "
+"spletni strani"
+
+#. App-specific case 1: AppeModule for app is present.
+#. 300: Explorer (to deal with specific cases.
+#. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
+msgid "Use the arrow keys to move between start screen tiles"
+msgstr "Uporabite puščice za premik med ploščicami začetnega zaslona"
+
+#. 400: Microsoft powerpoint (powerpnt):
+#. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
+msgid "Use up and down arrow keys to move between slides"
+msgstr "Uporabite puščici gor in dol za premik med diapozitivi"
+
+#. Translators: Help message for working with slide shows.
+msgid ""
+"Press SPACE or BACKSPACE to move between slides in the slide show. To end "
+"the slide show, press escape"
+msgstr ""
+"Pritisnite Preslednico ali Vračalko za pomik med diapozitivi v načinu "
+"diaprojekcije. Za izhod iz diaprojekcije pritisnite escape"
+
+#. App-specific case 2: AppeModule for app is not present (use processes).
+#. -300: Excel.
+#. Translators: Help message for moving between Excel spreadsheet cells.
+msgid "Use the arrow keys to move between spreadsheet cells"
+msgstr "Uporabite puščice za premikanje po celicah preglednice"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.

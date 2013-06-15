@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant 1.0Beta2\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-05-13 05:45+0100\n"
-"PO-Revision-Date: 2013-05-16 11:13+0100\n"
-"Last-Translator: patrick ZAJDA <patrick@zajda.fr>\n"
+"PO-Revision-Date: 2013-06-11 09:33+0100\n"
+"Last-Translator: Michel Such <michel.such@free.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.5\n"
 
-#. The actual function is below.
 #. Translators: Input help message for obtain control help command.
 msgid "Presents a short message on how to interact with the focused control."
 msgstr ""
@@ -27,9 +26,22 @@ msgstr ""
 msgid "No help for this control"
 msgstr "Pas d'aide pour cet élément"
 
+#. Translators: Additional message when working with forms in focus mode.
+msgid ". To switch to browse mode, press NVDA+SPACE or escape key"
+msgstr "Pour passer en mode navigation, pressez NVDA+espace ou la touche échap"
+
+#. Translators: Help message for reading a webpage while in focus mode.
+msgid ""
+"To use browse mode and quick navigation keys to read the webpage, switch to "
+"browse mode by pressing NVDA+SPACE"
+msgstr ""
+"Pour passer en mode navigation et utiliser les touches de navigation rapide "
+"pour lire les pages web, passez en mode navigation en pressant NVDA+espace"
+
+#. Default: universal across apps and states.
 #. Translators: Help message for a checkbox.
 msgid "Press space to check or uncheck the checkbox"
-msgstr "Appuyez sur espace pour cocher ou décocher"
+msgstr "Appuyez sur espace pour cocher ou décocher la case"
 
 #. Translators: Help message for working with radio buttons.
 msgid "Use the arrow keys to choose a radio button"
@@ -53,7 +65,7 @@ msgstr "Appuyez sur espace ou entrée pour activer ce bouton"
 
 #. Translators: Help message for menu items.
 msgid "Use the arrow keys to move between the menu items"
-msgstr "Utilisez les flèches pour vous déplacer entre les menus"
+msgstr "Utilisez les flèches pour vous déplacer entre les éléments du menus"
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
 msgid "Use up and down arrow keys to move through options in the pop-up menu"
@@ -121,6 +133,73 @@ msgid ""
 msgstr ""
 "Utilisez les flèches ou les touches de navigation par objet pour vous "
 "déplacer dans ce document"
+
+#. Translators: Help message for terminal windows such as command prompt.
+msgid ""
+"Type commands in the terminal window and use review cursor commands to read "
+"the output"
+msgstr ""
+"Tapez les commandes dans la fenêtre du terminal et utilisez les commandes de "
+"curseur de revue pour lire le résultat"
+
+#. 200: Virtual Buffer.
+#. Translators: Help message for radio buttons while in browse mode.
+msgid ""
+"To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
+"ENTER key"
+msgstr ""
+"Pour sélectionner un bouton radio, passez en mode formulaire en pressant NVDA"
+"+espace ou la touche entrer"
+
+#. Translators: Help message for edit fields while in browse mode.
+msgid ""
+"To type text into this edit field, switch to focus mode by pressing NVDA"
+"+SPACE or ENTER key"
+msgstr ""
+"Pour entrer du texte dans cette zone d'édition, passez en mode formulaire en "
+"pressant NVDA+espace ou la touche entrer"
+
+#. Translators: Help message for combo boxes in browse mode.
+msgid ""
+"To select an item in the combo box, switch to focus mode by pressing NVDA"
+"+SPACE or ENTER key"
+msgstr ""
+"Pour sémectionner un élément dans une liste déroulante, passez en mode "
+"formulaire en pressant NVDA+espace ou la touche entrer"
+
+#. Translators: Help message for reading webpages.
+msgid ""
+"Use the browse mode and quick navigation commands to read through the webpage"
+msgstr ""
+"Utilisez le mode navigation et les commandes de navigation rapide pour "
+"parcourir la page web"
+
+#. App-specific case 1: AppeModule for app is present.
+#. 300: Explorer (to deal with specific cases.
+#. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
+msgid "Use the arrow keys to move between start screen tiles"
+msgstr ""
+"Utilisez les flèches pour vous déplacer entre les cases du menu de démarrage"
+
+#. 400: Microsoft powerpoint (powerpnt):
+#. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
+msgid "Use up and down arrow keys to move between slides"
+msgstr "Utilisez les flèches pour vous déplacer entre les diapositives"
+
+#. Translators: Help message for working with slide shows.
+msgid ""
+"Press SPACE or BACKSPACE to move between slides in the slide show. To end "
+"the slide show, press escape"
+msgstr ""
+"Pressez espace ou retour arrière pour vous déplacer entre les images du "
+"diaporama. Pour quitter le diaporama, pressez échap"
+
+#. App-specific case 2: AppeModule for app is not present (use processes).
+#. -300: Excel.
+#. Translators: Help message for moving between Excel spreadsheet cells.
+msgid "Use the arrow keys to move between spreadsheet cells"
+msgstr ""
+"Utilisez les flèches pour vous déplacer entre les cellules d'un tableur"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.

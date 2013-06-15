@@ -8,16 +8,14 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-05-10 02:27-0800\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2013-06-11 15:54+0100\n"
+"Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.5\n"
 
-#. The actual function is below.
 #. Translators: Input help message for obtain control help command.
 msgid "Presents a short message on how to interact with the focused control."
 msgstr ""
@@ -27,6 +25,19 @@ msgstr ""
 msgid "No help for this control"
 msgstr "Non hai axuda para este control"
 
+#. Translators: Additional message when working with forms in focus mode.
+msgid ". To switch to browse mode, press NVDA+SPACE or escape key"
+msgstr ". Para cambiar ó modo navegación, preme NVDA+ESPAZO ou a tecla escape"
+
+#. Translators: Help message for reading a webpage while in focus mode.
+msgid ""
+"To use browse mode and quick navigation keys to read the webpage, switch to "
+"browse mode by pressing NVDA+SPACE"
+msgstr ""
+"Para usar o modo navegación e as ordes de navegación rápida para ler a "
+"páxina web, cambia o modo navegación premendo NVDA+ESPAZO"
+
+#. Default: universal across apps and states.
 #. Translators: Help message for a checkbox.
 msgid "Press space to check or uncheck the checkbox"
 msgstr "Preme espazo para marcar ou desmarcar a casiña de verificación"
@@ -123,6 +134,71 @@ msgid ""
 msgstr ""
 "Usa os cursores ou as ordes de navegación de obxectos para moverte polo "
 "documento"
+
+#. Translators: Help message for terminal windows such as command prompt.
+msgid ""
+"Type commands in the terminal window and use review cursor commands to read "
+"the output"
+msgstr ""
+"Escrebe ordes na ventá da terminal e usa ordes do cursor de revisión para "
+"ler a saída"
+
+#. 200: Virtual Buffer.
+#. Translators: Help message for radio buttons while in browse mode.
+msgid ""
+"To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
+"ENTER key"
+msgstr ""
+"Para seleccionar  un botón de opción, cambia ó modo foco premendo NVDA"
+"+ESPAZO ou a tecla INTRO"
+
+#. Translators: Help message for edit fields while in browse mode.
+msgid ""
+"To type text into this edit field, switch to focus mode by pressing NVDA"
+"+SPACE or ENTER key"
+msgstr ""
+"Para teclear texto neste campo de edición, cambia ó modo foco premendo NVDA"
+"+ESPAZO ou a tecla INTRO"
+
+#. Translators: Help message for combo boxes in browse mode.
+msgid ""
+"To select an item in the combo box, switch to focus mode by pressing NVDA"
+"+SPACE or ENTER key"
+msgstr ""
+"Para seleccionar un elemento do cadro combinado, cambia ó modo foco premendo "
+"NVDA+ESPAZO ou a tecla INTRO"
+
+#. Translators: Help message for reading webpages.
+msgid ""
+"Use the browse mode and quick navigation commands to read through the webpage"
+msgstr ""
+"Usa o modo navegación e as ordes de navegación rápida para ler a páxina web"
+
+#. App-specific case 1: AppeModule for app is present.
+#. 300: Explorer (to deal with specific cases.
+#. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
+msgid "Use the arrow keys to move between start screen tiles"
+msgstr "Usa as frechas para moverte entre  os mosaicos da pantalla de inicio"
+
+#. 400: Microsoft powerpoint (powerpnt):
+#. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
+msgid "Use up and down arrow keys to move between slides"
+msgstr "Usa as frechas arriba e abaixo para moverte entre diapositivas"
+
+#. Translators: Help message for working with slide shows.
+msgid ""
+"Press SPACE or BACKSPACE to move between slides in the slide show. To end "
+"the slide show, press escape"
+msgstr ""
+"Preme ESPAZO ou RETROCESO para moverte entre diapositivas na presentación de "
+"diapositivas. Para rematar a presentación de diapositivas, preme escape"
+
+#. App-specific case 2: AppeModule for app is not present (use processes).
+#. -300: Excel.
+#. Translators: Help message for moving between Excel spreadsheet cells.
+msgid "Use the arrow keys to move between spreadsheet cells"
+msgstr ""
+"Usa as teclas do cursor para moverte entre as celdas da folla de cálculo"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
