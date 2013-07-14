@@ -96,9 +96,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def VBufHelp(self, obj, i): # i = index.
 		if i in self.VBufForms:
 			if not obj.treeInterceptor.passThrough:
-				VBufmsg = ctrltypelist.helpMessages[i]
+				VBufmsg = _(ctrltypelist.helpMessages[i])
 			else:
-				VBufmsg = ctrltypelist.helpMessages[obj.role]
+				VBufmsg = _(ctrltypelist.helpMessages[obj.role])
 				# Translators: Additional message when working with forms in focus mode.
 				VBufmsg += _(". To switch to browse mode, press NVDA+SPACE or escape key")
 		elif i == 252:
