@@ -17,7 +17,7 @@ import appModuleHandler # Apps.
 from appModules import powerpnt # App modules with special personalities such as Powerpoint where one needs to differentiate between slides and slide shows.
 import addonHandler # Addon basics.
 addonHandler.initTranslation() # Internationalization.
-import tones # For debugging.
+# import tones # For debugging.
 
 # Init:
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
@@ -57,10 +57,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# Present help messages based on role constant, state(s) and focused app.
 		msg = "" # A string (initially empty) to hold the message; needed to work better with braille.
 		offset = self.getMessageOffset(curObj) # offset = lookup offset, the base for our lookup index.
-		if offset >= 0: # We found an appModule. In case of 0, check object state(s).
-			index = offset + curObj.role
-		else: # No appModule, so work with processes.
-			index = offset - curObj.role
+		# Assign positive or negative lookup offset depending on the return value from offset method above.
+		index = offset + curObj.role if offset >= 0 else offset - curObj.role
 		# In case offset is zero, then test for state(s).
 		curState = curObj._get_states()
 		# Let the index lookup begin.
@@ -71,7 +69,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# General case: if we do have an entry for the appModule/process.
 		elif (offset >= 300 or offset <= -300) and index in ctrltypelist.helpMessages:
 			msg= ctrltypelist.helpMessages[index]
-			# Clean the above code later.
+			# Clean the above code later (before beta).
 		elif (offset == 200 or offset == -200):
 			# In case we're dealing with virtual buffer, call the below method.
 			msg = self.VBufHelp(curObj, index)
