@@ -107,8 +107,11 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			else:
 				# Translators: Help message for reading a webpage while in focus mode.
 				VBufmsg = _("To use browse mode and quick navigation keys to read the webpage, switch to browse mode by pressing NVDA+SPACE")
-		else:
+		elif obj.role in ctrltypelist.helpMessages:
+			# In an event that we do have something such as a link.
 			VBufmsg = ctrltypelist.helpMessages[obj.role]
+		else: # Nothing, so present the above error message as before.
+			VBufmsg = _("No help for this control")
 		return VBufmsg
 	
 	
