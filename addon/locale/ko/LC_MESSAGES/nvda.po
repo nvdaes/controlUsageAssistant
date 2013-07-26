@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '0.2codeReview'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-06-15 12:45-0800\n"
+"PO-Revision-Date: 2013-07-25 14:02-0800\n"
 "Last-Translator: Joseph Lee <joseph.lee22590@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -128,7 +128,7 @@ msgstr "방향키나 객체 탐색 명령을 사용하여 문서를 읽으십시
 msgid ""
 "Type commands in the terminal window and use review cursor commands to read "
 "the output"
-msgstr ""
+msgstr "터미널 창에 명령을 입력한 후 리뷰 명령으로 텍스트를 읽으십시오"
 
 #. 200: Virtual Buffer.
 #. Translators: Help message for radio buttons while in browse mode.
@@ -176,6 +176,8 @@ msgid ""
 "Press SPACE or BACKSPACE to move between slides in the slide show. To end "
 "the slide show, press escape"
 msgstr ""
+"SPACE나 BACKSPACE를 눌러 슬라이드쇼 슬라이드를 이동하십시오. 슬라이드쇼를 종"
+"료하려면 escape 키를 누르십시오"
 
 #. App-specific case 2: AppeModule for app is not present (use processes).
 #. -300: Excel.

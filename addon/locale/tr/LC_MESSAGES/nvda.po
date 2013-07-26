@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-06-04 23:25+0200\n"
+"PO-Revision-Date: 2013-06-18 21:25+0200\n"
 "Last-Translator: Çağrı Doğan <cagrid@hotmail.com>\n"
 "Language-Team: tr <cagrid@hotmail.com>\n"
 "Language: tr\n"
@@ -150,6 +150,8 @@ msgid ""
 "Type commands in the terminal window and use review cursor commands to read "
 "the output"
 msgstr ""
+"Komutları terminal penceresinde yazın ve sonucu incelemek için metin "
+"inceleme komutlarını kullanın"
 
 #. 200: Virtual Buffer.
 #. Translators: Help message for radio buttons while in browse mode.
@@ -186,21 +188,22 @@ msgstr ""
 #. App-specific case 1: AppeModule for app is present.
 #. 300: Explorer (to deal with specific cases.
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
-#, fuzzy
 msgid "Use the arrow keys to move between start screen tiles"
-msgstr "Menü ögeleri arasında dolaşmak için yön tuşlarını kullanın"
+msgstr ""
+"Başlat ekranındaki bölümler arasında dolaşmak için yön tuşlarını kullanın"
 
 #. 400: Microsoft powerpoint (powerpnt):
 #. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
-#, fuzzy
 msgid "Use up and down arrow keys to move between slides"
-msgstr "Menü ögeleri arasında dolaşmak için yön tuşlarını kullanın"
+msgstr "Slaytlar arasında dolaşmak için yön tuşlarını kullanın"
 
 #. Translators: Help message for working with slide shows.
 msgid ""
 "Press SPACE or BACKSPACE to move between slides in the slide show. To end "
 "the slide show, press escape"
 msgstr ""
+"Slayt gösterisindeki slaytlar arasında dolaşmak için aralık ve geri sil "
+"tuşlarını kullanın. Slayt gösterisini sonlandırmak için escape tuşuna basın"
 
 #. App-specific case 2: AppeModule for app is not present (use processes).
 #. -300: Excel.

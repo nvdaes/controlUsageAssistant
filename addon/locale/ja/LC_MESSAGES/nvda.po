@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-06-03 15:47+0900\n"
+"PO-Revision-Date: 2013-06-17 15:45+0900\n"
 "Last-Translator: Takuya Nishimoto\n"
 "Language-Team: ja\n"
 "Language: \n"
@@ -128,7 +128,7 @@ msgstr ""
 msgid ""
 "Type commands in the terminal window and use review cursor commands to read "
 "the output"
-msgstr ""
+msgstr "ウィンドウにコマンドを入力してください。レビューカーソルで出力を読み上げます"
 
 #. 200: Virtual Buffer.
 #. Translators: Help message for radio buttons while in browse mode.
@@ -165,21 +165,19 @@ msgstr ""
 #. App-specific case 1: AppeModule for app is present.
 #. 300: Explorer (to deal with specific cases.
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
-#, fuzzy
 msgid "Use the arrow keys to move between start screen tiles"
-msgstr "矢印キーでメニュー項目を移動します"
+msgstr "矢印キーでタイルを移動します"
 
 #. 400: Microsoft powerpoint (powerpnt):
 #. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
-#, fuzzy
 msgid "Use up and down arrow keys to move between slides"
-msgstr "矢印キーでメニュー項目を移動します"
+msgstr "矢印キーでスライドを移動します"
 
 #. Translators: Help message for working with slide shows.
 msgid ""
 "Press SPACE or BACKSPACE to move between slides in the slide show. To end "
 "the slide show, press escape"
-msgstr ""
+msgstr "スライドショーのスライドをスペースまたはバックペースで移動します。スライドショーを終了するにはエスケープを押します"
 
 #. App-specific case 2: AppeModule for app is not present (use processes).
 #. -300: Excel.

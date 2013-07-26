@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-06-11 10:20+0200\n"
+"PO-Revision-Date: 2013-06-18 15:07+0200\n"
 "Last-Translator: Jani Kinnunen\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. Translators: Input help message for obtain control help command.
 msgid "Presents a short message on how to interact with the focused control."
 msgstr ""
-"Näyttää lyhyen ohjeviestin siitä, miten aktiivisen säätimen kanssa ollaan "
+"Lukee lyhyen ohjeen siitä, miten aktiivisen säätimen kanssa ollaan "
 "vuorovaikutuksessa."
 
 #. Translators: Message presented when there is no help message for the focused control.

@@ -8,10 +8,9 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '0.2codeReview'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-05-13 16:59+0545\n"
+"PO-Revision-Date: 2013-06-27 12:13+0545\n"
 "Last-Translator: \n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language-Team: Nepali <drishtibachak@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,13 +26,15 @@ msgstr "यो नियन्त्रक सम्बन्धि कुनै
 
 #. Translators: Additional message when working with forms in focus mode.
 msgid ". To switch to browse mode, press NVDA+SPACE or escape key"
-msgstr ""
+msgstr ". To switch to browse mode, press NVDA+SPACE or escape key"
 
 #. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
 msgstr ""
+"ऊघार्ने मुद्राको प्रयोग र  वेभ पृष्ठमा विचरण गर्न, नेत्रवाणी +SPACE लाई दबाएर उघार्ने "
+"मुद्रामा जानु होस् ।"
 
 #. Default: universal across apps and states.
 #. Translators: Help message for a checkbox.
@@ -131,6 +132,8 @@ msgid ""
 "Type commands in the terminal window and use review cursor commands to read "
 "the output"
 msgstr ""
+"प्रतिफल पड्नका लागि विश्राम सञ्झ्यालमा आदेसलाई टङ्कण गरी समीक्षा कर्सर आदेसको प्रयोग "
+"गर्नु होस् ।"
 
 #. 200: Virtual Buffer.
 #. Translators: Help message for radio buttons while in browse mode.
@@ -138,51 +141,54 @@ msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
 "ENTER key"
 msgstr ""
+"रेडियो टाँकलाई चयन गर्न, नेत्रवाणी +SPACE अथवा इन्टर कुञ्जीलाई दबाएर  केन्द्रीत् मुद्रामा "
+"जानु होस् ।"
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
 "To type text into this edit field, switch to focus mode by pressing NVDA"
 "+SPACE or ENTER key"
 msgstr ""
+"यो सम्पादन कोठामा टङ्कण गर्न, नेत्रवाणी +SPACE अथवा इन्टर कुञ्जीलाई दबाएर  केन्द्रीत् "
+"मुद्रामा जानु होस् ।"
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
 "To select an item in the combo box, switch to focus mode by pressing NVDA"
 "+SPACE or ENTER key"
 msgstr ""
+"कम्बोबाकसबाट सामाग्रीको चयन गर्न, नेत्रवाणी +SPACE अथवा इन्टर कुञ्जीलाई दबाएर  "
+"केन्द्रीत् मुद्रामा जानु होस् ।"
 
 #. Translators: Help message for reading webpages.
-#, fuzzy
 msgid ""
 "Use the browse mode and quick navigation commands to read through the webpage"
-msgstr ""
-"पाठ भुमी, कागजात विचरण गर्न  वाण कुञ्जीहरूको अथवा वस्तु विचरण आदेशको प्रयोग गरिन्छ ।"
+msgstr "वेभ पृष्ठमा पड्न,  उघार्ने मुद्राको र छरितो विचरण आदेसको प्रयोग गर्नु होस् । "
 
 #. App-specific case 1: AppeModule for app is present.
 #. 300: Explorer (to deal with specific cases.
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
-#, fuzzy
 msgid "Use the arrow keys to move between start screen tiles"
-msgstr "मेनु सामाग्री, विचरण गर्न वाण कुञ्जीको प्रयोग गरिन्छ।"
+msgstr "सुरुवात पर्दामा विचरण गर्न वाण कुञ्जीको प्रयोग गर्नु होस् ।"
 
 #. 400: Microsoft powerpoint (powerpnt):
 #. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
-#, fuzzy
 msgid "Use up and down arrow keys to move between slides"
-msgstr "मेनु सामाग्री, विचरण गर्न वाण कुञ्जीको प्रयोग गरिन्छ।"
+msgstr "प्रस्तुती-पत्रहरू बीच विचरण गर्न तल-माथि वाणको प्रयोग गर्नु होस् ।"
 
 #. Translators: Help message for working with slide shows.
 msgid ""
 "Press SPACE or BACKSPACE to move between slides in the slide show. To end "
 "the slide show, press escape"
 msgstr ""
+"प्रस्तुती-पत्र दृश्य मुद्रामा हुँदा SPACE अथवा BACKSPACE लाइ दबाएर प्रस्तुति-पत्रमा विचरण "
+"गर्नु होस् ।प्रस्तुती-पत्र दृश्यलाई हटाउन, escape दबाउनु होस् ।"
 
 #. App-specific case 2: AppeModule for app is not present (use processes).
 #. -300: Excel.
 #. Translators: Help message for moving between Excel spreadsheet cells.
-#, fuzzy
 msgid "Use the arrow keys to move between spreadsheet cells"
-msgstr "मेनु सामाग्री, विचरण गर्न वाण कुञ्जीको प्रयोग गरिन्छ।"
+msgstr "शिटका कोशिकाहरूमा विचरण गर्न वाण कुञ्जीहरूको प्रयोग गर्नु होस् ।"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.

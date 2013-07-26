@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-05-20 00:12+0100\n"
+"PO-Revision-Date: 2013-07-09 12:52+0100\n"
 "Last-Translator:  <oaron@nvda.hu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#. The actual function is below.
 #. Translators: Input help message for obtain control help command.
 msgid "Presents a short message on how to interact with the focused control."
 msgstr ""
@@ -26,6 +25,20 @@ msgstr ""
 msgid "No help for this control"
 msgstr "Nem tartozik súgó ehhez az elemhez"
 
+#. Translators: Additional message when working with forms in focus mode.
+msgid ". To switch to browse mode, press NVDA+SPACE or escape key"
+msgstr ""
+"Böngészőmódba váltáshoz nyomja meg az NVDA+szóköz, vagy az escape billentyűt."
+
+#. Translators: Help message for reading a webpage while in focus mode.
+msgid ""
+"To use browse mode and quick navigation keys to read the webpage, switch to "
+"browse mode by pressing NVDA+SPACE"
+msgstr ""
+"A böngészőmód és a gyors navigációs gombok használatához nyomja meg az NVDA"
+"+szóköz billentyűparancsot"
+
+#. Default: universal across apps and states.
 #. Translators: Help message for a checkbox.
 msgid "Press space to check or uncheck the checkbox"
 msgstr "Nyomja meg a szóközt a jelölőnégyzet be/kikapcsolásához"
@@ -122,6 +135,71 @@ msgid ""
 "Use the arrow keys or object navigation commands to move through the document"
 msgstr ""
 "A nyilak vagy az áttekintő parancsok segítségével mozoghat a dokumentumban"
+
+#. Translators: Help message for terminal windows such as command prompt.
+msgid ""
+"Type commands in the terminal window and use review cursor commands to read "
+"the output"
+msgstr ""
+"Gépelje be a parancsokat a terminál ablakba, maj használja az áttekintő "
+"kurzort a visszaolvasáshoz."
+
+#. 200: Virtual Buffer.
+#. Translators: Help message for radio buttons while in browse mode.
+msgid ""
+"To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
+"ENTER key"
+msgstr ""
+"Egy választógomb kiválasztásához váltson interaktív módba, vagy noymja le az "
+"enter billentyűt"
+
+#. Translators: Help message for edit fields while in browse mode.
+msgid ""
+"To type text into this edit field, switch to focus mode by pressing NVDA"
+"+SPACE or ENTER key"
+msgstr ""
+"A szöveg begépeléséhez váltson át interaktív módra az NVDA+szóköz, vagy az "
+"enter billentyű lenyomásával."
+
+#. Translators: Help message for combo boxes in browse mode.
+msgid ""
+"To select an item in the combo box, switch to focus mode by pressing NVDA"
+"+SPACE or ENTER key"
+msgstr ""
+"Egy elem kiválasztásához a kombinált listában váltson át interaktív módra az "
+"NVDA+szóköz, vagy az enter billentyű lenyomásával."
+
+#. Translators: Help message for reading webpages.
+msgid ""
+"Use the browse mode and quick navigation commands to read through the webpage"
+msgstr ""
+"Használja böngészőmódban a gyors navigációs parancsokkat a weboldal "
+"áttekintéséhez."
+
+#. App-specific case 1: AppeModule for app is present.
+#. 300: Explorer (to deal with specific cases.
+#. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
+msgid "Use the arrow keys to move between start screen tiles"
+msgstr "Használja a nyíl billentyűket a képernyő csempéken való mozgáshoz."
+
+#. 400: Microsoft powerpoint (powerpnt):
+#. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
+msgid "Use up and down arrow keys to move between slides"
+msgstr "Használja a nyíl billentyűket a diák között való mozgáshoz"
+
+#. Translators: Help message for working with slide shows.
+msgid ""
+"Press SPACE or BACKSPACE to move between slides in the slide show. To end "
+"the slide show, press escape"
+msgstr ""
+"Nyomja meg a szóközt vagy a backspace-t a diák közötti mozgáshoz, a "
+"diavetítés bezárását az escape billentyűvel teheti meg."
+
+#. App-specific case 2: AppeModule for app is not present (use processes).
+#. -300: Excel.
+#. Translators: Help message for moving between Excel spreadsheet cells.
+msgid "Use the arrow keys to move between spreadsheet cells"
+msgstr "Használja a nyíl billentyűket a táblázat cellák közötti mozgáshoz"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
