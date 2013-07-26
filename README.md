@@ -11,6 +11,7 @@ Press NvDA+H to obtain a short help message on interacting with the focused cont
 * Help messages for more controls added, including terminal windows.
 * Added help messages for working in some areas of applications, such as Microsoft Excel and Powerpoint and Windows 8 start screen.
 * Added help messages for working with forms in both browse and focus modes in virtual buffer documents (Internet Explorer, Adobe Reader, Mozilla Firefox, etc.).
+* New language: Danish.
 
 
 ## 1.0 ##
