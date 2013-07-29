@@ -14,7 +14,7 @@ import controlTypes # The heart of this module.
 import ctrltypelist # The control types and help messages dictionary.
 from virtualBuffers import VirtualBuffer # Virtual buffer handling.
 import appModuleHandler # Apps.
-from appModules import powerpnt # App modules with special personalities such as Powerpoint where one needs to differentiate between slides and slide shows.
+#from appModules import powerpnt # (commented out) App modules with special personalities such as Powerpoint where one needs to differentiate between slides and slide shows.
 import addonHandler # Addon basics.
 addonHandler.initTranslation() # Internationalization.
 # import tones # For debugging.
@@ -62,14 +62,16 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# In case offset is zero, then test for state(s).
 		curState = curObj._get_states()
 		# Let the index lookup begin.
-		# A number of specific cases follows:
-		# PowerPoint: differentiate between slide list and slide show.
-		if isinstance(curObj, powerpnt.SlideShowWindow):
-			msg = ctrltypelist.helpMessages[403.1]	
-		# General case: if we do have an entry for the appModule/process.
-		elif (offset >= 300 or offset <= -300) and index in ctrltypelist.helpMessages:
-			msg= ctrltypelist.helpMessages[index]
-			# Clean the above code later (before beta).
+		if (offset >= 300 or offset <= -300) and index in ctrltypelist.helpMessages:
+			# General case: if we do have an entry for the appModule/process.
+			import appModules # Import this now for performance reasons, as the user would be dealing with default controls for most of the time.
+			# Even then, a number of specific cases follows:
+			# PowerPoint: differentiate between slide list and slide show.
+			if curObj.appModule.appName == "powerpnt" and isinstance(curObj, appModules.powerpnt.SlideShowWindow):
+				msg = ctrltypelist.helpMessages[403.1]	
+			else: # For now, Powerpoint is the only special case; the optimal way is to build a dictionary of apps which has duplicate controls for different locations.
+				msg= ctrltypelist.helpMessages[index]
+			# Clean the above code later (before beta). Let's continue with the show.
 		elif (offset == 200 or offset == -200):
 			# In case we're dealing with virtual buffer, call the below method.
 			msg = self.VBufHelp(curObj, index)
