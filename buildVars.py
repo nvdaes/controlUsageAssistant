@@ -16,7 +16,7 @@ addon_info = {
 	"addon-description" : _("""Allows you to find out how to interact with the focused control, useful for new computer users new to Windows and to NvDA.
 	Press NvDA+H to get a short help message on using the focused control, such as moving through tables, checkboxes and so on."""),
 	# version
-	"addon-version" : "2.0Beta1",
+	"addon-version" : "2.0",
 	# Author(s)
 	"addon-author" : "Joseph Lee <joseph.lee22590@gmail.com>",
 	# URL for the add-on documentation support
@@ -31,7 +31,7 @@ import os.path
 pythonSources = [os.path.join("addon", "globalPlugins", "controlUsageAssistant", "*.py")]
 
 # Files that contain strings for translation. Usually your python sources
-i18nSources = pythonSources + ["buildVars.py", "docHandler.py"]
+i18nSources = pythonSources + ["buildVars.py"]#, "docHandler.py"]
 
 # Files that will be ignored when building the nvda-addon file
 # Paths are relative to the addon directory, not to the root directory of your addon sources.
