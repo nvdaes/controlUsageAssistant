@@ -14,15 +14,20 @@ import controlTypes # The heart of this module.
 import ctrltypelist # The control types and help messages dictionary.
 from virtualBuffers import VirtualBuffer # Virtual buffer handling.
 import appModuleHandler # Apps.
-#from appModules import powerpnt # (commented out) App modules with special personalities such as Powerpoint where one needs to differentiate between slides and slide shows.
+from appModules import powerpnt # App modules with special personalities such as Powerpoint where one needs to differentiate between slides and slide shows.
 import addonHandler # Addon basics.
 addonHandler.initTranslation() # Internationalization.
-# import tones # For debugging.
+import tones # For debugging.
+from baseObject import ScriptableObject # Input Gestures categories.
 
 # Init:
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	
-		# NVDA+H: Obtain usage help on a particular control.
+	# Script category.
+	# Translators: Input gesture category for Control Usage Assistant add-on.
+	scrcat_conHelp = _("Help")
+	
+	# NVDA+H: Obtain usage help on a particular control.
 	# Depending on the type of control and its state(s), lookup a dictionary of control types and help messages.
 	# If the control is used differently in apps, then lookup the app entry and give the customized message.
 	def script_obtainControlHelp(self, gesture):
@@ -31,6 +36,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		ui.message(_(self.getHelpMessage(obj)))
 	# Translators: Input help message for obtain control help command.
 	script_obtainControlHelp.__doc__=_("Presents a short message on how to interact with the focused control.")
+	script_obtainControlHelp.category = scrcat_conHelp
 		
 	# GetMessageOffset: Obtain message offset based on appModule and/or processes list.
 	# Return value: positive = appModule, negative = processes, 0 = default.
@@ -57,21 +63,21 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# Present help messages based on role constant, state(s) and focused app.
 		msg = "" # A string (initially empty) to hold the message; needed to work better with braille.
 		offset = self.getMessageOffset(curObj) # offset = lookup offset, the base for our lookup index.
-		# Assign positive or negative lookup offset depending on the return value from offset method above.
-		index = offset + curObj.role if offset >= 0 else offset - curObj.role
+		if offset >= 0: # We found an appModule. In case of 0, check object state(s).
+			index = offset + curObj.role
+		else: # No appModule, so work with processes.
+			index = offset - curObj.role
 		# In case offset is zero, then test for state(s).
 		curState = curObj._get_states()
 		# Let the index lookup begin.
-		if (offset >= 300 or offset <= -300) and index in ctrltypelist.helpMessages:
-			# General case: if we do have an entry for the appModule/process.
-			import appModules # Import this now for performance reasons, as the user would be dealing with default controls for most of the time.
-			# Even then, a number of specific cases follows:
-			# PowerPoint: differentiate between slide list and slide show.
-			if curObj.appModule.appName == "powerpnt" and isinstance(curObj, appModules.powerpnt.SlideShowWindow):
-				msg = ctrltypelist.helpMessages[403.1]	
-			else: # For now, Powerpoint is the only special case; the optimal way is to build a dictionary of apps which has duplicate controls for different locations.
-				msg= ctrltypelist.helpMessages[index]
-			# Clean the above code later (before beta). Let's continue with the show.
+		# A number of specific cases follows:
+		# PowerPoint: differentiate between slide list and slide show.
+		if isinstance(curObj, powerpnt.SlideShowWindow):
+			msg = ctrltypelist.helpMessages[403.1]	
+		# General case: if we do have an entry for the appModule/process.
+		elif (offset >= 300 or offset <= -300) and index in ctrltypelist.helpMessages:
+			msg= ctrltypelist.helpMessages[index]
+			# Clean the above code later.
 		elif (offset == 200 or offset == -200):
 			# In case we're dealing with virtual buffer, call the below method.
 			msg = self.VBufHelp(curObj, index)
@@ -98,9 +104,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def VBufHelp(self, obj, i): # i = index.
 		if i in self.VBufForms:
 			if not obj.treeInterceptor.passThrough:
-				VBufmsg = _(ctrltypelist.helpMessages[i])
+				VBufmsg = ctrltypelist.helpMessages[i]
 			else:
-				VBufmsg = _(ctrltypelist.helpMessages[obj.role])
+				VBufmsg = ctrltypelist.helpMessages[obj.role]
 				# Translators: Additional message when working with forms in focus mode.
 				VBufmsg += _(". To switch to browse mode, press NVDA+SPACE or escape key")
 		elif i == 252:
@@ -109,11 +115,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			else:
 				# Translators: Help message for reading a webpage while in focus mode.
 				VBufmsg = _("To use browse mode and quick navigation keys to read the webpage, switch to browse mode by pressing NVDA+SPACE")
-		elif obj.role in ctrltypelist.helpMessages:
-			# In an event that we do have something such as a link.
+		else:
 			VBufmsg = ctrltypelist.helpMessages[obj.role]
-		else: # Nothing, so present the above error message as before.
-			VBufmsg = _("No help for this control")
 		return VBufmsg
 	
 	
