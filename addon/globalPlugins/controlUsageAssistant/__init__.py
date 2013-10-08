@@ -25,7 +25,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	
 	# Script category.
 	# Translators: Input gesture category for Control Usage Assistant add-on.
-	scrcat_conHelp = _("Help")
+	scrcat_CUA = _("Control Usage Assistant")
 	
 	# NVDA+H: Obtain usage help on a particular control.
 	# Depending on the type of control and its state(s), lookup a dictionary of control types and help messages.
@@ -36,7 +36,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		ui.message(_(self.getHelpMessage(obj)))
 	# Translators: Input help message for obtain control help command.
 	script_obtainControlHelp.__doc__=_("Presents a short message on how to interact with the focused control.")
-	script_obtainControlHelp.category = scrcat_conHelp
+	script_obtainControlHelp.category = scrcat_CUA
 		
 	# GetMessageOffset: Obtain message offset based on appModule and/or processes list.
 	# Return value: positive = appModule, negative = processes, 0 = default.
