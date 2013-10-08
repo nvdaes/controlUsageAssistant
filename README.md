@@ -1,10 +1,14 @@
 [[!meta title="Control Usage Assistant"]]
 
 * Author: Joseph Lee
-* Download: [version 2.0][1]
+* Download: [version 2.1][1]
 
 Use this add-on to find out how to interact with the focused control.
 Press NvDA+H to obtain a short help message on interacting with the focused control, such as checkboxes, edit fields and so on.
+## 2.1 ##
+
+* New and updated translations.
+
 
 ## 2.0 ##
 
