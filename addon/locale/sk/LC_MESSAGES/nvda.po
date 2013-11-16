@@ -31,7 +31,7 @@ msgstr "Na prechod do režimu prehliadania stlačte NVDA+medzeru alebo escape"
 
 #. Translators: Help message for reading a webpage while in focus mode.
 msgid "To use browse mode and quick navigation keys to read the webpage, switch to browse mode by pressing NVDA+SPACE"
-msgstr "Aby ste mohli prehliadať stránku pomocou navigačných klávesov, prepnite sa do režimu prehliadania pomocou nvda+medzera"
+msgstr "Aby ste mohli prehliadať stránku pomocou navigačných klávesov, prepnite sa do režimu prehliadania stlačením nvda+medzera"
 
 #. Default: universal across apps and states.
 #. Translators: Help message for a checkbox.
@@ -40,7 +40,7 @@ msgstr "Začiarkavacie políčko začiarknete alebo odčiarknete medzerou"
 
 #. Translators: Help message for working with radio buttons.
 msgid "Use the arrow keys to choose a radio button"
-msgstr "Medzi možnosťami sa prepínajte šípkami"
+msgstr "Na výber jedného z prepínačou použite šípky"
 
 #. Translators: Help message for a list box.
 msgid "Use the arrow keys to read this box"
@@ -64,7 +64,7 @@ msgstr "Na pohyb po položkách použite šípky"
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
 msgid "Use up and down arrow keys to move through options in the pop-up menu"
-msgstr "Na pohyb po položkách kontextového menu použite šípky hore a dole"
+msgstr "Na pohyb po položkách kontextového menu použite šípky hore a dolu"
 
 #. Translators: Help message for a combo box.
 msgid "Use the arrow keys to move among choices in the combo box until the desired option is found"
@@ -80,7 +80,7 @@ msgstr "Odkaz aktivujete medzerou alebo klávesom Enter"
 
 #. Translators: Help message for working with tree view items.
 msgid "Use the up and down arrow keys to select the items. Use left arrow to collapse and right arrow to expand"
-msgstr "Na pohyb po vetvách použite šípky hore a dole. Vetvu rozbalíte pravou šípkou, zabalíte ľavou šípkou."
+msgstr "Na pohyb po položkách použite šípky hore a dole. Zbalené položky rozbalíte pravou šípkou, rozbalené položky zabalíte ľavou šípkou."
 
 #. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
 msgid "Use the left and right arrow keys to move between tabs, or press control+tab for next tab and control+shift+tab for previous tab"
@@ -100,11 +100,11 @@ msgstr "Na pohyb po stĺpcoch použite ctrl+alt+ľavú a pravú šípku"
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
 msgid "Use the arrow keys or object navigation commands to move through the document"
-msgstr "použite príkazy na čítanie alebo objektovú navigáciu"
+msgstr "použite príkazy na čítanie alebo režim prezerania"
 
 #. Translators: Help message for terminal windows such as command prompt.
 msgid "Type commands in the terminal window and use review cursor commands to read the output"
-msgstr "Napíšte text do terminálu. Na čítanie textu použite šípky"
+msgstr "Priamo v okne príkazového riadku je možné písať text. Na čítanie výstupu použite navigačné príkazy režimu prezerania"
 
 #. 200: Virtual Buffer.
 #. Translators: Help message for radio buttons while in browse mode.
@@ -117,11 +117,11 @@ msgstr "Aby ste mohli písať text, prepnite sa do režimu fokusu pomocou Enter 
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid "To select an item in the combo box, switch to focus mode by pressing NVDA+SPACE or ENTER key"
-msgstr "Na vybratie možnosti v zoznamovom rámiku sa prepnite do režimu fokusu pomocou klávesu Enter alebo nvda+medzera"
+msgstr "Na vybratie možnosti zo zoznamového rámika sa prepnite do režimu fokusu pomocou klávesu Enter alebo nvda+medzera"
 
 #. Translators: Help message for reading webpages.
 msgid "Use the browse mode and quick navigation commands to read through the webpage"
-msgstr "Na pohyb po stránke použite navigačné príkazy"
+msgstr "Na pohyb po stránke použite šípky alebo klávesy rýchlej navigácii"
 
 #. App-specific case 1: AppeModule for app is present.
 #. 300: Explorer (to deal with specific cases.
@@ -132,7 +132,7 @@ msgstr "Na pohyb po dlaždiciach použite šípky"
 #. 400: Microsoft powerpoint (powerpnt):
 #. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
 msgid "Use up and down arrow keys to move between slides"
-msgstr "Na pohyb po sníkmach použite šípky"
+msgstr "Na pohyb po snímkach použite šípky"
 
 #. Translators: Help message for working with slide shows.
 msgid "Press SPACE or BACKSPACE to move between slides in the slide show. To end the slide show, press escape"
@@ -142,12 +142,12 @@ msgstr "Na pohyb medzi snímkami v prezentácii použite medzeru alebo backspace
 #. -300: Excel.
 #. Translators: Help message for moving between Excel spreadsheet cells.
 msgid "Use the arrow keys to move between spreadsheet cells"
-msgstr "Na pohyb po snímkach použite šípky"
+msgstr "Na pohyb po bunkách v zošite použite šípky"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
 msgid "Control Usage Assistant - get brief help on interacting with the focused control"
-msgstr "Pomocník pre prácu s prvkami - poskytuje informácie o zameranom prvku"
+msgstr "Pomocník pre prácu s prvkami - poskytuje stručnú kontextovú nápovedu k práve zameranému prvku"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
@@ -156,5 +156,5 @@ msgid ""
 "\tPress NvDA+H to get a short help message on using the focused control, such as moving through tables, checkboxes and so on."
 msgstr ""
 "Poskytuje informácie o práve zameranom prvku. Užitočné pre tých, ktorí začínajú pracovať v systéme Windows alebo sa učia pracovať s NVDA.\n"
-"Pre informácie o aktuálnom prvku, akými sú napríklad začiarkávacie políčka, stlačte NVDA+H."
+"Pre informácie o aktuálnom prvku, akým sú napríklad začiarkávacie políčka alebo tabuľky, stlačte NVDA+H."
 

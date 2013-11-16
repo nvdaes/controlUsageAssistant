@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-06-11 09:25+0100\n"
+"PO-Revision-Date: 2013-10-30 07:49+0100\n"
 "Last-Translator: Jožef Gregorc <jozko.gregorc[@]guest.arnes.si\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.5.7\n"
 
 # lahko tudi nadzornikom
 #. Translators: Input help message for obtain control help command.
@@ -85,7 +85,7 @@ msgstr ""
 #. Translators: Help message for a list view.
 msgid "Use the arrow keys to move to the next or previous item in this list"
 msgstr ""
-"Uporabite puščice za premik na naslednji ali prejšnji element na izbranemu "
+"Uporabite puščice za premik na naslednji ali prejšnji element na izbranem "
 "seznamu"
 
 #. Translators: Help message for activating links.
@@ -161,7 +161,7 @@ msgid ""
 "To type text into this edit field, switch to focus mode by pressing NVDA"
 "+SPACE or ENTER key"
 msgstr ""
-"Za vnos besedila v to vnosno polje prestavite v žariščno delovanje s "
+"Za vnos besedila v to vnosno polje, preklopite v žariščno delovanje s "
 "kombinacijo NVDA+preslednica ali tipko ENTER"
 
 #. Translators: Help message for combo boxes in browse mode.
