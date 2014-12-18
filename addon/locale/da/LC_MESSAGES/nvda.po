@@ -18,23 +18,19 @@ msgstr ""
 "X-Generator: Poedit 1.5.6\n"
 
 #. Translators: Input help message for obtain control help command.
-#: addon/globalPlugins/controlUsageAssistant/__init__.py:33
 msgid "Presents a short message on how to interact with the focused control."
 msgstr "Giver en kort beskrivelse af, hvordan man bruger feltet i fokus"
 
 #. Translators: Message presented when there is no help message for the focused control.
-#: addon/globalPlugins/controlUsageAssistant/__init__.py:88
 msgid "No help for this control"
 msgstr "Ingen hjælp til dette felt"
 
 #. Translators: Additional message when working with forms in focus mode.
-#: addon/globalPlugins/controlUsageAssistant/__init__.py:105
 msgid ". To switch to browse mode, press NVDA+SPACE or escape key"
 msgstr ""
 "For at skifte til browse-tilstand, tryk på NVDA+Mellemrum eller Escape-tasten"
 
 #. Translators: Help message for reading a webpage while in focus mode.
-#: addon/globalPlugins/controlUsageAssistant/__init__.py:111
 msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
@@ -44,48 +40,39 @@ msgstr ""
 
 #. Default: universal across apps and states.
 #. Translators: Help message for a checkbox.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:15
 msgid "Press space to check or uncheck the checkbox"
 msgstr "Tryk Mellemrum for at markere eller afmarkere afkrydsningsfeltet"
 
 #. Translators: Help message for working with radio buttons.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:17
 msgid "Use the arrow keys to choose a radio button"
 msgstr "Brug piletasterne for at vælge en radioknap"
 
 #. Translators: Help message for a list box.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:19
 msgid "Use the arrow keys to read this box"
 msgstr "Brug piletasterne til at navigere i denne liste"
 
 #. Translators: Help message for an edit field.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:21
 msgid "Type text here"
 msgstr "Skriv tekst her"
 
 #. Translators: Help message for a read-only control.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:23
 msgid "Use the text navigation commands to read text"
 msgstr "Brug tekstnavigeringskommandoer for at læse denne tekst"
 
 #. Translators: Help message for a button.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:25
 msgid "Press SPACE or ENTER to activate this button"
 msgstr "Tryk på Mellemrum eller Enter for at aktivere denne knap"
 
 #. Translators: Help message for menu items.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:27
 msgid "Use the arrow keys to move between the menu items"
 msgstr "Brug piletasterne for at flytte mellem menupunkterne"
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:29
 msgid "Use up and down arrow keys to move through options in the pop-up menu"
 msgstr ""
 "Brug Pil-op og Pil-ned for at flytte gennem valgmulighederne i popup-menuen"
 
 #. Translators: Help message for a combo box.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:31
 msgid ""
 "Use the arrow keys to move among choices in the combo box until the desired "
 "option is found"
@@ -94,19 +81,16 @@ msgstr ""
 "ønskede mulighed er fundet"
 
 #. Translators: Help message for a list view.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:33
 msgid "Use the arrow keys to move to the next or previous item in this list"
 msgstr ""
 "Brug piletasterne til at flytte til det forrige eller næste valg i denne "
 "liste"
 
 #. Translators: Help message for activating links.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:35
 msgid "Press SPACE or ENTER to activate this link"
 msgstr "Tryk Mellemrum eller Enter for at aktivere dette link"
 
 #. Translators: Help message for working with tree view items.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:37
 msgid ""
 "Use the up and down arrow keys to select the items. Use left arrow to "
 "collapse and right arrow to expand"
@@ -115,7 +99,6 @@ msgstr ""
 "og venstre-pil for at folde sammen"
 
 #. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:39
 msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
 "for next tab and control+shift+tab for previous tab"
@@ -125,7 +108,6 @@ msgstr ""
 "til det forrige"
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:41
 msgid ""
 "Use the left and down arrow keys to decrease and up and right arrow keys to "
 "increase the value in this slider. Use page up and page down to increase or "
@@ -138,7 +120,6 @@ msgstr ""
 "maximum eller minimum"
 
 #. Translators: Help message for navigating tables.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:43
 msgid ""
 "Press control, alt and arrow keys together to move between rows and columns"
 msgstr ""
@@ -146,13 +127,11 @@ msgstr ""
 "kolonner"
 
 #. Translators: Help message for navigating table cells.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:45
 msgid "Press control, alt and arrow keys together to move between table cells"
 msgstr ""
 "Tryk på Kontrol, alt og piletaster samtidig for at flytte mellem tabelceller"
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:47
 msgid ""
 "Use the arrow keys or object navigation commands to move through the document"
 msgstr ""
@@ -160,7 +139,6 @@ msgstr ""
 "dokumentet"
 
 #. Translators: Help message for terminal windows such as command prompt.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:49
 msgid ""
 "Type commands in the terminal window and use review cursor commands to read "
 "the output"
@@ -170,7 +148,6 @@ msgstr ""
 
 #. 200: Virtual Buffer.
 #. Translators: Help message for radio buttons while in browse mode.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:53
 msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
 "ENTER key"
@@ -179,7 +156,6 @@ msgstr ""
 "+Mellemrum eller Enter\v"
 
 #. Translators: Help message for edit fields while in browse mode.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:55
 msgid ""
 "To type text into this edit field, switch to focus mode by pressing NVDA"
 "+SPACE or ENTER key"
@@ -188,7 +164,6 @@ msgstr ""
 "trykke NVDA+Mellemrum eller Enter\v"
 
 #. Translators: Help message for combo boxes in browse mode.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:57
 msgid ""
 "To select an item in the combo box, switch to focus mode by pressing NVDA"
 "+SPACE or ENTER key"
@@ -197,7 +172,6 @@ msgstr ""
 "NVDA+Mellemrum eller Enter\v"
 
 #. Translators: Help message for reading webpages.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:59
 msgid ""
 "Use the browse mode and quick navigation commands to read through the webpage"
 msgstr "Brug Browse-tilstand og hurtignavigationstaster til at læse web-siden"
@@ -205,18 +179,15 @@ msgstr "Brug Browse-tilstand og hurtignavigationstaster til at læse web-siden"
 #. App-specific case 1: AppeModule for app is present.
 #. 300: Explorer (to deal with specific cases.
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:65
 msgid "Use the arrow keys to move between start screen tiles"
 msgstr "Brug piletasterne for at flytte mellem fliser på startskærmen\v"
 
 #. 400: Microsoft powerpoint (powerpnt):
 #. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:69
 msgid "Use up and down arrow keys to move between slides"
 msgstr "Brug Pil-op og Pil-ned for at flytte mellem dias\v"
 
 #. Translators: Help message for working with slide shows.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:71
 msgid ""
 "Press SPACE or BACKSPACE to move between slides in the slide show. To end "
 "the slide show, press escape"
@@ -227,13 +198,11 @@ msgstr ""
 #. App-specific case 2: AppeModule for app is not present (use processes).
 #. -300: Excel.
 #. Translators: Help message for moving between Excel spreadsheet cells.
-#: addon/globalPlugins/controlUsageAssistant/ctrltypelist.py:77
 msgid "Use the arrow keys to move between spreadsheet cells"
 msgstr "Brug piletasterne for at flytte mellem celler i regnearket\v"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
-#: buildVars.py:13
 msgid ""
 "Control Usage Assistant - get brief help on interacting with the focused "
 "control"
@@ -243,7 +212,6 @@ msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
-#: buildVars.py:16
 msgid ""
 "Allows you to find out how to interact with the focused control, useful for "
 "new computer users new to Windows and to NvDA.\n"
