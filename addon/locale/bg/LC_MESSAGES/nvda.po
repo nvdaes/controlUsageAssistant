@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Zahari Yurukov <zahari.yurukov@gmail.com>, 2013, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 'controlUsageAssistant' '1.0Beta1'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
+"POT-Creation-Date: 2013-05-10 04:50-0700\n"
+"PO-Revision-Date: 2016-04-07 18:13+0200\n"
+"Last-Translator: Zahari Yurukov <zahari.yurukov@gmail.com>\n"
+"Language-Team: Български <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 1.6.11\n"
+
+#. Script category.
+#. Translators: Input gesture category for Control Usage Assistant add-on.
+msgid "Control Usage Assistant"
+msgstr "Control Usage Assistant"
+
+#. Translators: Input help message for obtain control help command.
+msgid "Presents a short message on how to interact with the focused control."
+msgstr ""
+"Предоставя кратко съобщение за начина, по който може да си взаимодействате с "
+"елемента на фокус."
+
+#. Translators: Message presented when there is no help message for the focused control.
+msgid "No help for this control"
+msgstr "Няма помощна информация за този елемент"
+
+#. Translators: Additional message when working with forms in focus mode.
+msgid ". To switch to browse mode, press NVDA+SPACE or escape key"
+msgstr ""
+". За да преминете в режим на разглеждане, натиснете NVDA+Интервал или "
+"клавиша escape"
+
+#. Translators: Help message for reading a webpage while in focus mode.
+msgid ""
+"To use browse mode and quick navigation keys to read the webpage, switch to "
+"browse mode by pressing NVDA+SPACE"
+msgstr ""
+"За да използвате стрелките и клавишите за бърза навигация, за да разглеждате "
+"страницата, преминете в режим на разглеждане като натиснете NVDA+Интервал"
+
+#. Default: universal across apps and states.
+#. Translators: Help message for a checkbox.
+msgid "Press space to check or uncheck the checkbox"
+msgstr ""
+"Натиснете интервал, за да поставите или премахнете отметка в полето за "
+"отметка"
+
+#. Translators: Help message for working with radio buttons.
+msgid "Use the arrow keys to choose a radio button"
+msgstr "Използвайте стрелките, за да изберете радио бутон"
+
+#. Translators: Help message for a list box.
+msgid "Use the arrow keys to read this box"
+msgstr "Използвайте стрелките, за да прочетете текста в това поле"
+
+#. Translators: Help message for an edit field.
+msgid "Type text here"
+msgstr "Тук може да въведете текст"
+
+#. Translators: Help message for a read-only control.
+msgid "Use the text navigation commands to read text"
+msgstr "Използвайте командите за преглед на текста, за да прочетете текста"
+
+#. Translators: Help message for a button.
+msgid "Press SPACE or ENTER to activate this button"
+msgstr "Натиснете Интервал или Enter, за да активирате този бутон"
+
+#. Translators: Help message for menu items.
+msgid "Use the arrow keys to move between the menu items"
+msgstr "Използвайте стрелките, за да се придвижвате между елементите на менюто"
+
+#. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
+msgid "Use up and down arrow keys to move through options in the pop-up menu"
+msgstr ""
+"Използвайте стрелките нагоре и надолу, за да се придвижите между различните "
+"опции в изскачащото меню"
+
+#. Translators: Help message for a combo box.
+msgid ""
+"Use the arrow keys to move among choices in the combo box until the desired "
+"option is found"
+msgstr ""
+"Използвайте стрелките, за да се придвижите между елементите на падащия "
+"списък, докато намерите желаната опция"
+
+#. Translators: Help message for a list view.
+msgid "Use the arrow keys to move to the next or previous item in this list"
+msgstr ""
+"Използвайте стрелките, за да се придвижите до предишен или следващ елемент в "
+"този списък"
+
+#. Translators: Help message for activating links.
+msgid "Press SPACE or ENTER to activate this link"
+msgstr "Натиснете Интервал или Enter, за да активирате тази връзка"
+
+#. Translators: Help message for working with tree view items.
+msgid ""
+"Use the up and down arrow keys to select the items. Use left arrow to "
+"collapse and right arrow to expand"
+msgstr ""
+"Използвайте стрелките нагоре и надолу, за да изберете елемент. Използвайте "
+"стрелка наляво, за да свиете и стрелка надясно, за да разгънете избрания "
+"елемент"
+
+#. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
+msgid ""
+"Use the left and right arrow keys to move between tabs, or press control+tab "
+"for next tab and control+shift+tab for previous tab"
+msgstr ""
+"Използвайте стрелките наляво и надясно, за да се придвижите между "
+"страниците, или натиснете control+tab, за да преминете към следваща страница "
+"и control+shift+tab, за да преминете към предишна страница"
+
+#. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
+msgid ""
+"Use the left and down arrow keys to decrease and up and right arrow keys to "
+"increase the value in this slider. Use page up and page down to increase or "
+"decrease in larger values, and press home and end keys to select maximum and "
+"minimum value"
+msgstr ""
+"Използвайте стрелките наляво и надолу, за да намалите, и нагоре и надясно, "
+"за да увеличите стойността на този плъзгач. Използвайте Page Up и Page Down, "
+"за да увеличите или намалите стойността с по-голяма стъпка, или натиснете "
+"клавишите Home и End, за да изберете максималната или минималната стойност"
+
+#. Translators: Help message for navigating tables.
+msgid ""
+"Press control, alt and arrow keys together to move between rows and columns"
+msgstr ""
+"Натиснете control, alt и стрелките заедно, за да се придвижите между "
+"редовете и колоните"
+
+#. Translators: Help message for navigating table cells.
+msgid "Press control, alt and arrow keys together to move between table cells"
+msgstr ""
+"Натиснете control, alt и стрелките заедно, за да се придвижите между "
+"клетките в таблицата"
+
+#. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
+msgid ""
+"Use the arrow keys or object navigation commands to move through the document"
+msgstr ""
+"Използвайте стрелките или командите за обектна навигация, за да се "
+"придвижите в документа"
+
+#. Translators: Help message for terminal windows such as command prompt.
+msgid ""
+"Type commands in the terminal window and use review cursor commands to read "
+"the output"
+msgstr ""
+"Въведете команди в прозореца на терминала и използвайте командите за преглед "
+"на текст, за да прочетете отговорите от изпълнението им"
+
+#. 200: Virtual Buffer.
+#. Translators: Help message for radio buttons while in browse mode.
+msgid ""
+"To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
+"ENTER key"
+msgstr ""
+"За да изберете радио бутон, преминете в режим на фокус като натиснете NVDA"
+"+SPACE или клавиша Enter"
+
+#. Translators: Help message for edit fields while in browse mode.
+msgid ""
+"To type text into this edit field, switch to focus mode by pressing NVDA"
+"+SPACE or ENTER key"
+msgstr ""
+"За да въведете текст в това поле за писане, преминете в режим на фокус като "
+"натиснете NVDA+Интервал или клавиша Enter"
+
+#. Translators: Help message for combo boxes in browse mode.
+msgid ""
+"To select an item in the combo box, switch to focus mode by pressing NVDA"
+"+SPACE or ENTER key"
+msgstr ""
+"За да изберете елемент от падащия списък, преминете в режим на фокус като "
+"натиснете NVDA+Интервал или клавиша Enter"
+
+#. Translators: Help message for reading webpages.
+msgid ""
+"Use the browse mode and quick navigation commands to read through the webpage"
+msgstr ""
+"Използвайте стрелките и командите за бърза навигация, за да прочетете "
+"страницата"
+
+#. App-specific case 1: AppeModule for app is present.
+#. 300: Explorer (to deal with specific cases.
+#. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
+msgid "Use the arrow keys to move between start screen tiles"
+msgstr ""
+"Използвайте стрелките, за да се придвижите между плочките на стартовия екран"
+
+#. 400: Microsoft powerpoint (powerpnt):
+#. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
+msgid "Use up and down arrow keys to move between slides"
+msgstr ""
+"Използвайте стрелките нагоре и надолу, за да се придвижите между слайдовете"
+
+#. Translators: Help message for working with slide shows.
+msgid ""
+"Press SPACE or BACKSPACE to move between slides in the slide show. To end "
+"the slide show, press escape"
+msgstr ""
+"Натиснете Интервал или Backspace, за да се придвижите към предишен или "
+"следващ слайд във визуализацията на слайдовете. За да прекратите "
+"визуализацията, натиснете Escape"
+
+#. App-specific case 2: AppeModule for app is not present (use processes).
+#. -300: Excel.
+#. Translators: Help message for moving between Excel spreadsheet cells.
+msgid "Use the arrow keys to move between spreadsheet cells"
+msgstr ""
+"Използвайте стрелките, за да се придвижите между отделните клетки в работния "
+"лист"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+msgid ""
+"Control Usage Assistant - get brief help on interacting with the focused "
+"control"
+msgstr ""
+"Асистент за работа с контроли - предоставя кратки помощни съобщения за "
+"работа с елемента на фокус "
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+msgid ""
+"Allows you to find out how to interact with the focused control, useful for "
+"new computer users new to Windows and to NvDA.\n"
+"\tPress NvDA+H to get a short help message on using the focused control, "
+"such as moving through tables, checkboxes and so on."
+msgstr ""
+"Позволява ви да разберете как да си взаимодействате с елемента на фокус, "
+"което е полезно за нови потребители, както на Windows, така и на NvDA.\n"
+"\tНатиснете NvDA+H, за да получите кратки инструкции за използването на "
+"елемента на фокус, например придвижване в таблици, полета за отметка и т.н."

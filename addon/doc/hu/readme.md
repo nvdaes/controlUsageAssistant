@@ -4,7 +4,7 @@
 * Letöltés: [2.1-es verzió][1]
 
 A kiegészítő segítségével információt kaphat a kurzor alatt lévő elemről
-(pl. hogyan jelölheti be a jelölőnégyzetet, stb). Használathoz csak nyomja
+(pl. hogyan jelölheti be a jelölőnégyzetet, stb). Használatához csak nyomja
 meg az NVDA+h billentyűparancsot.
 
 ## 2.1 ##
@@ -14,12 +14,11 @@ meg az NVDA+h billentyűparancsot.
 
 ## 2.01.0 ##
 
-* Több súgóüzenet is hozzáadásra került, beleértve a terminál ablakhoz
-  tartozókat.
-* Több a munkát elősegítő programhoz rendeltek hozzá súgóüzenetet, úgy mint
+* Több súgóüzenetet is hozzáadtak, beleértve a terminál ablakhoz tartozókat.
+* Több, a munkát elősegítő programhoz rendeltek hozzá súgóüzenetet, úgy mint
   a Microsoft Excel, Powerpoint és Windows 8 kezdőképernyő.
-* Súgó üzenetek hozzáadása az űrlapokkal dolgozó alkalmazásokhoz (Internet
-  explorer, Adobe reader, Mozilla Firefox, stb).
+* Súgó üzeneteket adtak hozzá az űrlapokkal dolgozó alkalmazásokhoz
+  (Internet explorer, Adobe reader, Mozilla Firefox, stb).
 * Új nyelv: Dán
 
 

@@ -18,6 +18,11 @@ msgstr ""
 "X-Generator: Poedit 1.5.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
+#. Script category.
+#. Translators: Input gesture category for Control Usage Assistant add-on.
+msgid "Control Usage Assistant"
+msgstr ""
+
 #. Translators: Input help message for obtain control help command.
 msgid "Presents a short message on how to interact with the focused control."
 msgstr ""

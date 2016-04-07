@@ -3,10 +3,10 @@
 * Tekijä: Joseph Lee
 * Lataa: [versio 2.1][1]
 
-Tämän lisäosan avulla on mahdollista opiskella eri tapoja, joilla voidaan
-olla vuorovaikutuksessa aktiivisen säätimen kanssa.  Paina NVDA+H
-kuullaksesi lyhyen ohjeen aktiivisen säätimen käytöstä, kuten
-esim. valintaruudun valitsemisesta, tekstin muokkaamisesta jne.
+Tämän lisäosan avulla on mahdollista selvittää, miten aktiivisen säätimen
+kanssa voidaan olla vuorovaikutuksessa.  Paina NVDA+H kuullaksesi lyhyen
+ohjeen aktiivisen säätimen käytöstä, kuten esim. valintaruudun
+valitsemisesta, tekstin muokkaamisesta jne.
 
 ## 2.1 ##
 
@@ -16,7 +16,7 @@ esim. valintaruudun valitsemisesta, tekstin muokkaamisesta jne.
 ## 2.0 ##
 
 * Lisätty ohjeviestejä useammille säätimille, pääteikkunat
-  (esim. komentokehote) mukaanlukien.
+  (esim. komentokehote) mukaan lukien.
 * Lisätty ohjeviestejä sovellusten, kuten Microsoft Excelin, Powerpointin
   sekä Windows 8:n aloitusnäytön tietyille osille.
 * Lisätty ohjeviestejä lomakkeiden käyttämiseen asiakirjoissa sekä selaus-

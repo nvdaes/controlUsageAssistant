@@ -3,9 +3,9 @@
 * Autor: Joseph Lee
 * Descarga: [versión 2.1][1]
 
-Utiliza este complemento para alviscar como interactuar co control
+Utiliza este complemento para atopar como interactuar co control
 enfocado. Preme NVDA + H para obter unha mensaxe curta de axuda na
-interacción co control enfocado, como cas casiñas de verificación, campos de
+interacción co control enfocado, como coas caixas de verificación, campos de
 edición e así con outros.
 
 ## 2.1 ##
