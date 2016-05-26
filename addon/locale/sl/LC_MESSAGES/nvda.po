@@ -8,10 +8,9 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-10-30 07:49+0100\n"
-"Last-Translator: Jožef Gregorc <jozko.gregorc[@]guest.arnes.si\n"
+"PO-Revision-Date: 2016-05-22 11:44+0100\n"
+"Last-Translator: Jožef Gregorc <jozko.gregorc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,7 +19,7 @@ msgstr ""
 #. Script category.
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 msgid "Control Usage Assistant"
-msgstr ""
+msgstr "Pomočnik za Uporabo Kontrolnikov"
 
 # lahko tudi nadzornikom
 #. Translators: Input help message for obtain control help command.
@@ -43,7 +42,7 @@ msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
 msgstr ""
-"Za način dela v brskalniškem delovanju in uporabo hitrih tipk za krmarjenje "
+"Za način dela v brskalniškem delovanju in uporabo hitrih tipk za krmiljenje "
 "kot pomoč pri branju spletne strani pritisnite NVDA+preslednica za prehod v "
 "brskalniško delovanje"
 
@@ -54,7 +53,7 @@ msgstr "Pritisnite Preslednico za izbor ali preklic v izbirniku"
 
 #. Translators: Help message for working with radio buttons.
 msgid "Use the arrow keys to choose a radio button"
-msgstr "Uporabite puščice, ko izbirate radiogumb"
+msgstr "Uporabite puščice, ko izbirate radijski gumb"
 
 #. Translators: Help message for a list box.
 msgid "Use the arrow keys to read this box"
@@ -66,7 +65,7 @@ msgstr "Tukaj natipkajte besedilo"
 
 #. Translators: Help message for a read-only control.
 msgid "Use the text navigation commands to read text"
-msgstr "Uporabite ukaze namenjene krmarjenju po besedilu za branje besedila"
+msgstr "Uporabite ukaze namenjene krmiljenju po besedilu za branje besedila"
 
 #. Translators: Help message for a button.
 msgid "Press SPACE or ENTER to activate this button"
@@ -74,7 +73,7 @@ msgstr "Uporabite Preslednico ali Enter za sprožitev tega gumba"
 
 #. Translators: Help message for menu items.
 msgid "Use the arrow keys to move between the menu items"
-msgstr "Uporabite puščice za premik med elementi menija"
+msgstr "Uporabite puščice za premik med postavkami v meniju"
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
 msgid "Use up and down arrow keys to move through options in the pop-up menu"
@@ -91,7 +90,7 @@ msgstr ""
 #. Translators: Help message for a list view.
 msgid "Use the arrow keys to move to the next or previous item in this list"
 msgstr ""
-"Uporabite puščice za premik na naslednji ali prejšnji element na izbranem "
+"Uporabite puščice za premik na naslednjo ali prejšnjo postavko na izbranem "
 "seznamu"
 
 #. Translators: Help message for activating links.
@@ -103,7 +102,7 @@ msgid ""
 "Use the up and down arrow keys to select the items. Use left arrow to "
 "collapse and right arrow to expand"
 msgstr ""
-"Uporabite puščici gor in dol za označbo elementov. Uporabite puščico levo za "
+"Uporabite puščici gor in dol za označbo postavk. Uporabite puščico levo za "
 "to, da stisnete in puščico desno, da razprete pogled"
 
 #. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
@@ -124,7 +123,7 @@ msgid ""
 msgstr ""
 "Uporabite puščici levo in dol za zmanjšanje in puščici gor in desno za "
 "povečanje vrednosti na tem drsniku. Uporabite stran gor in stran dol (pgup/"
-"pgdn) za preskok med vrednostmi in za skok na prvo ali zadnjo vrednost "
+"pgdn) za večji preskok med vrednostmi in za skok na prvo ali zadnjo vrednost "
 "pritisnite tipko home ali end"
 
 #. Translators: Help message for navigating tables.
@@ -142,7 +141,7 @@ msgstr ""
 msgid ""
 "Use the arrow keys or object navigation commands to move through the document"
 msgstr ""
-"Uporabite puščice ali tipke namenjene krmarjenju predmeta za premikanje po "
+"Uporabite puščice ali tipke namenjene krmiljenju predmeta za premikanje po "
 "dokumentu"
 
 #. Translators: Help message for terminal windows such as command prompt.
@@ -159,15 +158,15 @@ msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
 "ENTER key"
 msgstr ""
-"Za izbiro radiogumba pojdite v žariščno delovanje s pritiskom kombinacije "
-"NVDA+preslednica ali tipke ENTER"
+"Za izbiro radijskega gumba pojdite v delovanje žarišča s pritiskom "
+"kombinacije NVDA+preslednica ali tipke ENTER"
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
 "To type text into this edit field, switch to focus mode by pressing NVDA"
 "+SPACE or ENTER key"
 msgstr ""
-"Za vnos besedila v to vnosno polje, preklopite v žariščno delovanje s "
+"Za vnos besedila v to vnosno polje, preklopite v delovanje žarišča s "
 "kombinacijo NVDA+preslednica ali tipko ENTER"
 
 #. Translators: Help message for combo boxes in browse mode.
@@ -175,7 +174,7 @@ msgid ""
 "To select an item in the combo box, switch to focus mode by pressing NVDA"
 "+SPACE or ENTER key"
 msgstr ""
-"Za izbiro elementa v spustnem seznamu pojdite v žariščno delovanje s "
+"Za izbiro postavke v spustnem seznamu pojdite v žariščno delovanje s "
 "pritiskom kombinacije NVDA+preslednica ali tipke ENTER"
 
 #. Translators: Help message for reading webpages.
@@ -230,5 +229,5 @@ msgstr ""
 "Omogoča vam, da spoznate kako delati s kontrolnikom v žarišču. To je "
 "uporabno za tiste, ki ste novi v Oknih in v NVDA.\n"
 "\tPritisnite NvDA+H za to, da vam NVDA poda kratko sporočilo kako  delati s "
-"posameznim kontrolnikom kot je premikanje po tabelah, delo z izbirniki in "
+"posameznim kontrolnikom, kot je premikanje po tabelah, delo z izbirniki in "
 "druge možnosti."
