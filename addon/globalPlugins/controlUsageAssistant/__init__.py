@@ -1,49 +1,57 @@
 # Control Usage Assistant
 # A global plugin for NVDA
 # Author: Joseph Lee <joseph.lee22590@gmail.com>
-# Copyright 2013, released under GPL.
+# Copyright 2013-2017, released under GPL.
 
 # Press NVDA+H to hear (or read in braille) a sentence or two on interacting with a particular control.
 # Extension plan: ability to get context-sensitive help on NvDA options.
 
-# Import please:
-import globalPluginHandler # Basics of Global Plugin.
-import ui # For speaking and brailling help messages.
-import api # To fetch object properties.
-import controlTypes # The heart of this module.
-import ctrltypelist # The control types and help messages dictionary.
-from virtualBuffers import VirtualBuffer # Virtual buffer handling.
-import appModuleHandler # Apps.
-from appModules import powerpnt # App modules with special personalities such as Powerpoint where one needs to differentiate between slides and slide shows.
-import addonHandler # Addon basics.
-addonHandler.initTranslation() # Internationalization.
-#import tones # For debugging.
-from baseObject import ScriptableObject # Input Gestures categories.
+import globalPluginHandler
+import ui
+import api
+import controlTypes
+from virtualBuffers import VirtualBuffer
+import appModuleHandler
+from appModules import powerpnt
+import addonHandler
+addonHandler.initTranslation()
+import ctrltypelist
 
-# Init:
+# AppModule and process offsets: positive = appModule, negative = process.
+
+# App offsets: lookup the appModule.
+appOffsets={
+	"explorer":300,
+	"powerpnt":400
+	}
+
+# Process offsets: come here when we fail to obtain appModules.
+procOffsets={
+	"EXCEL.EXE":-300,
+	"AcroRd32.exe":-400 #This is a special case - although Adobe reader uses virtual buffer, it is not a webpage, hence different message should be given for PDF's.
+	}
+
+
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
-	
-	# Script category.
+
 	# Translators: Input gesture category for Control Usage Assistant add-on.
-	scrcat_CUA = _("Control Usage Assistant")
-	
+	scriptCategory = _("Control Usage Assistant")
+
 	# NVDA+H: Obtain usage help on a particular control.
 	# Depending on the type of control and its state(s), lookup a dictionary of control types and help messages.
 	# If the control is used differently in apps, then lookup the app entry and give the customized message.
-	def script_obtainControlHelp(self, gesture):
+	def script_controlHelp(self, gesture):
 		obj = api.getFocusObject()
 		# The prototype UI message, the actual processing is done below.
 		ui.message(_(self.getHelpMessage(obj)))
 	# Translators: Input help message for obtain control help command.
-	script_obtainControlHelp.__doc__=_("Presents a short message on how to interact with the focused control.")
-	script_obtainControlHelp.category = scrcat_CUA
-		
+	script_controlHelp.__doc__=_("Presents a short message on how to interact with the focused control.")
+
 	# GetMessageOffset: Obtain message offset based on appModule and/or processes list.
 	# Return value: positive = appModule, negative = processes, 0 = default.
 	def getMessageOffset(self, curObj):
-		from apphelplist import appOffsets, procOffsets # To be used in the lookup only.
-		curApp = curObj.appModule.appName # Detect which app we're running so to give custom help messages for controls.
-		curProc = appModuleHandler.getAppNameFromProcessID(curObj.processID,True) # Borrowed from NVDA core code, used when appModule return fails.
+		curApp = curObj.appModule.appName
+		curProc = appModuleHandler.getAppNameFromProcessID(curObj.processID,True)
 		# Lookup setup:
 		if curApp in appOffsets:
 			# If appModule is found:
@@ -57,19 +65,18 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		else:
 			# Found nothing, so return zero to fall back to default entries.
 			return 0
-					
+
 	# GetHelpMessage: The actual function behind the script above.
 	def getHelpMessage(self, curObj):
 		# Present help messages based on role constant, state(s) and focused app.
 		msg = "" # A string (initially empty) to hold the message; needed to work better with braille.
-		offset = self.getMessageOffset(curObj) # offset = lookup offset, the base for our lookup index.
-		if offset >= 0: # We found an appModule. In case of 0, check object state(s).
+		offset = self.getMessageOffset(curObj)
+		if offset >= 0:
 			index = offset + curObj.role
-		else: # No appModule, so work with processes.
+		else:
 			index = offset - curObj.role
 		# In case offset is zero, then test for state(s).
 		curState = curObj._get_states()
-		# Let the index lookup begin.
 		# A number of specific cases follows:
 		# PowerPoint: differentiate between slide list and slide show.
 		if isinstance(curObj, powerpnt.SlideShowWindow):
@@ -93,10 +100,11 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				# Translators: Message presented when there is no help message for the focused control.
 				msg = _("No help for this control")
 		return msg
-	
+
 	__gestures={
 		"KB:NVDA+H":"obtainControlHelp",
 	}
+
 	# Any exceptions to lookup keys goes here.
 	# First case: virtual buffer control exceptions.
 	VBufForms={206, 208, 213} # Forms encountered on webpages; add custom message form them in browse mode.
@@ -118,6 +126,3 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		else:
 			VBufmsg = ctrltypelist.helpMessages[obj.role]
 		return VBufmsg
-	
-	
-	# End.
