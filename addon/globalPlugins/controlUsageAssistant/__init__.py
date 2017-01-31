@@ -102,7 +102,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		return msg
 
 	__gestures={
-		"KB:NVDA+H":"obtainControlHelp",
+		"KB:NVDA+H":"controlHelp",
 	}
 
 	# Any exceptions to lookup keys goes here.
