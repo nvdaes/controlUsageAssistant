@@ -1,7 +1,7 @@
 # Control Usage Assistant #
 
 * Autore: Joseph Lee
-* Download: [version 2.1][1]
+* Download: [version 2.4][1]
 
 Utilizzare questo componente aggiuntivo per scoprire come interagire con il
 controllo evidenziato. Premere NVDA+h per ascoltare un breve suggerimento,

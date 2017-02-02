@@ -1,7 +1,7 @@
 # Control Usage Assistant #
 
 * 作者： Joseph Lee
-* 下载： [版本 2.1][1]
+* Download: [version 2.4][1]
 
 使用此插件来查看如何与焦点所在的控件交互。按下“NVDA加H”获取一个与此控件交互的简短的帮助信息。如编辑框、复选框等。
 

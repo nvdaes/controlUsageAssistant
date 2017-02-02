@@ -1,7 +1,7 @@
 # Kontrol Kullanım Asistanı #
 
 * Yazar: Joseph Lee
-* İndir: [versiyon 2.1][1]
+* Download: [version 2.4][1]
 
 Mevcut odak hakkında kısa bir yardım mesajı dinlemek için bu eklentiyi
 kullanın.  Onay kutuları, yazı alanları vb Odaktaki kontrolle nasıl

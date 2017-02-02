@@ -1,7 +1,7 @@
 # Pomagač korištenja kontrole #
 
 * Autor: Joseph Lee
-* Preuzimanje: [Inačica 2.1][1]
+* Download: [version 2.4][1]
 
 Koristite ovaj dodatak kako biste doznali kako koristiti fokusiranu
 kontrolu.  Pritisnite NVDA+H kako biste dobili kratku poruku o tome kako

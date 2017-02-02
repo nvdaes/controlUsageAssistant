@@ -1,7 +1,7 @@
-# Asistentul controlului utilizeării #
+# Asistentul utilizării controlului #
 
 * Autor: Joseph Lee
-* Descărcați [versiunea 2.1][1]
+* Descărcați: [versiunea 2.4][1]
 
 Folosiți acest add-on pentru a descoperi cum să interacționați cu controlul
 focalizat.  Apăsați NVDA+H pentru a obține un mesaj scurt de ajutor în

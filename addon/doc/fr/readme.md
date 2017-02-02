@@ -1,7 +1,7 @@
 # Control Usage Assistant #
 
 * Autheur : Joseph Lee
-* Télécharger : [version 2.1][1]
+* Télécharger : [version 2.4][1]
 
 Utilisez ce module complémentaire pour savoir comment interagir avec
 l'élément actif. Appuyez sur NVDA+H sur l'objet sur lequel vous souhaitez

@@ -1,7 +1,7 @@
 # Control Usage Assistant #
 
 * Autor: Joseph Lee
-* Descarga: [versión 2.1][1]
+* Download: [version 2.4][1]
 
 Utiliza este complemento para atopar como interactuar co control
 enfocado. Preme NVDA + H para obter unha mensaxe curta de axuda na

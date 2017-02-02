@@ -1,7 +1,7 @@
 # Control Usage Assistant #
 
 * Autor: Joseph Lee
-* Preuzimanje: [version 2.1][1]
+* Download: [version 2.4][1]
 
 Koristite ovaj dodatak da biste dobili pomoć oko toga kako možete da
 koristite određenu vrstu kontrola. Pritisnite NVDA+H da biste čuli kratku

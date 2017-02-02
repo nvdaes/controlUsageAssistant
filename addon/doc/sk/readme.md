@@ -1,7 +1,7 @@
 # Pomoc pre prácu s prvkami #
 
 * Autor: Joseph Lee
-* Stiahnuť: [verzia 2.1][1]
+* Download: [version 2.4][1]
 
 Doplnok poskytuje pomoc pre aktuálne zameraný prvok. Aby ste počuli pomocné
 hlásenie pre prvky, akými sú napríklad začiarkavacie alebo editačné polia ,

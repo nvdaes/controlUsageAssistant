@@ -1,7 +1,7 @@
 # Control Usage Assistant #
 
 * Forfatter: Joseph Lee
-* Download: [version 2.1][1]
+* Download: [version 2.4][1]
 
 Brug dette tilføjelsesprogram til at finde ud af, hvordan du kan bruge det
 felt, der er i fokus. Tryk NVDA+h for at få en kort hjælpetekst om, hvordan

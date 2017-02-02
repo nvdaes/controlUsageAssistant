@@ -1,7 +1,7 @@
 # Asistente para uso de controles #
 
 * Autor: Joseph Lee
-* Baixe: [versão 2.1][1]
+* Download: [version 2.4][1]
 
 Use este complemento para descobrir como interagir com o controle em foco.
 Pressione NVDA+H para obter uma mensagem curta de ajuda sobre como interagir

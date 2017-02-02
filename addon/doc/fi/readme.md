@@ -1,7 +1,7 @@
 # Säätimen käyttöapu #
 
 * Tekijä: Joseph Lee
-* Lataa: [versio 2.1][1]
+* Lataa: [versio 2.4][1]
 
 Tämän lisäosan avulla on mahdollista selvittää, miten aktiivisen säätimen
 kanssa voidaan olla vuorovaikutuksessa.  Paina NVDA+H kuullaksesi lyhyen

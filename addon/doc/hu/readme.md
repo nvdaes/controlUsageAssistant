@@ -1,7 +1,7 @@
 # Tájékoztató üzemmód #
 
 * Készítő: Joseph Lee
-* A [2.1-es verzió][1] letöltése
+* Download: [version 2.4][1]
 
 A kiegészítő segítségével információt kaphat a kurzor alatt lévő elemről
 (pl. hogyan jelölheti be a jelölőnégyzetet, stb). Használatához csak nyomja

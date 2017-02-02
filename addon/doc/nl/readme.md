@@ -1,7 +1,7 @@
 # Assistent voor besturingselementgebruik #
 
 * Auteur: Joseph Lee
-* Download: [versie 2.1][1]
+* Download: [version 2.4][1]
 
 Gebruik deze add-on om uit te vinden hoe het besturingselement met focus
 bediendmoet worden. Druk op NVDA+h om een korte helptekst te krijgen over

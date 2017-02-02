@@ -1,7 +1,7 @@
 # PomočnikZaUporaboKontrolnikov #
 
 * Avtor: Joseph Lee
-* Prenesi: [različico 2.1][1]
+* Download: [version 2.4][1]
 
 Uporabite ta dodatek kot pomoč pri ugotavljanju kako delati s kontrolnikom v
 žarišču.  Pritisnite NvDA+H, da slišite kratko sporočilo pomoči kako
