@@ -1,109 +1,108 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the controlUsageAssistant package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
-"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2017-04-20 13:13+0200\n"
-"Last-Translator: fatma\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: ar\n"
+"Project-Id-Version: controlUsageAssistant 2.4\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2017-02-03 03:05+1000\n"
+"PO-Revision-Date: 2017-04-27 13:33+0700\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"Last-Translator: Dang Hoai Phuc <danghoaiphuc@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.11\n"
 
-#. Script category.
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 msgid "Control Usage Assistant"
-msgstr "Control Usage Assistant"
+msgstr "Trợ Giúp Sử Dụng Điều Khiển"
 
 #. Translators: Input help message for obtain control help command.
 msgid "Presents a short message on how to interact with the focused control."
-msgstr "عرض رسالة قصيرة عن كيفية التعامل مع الكائن الحالي"
+msgstr "Thông báo cách tương tác với điều khiển có focus.."
 
 #. Translators: Message presented when there is no help message for the focused control.
 msgid "No help for this control"
-msgstr "لا توجد رسالة مساعدة عن كيفية التعامل مع هذا الكائن"
+msgstr "Không có giúp đỡ cho điều khiển này"
 
 #. Translators: Additional message when working with forms in focus mode.
 msgid ". To switch to browse mode, press NVDA+SPACE or escape key"
-msgstr ". للانتقال إلى نمط التصفح, اضغط NVDA+SPACE أو مفتاح escape"
+msgstr "Để chuyển qua chế độ duyệt, nhấn NVDA+SPACE hoặc phím escape"
 
 #. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
 msgstr ""
-"لاستخدام نمط التصفح, الذي يمكنك من قراءة الصفحة باستخدام أحرف الحركة "
-"السريعة, قم بالضغط على NVDA+SPACE"
+"Để sử dụng các phím di chuyển nhanh, hãy chuyển qua chế độ duyệt bằng cách "
+"nhấn NVDA+space."
 
 #. Default: universal across apps and states.
 #. Translators: Help message for a checkbox.
 msgid "Press space to check or uncheck the checkbox"
-msgstr "اضغط مسطرة المسافة لتحديد أو عدم تحديد المربع"
+msgstr "Nhấn khoảng trắng để chọn hoặc bỏ chọn hộp kiểm"
 
 #. Translators: Help message for working with radio buttons.
 msgid "Use the arrow keys to choose a radio button"
-msgstr "استخدم الأسهم لاختيار أحد أزرار "
+msgstr "Dùng mũi tên để chọn radio"
 
 #. Translators: Help message for a list box.
 msgid "Use the arrow keys to read this box"
-msgstr "استخدم الأسهم لقراءة محتوى المربع"
+msgstr "Dùng mũi tên để đọc hộp này"
 
 #. Translators: Help message for an edit field.
 msgid "Type text here"
-msgstr "اكتب نص"
+msgstr "Nhập văn bản tại đây"
 
 #. Translators: Help message for a read-only control.
 msgid "Use the text navigation commands to read text"
-msgstr "استخدم مفاتيح قراءة النص"
+msgstr "Dùng các lệnh di chuyển văn bản để đọc nội dung"
 
 #. Translators: Help message for a button.
 msgid "Press SPACE or ENTER to activate this button"
-msgstr "اضغط مسطرة المسافة أو مفتاح الإدخال للتنشيط"
+msgstr "Nhấn khoảng trắng hoặc enter để kích hoạt nút này"
 
 #. Translators: Help message for menu items.
 msgid "Use the arrow keys to move between the menu items"
-msgstr "استخدم الأسهم للحركة بين عناصر القائمة"
+msgstr "dùng mũi tên để duyệt qua các mục trong thực đơn"
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
 msgid "Use up and down arrow keys to move through options in the pop-up menu"
-msgstr "استخدم الأسهم للحركة بين عناصر القائمة المختصرة"
+msgstr "Dùng mũi tên lên/xuống để duyệt các mục trong thực đơn được xổ ra"
 
 #. Translators: Help message for a combo box.
 msgid ""
 "Use the arrow keys to move among choices in the combo box until the desired "
 "option is found"
-msgstr "استخدم الأسهم للتحرك بين عناصر صندوق الخيارات حتى تجد الاختيار المناسب"
+msgstr "Dùng mũi tên duyệt qua các chọn lựa"
 
 #. Translators: Help message for a list view.
 msgid "Use the arrow keys to move to the next or previous item in this list"
-msgstr "استخدم الأسهم للتحرك للعنصر التالي أو السابق بالقائمة"
+msgstr "Dùng mũi tên để duyệt qua các mục trong danh sách"
 
 #. Translators: Help message for activating links.
 msgid "Press SPACE or ENTER to activate this link"
-msgstr "اضغط مسطرة المسافة أو مفتاح الإدخال لتنشيط الرابط"
+msgstr "nhấn khoảng trắng hoặc enter để kích hoạt liên kết"
 
 #. Translators: Help message for working with tree view items.
 msgid ""
 "Use the up and down arrow keys to select the items. Use left arrow to "
 "collapse and right arrow to expand"
 msgstr ""
-"استخدم السهم الأعلى والأسفل لتحديد العناصر, واستخدم السهم الأيسرللإغلاق "
-"والسهم الأيمن للإغلاق"
+"Dùng mũi tên lên/xuống để duyệt các mục. Dùng mũi tên trái để thu nhỏ hoặc "
+"mũi tên phải để mở rộng."
 
 #. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
 msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
 "for next tab and control+shift+tab for previous tab"
 msgstr ""
-"استخدم السهم الأيمن والأيسر للحركة بين التبويبات, أو استخدم ctrl+tab للتحرك "
-"للتبويب التالي و ctrl+shift+tab للتحرك للتبويب السابق"
+"Dùng mũi tên trái/phải để chuyển qua lại giữa các tab. Nhấn control+tab "
+"chuyển đến tab kế hoặc control+shift+tab để chuyển về tab trước đó"
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
 msgid ""
@@ -112,30 +111,31 @@ msgid ""
 "decrease in larger values, and press home and end keys to select maximum and "
 "minimum value"
 msgstr ""
-"استخدم السهم الأيسر والأعلى لخفض القيمة بشريط السحب واستخدم السهم الأيمن "
-"والأسفل لرفع القيمة. استخدم مفاتيح صفحة لأعلى وصفحة لأسفل لرفع وخفض القيم "
-"الكبيرة, واضغط مفتاح البداية والنهاية للوصول للحد الأدنى والأقصى للقيمة."
+"Dùng mũi tên trái/mũi tên xuống để giảm và mũi tên phải/lên để tăng giá trị "
+"trên thanh trượt. Nhấn phím trang trước hoặc trang sau để tăng/giảm một "
+"khoảng giá trị lớn. VÀ nhấn đầu hoặc cuối để chọn giá trị cao hoặc thấp tối "
+"đa."
 
 #. Translators: Help message for navigating tables.
 msgid ""
 "Press control, alt and arrow keys together to move between rows and columns"
-msgstr "اضغط مفاتيح ctrl+alt + مفاتيح الأسهم معا للتحرك بين الصفوف والأعمدة"
+msgstr "Nhấn control+alt+mũi tên để di chuyển giữa các dòng và cột."
 
 #. Translators: Help message for navigating table cells.
 msgid "Press control, alt and arrow keys together to move between table cells"
-msgstr "اضغط مفاتيح ctrl+alt + مفاتيح الأسهم معا للتحرك بين خلايا الجدول"
+msgstr "Nhấn control+alt+mũi tên để di chuyển giữa các ô trong bảng"
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
 msgid ""
 "Use the arrow keys or object navigation commands to move through the document"
-msgstr "استخدم مفاتيح الأسهم أو مفاتيح الحركة حول الكائن لتصفح المستند"
+msgstr "Dùng mũi tên hoặc các lệnh di chuyển đối tượng để duyệt tài liệu"
 
 #. Translators: Help message for terminal windows such as command prompt.
 msgid ""
 "Type commands in the terminal window and use review cursor commands to read "
 "the output"
 msgstr ""
-"اكتب الأوامر بنافذة الأوامر النصية واستخدم مؤشر الاستعراض لقراءة النتيجة"
+"Gõ lệnh vào cửa sổ lệnh và dùng các lệnh con trỏ duyệt để đọc thông tin"
 
 #. 200: Virtual Buffer.
 #. Translators: Help message for radio buttons while in browse mode.
@@ -143,54 +143,54 @@ msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
 "ENTER key"
 msgstr ""
-"لتنشيط أحد أزرار الاختيار, انتقل إلى النمط التفاعلي بالضغط على NVDA+SPACe أو "
-"مفتاح ENTER"
+"Để chọn nút radio, chuyển qua chế độ focus với phím NVDA+khoảng trắng hoặc "
+"phím enter."
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
 "To type text into this edit field, switch to focus mode by pressing NVDA"
 "+SPACE or ENTER key"
 msgstr ""
-"لكتابة نص في هذا المربع, انتقل إلى النمط التفاعلي بالضغط على NVDA+SPACe أو "
-"مفتاح ENTER"
+"Để nhập nội dung ở ô nhập liệu, hãy chuyển qua chế độ focus với phím lệnh "
+"NVDA+khoảng trắng hoặc phím enter."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
 "To select an item in the combo box, switch to focus mode by pressing NVDA"
 "+SPACE or ENTER key"
 msgstr ""
-"لاختيار أحد عناصر صناديق الخيارات, انتقل إلى النمط التفاعلي بالضغط على NVDA"
-"+SPACe أو مفتاح ENTER"
+"Để chọn mục trong hộp xổ, nhấn NVDA+khoảng trắng hoặc enter chuyển qua chế "
+"độ focus."
 
 #. Translators: Help message for reading webpages.
 msgid ""
 "Use the browse mode and quick navigation commands to read through the webpage"
-msgstr "استخدم نمط التصفح أو أحرف الحركة السريعة لتصفح المستند."
+msgstr "Dùng chế độ duyệt và các phím di chuyển nhanh để duyệt trang web."
 
 #. App-specific case 1: AppeModule for app is present.
 #. 300: Explorer (to deal with specific cases.
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
 msgid "Use the arrow keys to move between start screen tiles"
-msgstr "استخدم الأسهم للحركة بين أيقونات شاشة البدأ"
+msgstr "Dùng mũi tên chuyển qua lại giữa các lớp ô trên màn hình khởi động"
 
 #. 400: Microsoft powerpoint (powerpnt):
 #. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
 msgid "Use up and down arrow keys to move between slides"
-msgstr "استخدم السهم الأعلى والأسفل للحركة بين شرائح العرض التقديمي"
+msgstr "dùng mũi tên lên/xuống chuyển qua lại giữa các slide"
 
 #. Translators: Help message for working with slide shows.
 msgid ""
 "Press SPACE or BACKSPACE to move between slides in the slide show. To end "
 "the slide show, press escape"
 msgstr ""
-"اضغط SPACE أو BACKSPACE للحركة بين الشرائح في شاشة عرض الشرائح. لإنهاء "
-"العرض, اضغط escape"
+"Nhấn khoảng trắng hoặc xóa lùi để chuyển qua lại giữa các slide khi trình "
+"chiếu. Nhấn escape để kết thúc trình chiếu."
 
 #. App-specific case 2: AppeModule for app is not present (use processes).
 #. -300: Excel.
 #. Translators: Help message for moving between Excel spreadsheet cells.
 msgid "Use the arrow keys to move between spreadsheet cells"
-msgstr "استخدم الأسهم للتحرك بين خلايا ورقة العمل بتطبيق إكسل"
+msgstr "dùng mũi tên để di chuyển giữa các ô trong bảng tính"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
@@ -198,8 +198,8 @@ msgid ""
 "Control Usage Assistant - get brief help on interacting with the focused "
 "control"
 msgstr ""
-"Control Usage Assistant - إضافة برمجية تمكنك من الحصول على رسالة قصيرة عن "
-"كيفية التعامل مع الكائن الحالي"
+"Trợ giúp sử dụng điều khiển thông báo thông tin giúp đỡ về cách tương tác "
+"với đối tượng đang có focus."
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
@@ -209,7 +209,5 @@ msgid ""
 "\tPress NvDA+H to get a short help message on using the focused control, "
 "such as moving through tables, checkboxes and so on."
 msgstr ""
-"تتيح لك الاستعلام عن كيفية التفاعل مع الكائن الحالي, وهي تفيد المستخدمين "
-"الجدد لنظام التشغيل ويندوز و المستخدمين الجدد ل NVDA\n"
-"اضغط NvDA+H من أجل الحصول على رسالة قصيرة لكيفية التفاعل مع الكائن الحالي, "
-"مثل كيفية التفاعل مع الجداول, ومربعات التحديد وهكذا."
+"Thông báo thông tin giúp đỡ cách tương tác với loại điều khiển đang có "
+"focus, sẽ hữu ích cho những người dùng mới. Nhấn NVDA+h để nghe thông báo."
