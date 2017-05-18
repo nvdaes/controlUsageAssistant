@@ -1,7 +1,7 @@
 # Asystent używania kontrolek / Control Usage Assistant #
 
 * Autor: Joseph Lee
-* Download: [version 2.4][1]
+* Pobierz: [wersja 2.4][1]
 
 Użyj tego dodatku, aby dowiedzieć się w jaki sposób pracować z aktualną
 kontrolką.  Naciśnij NvDA+H aby uzyskać krótką pomoc dotyczącą używania
