@@ -31,4 +31,4 @@ het element met focus zoals bijvoorbeeld selectievakjes, invoervelden, etc.
 
 [[!tag stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=cua
+[1]: https://addons.nvda-project.org/files/get.php?file=cua

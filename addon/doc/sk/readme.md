@@ -29,4 +29,4 @@ stlačte NVDA+h
 
 [[!tag stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=cua
+[1]: https://addons.nvda-project.org/files/get.php?file=cua
