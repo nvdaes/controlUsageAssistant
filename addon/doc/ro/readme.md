@@ -1,4 +1,4 @@
-# Asistentul utilizării controlului #
+# Control Usage Assistant #
 
 * Autor: Joseph Lee
 * Descărcați: [versiunea 2.4][1]
