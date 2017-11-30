@@ -8,16 +8,14 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant 3.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2016-04-08 01:04+1000\n"
-"PO-Revision-Date: 2017-11-04 23:58-0000\n"
-"Last-Translator: Ângelo Abrantes <ampa4374@gmail.com>\n"
+"PO-Revision-Date: 2017-11-27 20:34+0000\n"
+"Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
-"X-Poedit-Language: Portuguese\n"
-"X-Poedit-Country: PORTUGAL\n"
+"X-Generator: Poedit 2.0.1\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #. Script category.
@@ -27,7 +25,7 @@ msgstr "Assistente para uso de controlos"
 
 #. Translators: Input help message for obtain control help command.
 msgid "Presents a short message on how to interact with the focused control."
-msgstr "Mostra uma mensagem curta, indicando o modo de uso do controlo"
+msgstr "Mostra uma pequena mensagem, indicando o modo de uso do controlo sob o foco"
 
 #. Translators: Message presented when there is no help message for the focused control.
 msgid "No help for this control"
@@ -39,7 +37,7 @@ msgstr "Para mudar para o modo de navegação, pressione \"nvda+espaço\" ou \"e
 
 #. Translators: Help message for reading a webpage while in focus mode.
 msgid "To use browse mode and quick navigation keys to read the webpage, switch to browse mode by pressing NVDA+SPACE"
-msgstr "Para usar o modo de navegação e as teclas de navegação rápida, para ler a página web, alterne para o modo de navegação, pressionando \"NVDA+Espaço\"."
+msgstr "Para usar o modo de navegação e as teclas de navegação rápida, para ler a página web, mude para o modo de navegação, pressionando \"NVDA+Espaço\"."
 
 #. Default: universal across apps and states.
 #. Translators: Help message for a checkbox.
@@ -88,7 +86,7 @@ msgstr "Pressione barra de espaço ou \"enter\", para activar esta ligação."
 
 #. Translators: Help message for working with tree view items.
 msgid "Use the up and down arrow keys to select the items. Use left arrow to collapse and right arrow to expand"
-msgstr "Use setas para baixo e para cima, para se mover entre os elementos. Use seta direita para espandir e esquerda para fechar."
+msgstr "Use setas para baixo e para cima, para se mover entre os elementos. Use seta direita para espandir e esquerda para contrair."
 
 #. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
 msgid "Use the left and right arrow keys to move between tabs, or press control+tab for next tab and control+shift+tab for previous tab"
@@ -104,7 +102,7 @@ msgstr "Pressione control, alt e teclas de setas, em conjunto, para se mover ent
 
 #. Translators: Help message for navigating table cells.
 msgid "Press control, alt and arrow keys together to move between table cells"
-msgstr "Pressione control, alt e teclas de setas, em conjunto, para se mover as células da tabela."
+msgstr "Pressione control, alt e teclas de setas, em conjunto, para se mover nas células da tabela."
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
 msgid "Use the arrow keys or object navigation commands to move through the document"
@@ -112,7 +110,7 @@ msgstr "Use as teclas de seta ou os comandos de navegação, para se mover atrav
 
 #. Translators: Help message for terminal windows such as command prompt.
 msgid "Type commands in the terminal window and use review cursor commands to read the output"
-msgstr "Escreva comandos na janela do terminal do e use os comandos do cursor de revisão para ler a saída."
+msgstr "Escreva comandos na janela do terminal e use os comandos do cursor de revisão para ler a saída."
 
 #. 200: Virtual Buffer.
 #. Translators: Help message for radio buttons while in browse mode.
@@ -165,4 +163,3 @@ msgid ""
 msgstr ""
 "Permite-lhe encontrar uma forma de agir com o controlo sob o foco. é útil para os iniciantes, para aqueles que são pouco experientes no windows ou no NVDA.\n"
 "\tPressione NvDA+H para obter uma pequena mensagem de ajuda no uso do controlo sob o foco, seja movendo-se através de tabelas, caixas de marcação, etc."
-
