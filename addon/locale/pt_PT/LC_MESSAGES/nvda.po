@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant 3.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2016-04-08 01:04+1000\n"
-"PO-Revision-Date: 2017-11-27 20:34+0000\n"
+"PO-Revision-Date: 2017-12-02 11:28+0000\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com>\n"
 "Language: pt_PT\n"
@@ -94,7 +94,7 @@ msgstr "Use setas para direita e para esquerda, para se mover entre os separador
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
 msgid "Use the left and down arrow keys to decrease and up and right arrow keys to increase the value in this slider. Use page up and page down to increase or decrease in larger values, and press home and end keys to select maximum and minimum value"
-msgstr "Use as setas esquerda ou para cima, para diminuir, e direita e para baixo, para aumentar o valor, neste controlo deslizante. Use página para baixo ou para cimapara aumentar ou diminuir em valores mais amplos, e pressione as teclas de início e de final, para ir para o valor mínimo e para o máximo."
+msgstr "Use as setas esquerda ou para cima, para diminuir, e direita e para baixo, para aumentar o valor, neste controlo deslizante. Use página para baixo ou para cima, para aumentar ou diminuir em valores mais amplos, e pressione as teclas de início e de final, para ir para o valor mínimo e para o máximo."
 
 #. Translators: Help message for navigating tables.
 msgid "Press control, alt and arrow keys together to move between rows and columns"
