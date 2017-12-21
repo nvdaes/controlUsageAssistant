@@ -11,7 +11,7 @@ Kontrollkästchen etc.).
 
 ## 2.1 ##
 
-* Neue und aktualisierte Sprachen.
+* Neue und aktualisierte Übersetzungen.
 
 
 ## 2.0 ##
