@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-05-16 22:36+0200\n"
+"PO-Revision-Date: 2018-01-14 10:35+0100\n"
 "Last-Translator: Bernd Dorer <bdorer@mailbox.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 2.0.5\n"
 "Language-Team: \n"
 
 #. Script category.
@@ -33,14 +33,14 @@ msgstr "Für das aktuelle Element steht keine Hilfe zur Verfügung."
 #. Translators: Additional message when working with forms in focus mode.
 msgid ". To switch to browse mode, press NVDA+SPACE or escape key"
 msgstr ""
-". Drücken Sie NVDA-Leertaste oder ESC, um in den Lesemodus zu wechseln."
+". Drücken Sie NVDA+Leertaste oder ESC, um in den Lesemodus zu wechseln."
 
 #. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
 msgstr ""
-"Drücken Sie NVDA-Leertaste, um den Lesemodus und die "
+"Drücken Sie NVDA+Leertaste, um den Lesemodus und die "
 "Schnellnavigationstasten zu verwenden."
 
 #. Default: universal across apps and states.
@@ -133,8 +133,8 @@ msgid ""
 "decrease in larger values, and press home and end keys to select maximum and "
 "minimum value"
 msgstr ""
-"Verwenden Sie die Pfeiltasten Pfeil Auf oder Pfeil Links um den Wert zu "
-"verringern, Pfeil Ab oder Pfeil Rechts um den Wert zu erhöhen."
+"Verwenden Sie die Pfeiltasten Pfeil runter oder Pfeil Links um den Wert zu "
+"verringern, Pfeil auf oder Pfeil Rechts um den Wert zu erhöhen."
 
 #. Translators: Help message for navigating tables.
 msgid ""
