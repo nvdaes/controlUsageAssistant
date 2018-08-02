@@ -1,4 +1,4 @@
-# Asystent używania kontrolek / Control Usage Assistant #
+# Control Usage Assistant #
 
 * Autor: Joseph Lee
 * Pobierz: [wersja 2.4][1]
