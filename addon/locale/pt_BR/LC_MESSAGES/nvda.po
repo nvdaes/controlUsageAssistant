@@ -1,22 +1,23 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Brazilian Portuguese translation of Control Usage Assistant.
+# Copyright (C) 2013-2018 NVDA Contributors.
+# This file is distributed under the same license as the NVDA package.
+# Cleverson Casarin Uliana <clever97@gmail.com>, 2013, 2016, 2017.
+# Marlin Rodrigues da Silva <marlinfilos@gmail.com>, 2013.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-04-23 22:28-0300\n"
-"Last-Translator: Cleverson Casarin Uliana <clcaul@live.com>\n"
+"PO-Revision-Date: 2018-08-31 10:35-0300\n"
+"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever7@gmail.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.6.11\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. Script category.
@@ -78,7 +79,7 @@ msgstr "Use as setas para mover entre os itens de menu"
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
 msgid "Use up and down arrow keys to move through options in the pop-up menu"
-msgstr "Use as setas cima e baixo para mover pelas opções do menu popape"
+msgstr "Use as setas cima e baixo para mover pelas opções do menu instantâneo"
 
 #. Translators: Help message for a combo box.
 msgid ""
@@ -94,7 +95,7 @@ msgstr "Use as setas para mover ao item seguinte ou anterior desta lista"
 
 #. Translators: Help message for activating links.
 msgid "Press SPACE or ENTER to activate this link"
-msgstr "Pressione ESPAÇO ou ENTER para ativar este linque"
+msgstr "Pressione ESPAÇO ou ENTER para ativar este link"
 
 #. Translators: Help message for working with tree view items.
 msgid ""
@@ -187,20 +188,20 @@ msgstr ""
 #. 300: Explorer (to deal with specific cases.
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
 msgid "Use the arrow keys to move between start screen tiles"
-msgstr "Use as setas para mover-se entre ladrilhos da tela inicial"
+msgstr "Use as setas para mover-se entre blocos dinâmicos da tela inicial"
 
 #. 400: Microsoft powerpoint (powerpnt):
 #. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
 msgid "Use up and down arrow keys to move between slides"
-msgstr "Use as setas cima e baixo para mover entre slaides"
+msgstr "Use as setas cima e baixo para mover entre slides"
 
 #. Translators: Help message for working with slide shows.
 msgid ""
 "Press SPACE or BACKSPACE to move between slides in the slide show. To end "
 "the slide show, press escape"
 msgstr ""
-"Pressione ESPAÇO ou BACKSPACE para mover-se entre slaides da apresentação de "
-"slaides. Para finalizar a apresentação, pressione escape"
+"Pressione ESPAÇO ou BACKSPACE para mover-se entre slides da apresentação de "
+"slides. Para finalizar a apresentação, pressione escape"
 
 #. App-specific case 2: AppeModule for app is not present (use processes).
 #. -300: Excel.
