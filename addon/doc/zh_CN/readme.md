@@ -7,7 +7,7 @@
 
 ## 版本2.1 ##
 
-* 实时的翻译更新
+* 新的更新的翻译。
 
 
 ## 版本2.0 ##
@@ -16,12 +16,12 @@
 * 增加一些应用程序的窗口区域帮助信息，如Microsoft Excel、Powerpoint和Windows 8开始屏幕。
 * 在虚拟缓冲文档中增加浏览模式和焦点模式下的帮助信息，包括Internet Explorer、 Adobe Reader 、Mozilla
   Firefox等。
-* 新的丹麦语支持
+* 新语言：丹麦语。
 
 
 ## 版本1.0 ##
 
-* 初始版本
+* 发布初始版本。
 
 [[!tag stable]]
 
