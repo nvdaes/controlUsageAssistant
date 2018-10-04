@@ -1,4 +1,4 @@
-# Asistente para uso de controles #
+# Assistente para uso de controles #
 
 * Autor: Joseph Lee
 * Baixe: [versão 2.4][1]
