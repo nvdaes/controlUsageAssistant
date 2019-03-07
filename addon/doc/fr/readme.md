@@ -3,9 +3,9 @@
 * Autheur : Joseph Lee
 * Télécharger : [version 2.4][1]
 
-Utilisez ce module complémentaire pour savoir comment interagir avec
-l'élément actif. Appuyez sur NVDA+H sur l'objet sur lequel vous souhaitez
-avoir cette information.
+Utilisez cette extension pour savoir comment interagir avec l'élément
+actif. Appuyez sur NVDA+H sur l'objet sur lequel vous souhaitez avoir cette
+information.
 
 ## 2.1 ##
 
