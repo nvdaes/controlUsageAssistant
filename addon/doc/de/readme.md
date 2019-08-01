@@ -1,7 +1,7 @@
 # Hilfe zur Benutzung von Steuerelementen #
 
 * Autor: Joseph Lee
-* [version 2.4][1] herunterladen
+* Herunterladen: [version 2.4][1]
 
 Verwenden Sie diese Erweiterung, um zu erfahren, wie Sie das aktuell
 hervorgehobene Steuerelement benutzen können. Drücken Sie NVDA+H, um eine
