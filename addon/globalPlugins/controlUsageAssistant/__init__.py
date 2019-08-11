@@ -74,8 +74,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		helpMessages = []
 		for entry in curObj.__class__.__mro__:
 			clsName = str(entry).split("'")[1]
-			if clsName in objMROHelpMessages:
-				helpMessages.append(objMROHelpMessages[clsName])
+			if clsName in helpmessages.objectsHelpMessages:
+				helpMessages.append(helpmessages.objectsHelpMessages[clsName])
 		offset = self.getMessageOffset(curObj)
 		if offset >= 0:
 			index = offset + curObj.role
@@ -88,8 +88,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if isinstance(curObj, powerpnt.SlideShowWindow):
 			helpMessages.append(helpmessages.helpMessages[403.1])
 		# General case: if we do have an entry for the appModule/process.
-		elif (offset >= 300 or offset <= -300) and index in helpmessages.helpMessages:
-			helpMessages.append(helpmessages.helpMessages[index])
+		elif (offset >= 300 or offset <= -300) and index in helpmessages.controlTypesHelpMessages:
+			helpMessages.append(helpmessages.controlTypesHelpMessages[index])
 			# Clean the above code later.
 		elif (offset == 200 or offset == -200):
 			# In case we're dealing with virtual buffer, call the below method.
@@ -99,8 +99,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			helpMessages.append(_(helpmessages.helpMessages[-8]))
 		else:
 			# Penultimate: if we're strictly dealing with default messages either because offset is 0 or there is no offset+/-role index in the helpMessages.
-			if curObj.role in helpmessages.helpMessages:
-				helpMessages.append(helpmessages.helpMessages[curObj.role])
+			if curObj.role in helpmessages.controlTypeHelpMessages:
+				helpMessages.append(helpmessages.controlTypeHelpMessages[curObj.role])
 			# Last resort: If we fail to obtain any default or app-specific message (because there is no entry for the role in the help messages), give the below message.
 			else:
 				# Translators: Message presented when there is no help message for the focused control.
