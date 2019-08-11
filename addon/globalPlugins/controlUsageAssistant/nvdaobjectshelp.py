@@ -4,10 +4,11 @@
 
 # Provides help messages for built-in NVDA objects, mirroring NVDA objects collection in NVDA Core.
 # Each help message records objects to a general help message.
+# This module also serves as a home for messages for overlay classes found in app modules and global plugins.
 # Other add-ons should update this dictionary with help messages for their own overlay classes.
 
 # Help messages for objects: key = string representation of a class name, value = generic help message.
-# Base API classes are not included.
+# Base API classes (such as NVDAObjects.NVDAObject) are not included.
 # Source: NVDA pull request for issue 2699 (context-sensitive help)
 
 objectsHelpMessages = {
