@@ -16,4 +16,6 @@ objectsHelpMessages = {
 	"NVDAObjects.UIA.UIA": "This is a UIA control.",
 	# Translators: help text for search field in Windows 10 and other places.
 	"NVDAObjects.behaviors.EditableTextWithSuggestions": _("After typing search text, press up or down arrow keys to review list of suggestions."),
+	# Translators: Help message for moving between Excel spreadsheet cells.
+	"NVDAObjects.window.excel.ExcelCell": _("Use the arrow keys to move between spreadsheet cells."),
 }

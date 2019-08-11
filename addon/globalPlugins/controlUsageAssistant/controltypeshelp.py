@@ -58,25 +58,20 @@ moreHelpMessages = {
 	213:_("To select an item in the combo box, switch to focus mode by pressing NVDA+SPACE or ENTER key."),
 	# Translators: Help message for reading webpages.
 	252:_("Use the browse mode and quick navigation commands to read through the webpage."),
-	
+
 	# App-specific case 1: AppeModule for app is present.
-	
+
 	# 300: Explorer (to deal with specific cases.
 	# Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
 	329:_("Use the arrow keys to move between start screen tiles."),
-	
+
 	# 400: Microsoft powerpoint (powerpnt):
 	# Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
 	403:_("Use up and down arrow keys to move between slides."),
 	# Translators: Help message for working with slide shows.
 	403.1:_("Press SPACE or BACKSPACE to move between slides in the slide show. To end the slide show, press escape."),
-	
-	
+
 	# App-specific case 2: AppeModule for app is not present (use processes).
-	# -300: Excel.
-	# Translators: Help message for moving between Excel spreadsheet cells.
-	-329:_("Use the arrow keys to move between spreadsheet cells."),
-	
 	# -400: Adobe Reader (special case).
 	# Translators: Help message for reading Adobe PDF documents.
 	-452:"Use the browse mode and quick navigation commands to read through the PDF document."
