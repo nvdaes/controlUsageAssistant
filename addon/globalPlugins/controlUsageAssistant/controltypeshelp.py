@@ -59,12 +59,6 @@ moreHelpMessages = {
 	# Translators: Help message for reading webpages.
 	252:_("Use the browse mode and quick navigation commands to read through the webpage."),
 
-	# App-specific case 1: AppeModule for app is present.
-
-	# 300: Explorer (to deal with specific cases.
-	# Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
-	329:_("Use the arrow keys to move between start screen tiles."),
-
 	# 400: Microsoft powerpoint (powerpnt):
 	# Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
 	403:_("Use up and down arrow keys to move between slides."),

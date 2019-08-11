@@ -21,7 +21,6 @@ from . import helpmessages
 
 # App offsets: lookup the appModule.
 appOffsets={
-	"explorer":300,
 	"powerpnt":400
 	}
 
