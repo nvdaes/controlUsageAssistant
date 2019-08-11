@@ -16,11 +16,6 @@ import addonHandler
 addonHandler.initTranslation()
 from . import helpmessages
 
-# Process offsets: come here when we fail to obtain appModules.
-procOffsets={
-	"AcroRd32.exe":-400 #This is a special case - although Adobe reader uses virtual buffer, it is not a webpage, hence different message should be given for PDF's.
-}
-
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 

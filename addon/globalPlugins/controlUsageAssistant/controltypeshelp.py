@@ -56,11 +56,6 @@ controlTypeHelpMessages = {
 	213:_("To select an item in the combo box, switch to focus mode by pressing NVDA+SPACE or ENTER key."),
 	# Translators: Help message for reading webpages.
 	252:_("Use the browse mode and quick navigation commands to read through the webpage."),
-
-	# App-specific case 2: AppeModule for app is not present (use processes).
-	# -400: Adobe Reader (special case).
-	# Translators: Help message for reading Adobe PDF documents.
-	-452:"Use the browse mode and quick navigation commands to read through the PDF document."
 }
 
 # Translators: Help message for a read-only control.
