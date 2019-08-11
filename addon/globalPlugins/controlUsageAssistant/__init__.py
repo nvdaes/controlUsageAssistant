@@ -38,14 +38,15 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	scriptCategory = _("Control Usage Assistant")
 
 	# NVDA+H: Obtain usage help on a particular control.
-	# Depending on the type of control and its state(s), lookup a dictionary of control types and help messages.
+	# Start by looking at method resolution order (MRO) for object class hierarchy.
+	# Then depending on the type of control and its state(s), lookup a dictionary of control types and help messages.
 	# If the control is used differently in apps, then lookup the app entry and give the customized message.
 	def script_controlHelp(self, gesture):
 		obj = api.getFocusObject()
 		# The prototype UI message, the actual processing is done below.
-		ui.message(_(self.getHelpMessage(obj)))
+		ui.browseableMessage(self.getHelpMessage(obj), title=_("Control Usage Assistant"))
 	# Translators: Input help message for obtain control help command.
-	script_controlHelp.__doc__=_("Presents a short message on how to interact with the focused control.")
+	script_controlHelp.__doc__=_("Presents a message on how to interact with the focused control.")
 
 	# GetMessageOffset: Obtain message offset based on appModule and/or processes list.
 	# Return value: positive = appModule, negative = processes, 0 = default.
