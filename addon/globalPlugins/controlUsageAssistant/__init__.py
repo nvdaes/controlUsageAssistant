@@ -15,7 +15,7 @@ import appModuleHandler
 from appModules import powerpnt
 import addonHandler
 addonHandler.initTranslation()
-from . import ctrltypelist
+from . import helpmessages
 
 # AppModule and process offsets: positive = appModule, negative = process.
 
@@ -112,17 +112,17 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def VBufHelp(self, obj, i): # i = index.
 		if i in self.VBufForms:
 			if not obj.treeInterceptor.passThrough:
-				VBufmsg = ctrltypelist.helpMessages[i]
+				VBufmsg = helpmessages.helpMessages[i]
 			else:
-				VBufmsg = ctrltypelist.helpMessages[obj.role]
+				VBufmsg = helpmessages.helpMessages[obj.role]
 				# Translators: Additional message when working with forms in focus mode.
 				VBufmsg += _(". To switch to browse mode, press NVDA+SPACE or escape key")
 		elif i == 252:
 			if not obj.treeInterceptor.passThrough:
-				VBufmsg = ctrltypelist.helpMessages[252]
+				VBufmsg = helpmessages.helpMessages[252]
 			else:
 				# Translators: Help message for reading a webpage while in focus mode.
 				VBufmsg = _("To use browse mode and quick navigation keys to read the webpage, switch to browse mode by pressing NVDA+SPACE")
 		else:
-			VBufmsg = ctrltypelist.helpMessages[obj.role]
+			VBufmsg = helpmessages.helpMessages[obj.role]
 		return VBufmsg
