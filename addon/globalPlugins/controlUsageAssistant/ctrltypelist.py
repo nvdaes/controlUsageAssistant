@@ -1,13 +1,13 @@
 # Control Usage Assistant
 # An add-on for NVDA
-# Copyright 2013 Joseph Lee, released under GPL.
+# Copyright 2013-2019 Joseph Lee, released under GPL.
 
 # The list of control types and their help messages.
-			
-	# Help Messages Dictionary: key = obj role number, with offsets added based on apps and/or states.
-	#a negative role number between -1 and -199 indicates restricted control, such as read-only edit field.
-	# A role number greater than 200 indicates additional features, such as multiline and virtual buffer instance.
-	# Anything beyond +/-400 means appModule or process-specific (positive = appModule, negative = process).
+
+# Help Messages Dictionary: key = obj role number, with offsets added based on apps and/or states.
+#a negative role number between -1 and -199 indicates restricted control, such as read-only edit field.
+# A role number greater than 200 indicates additional features, such as multiline and virtual buffer instance.
+# Anything beyond +/-400 means appModule or process-specific (positive = appModule, negative = process).
 helpMessages = {
 	# Default: universal across apps and states.
 	

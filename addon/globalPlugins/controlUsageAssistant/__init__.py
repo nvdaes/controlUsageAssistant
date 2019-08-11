@@ -15,7 +15,7 @@ import appModuleHandler
 from appModules import powerpnt
 import addonHandler
 addonHandler.initTranslation()
-import ctrltypelist
+from . import ctrltypelist
 
 # AppModule and process offsets: positive = appModule, negative = process.
 
