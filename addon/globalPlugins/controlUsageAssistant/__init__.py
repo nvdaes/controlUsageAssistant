@@ -68,8 +68,13 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	# GetHelpMessage: The actual function behind the script above.
 	def getHelpMessage(self, curObj):
-		# Present help messages based on role constant, state(s) and focused app.
-		msg = "" # A string (initially empty) to hold the message; needed to work better with braille.
+		# Present help messages based on object class MRO, role constant, state(s) and focused app.
+		# These messages (if any) will be appended to a list of help messages.
+		helpMessages = []
+		for entry in curObj.__class__.__mro__:
+			clsName = str(entry).split("'")[1]
+			if clsName in objMROHelpMessages:
+				helpMessages.append(objMROHelpMessages[clsName])
 		offset = self.getMessageOffset(curObj)
 		if offset >= 0:
 			index = offset + curObj.role
@@ -80,26 +85,27 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# A number of specific cases follows:
 		# PowerPoint: differentiate between slide list and slide show.
 		if isinstance(curObj, powerpnt.SlideShowWindow):
-			msg = ctrltypelist.helpMessages[403.1]	
+			helpMessages.append(helpmessages.helpMessages[403.1])
 		# General case: if we do have an entry for the appModule/process.
-		elif (offset >= 300 or offset <= -300) and index in ctrltypelist.helpMessages:
-			msg= ctrltypelist.helpMessages[index]
+		elif (offset >= 300 or offset <= -300) and index in helpmessages.helpMessages:
+			helpMessages.append(helpmessages.helpMessages[index])
 			# Clean the above code later.
 		elif (offset == 200 or offset == -200):
 			# In case we're dealing with virtual buffer, call the below method.
-			msg = self.VBufHelp(curObj, index)
+			helpMessages.append(self.VBufHelp(curObj, index))
 		elif curObj.role == 8 and controlTypes.STATE_READONLY in curState:
 			# Special case 1: WE have encountered a read-only edit field.
-			msg = _(ctrltypelist.helpMessages[-8])
+			helpMessages.append(_(helpmessages.helpMessages[-8]))
 		else:
 			# Penultimate: if we're strictly dealing with default messages either because offset is 0 or there is no offset+/-role index in the helpMessages.
-			if curObj.role in ctrltypelist.helpMessages:
-				msg = ctrltypelist.helpMessages[curObj.role]
+			if curObj.role in helpmessages.helpMessages:
+				helpMessages.append(helpmessages.helpMessages[curObj.role])
 			# Last resort: If we fail to obtain any default or app-specific message (because there is no entry for the role in the help messages), give the below message.
 			else:
 				# Translators: Message presented when there is no help message for the focused control.
-				msg = _("No help for this control")
-		return msg
+				helpMessages.append(_("No help for this control"))
+		helpMessages.append("Press escape to close this help screen.")
+		return "\n".join(helpMessages)
 
 	__gestures={
 		"KB:NVDA+H":"controlHelp",
