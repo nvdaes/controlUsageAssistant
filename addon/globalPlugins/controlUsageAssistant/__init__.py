@@ -16,7 +16,6 @@ import addonHandler
 addonHandler.initTranslation()
 from . import helpmessages
 
-
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	# Translators: Input gesture category for Control Usage Assistant add-on.
@@ -33,25 +32,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# Translators: Input help message for obtain control help command.
 	script_controlHelp.__doc__=_("Presents a message on how to interact with the focused control.")
 
-	# GetMessageOffset: Obtain message offset based on appModule and/or processes list.
-	# Return value: positive = appModule, negative = processes, 0 = default.
-	def getMessageOffset(self, curObj):
-		curApp = curObj.appModule.appName
-		curProc = appModuleHandler.getAppNameFromProcessID(curObj.processID,True)
-		# Lookup setup:
-		if curApp in appOffsets:
-			# If appModule is found:
-			return appOffsets[curApp]
-		elif curProc in procOffsets:
-			# In case appModule is not found but we do have the current process name registered.
-			return procOffsets[curProc]
-		elif isinstance(curObj.treeInterceptor, VirtualBuffer):
-			# We're dealing with virtual buffer (virtual buffer is a tree interceptor). However, watch out for Adobe Reader (check using ternary operation).
-			return -400 if (curProc == "AcroRd32.exe") else 200
-		else:
-			# Found nothing, so return zero to fall back to default entries.
-			return 0
-
 	# GetHelpMessage: The actual function behind the script above.
 	def getHelpMessage(self, curObj):
 		# Present help messages based on object class MRO, role constant, state(s) and focused app.
@@ -61,18 +41,19 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			clsName = str(entry).split("'")[1]
 			if clsName in helpmessages.objectsHelpMessages:
 				helpMessages.append(helpmessages.objectsHelpMessages[clsName])
-		offset = self.getMessageOffset(curObj)
+		# Additional constraints.
+		offset = 0
+		# Just in case browse mode is active.
+		if isinstance(curObj.treeInterceptor, VirtualBuffer):
+			# We're dealing with virtual buffer (virtual buffer is a tree interceptor).
+			offset = 200
 		if offset >= 0:
 			index = offset + curObj.role
 		else:
 			index = offset - curObj.role
 		# In case offset is zero, then test for state(s).
 		curState = curObj._get_states()
-		# General case: if we do have an entry for the appModule/process.
-		if (offset >= 300 or offset <= -300) and index in helpmessages.controlTypeHelpMessages:
-			helpMessages.append(helpmessages.controlTypeHelpMessages[index])
-			# Clean the above code later.
-		elif (offset == 200 or offset == -200):
+		if (offset == 200 or offset == -200):
 			# In case we're dealing with virtual buffer, call the below method.
 			helpMessages.append(self.VBufHelp(curObj, index))
 		elif curObj.role == 8 and controlTypes.STATE_READONLY in curState:
@@ -107,10 +88,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				VBufmsg += _(". To switch to browse mode, press NVDA+SPACE or escape key")
 		elif i == 252:
 			if not obj.treeInterceptor.passThrough:
-				VBufmsg = helpmessages.helpMessages[252]
+				VBufmsg = helpmessages.controlTypeHelpMessages[252]
 			else:
 				# Translators: Help message for reading a webpage while in focus mode.
 				VBufmsg = _("To use browse mode and quick navigation keys to read the webpage, switch to browse mode by pressing NVDA+SPACE")
 		else:
-			VBufmsg = helpmessages.helpMessages[obj.role]
+			VBufmsg = helpmessages.controlTypeHelpMessages[obj.role]
 		return VBufmsg
