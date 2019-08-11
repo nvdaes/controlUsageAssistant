@@ -46,9 +46,7 @@ controlTypeHelpMessages = {
 	controlTypes.ROLE_DOCUMENT:_("Use the arrow keys or object navigation commands to move through the document."),
 	# Translators: Help message for terminal windows such as command prompt.
 	controlTypes.ROLE_TERMINAL:_("Type commands in the terminal window and use review cursor commands to read the output."),
-}
 
-moreHelpMessages = {
 	# 200: Virtual Buffer.
 	# Translators: Help message for radio buttons while in browse mode.
 	206:_("To select a radio button, switch to focus mode by pressing NVDA+SPACE or ENTER key."),
@@ -58,12 +56,6 @@ moreHelpMessages = {
 	213:_("To select an item in the combo box, switch to focus mode by pressing NVDA+SPACE or ENTER key."),
 	# Translators: Help message for reading webpages.
 	252:_("Use the browse mode and quick navigation commands to read through the webpage."),
-
-	# 400: Microsoft powerpoint (powerpnt):
-	# Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
-	403:_("Use up and down arrow keys to move between slides."),
-	# Translators: Help message for working with slide shows.
-	403.1:_("Press SPACE or BACKSPACE to move between slides in the slide show. To end the slide show, press escape."),
 
 	# App-specific case 2: AppeModule for app is not present (use processes).
 	# -400: Adobe Reader (special case).

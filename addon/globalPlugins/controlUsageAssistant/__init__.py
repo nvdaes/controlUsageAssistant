@@ -12,22 +12,14 @@ import api
 import controlTypes
 from virtualBuffers import VirtualBuffer
 import appModuleHandler
-from appModules import powerpnt
 import addonHandler
 addonHandler.initTranslation()
 from . import helpmessages
 
-# AppModule and process offsets: positive = appModule, negative = process.
-
-# App offsets: lookup the appModule.
-appOffsets={
-	"powerpnt":400
-	}
-
 # Process offsets: come here when we fail to obtain appModules.
 procOffsets={
 	"AcroRd32.exe":-400 #This is a special case - although Adobe reader uses virtual buffer, it is not a webpage, hence different message should be given for PDF's.
-	}
+}
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
@@ -81,13 +73,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			index = offset - curObj.role
 		# In case offset is zero, then test for state(s).
 		curState = curObj._get_states()
-		# A number of specific cases follows:
-		# PowerPoint: differentiate between slide list and slide show.
-		if isinstance(curObj, powerpnt.SlideShowWindow):
-			helpMessages.append(helpmessages.helpMessages[403.1])
 		# General case: if we do have an entry for the appModule/process.
-		elif (offset >= 300 or offset <= -300) and index in helpmessages.controlTypesHelpMessages:
-			helpMessages.append(helpmessages.controlTypesHelpMessages[index])
+		if (offset >= 300 or offset <= -300) and index in helpmessages.controlTypeHelpMessages:
+			helpMessages.append(helpmessages.controlTypeHelpMessages[index])
 			# Clean the above code later.
 		elif (offset == 200 or offset == -200):
 			# In case we're dealing with virtual buffer, call the below method.
