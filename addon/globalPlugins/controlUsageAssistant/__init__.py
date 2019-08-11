@@ -1,7 +1,7 @@
 # Control Usage Assistant
 # A global plugin for NVDA
 # Author: Joseph Lee <joseph.lee22590@gmail.com>
-# Copyright 2013-2017, released under GPL.
+# Copyright 2013-2019, released under GPL.
 
 # Press NVDA+H to hear (or read in braille) a sentence or two on interacting with a particular control.
 # Extension plan: ability to get context-sensitive help on NvDA options.
