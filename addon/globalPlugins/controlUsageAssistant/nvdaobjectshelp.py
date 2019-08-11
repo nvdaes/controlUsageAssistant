@@ -19,3 +19,20 @@ objectsHelpMessages = {
 	# Translators: Help message for moving between Excel spreadsheet cells.
 	"NVDAObjects.window.excel.ExcelCell": _("Use the arrow keys to move between spreadsheet cells."),
 }
+
+# In some paps, two or more controls behave the same, such as Start screen tiles in Windows 8.x.
+commonAppModuleOverlayClassHelpMessages = {
+	# Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
+	"appModules.explorer.StartScreenTiles": _("Use the arrow keys to move between start screen tiles."),
+}
+
+# Specific to app module overlay classes.
+appModuleOverlayObjectsHelpMessages = {
+	# Translators: Message for Calculator's display field.
+	"appModules.calc.Display": "Enter or review calculations using Calculator commands.",
+	"appModules.explorer.GridListTileElement": commonAppModuleOverlayClassHelpMessages["appModules.explorer.StartScreenTiles"],
+	"appModules.explorer.GridTileElement": commonAppModuleOverlayClassHelpMessages["appModules.explorer.StartScreenTiles"],
+}
+
+# And combine the above two maps.
+objectsHelpMessages.update(appModuleOverlayObjectsHelpMessages)
