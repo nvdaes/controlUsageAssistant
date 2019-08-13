@@ -16,6 +16,9 @@ import addonHandler
 addonHandler.initTranslation()
 from . import helpmessages
 
+# How many method resolution order (MRO) levels to look at before resorting to role-based messages.
+CUAMROLevel = 1
+
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	# Translators: Input gesture category for Control Usage Assistant add-on.
@@ -41,26 +44,17 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			clsName = str(entry).split("'")[1]
 			if clsName in helpmessages.objectsHelpMessages:
 				helpMessages.append(helpmessages.objectsHelpMessages[clsName])
+		# Except for virtual buffers, do not proceed if we do have help messages from MRO lookup.
+		helpMessagesFromMRO = len(helpMessages) > CUAMROLevel
 		# Additional constraints.
-		offset = 0
 		# Just in case browse mode is active.
 		if isinstance(curObj.treeInterceptor, VirtualBuffer):
-			# We're dealing with virtual buffer (virtual buffer is a tree interceptor).
-			offset = 200
-		if offset >= 0:
-			index = offset + curObj.role
-		else:
-			index = offset - curObj.role
-		# In case offset is zero, then test for state(s).
-		curState = curObj._get_states()
-		if (offset == 200 or offset == -200):
 			# In case we're dealing with virtual buffer, call the below method.
-			helpMessages.append(self.VBufHelp(curObj, index))
-		elif curObj.role == 8 and controlTypes.STATE_READONLY in curState:
+			helpMessages.append(self.VBufHelp(curObj))
+		#if curObj.role == 8 and controlTypes.STATE_READONLY in obj.states:
 			# Special case 1: WE have encountered a read-only edit field.
-			helpMessages.append(_(helpmessages.helpMessages[-8]))
-		else:
-			# Penultimate: if we're strictly dealing with default messages either because offset is 0 or there is no offset+/-role index in the helpMessages.
+			#helpMessages.append(_(helpmessages.helpMessages[-8]))
+		if len(helpMessages) == CUAMROLevel:
 			if curObj.role in helpmessages.controlTypeHelpMessages:
 				helpMessages.append(helpmessages.controlTypeHelpMessages[curObj.role])
 			# Last resort: If we fail to obtain any default or app-specific message (because there is no entry for the role in the help messages), give the below message.
