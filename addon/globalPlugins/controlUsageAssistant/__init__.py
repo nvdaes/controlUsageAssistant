@@ -76,19 +76,19 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	# Any exceptions to lookup keys goes here.
 	# First case: virtual buffer control exceptions.
-	VBufForms={206, 208, 213} # Forms encountered on webpages; add custom message form them in browse mode.
+	VBufForms={6, 8, 13} # Forms encountered on webpages; add custom message form them in browse mode.
 	# And the function for handling these:
-	def VBufHelp(self, obj, i): # i = index.
-		if i in self.VBufForms:
+	def VBufHelp(self, obj):
+		if obj.role in self.VBufForms:
 			if not obj.treeInterceptor.passThrough:
-				VBufmsg = helpmessages.helpMessages[i]
+				VBufmsg = helpmessages.browseModeHelpMessages[obj.role]
 			else:
-				VBufmsg = helpmessages.helpMessages[obj.role]
+				VBufmsg = helpmessages.controlTypeHelpMessages[obj.role]
 				# Translators: Additional message when working with forms in focus mode.
-				VBufmsg += _(". To switch to browse mode, press NVDA+SPACE or escape key")
-		elif i == 252:
+				VBufmsg += _(" To switch to browse mode, press NVDA+SPACE or escape key")
+		elif obj.role == 52:
 			if not obj.treeInterceptor.passThrough:
-				VBufmsg = helpmessages.controlTypeHelpMessages[252]
+				VBufmsg = helpmessages.browseModeHelpMessages[obj.role]
 			else:
 				# Translators: Help message for reading a webpage while in focus mode.
 				VBufmsg = _("To use browse mode and quick navigation keys to read the webpage, switch to browse mode by pressing NVDA+SPACE")

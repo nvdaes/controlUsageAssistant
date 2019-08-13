@@ -46,16 +46,18 @@ controlTypeHelpMessages = {
 	controlTypes.ROLE_DOCUMENT:_("Use the arrow keys or object navigation commands to move through the document."),
 	# Translators: Help message for terminal windows such as command prompt.
 	controlTypes.ROLE_TERMINAL:_("Type commands in the terminal window and use review cursor commands to read the output."),
+}
 
-	# 200: Virtual Buffer.
+# Virtual Buffer.
+browseModeHelpMessages = {
 	# Translators: Help message for radio buttons while in browse mode.
-	206:_("To select a radio button, switch to focus mode by pressing NVDA+SPACE or ENTER key."),
+	controlTypes.ROLE_RADIOBUTTON:_("To select a radio button, switch to focus mode by pressing NVDA+SPACE or ENTER key."),
 	# Translators: Help message for edit fields while in browse mode.
-	208:_("To type text into this edit field, switch to focus mode by pressing NVDA+SPACE or ENTER key."),
+	controlTypes.ROLE_EDITABLETEXT:_("To type text into this edit field, switch to focus mode by pressing NVDA+SPACE or ENTER key."),
 	# Translators: Help message for combo boxes in browse mode.
-	213:_("To select an item in the combo box, switch to focus mode by pressing NVDA+SPACE or ENTER key."),
+	controlTypes.ROLE_COMBOBOX:_("To select an item in the combo box, switch to focus mode by pressing NVDA+SPACE or ENTER key."),
 	# Translators: Help message for reading webpages.
-	252:_("Use the browse mode and quick navigation commands to read through the webpage."),
+	controlTypes.ROLE_DOCUMENT:_("Use the browse mode and quick navigation commands to read through the webpage."),
 }
 
 # Translators: Help message for a read-only control.
