@@ -16,8 +16,8 @@ import addonHandler
 addonHandler.initTranslation()
 from . import helpmessages
 
-# How many method resolution order (MRO) levels to look at before resorting to role-based messages.
-CUAMROLevel = 1
+# How many method resolution order (MRO) level help messages to consider before resorting to role-based messages.
+CUAMROLevel = 0
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
@@ -45,7 +45,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			if clsName in helpmessages.objectsHelpMessages:
 				helpMessages.append(helpmessages.objectsHelpMessages[clsName])
 		# Except for virtual buffers, do not proceed if we do have help messages from MRO lookup.
-		helpMessagesFromMRO = len(helpMessages) > CUAMROLevel
 		# Additional constraints.
 		# Just in case browse mode is active.
 		if isinstance(curObj.treeInterceptor, VirtualBuffer):

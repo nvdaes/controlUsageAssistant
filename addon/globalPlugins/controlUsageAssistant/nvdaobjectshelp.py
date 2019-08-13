@@ -12,8 +12,6 @@
 # Source: NVDA pull request for issue 2699 (context-sensitive help)
 
 objectsHelpMessages = {
-	"NVDAObjects.IAccessible.IAccessible": "This is an IAccessible/MSAA control.",
-	"NVDAObjects.UIA.UIA": "This is a UIA control.",
 	# Translators: help text for search field in Windows 10 and other places.
 	"NVDAObjects.behaviors.EditableTextWithSuggestions": _("After typing search text, press up or down arrow keys to review list of suggestions."),
 	# Translators: Help message for reading Adobe PDF documents.
