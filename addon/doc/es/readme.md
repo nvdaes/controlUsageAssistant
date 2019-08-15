@@ -1,19 +1,24 @@
 # Control Usage Assistant #
 
 * Autor: Joseph Lee
-* Descarga: [versión 2.4][1]
+* Descargar [versión estable][1]
+* Descargar [versión de desarrollo][2]
+* Compatibilidad con NVDA: de 2017.3 a 2019.2
 
 Utiliza este complemento para averiguar cómo interactuar con el control
 enfocado.  Pulsa NVDA+H para obtener un breve mensaje de ayuda sobre la
 interacción con el control enfocado, como con casillas de verificación,
 campos de edición y así con otros.
 
-## 2.1 ##
+## Versión 2.5
+
+* Compatible con Python 3.
+
+## Versión 2.1
 
 * Traducciones nuevas y actualizadas.
 
-
-## 2.0 ##
+## Versión 2.0
 
 * Añadidos mensajes de ayuda para más controles, incluyendo la terminal de
   windows.
@@ -25,11 +30,13 @@ campos de edición y así con otros.
   Reader, Mozilla Firefox, etc.).
 * Nuevo idioma: Danés.
 
-
-## 1.0 ##
+## Versión 1.0
 
 * Versión inicial.
 
-[[!tag stable]]
+
+[[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

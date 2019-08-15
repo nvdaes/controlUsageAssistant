@@ -1,19 +1,24 @@
 # Control Usage Assistant #
 
 * Autor: Joseph Lee
-* Preuzmi: [verziju2.4][1]
+* Download [stable version][1]
+* Download [development version][2]
+* NVDA compatibility: 2017.3 to 2019.2
 
 Koristite ovaj dodatak da biste dobili pomoć oko toga kako možete da
 koristite određenu vrstu kontrola. Pritisnite NVDA+H da biste čuli kratku
 poruku pomoći, na primer kada je fokus na tekstualnom polju, dugmetu koje
 treba štiklirati...
 
-## 2.1 ##
+## Version 2.5
+
+* Compatible with Python 3.
+
+## Version 2.1
 
 * Novi i ažurirani prevodi.
 
-
-## 2.0 ##
+## Version 2.0
 
 * Dodate su poruke za više kontrola, uključujući i prozore terminala.
 * Dodate poruke za određene aplikacije, kao što su Microsoft Excel,
@@ -22,11 +27,13 @@ treba štiklirati...
   Reader, Internet Explorer...)
 * Novi jezik: danski
 
-
-## 1.0 ##
+## Version 1.0
 
 * Prva verzija
 
-[[!tag stable]]
+
+[[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

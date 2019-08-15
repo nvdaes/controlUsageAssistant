@@ -1,19 +1,24 @@
 # Control Usage Assistant #
 
 * Автор: Joseph Lee
-* Загрузить: [версию 2.4][1]
+* Download [stable version][1]
+* Download [development version][2]
+* NVDA compatibility: 2017.3 to 2019.2
 
 Используйте это дополнение, чтобы узнать, как взаимодействовать с типом
 управления в фокусе. Нажмите NVDA+H, чтобы получить короткую справку по
 взаимодействию с определённым типом управления, например, флажки, поля
 редактирования и так далее.
 
-## 2.1 ##
+## Version 2.5
+
+* Compatible with Python 3.
+
+## Version 2.1
 
 * Новые и обновленные переводы.
 
-
-## 2.0 ##
+## Version 2.0
 
 * добавлены несколько сообщений для некоторых элементов управления, в том
   числе окна терминала.
@@ -24,11 +29,13 @@
   Reader, Mozilla Firefox и др.).
 * Новый язык: датский.
 
-
-## 1.0 ##
+## Version 1.0
 
 * Начальная версия.
 
-[[!tag stable]]
+
+[[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

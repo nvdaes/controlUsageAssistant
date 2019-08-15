@@ -1,16 +1,21 @@
 # Control Usage Assistant控件查看插件 #
 
 * 作者： Joseph Lee
-* 下载： [版本 2.41][1]
+* 下载 [稳定版][1]
+* 下载 [开发板][2]
+* NVDA兼容版本: 2017.3至2019.2
 
 使用此插件来查看如何与焦点所在的控件交互。按下“NVDA加H”获取一个与此控件交互的简短的帮助信息。如编辑框、复选框等。
 
-## 版本2.1 ##
+## 版本 2.5
+
+* 兼容Python 3。
+
+## 版本 2.1
 
 * 新的更新的翻译。
 
-
-## 版本2.0 ##
+## 版本 2.0
 
 * 增加更多控件的帮助信息，包括终端窗口（命令提示符提示符）。
 * 增加一些应用程序的窗口区域帮助信息，如Microsoft Excel、Powerpoint和Windows 8开始屏幕。
@@ -18,11 +23,13 @@
   Firefox等。
 * 新语言：丹麦语。
 
-
-## 版本1.0 ##
+## 版本 1.0
 
 * 发布初始版本。
 
-[[!tag stable]]
+
+[[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

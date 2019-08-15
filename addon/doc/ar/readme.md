@@ -1,18 +1,23 @@
 # control Usage Assistant #
 
 * مطور الإضافة: Joseph Lee
-* Download: [version 2.4][1]
+* Download [stable version][1]
+* Download [development version][2]
+* NVDA compatibility: 2017.3 to 2019.2
 
 تستخدم الإضافة في التعرف على كيفية التفاعل مع الكائن الحالي. اضغط NvDA+H
 للحصول على رسالة قصيرة عن كيفية التفاعل مع الكائن النشط, كمربعات التحديد,
 وكتابة النصوص وهكذا.
 
-## 2.1 ##
+## Version 2.5
+
+* Compatible with Python 3.
+
+## Version 2.1
 
 * ترجمة الإضافة لمزيد من اللغات مع تحديث الترجمة للغات الأخرى
 
-
-## 2.0 ##
+## Version 2.0
 
 * رسائل مساعدة قد تم إضافتها لمزيد من التطبيقات بما فيها نوافذ تطبيقات
   الأوامر النصية
@@ -23,11 +28,13 @@
   Explorer, Adobe Reader, Mozilla Firefox, etc.).
 * لغة جديدة: الدنماركية
 
-
-## 1.0 ##
+## Version 1.0
 
 * إصدار أولي.
 
-[[!tag stable]]
+
+[[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

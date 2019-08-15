@@ -1,33 +1,41 @@
-# Control Usage Assistant #
+# Brugsassistent til kontroller #
 
 * Forfatter: Joseph Lee
-* Download: [version 2.4][1]
+* Download [stabil version][1]
+* Download [development version][2]
+* NVDA-kompatibilitet: 2017.3 til 2019.2
 
-Brug dette tilføjelsesprogram til at finde ud af, hvordan du kan bruge det
-felt, der er i fokus. Tryk NVDA+h for at få en kort hjælpetekst om, hvordan
-du bruger det felt, som har fokus, f.eks. checkbokse, editfelter osv.
+Brug dette tilføjelsesprogram til at finde ud af, hvordan du kan bruge den
+aktuelle kontrol, der er i fokus. Tryk NVDA+h for at få en kort hjælpetekst
+om, hvordan du bruger den kontrol, som har fokus, f.eks. checkbokse,
+editfelter osv.
 
-## 2.1 ##
+## Version 2.5
+
+* Kompatibel med Python 3.
+
+## Version 2.1
 
 * Nye og opdaterede oversættelser.
 
+## Version 2.0
 
-## 2.0 ##
-
-* Tilføjede hjælpemeddelelser for flere felter, bl.a. terminalvinduer.
+* Tilføjede hjælpemeddelelser for flere kontroller, bl.a. terminalvinduer.
 * Tilføjede hjælpemeddelelser om, hvordan man arbejder med nogle områder i
   programmer, f.eks. Microsoft Excel, PowerPoint og startskærmen i Windows
   8.
-* Tilføjede hjælpemeddelelser om at arbejde med formularer i både
-  gennemsynstilstand og fokustilstand i dokumenter, som bruger virtuel
-  buffer (Internet Explorer, Adobe Reader, Mozilla Firefox, etc.).
+* Tilføjede hjælpemeddelelser ang. hvordan man arbejder med formularer i
+  både gennemsynstilstand og fokustilstand i dokumenter, som benytter en
+  virtuel buffer (Internet Explorer, Adobe Reader, Mozilla Firefox, osv).
 * Nyt sprog: dansk.
 
-
-## 1.0 ##
+## Version 1.0
 
 * Første version.
 
-[[!tag stable]]
+
+[[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
