@@ -1,18 +1,23 @@
 # Tájékoztató üzemmód #
 
 * Készítő: Joseph Lee
-* Download: [version 2.4][1]
+* Download [stable version][1]
+* Download [development version][2]
+* NVDA compatibility: 2017.3 to 2019.2
 
 A kiegészítő segítségével információt kaphat a kurzor alatt lévő elemről
 (pl. hogyan jelölheti be a jelölőnégyzetet, stb). Használatához csak nyomja
 meg az NVDA+h billentyűparancsot.
 
-## 2.1 ##
+## Version 2.5
+
+* Compatible with Python 3.
+
+## Version 2.1
 
 * Új és frissített fordítások.
 
-
-## 2.01.0 ##
+## Version 2.0
 
 * Több súgóüzenetet is hozzáadtak, beleértve a terminál ablakhoz tartozókat.
 * Több, a munkát elősegítő programhoz rendeltek hozzá súgóüzenetet, úgy mint
@@ -21,11 +26,13 @@ meg az NVDA+h billentyűparancsot.
   (Internet explorer, Adobe reader, Mozilla Firefox, stb).
 * Új nyelv: Dán
 
-
-## 1.0 ##
+## Version 1.0
 
 * Első verzió
 
-[[!tag stable]]
+
+[[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

@@ -1,19 +1,24 @@
 # Pomagač korištenja kontrole #
 
 * Autor: Joseph Lee
-* Download: [version 2.4][1]
+* Download [stable version][1]
+* Download [development version][2]
+* NVDA compatibility: 2017.3 to 2019.2
 
 Koristite ovaj dodatak kako biste doznali kako koristiti fokusiranu
 kontrolu.  Pritisnite NVDA+H kako biste dobili kratku poruku o tome kako
 koristiti danu kontrolu, kao što su to potvrdni okviri, polja za uređivanje
 i tome slično.
 
-## 2.1 ##
+## Version 2.5
+
+* Compatible with Python 3.
+
+## Version 2.1
 
 * Novi i ažurirani prijevodi.
 
-
-## 2.0 ##
+## Version 2.0
 
 * Dodane poruke pomoći za više prozora, sada su uključeni i prozori
   komandnog retka.
@@ -24,11 +29,13 @@ i tome slično.
   Firefox, itd.).
 * Novi jezik: Danski.
 
-
-## 1.0 ##
+## Version 1.0
 
 * Prva inačica
 
-[[!tag stable]]
+
+[[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

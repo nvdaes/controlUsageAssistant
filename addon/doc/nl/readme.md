@@ -1,18 +1,23 @@
 # Assistent voor besturingselementgebruik #
 
 * Auteur: Joseph Lee
-* Download: [version 2.4][1]
+* Download [stable version][1]
+* Download [development version][2]
+* NVDA compatibility: 2017.3 to 2019.2
 
 Gebruik deze add-on om uit te vinden hoe het besturingselement met focus
 bediendmoet worden. Druk op NVDA+h om een korte helptekst te krijgen over
 het element met focus zoals bijvoorbeeld selectievakjes, invoervelden, etc.
 
-## 2.1 ##
+## Version 2.5
+
+* Compatible with Python 3.
+
+## Version 2.1
 
 * Nieuwe en bijgewerkte vertalingen.
 
-
-## 2.0 ##
+## Version 2.0
 
 * Helpberichten toegevoegd voor meer besturingselement, inclusief
   promptschermen.
@@ -24,11 +29,13 @@ het element met focus zoals bijvoorbeeld selectievakjes, invoervelden, etc.
   Reader, Mozilla Firefox, etc.).
 * Nieuwe vertaling: Deens.
 
-
-## 1.0 ##
+## Version 1.0
 
 * Eerste versie.
 
-[[!tag stable]]
+
+[[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

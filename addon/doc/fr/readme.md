@@ -1,18 +1,23 @@
 # Control Usage Assistant #
 
 * Autheur : Joseph Lee
-* Télécharger : [version 2.4][1]
+* Download [stable version][1]
+* Download [development version][2]
+* NVDA compatibility: 2017.3 to 2019.2
 
 Utilisez cette extension pour savoir comment interagir avec l'élément
 actif. Appuyez sur NVDA+H sur l'objet sur lequel vous souhaitez avoir cette
 information.
 
-## 2.1 ##
+## Version 2.5
+
+* Compatible with Python 3.
+
+## Version 2.1
 
 * Nouvelle langues et mises à jours d'autres
 
-
-## 2.0 ##
+## Version 2.0
 
 * Messages d'aides ajoutés pour plus d'éléments, comme les fenêtres de
   consoles.
@@ -23,11 +28,13 @@ information.
   Firefox, etc.).
 * Nouvelle langue : Danois
 
-
-## 1.0 ##
+## Version 1.0
 
 * Première version
 
-[[!tag stable]]
+
+[[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

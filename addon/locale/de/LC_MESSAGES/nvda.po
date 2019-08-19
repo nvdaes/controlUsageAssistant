@@ -8,32 +8,32 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2018-01-14 10:35+0100\n"
-"Last-Translator: Bernd Dorer <bdorer@mailbox.org>\n"
+"PO-Revision-Date: 2019-08-11 21:12+0200\n"
+"Last-Translator: Adriani <adriani.botez@gmail.com>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.5\n"
+"X-Generator: Poedit 2.2.3\n"
 "Language-Team: \n"
 
 #. Script category.
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 msgid "Control Usage Assistant"
-msgstr "Steuerelement-Verwendungs-Assistent"
+msgstr "Hilfe zur Verwendung von Steuerelementen"
 
 #. Translators: Input help message for obtain control help command.
 msgid "Presents a short message on how to interact with the focused control."
-msgstr "Zeigt eine kurze Meldung zur Verwendung des fokussierten Objekts an."
+msgstr ""
+"Zeigt eine kurze Hilfemeldung zur Verwendung des fokussierten Objekts an."
 
 #. Translators: Message presented when there is no help message for the focused control.
 msgid "No help for this control"
-msgstr "Für das aktuelle Element steht keine Hilfe zur Verfügung."
+msgstr "Für das aktuelle Element steht keine Hilfemeldung zur Verfügung"
 
 #. Translators: Additional message when working with forms in focus mode.
 msgid ". To switch to browse mode, press NVDA+SPACE or escape key"
-msgstr ""
-". Drücken Sie NVDA+Leertaste oder ESC, um in den Lesemodus zu wechseln."
+msgstr ". Drücken Sie NVDA+Leertaste oder ESC, um in den Lesemodus zu wechseln"
 
 #. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
@@ -41,90 +41,92 @@ msgid ""
 "browse mode by pressing NVDA+SPACE"
 msgstr ""
 "Drücken Sie NVDA+Leertaste, um den Lesemodus und die "
-"Schnellnavigationstasten zu verwenden."
+"Schnellnavigationstasten zu verwenden. Dies ist beispielsweise hilfreich, um "
+"durch Webseiten im Internet oder große Dokumente in Adobe Reader oder "
+"Microsoft Word effizient zu navigieren"
 
 #. Default: universal across apps and states.
 #. Translators: Help message for a checkbox.
 msgid "Press space to check or uncheck the checkbox"
 msgstr ""
 "Dies ist ein Kontrollkästchen. Drücken Sie die Leertaste um es zu aktivieren "
-"oder zu deaktivieren."
+"oder zu deaktivieren"
 
 #. Translators: Help message for working with radio buttons.
 msgid "Use the arrow keys to choose a radio button"
 msgstr ""
 "Dies ist ein Auswahlschalter. Verwenden Sie die Pfeiltasten um zwischen den "
-"einzelnen Optionen zu wählen."
+"einzelnen Optionen zu wählen"
 
 #. Translators: Help message for a list box.
 msgid "Use the arrow keys to read this box"
 msgstr ""
-"Dies ist eine Liste. Verwenden Sie die Pfeiltasten um einen Eintrag "
-"auszuwählen."
+"Dieses steuerelement  ist eine Liste. Verwenden Sie die Pfeiltasten um einen "
+"Eintrag auszuwählen"
 
 #. Translators: Help message for an edit field.
 msgid "Type text here"
-msgstr "Dies ist ein Eingabefeld. Hier können Sie Text eingeben."
+msgstr "Dies ist ein Eingabefeld. Hier können Sie Text eingeben"
 
 #. Translators: Help message for a read-only control.
 msgid "Use the text navigation commands to read text"
 msgstr ""
-"Verwenden Sie die Befehle zum Betrachten von Text um sich im Selbigen zu "
-"bewegen."
+"Verwenden Sie die Befehle zum Betrachten von Text um sich in Texten zu "
+"bewegen"
 
 #. Translators: Help message for a button.
 msgid "Press SPACE or ENTER to activate this button"
 msgstr ""
 "Dies ist ein Schalter. Drücken Sie die Leertaste oder die Eingabetaste um "
-"ihn zu aktivieren."
+"ihn zu aktivieren"
 
 #. Translators: Help message for menu items.
 msgid "Use the arrow keys to move between the menu items"
 msgstr ""
-"Verwenden Sie die Pfeiltasten um zwischen den Einträgen des Menüs zu "
-"navigieren."
+"Verwenden Sie die Pfeiltasten, um zwischen den Einträgen des Menüs zu "
+"navigieren"
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
 msgid "Use up and down arrow keys to move through options in the pop-up menu"
 msgstr ""
-"Verwenden Sie die Pfeiltasten Pfeil Auf und Pfeil Ab um einen Menüeintrag "
-"auszuwählen."
+"Verwenden Sie die Pfeiltasten nach oben und unten, um einen Menüeintrag "
+"auszuwählen"
 
 #. Translators: Help message for a combo box.
 msgid ""
 "Use the arrow keys to move among choices in the combo box until the desired "
 "option is found"
 msgstr ""
-"Verwenden Sie die Pfeiltasten um einen Eintrag dieses Kombinationsfeldes "
-"auszuwählen."
+"Verwenden Sie die Pfeiltasten, um einen Eintrag dieses Kombinationsfeldes "
+"auszuwählen"
 
 #. Translators: Help message for a list view.
 msgid "Use the arrow keys to move to the next or previous item in this list"
 msgstr ""
-"Verwenden Sie die Pfeiltasten um einen Eintrag aus der Liste auszuwählen."
+"Verwenden Sie die Pfeiltasten, um einen Eintrag aus der Liste auszuwählen"
 
 #. Translators: Help message for activating links.
 msgid "Press SPACE or ENTER to activate this link"
 msgstr ""
-"Drücken Sie die Leertaste oder die Eingabetaste um den Link auszuwählen."
+"Drücken Sie die Leertaste oder die Eingabetaste um den Link auszuwählen"
 
 #. Translators: Help message for working with tree view items.
 msgid ""
 "Use the up and down arrow keys to select the items. Use left arrow to "
 "collapse and right arrow to expand"
 msgstr ""
-"Verwenden Sie die Pfeiltasten Pfeil Auf und Pfeil Ab um einen Eintrag "
-"auszuwählen. Verwenden Sie Pfeil Links oder Pfeil Rechts um einen Eintrag zu "
-"reduzieren oder zu erweitern."
+"Verwenden Sie die Pfeiltasten nach oben und unten, um einen Eintrag "
+"auszuwählen. Verwenden Sie Pfeil Links oder Pfeil Rechts um eine Kathegorie "
+"von Einträgen zu reduzieren oder zu erweitern"
 
 #. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
 msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
 "for next tab and control+shift+tab for previous tab"
 msgstr ""
-"Verwenden Sie die Pfeiltasten Pfeil Links oder Pfeil Rechts um zwischen den "
+"Verwenden Sie die Pfeiltasten nach links und rechts, um zwischen den "
 "Registerkarten zu wechseln. Alternativ können Sie auch Strg+Tab und Strg"
-"+Umschalt+Tab verwenden."
+"+Umschalt+Tab verwenden"
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
 msgid ""
@@ -133,36 +135,37 @@ msgid ""
 "decrease in larger values, and press home and end keys to select maximum and "
 "minimum value"
 msgstr ""
-"Verwenden Sie die Pfeiltasten Pfeil runter oder Pfeil Links um den Wert zu "
-"verringern, Pfeil auf oder Pfeil Rechts um den Wert zu erhöhen."
+"Verwenden Sie die Pfeiltaste nach unten oder nach Links, um den Wert zu "
+"verringern, bzw. Pfeiltaste nach oben oder nach Rechts, um den Wert zu "
+"erhöhen"
 
 #. Translators: Help message for navigating tables.
 msgid ""
 "Press control, alt and arrow keys together to move between rows and columns"
 msgstr ""
 "Drücken Sie die Pfeiltasten zusammen mit Strg und Alt um zwischen den Reihen "
-"und Spalten der Tabelle zu navigieren."
+"und Spalten der Tabelle zu navigieren"
 
 #. Translators: Help message for navigating table cells.
 msgid "Press control, alt and arrow keys together to move between table cells"
 msgstr ""
 "Drücken Sie die Pfeiltasten zusammen mit Strg und Alt um zwischen den Zellen "
-"der Tabelle zu navigieren."
+"der Tabelle zu navigieren"
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
 msgid ""
 "Use the arrow keys or object navigation commands to move through the document"
 msgstr ""
-"Verwenden Sie die Pfeiltasten oder den Navigator um sich im Dokument zu "
-"bewegen."
+"Verwenden Sie die Pfeiltasten oder die Tastenkombinationen für die "
+"Objektnavigation, um sich im Dokument zu bewegen"
 
 #. Translators: Help message for terminal windows such as command prompt.
 msgid ""
 "Type commands in the terminal window and use review cursor commands to read "
 "the output"
 msgstr ""
-"Geben sie Befehle in das Terminalfenster ein oder verwenden Sie den NVDA-"
-"Cursor, um die Ausgaben zu lesen."
+"Geben sie Befehle in das Terminalfenster ein und verwenden Sie den NVDA-"
+"Cursor, um die Ergebnisse zu lesen"
 
 #. 200: Virtual Buffer.
 #. Translators: Help message for radio buttons while in browse mode.
@@ -170,9 +173,9 @@ msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
 "ENTER key"
 msgstr ""
-"Um eine Option in diesem Auswahlschalter auszuwählen, wechseln Sie durch "
+"Um eine Option durch einen Auswahlschalter auszuwählen, wechseln Sie durch "
 "Drücken von NVDA-Leertaste oder durch Drücken der Eingabetaste in den "
-"Fokusmodus."
+"Fokusmodus"
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
@@ -180,7 +183,7 @@ msgid ""
 "+SPACE or ENTER key"
 msgstr ""
 "Drücken Sie NVDA-Leertaste oder die Eingabetaste, um in den Fokusmodus zu "
-"wechseln und Text in dieses Eingabefeld einzugeben."
+"wechseln und Text in dieses Eingabefeld einzugeben"
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
@@ -188,29 +191,29 @@ msgid ""
 "+SPACE or ENTER key"
 msgstr ""
 "Drücken Sie NVDA-Leertaste oder die Eingabetaste, um in den Fokusmodus zu "
-"wechseln und einen Eintrag in diesem Kombinationsfeld auszuwählen."
+"wechseln und einen Eintrag in diesem Kombinationsfeld auszuwählen"
 
 #. Translators: Help message for reading webpages.
 msgid ""
 "Use the browse mode and quick navigation commands to read through the webpage"
 msgstr ""
 "Verwenden Sie den Lesemodus oder die Schnellnavigationstasten, um sich durch "
-"die Webseite zu bewegen."
+"die Webseite zu bewegen"
 
 #. App-specific case 1: AppeModule for app is present.
 #. 300: Explorer (to deal with specific cases.
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
 msgid "Use the arrow keys to move between start screen tiles"
 msgstr ""
-"Verwenden Sie die Pfeiltasten um zwischen den Kacheln des Startbildschirms "
-"zu navigieren."
+"Verwenden Sie die Pfeiltasten, um zwischen den Kacheln des Startbildschirms "
+"zu navigieren"
 
 #. 400: Microsoft powerpoint (powerpnt):
 #. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
 msgid "Use up and down arrow keys to move between slides"
 msgstr ""
 "Verwenden Sie die Pfeiltasten auf und ab, um zwischen den Folien zu "
-"navigieren."
+"navigieren"
 
 #. Translators: Help message for working with slide shows.
 msgid ""
@@ -218,15 +221,15 @@ msgid ""
 "the slide show, press escape"
 msgstr ""
 "Drücken Sie die Leertaste oder die Rücktaste, um zwischen den Folien zu "
-"wechseln. Drücken Sie ESC, um die Präsentation zu beenden."
+"wechseln. Drücken Sie ESC, um die Präsentation zu beenden"
 
 #. App-specific case 2: AppeModule for app is not present (use processes).
 #. -300: Excel.
 #. Translators: Help message for moving between Excel spreadsheet cells.
 msgid "Use the arrow keys to move between spreadsheet cells"
 msgstr ""
-"Verwenden Sie die Pfeiltasten um zwischen den Tabellenzellen innerhalb des "
-"Tabellenblattes zu navigieren."
+"Verwenden Sie die Pfeiltasten, um zwischen den Tabellenzellen innerhalb des "
+"Tabellenblattes zu navigieren"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
@@ -234,8 +237,8 @@ msgid ""
 "Control Usage Assistant - get brief help on interacting with the focused "
 "control"
 msgstr ""
-"Hilfe zur benutzung der Steuerelemente - Zeigt eine Hilfe zur Verwendung des "
-"fokussierten Steuerelements an."
+"Hilfe zur Verwendung der Steuerelemente - Zeigt eine Hilfemeldung zur "
+"Verwendung des fokussierten Steuerelements an"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
@@ -245,6 +248,10 @@ msgid ""
 "\tPress NvDA+H to get a short help message on using the focused control, "
 "such as moving through tables, checkboxes and so on."
 msgstr ""
-"Drücken Sie NVDA+H um zu erfahren, wie Sie das aktuell fokussierte "
-"Steuerelement verwenden können. Dies ist für Anwender nützlich, die noch "
-"unerfahren im Umgang mit Windows oder NVDA sind."
+"Diese Erweiterung bietet eine Möglichkeit herauszufinden, wie Sie mit dem "
+"fokussierten Steuerelement interagieren können. Die ist beispielsweise "
+"nützlich für neue Computeranwender, welche dazu im Umgang mit Windows und "
+"NVDA noch unerfahren sind.\n"
+"\tDrücken Sie NVDA+H, um eine kurze Hilfemeldung über die Verwendung des "
+"fokussierten Steuerelement zu erhalten, wie z.B. das Bewegen durch Tabellen, "
+"das aktivieren von Kontrollkästchen usw."

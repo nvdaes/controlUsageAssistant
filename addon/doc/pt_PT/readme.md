@@ -1,19 +1,24 @@
 # Assistente para Uso de Controlos #
 
 * Autor: Joseph Lee
-* Baixar: [versão 2.4][1]
+* Download [stable version][1]
+* Download [development version][2]
+* NVDA compatibility: 2017.3 to 2019.2
 
 Use este extra para descobrir como interagir com o controle sob o
 foco. Pressione NvDA + H para obter uma breve mensagem de ajuda ao interagir
 com o controle focado, como caixas de seleção, campos de edição e assim por
 diante.
 
-## 2.1 ##
+## Version 2.5
+
+* Compatible with Python 3.
+
+## Version 2.1
 
 * Traduções novas e actualizadas.
 
-
-## 2.0 ##
+## Version 2.0
 
 * Mensagens de ajuda para mais controlos adicionados, incluindo janelas de
   terminal.
@@ -25,11 +30,13 @@ diante.
   Adobe Reader, Mozilla Firefox, etc.).
 * Novo idioma: dinamarquês.
 
-
-## 1.0 ##
+## Version 1.0
 
 * Versão inicial.
 
-[[!tag stable]]
+
+[[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

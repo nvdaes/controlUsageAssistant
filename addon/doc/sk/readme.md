@@ -1,18 +1,23 @@
 # Pomoc pre prácu s prvkami #
 
 * Autor: Joseph Lee
-* Download: [version 2.4][1]
+* Download [stable version][1]
+* Download [development version][2]
+* NVDA compatibility: 2017.3 to 2019.2
 
 Doplnok poskytuje pomoc pre aktuálne zameraný prvok. Aby ste počuli pomocné
 hlásenie pre prvky, akými sú napríklad začiarkavacie alebo editačné polia ,
 stlačte NVDA+h
 
-## 2.1 ##
+## Version 2.5
+
+* Compatible with Python 3.
+
+## Version 2.1
 
 * Nové a aktualizované preklady.
 
-
-## 2.0 ##
+## Version 2.0
 
 * pridané pomocné správy pre ďalšie prvky vrátane konzolových aplikácii.
 * Pridané pomocné správy pre ďalšie časti v aplikáciách Microsoft Excel a
@@ -22,11 +27,13 @@ stlačte NVDA+h
   Firefox, atď.).
 * pridaný dánsky preklad.
 
-
-## 1.0 ##
+## Version 1.0
 
 * Prvé vydanie
 
-[[!tag stable]]
+
+[[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

@@ -1,7 +1,9 @@
-# Hilfe zur Benutzung von Steuerelementen #
+# Hilfe zur Verwendung von Steuerelementen #
 
 * Autor: Joseph Lee
-* Herunterladen: [version 2.4][1]
+* [Stabile Version herunterladen][1]
+* [Stabile Version][2] herunterladen
+* NVDA-Kompatibilität: 2017.3 bis 2019.2
 
 Verwenden Sie diese Erweiterung, um zu erfahren, wie Sie das aktuell
 hervorgehobene Steuerelement benutzen können. Drücken Sie NVDA+H, um eine
@@ -9,12 +11,15 @@ kurze Hilfestellung zur Verwendung des aktuell hervorgehobenen
 Steuerelementes zu erhalten (eingeben von Text, aktivieren von
 Kontrollkästchen etc.).
 
-## 2.1 ##
+## Version 2.5
+
+* Kompatibel mit Python 3.
+
+## Version 2.1
 
 * Neue und aktualisierte Übersetzungen.
 
-
-## 2.0 ##
+## Version 2.0
 
 * Hilfemeldungen für mehr Elemente einschließlich Terminal-Fenster
   hinzugefügt.
@@ -25,11 +30,13 @@ Kontrollkästchen etc.).
   Reader, Mozilla Firefox, etc.) hinzugefügt.
 * Neue Sprache: dänisch.
 
-
-## 1.0 ##
+## Version 1.0
 
 * Erstveröffentlichung.
 
-[[!tag stable]]
+
+[[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

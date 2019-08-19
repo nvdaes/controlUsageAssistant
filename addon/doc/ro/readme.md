@@ -1,19 +1,24 @@
 # Control Usage Assistant #
 
 * Autor: Joseph Lee
-* Descărcați: [versiunea 2.4][1]
+* Descărcați [versiunea stabilă][1]
+* Descărcați [versiunea în dezvoltare][2]
+* Compatibilitate NVDA: 2017.3 - 2019.2
 
 Folosiți acest supliment pentru a descoperi cum să interacționați cu
 controlul focalizat.  Apăsați NVDA+H pentru a obține un mesaj scurt de
 ajutor în interacționarea cu controlul focalizat, precum casete de bifat,
 câmpuri de editare și așa mai departe.
 
-## 2.1 ##
+## Versiunea 2.5
+
+* Compatibil cu Python 3.
+
+## Versiunea 2.1
 
 * Au fost incluse traduceri noi și actualizate cele existente.
 
-
-## 2.0 ##
+## Versiunea 2.0
 
 * Au fost adăugate mesaje de ajutor pentru multe controale, incluzând
   ferestrele terminale.
@@ -25,11 +30,13 @@ câmpuri de editare și așa mai departe.
   (Internet Explorer, Adobe Reader, Mozilla Firefox, etc.).
 * Limbă nouă: Daneză.
 
-
-## 1.0 ##
+## Versiunea 1.0
 
 * Versiunea inițială.
 
-[[!tag stable]]
+
+[[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
