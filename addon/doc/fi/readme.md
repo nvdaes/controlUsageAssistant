@@ -2,7 +2,7 @@
 
 * Tekijä: Joseph Lee
 * Lataa [vakaa versio][1]
-* Download [development version][2]
+* Lataa [kehitysversio][2]
 * Yhteensopivuus: NVDA 2017.3-2019.2
 
 Tämän lisäosan avulla on mahdollista selvittää, miten aktiivisen säätimen

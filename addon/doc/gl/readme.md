@@ -2,7 +2,7 @@
 
 * Autor: Joseph Lee
 * Descargar [versión estable][1]
-* Download [development version][2]
+* Descargar [versión de desenvolvemento][2]
 * Compatibilidade con NVDA: da 2017.3 á 2019.2
 
 Utiliza este complemento para atopar como interactuar co control
