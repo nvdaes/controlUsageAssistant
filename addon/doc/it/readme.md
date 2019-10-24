@@ -3,22 +3,22 @@
 * Autore: Joseph Lee
 * Download [stable version][1]
 * Download [development version][2]
-* NVDA compatibility: 2017.3 to 2019.2
+* Compatibilità NVDA. da 2017.3 a 2019.2
 
 Utilizzare questo componente aggiuntivo per scoprire come interagire con il
 controllo evidenziato. Premere NVDA+h per ascoltare un breve suggerimento,
 ad esempio su come selezionare una casella di controllo, come operare in un
 campo editazione e così via.
 
-## Version 2.5
+## Versione 2.5
 
-* Compatible with Python 3.
+* Compatibile con python 3
 
-## Version 2.1
+## Versione 2.1
 
 * Traduzioni nuove e aggiornate
 
-## Version 2.0
+## Versione 2.0
 
 * Aggiunti messaggi di aiuto per diversi controlli, comprese le finestre
   terminale
@@ -28,7 +28,7 @@ campo editazione e così via.
   modalità cursore virtuale
 * Nuova lingua: danese
 
-## Version 1.0
+## Versione 1.0
 
 * Versione iniziale.
 
