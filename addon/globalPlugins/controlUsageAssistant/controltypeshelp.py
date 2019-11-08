@@ -38,6 +38,8 @@ controlTypeHelpMessages = {
 	controlTypes.ROLE_TAB:_("Use the left and right arrow keys to move between tabs, or press control+tab for next tab and control+shift+tab for previous tab."),
 	# Translators: Help message for working with slider controls such as volume mixer in Windows 7.
 	controlTypes.ROLE_SLIDER:_("Use the left and down arrow keys to decrease and up and right arrow keys to increase the value in this slider. Use page up and page down to increase or decrease in larger values, and press home and end keys to select maximum and minimum value."),
+	# Translators: Help message for working with progress bars.
+	controlTypes.ROLE_PROGRESSBAR:_("This is a progress bar, used to show progress of an operation."),
 	# Translators: Help message for navigating tables.
 	controlTypes.ROLE_TABLE:_("Press control, alt and arrow keys together to move between rows and columns."),
 	# Translators: Help message for navigating table cells.
