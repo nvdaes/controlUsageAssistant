@@ -10,7 +10,7 @@ addon_info = {
 	"addon_name" : "controlUsageAssistant",
 	# Add-on description
 	# TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
-	"addon_summary" : _("Control Usage Assistant - get brief help on interacting with the focused control"),
+	"addon_summary" : _("Control Usage Assistant"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on installation and add-on information
 	"addon_description" : _("""Allows you to find out how to interact with the focused control, useful for new computer users new to Windows and to NvDA.
