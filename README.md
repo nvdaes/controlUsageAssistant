@@ -7,6 +7,11 @@
 Use this add-on to find out how to interact with the focused control.
 Press NvDA+H to obtain a short help message on interacting with the focused control, such as checkboxes, edit fields and so on.
 
+## Version 3.0/19.11
+
+* Version scheme is now year.month.
+* When NVDA+H is pressed, a help screen will be displayed instead of a flash message being shown.
+
 ## Version 2.5
 
 * Compatible with Python 3.
