@@ -38,12 +38,17 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# GetHelpMessage: The actual function behind the script above.
 	def getHelpMessage(self, curObj):
 		# Present help messages based on object class MRO, role constant, state(s) and focused app.
+		# If the focused object defines "helpText" method, any message from there will become its help message, skipping MRO and other lookup methods.
 		# These messages (if any) will be appended to a list of help messages.
 		helpMessages = []
-		for entry in curObj.__class__.__mro__:
-			clsName = str(entry).split("'")[1]
-			if clsName in helpmessages.objectsHelpMessages:
-				helpMessages.append(helpmessages.objectsHelpMessages[clsName])
+		# Check if the focused object does come with a help text method.
+		if hasattr(curObj, "helpText"):
+			helpMessages.append(curObj.helpText)
+		else:
+			for entry in curObj.__class__.__mro__:
+				clsName = str(entry).split("'")[1]
+				if clsName in helpmessages.objectsHelpMessages:
+					helpMessages.append(helpmessages.objectsHelpMessages[clsName])
 		# Except for virtual buffers, do not proceed if we do have help messages from MRO lookup.
 		# Additional constraints.
 		# Just in case browse mode is active.
