@@ -10,6 +10,12 @@ controlul focalizat.  Apăsați NVDA+H pentru a obține un mesaj scurt de
 ajutor în interacționarea cu controlul focalizat, precum casete de bifat,
 câmpuri de editare și așa mai departe.
 
+## Version 3.0/19.11
+
+* Version scheme is now year.month.
+* When NVDA+H is pressed, a help screen will be displayed instead of a flash
+  message being shown.
+
 ## Versiunea 2.5
 
 * Compatibil cu Python 3.
@@ -33,7 +39,6 @@ câmpuri de editare și așa mai departe.
 ## Versiunea 1.0
 
 * Versiunea inițială.
-
 
 [[!tag dev stable]]
 

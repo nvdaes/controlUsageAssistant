@@ -9,6 +9,12 @@ Użyj tego dodatku, aby dowiedzieć się w jaki sposób pracować z aktualną
 kontrolką.  Naciśnij NvDA+H aby uzyskać krótką pomoc dotyczącą używania
 bieżącej kontrolki, (pola wyboru, pola edycji, itd.)
 
+## Version 3.0/19.11
+
+* Version scheme is now year.month.
+* When NVDA+H is pressed, a help screen will be displayed instead of a flash
+  message being shown.
+
 ## Version 2.5
 
 * Compatible with Python 3.
@@ -30,7 +36,6 @@ bieżącej kontrolki, (pola wyboru, pola edycji, itd.)
 ## Version 1.0
 
 * Pierwsza wersja.
-
 
 [[!tag dev stable]]
 

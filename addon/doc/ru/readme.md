@@ -10,6 +10,12 @@
 взаимодействию с определённым типом управления, например, флажки, поля
 редактирования и так далее.
 
+## Version 3.0/19.11
+
+* Version scheme is now year.month.
+* When NVDA+H is pressed, a help screen will be displayed instead of a flash
+  message being shown.
+
 ## Version 2.5
 
 * Compatible with Python 3.
@@ -32,7 +38,6 @@
 ## Version 1.0
 
 * Начальная версия.
-
 
 [[!tag dev stable]]
 

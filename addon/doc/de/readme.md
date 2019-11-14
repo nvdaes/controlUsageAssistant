@@ -11,6 +11,12 @@ kurze Hilfestellung zur Verwendung des aktuell hervorgehobenen
 Steuerelementes zu erhalten (eingeben von Text, aktivieren von
 Kontrollkästchen etc.).
 
+## Version 3.0/19.11
+
+* Version scheme is now year.month.
+* When NVDA+H is pressed, a help screen will be displayed instead of a flash
+  message being shown.
+
 ## Version 2.5
 
 * Kompatibel mit Python 3.
@@ -33,7 +39,6 @@ Kontrollkästchen etc.).
 ## Version 1.0
 
 * Erstveröffentlichung.
-
 
 [[!tag dev stable]]
 

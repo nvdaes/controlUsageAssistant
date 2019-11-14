@@ -10,6 +10,12 @@ aktuelle kontrol, der er i fokus. Tryk NVDA+h for at få en kort hjælpetekst
 om, hvordan du bruger den kontrol, som har fokus, f.eks. checkbokse,
 editfelter osv.
 
+## Version 3.0/19.11
+
+* Version scheme is now year.month.
+* When NVDA+H is pressed, a help screen will be displayed instead of a flash
+  message being shown.
+
 ## Version 2.5
 
 * Kompatibel med Python 3.
@@ -32,7 +38,6 @@ editfelter osv.
 ## Version 1.0
 
 * Første version.
-
 
 [[!tag dev stable]]
 

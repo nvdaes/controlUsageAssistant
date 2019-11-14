@@ -10,6 +10,12 @@ enfocado.  Pulsa NVDA+H para obtener un breve mensaje de ayuda sobre la
 interacción con el control enfocado, como con casillas de verificación,
 campos de edición y así con otros.
 
+## Versión 3.0 / 19.11
+
+* El esquema de versión ahora es año.mes.
+* Cuando se pulse NVDA+h, se mostrará una pantalla de ayuda en lugar de un
+  mensaje emergente.
+
 ## Versión 2.5
 
 * Compatible con Python 3.
@@ -33,7 +39,6 @@ campos de edición y así con otros.
 ## Versión 1.0
 
 * Versión inicial.
-
 
 [[!tag dev stable]]
 

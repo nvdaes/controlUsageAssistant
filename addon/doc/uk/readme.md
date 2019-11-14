@@ -10,6 +10,12 @@
 взаємодіяти з елементом, на якому ви зараз знаходитесь, наприклад, з
 прапорцем, кнопкою, комбінованим списком і так далі.
 
+## Version 3.0/19.11
+
+* Version scheme is now year.month.
+* When NVDA+H is pressed, a help screen will be displayed instead of a flash
+  message being shown.
+
 ## Версія 2.5
 
 * Додаток став сумісним з Python 3.
@@ -32,7 +38,6 @@
 ## Версія 1.0
 
 * Перша версія
-
 
 [[!tag dev stable]]
 

@@ -10,6 +10,11 @@ kanssa voidaan olla vuorovaikutuksessa.  Paina NVDA+H kuullaksesi lyhyen
 ohjeen aktiivisen säätimen käytöstä, kuten esim. valintaruudun
 valitsemisesta, tekstin muokkaamisesta jne.
 
+## Versio 3.0/19.11
+
+* Versionumeron muoto on nyt vuosi.kuukausi.
+* NVDA+H:ta painettaessa näytetään ohjeruutu pikaviestin sijaan.
+
 ## Versio 2.5
 
 * Yhteensopiva Python 3:n kanssa.
@@ -32,7 +37,6 @@ valitsemisesta, tekstin muokkaamisesta jne.
 ## Versio 1.0
 
 * Ensimmäinen versio.
-
 
 [[!tag dev stable]]
 

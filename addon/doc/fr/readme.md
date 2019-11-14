@@ -9,6 +9,12 @@ Utilisez cette extension pour savoir comment interagir avec l'élément
 actif. Appuyez sur NVDA+H sur l'objet sur lequel vous souhaitez avoir cette
 information.
 
+## Version 3.0/19.11
+
+* Version scheme is now year.month.
+* When NVDA+H is pressed, a help screen will be displayed instead of a flash
+  message being shown.
+
 ## Version 2.5
 
 * Compatible with Python 3.
@@ -31,7 +37,6 @@ information.
 ## Version 1.0
 
 * Première version
-
 
 [[!tag dev stable]]
 

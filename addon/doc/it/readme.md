@@ -10,6 +10,12 @@ controllo evidenziato. Premere NVDA+h per ascoltare un breve suggerimento,
 ad esempio su come selezionare una casella di controllo, come operare in un
 campo editazione e così via.
 
+## Version 3.0/19.11
+
+* Version scheme is now year.month.
+* When NVDA+H is pressed, a help screen will be displayed instead of a flash
+  message being shown.
+
 ## Versione 2.5
 
 * Compatibile con python 3
@@ -31,7 +37,6 @@ campo editazione e così via.
 ## Versione 1.0
 
 * Versione iniziale.
-
 
 [[!tag dev stable]]
 

@@ -10,6 +10,12 @@ enfocado. Preme NVDA + H para obter unha mensaxe curta de axuda na
 interacción co control enfocado, como coas caixas de verificación, campos de
 edición e así con outros.
 
+## Version 3.0/19.11
+
+* Version scheme is now year.month.
+* When NVDA+H is pressed, a help screen will be displayed instead of a flash
+  message being shown.
+
 ## Versión 2.5
 
 * Compatible con Python 3.
@@ -32,7 +38,6 @@ edición e así con outros.
 ## Versión 1.0
 
 * Versión inicial.
-
 
 [[!tag dev stable]]
 

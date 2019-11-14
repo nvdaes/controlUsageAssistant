@@ -10,6 +10,12 @@ koristite određenu vrstu kontrola. Pritisnite NVDA+H da biste čuli kratku
 poruku pomoći, na primer kada je fokus na tekstualnom polju, dugmetu koje
 treba štiklirati...
 
+## Version 3.0/19.11
+
+* Version scheme is now year.month.
+* When NVDA+H is pressed, a help screen will be displayed instead of a flash
+  message being shown.
+
 ## Version 2.5
 
 * Compatible with Python 3.
@@ -30,7 +36,6 @@ treba štiklirati...
 ## Version 1.0
 
 * Prva verzija
-
 
 [[!tag dev stable]]
 
