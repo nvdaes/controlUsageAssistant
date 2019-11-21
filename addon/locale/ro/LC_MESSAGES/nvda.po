@@ -8,33 +8,34 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant 2.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2016-04-22 03:05+1000\n"
-"PO-Revision-Date: 2017-10-20 09:29+0200\n"
+"PO-Revision-Date: 2019-11-16 14:13+0200\n"
+"Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
+"Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
-"Language-Team: \n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 2.2.4\n"
 
-#. Script category.
 #. Translators: Input gesture category for Control Usage Assistant add-on.
+#. The prototype UI message, the actual processing is done below.
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
 msgid "Control Usage Assistant"
 msgstr "Control Usage Assistant"
 
 #. Translators: Input help message for obtain control help command.
-msgid "Presents a short message on how to interact with the focused control."
-msgstr ""
-"Prezintă un mesaj scurt despre cum se interacționează cu controlul focusat."
+msgid "Presents a message on how to interact with the focused control."
+msgstr "Prezintă un mesaj cu privire la interacțiunea cu controlul focusat."
 
 #. Translators: Message presented when there is no help message for the focused control.
 msgid "No help for this control"
 msgstr "Nici un ajutor pentru acest control"
 
 #. Translators: Additional message when working with forms in focus mode.
-msgid ". To switch to browse mode, press NVDA+SPACE or escape key"
+msgid " To switch to browse mode, press NVDA+SPACE or escape key"
 msgstr ""
-"Pentru a comuta la modul navigare, apăsați NVDA+Spațiu sau tasta escape"
+" Pentru a comuta la modul navigare, apăsați NVDA+Spațiu sau tasta escape"
 
 #. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
@@ -44,184 +45,193 @@ msgstr ""
 "Pentru a utiliza modul navigare și navigarea rapidă a tastelor pentru a "
 "vizualiza pagina web, comutați la modul navigare apăsând NVDA+Spațiu"
 
-#. Default: universal across apps and states.
 #. Translators: Help message for a checkbox.
-msgid "Press space to check or uncheck the checkbox"
-msgstr "Apasă Spațiu pentru a bifa sau debifa căsuța "
+msgid "Press space bar to check or uncheck this check box."
+msgstr "Apasă Spațiu pentru a bifa sau debifa căsuța."
 
 #. Translators: Help message for working with radio buttons.
-msgid "Use the arrow keys to choose a radio button"
-msgstr "Utilizați săgețile pentru a alege un buton rotativ"
+msgid "Use the arrow keys to choose a radio button."
+msgstr "Utilizați săgețile pentru a alege un buton rotativ."
 
 #. Translators: Help message for a list box.
-msgid "Use the arrow keys to read this box"
-msgstr "Utilizați săgețile pentru a citi această casetă"
+msgid "Use the arrow keys to read this box."
+msgstr "Utilizați săgețile pentru a citi această casetă."
 
 #. Translators: Help message for an edit field.
-msgid "Type text here"
-msgstr "Tastează textul aici"
-
-#. Translators: Help message for a read-only control.
-msgid "Use the text navigation commands to read text"
-msgstr "Folosește comenzile de navigare ale textului pentru a citi textul"
+msgid "Type text here."
+msgstr "Scrieți textul aici."
 
 #. Translators: Help message for a button.
-msgid "Press SPACE or ENTER to activate this button"
-msgstr "Apăsați enter sau spațiu pentru a activa acest buton"
+msgid "Press SPACE or ENTER to activate this button."
+msgstr "Apăsați enter sau spațiu pentru a activa acest buton."
 
 #. Translators: Help message for menu items.
-msgid "Use the arrow keys to move between the menu items"
-msgstr "Folosiți săgețile pentru a vă deplasa între elementele meniului"
+msgid "Use the arrow keys to move between the menu items."
+msgstr "Folosiți săgețile pentru a vă deplasa între elementele meniului."
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
-msgid "Use up and down arrow keys to move through options in the pop-up menu"
+msgid "Use up and down arrow keys to move through options in the pop-up menu."
 msgstr ""
 "Folosiți săgețile sus și jos pentru a vă deplasa prin opțiuni în meniul pop-"
-"up"
+"up."
 
 #. Translators: Help message for a combo box.
 msgid ""
 "Use the arrow keys to move among choices in the combo box until the desired "
-"option is found"
+"option is found."
 msgstr ""
 "Utilizați săgețile pentru a vă deplasa prin opțiuni în căsuța combinată până "
-"când opțiunea aleasă este găsită"
+"când opțiunea aleasă este găsită."
 
 #. Translators: Help message for a list view.
-msgid "Use the arrow keys to move to the next or previous item in this list"
+msgid "Use the arrow keys to move to the next or previous item in this list."
 msgstr ""
 "Utilizați săgețile pentru a vă deplasa la următorul sau la precedentul "
-"element în această listă"
+"element în această listă."
 
 #. Translators: Help message for activating links.
-msgid "Press SPACE or ENTER to activate this link"
-msgstr "Apăsați spațiu sau enter pentru a activa acest link"
+msgid "Press SPACE or ENTER to activate this link."
+msgstr "Apăsați spațiu sau enter pentru a activa acest link."
 
 #. Translators: Help message for working with tree view items.
 msgid ""
 "Use the up and down arrow keys to select the items. Use left arrow to "
-"collapse and right arrow to expand"
+"collapse and right arrow to expand."
 msgstr ""
 "Folosiți săgețile sus și jos pentru a selecta elementele. Folosiți săgeată "
-"stânga pentru a reduce și săgeată dreapta pentru a extinde"
+"stânga pentru a reduce și săgeată dreapta pentru a extinde."
 
 #. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
 msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
-"for next tab and control+shift+tab for previous tab"
+"for next tab and control+shift+tab for previous tab."
 msgstr ""
 "Utilizați săgețile stânga și dreapta pentru a vă muta între taburi, sau "
 "apăsați control+tab pentru următorul tab și control+shift+tab pentru tabul "
-"anterior"
+"anterior."
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
 msgid ""
 "Use the left and down arrow keys to decrease and up and right arrow keys to "
 "increase the value in this slider. Use page up and page down to increase or "
 "decrease in larger values, and press home and end keys to select maximum and "
-"minimum value"
+"minimum value."
 msgstr ""
 "Folosiți săgețile stânga și jos pentru a micșora sau săgețile sus și dreapta "
 "pentru a mări valoarea în acest glisor. Utilizați tastele pagină sus și "
 "pagină jos pentru a mări sau micșora în valori mai mari, apoi apăsați "
-"tastele home și end pentru a selecta valoarea minimă și maximă"
+"tastele home și end pentru a selecta valoarea minimă și maximă."
+
+#. Translators: Help message for working with progress bars.
+msgid "This is a progress bar, used to show progress of an operation."
+msgstr ""
+"Aceasta este o bară de progres, utilizată la afișarea progresului unei "
+"operațiuni."
 
 #. Translators: Help message for navigating tables.
 msgid ""
-"Press control, alt and arrow keys together to move between rows and columns"
+"Press control, alt and arrow keys together to move between rows and columns."
 msgstr ""
 "Apăsați control, alt și săgețile împreună pentru a vă deplasa între rânduri "
-"și coloane"
+"și coloane."
 
 #. Translators: Help message for navigating table cells.
-msgid "Press control, alt and arrow keys together to move between table cells"
+msgid ""
+"Press Control+Alt+arrow keys to other table cells. Pressing left or right "
+"arrow keys will navigate between columns, and up and down arrow keys will "
+"navigate by row."
 msgstr ""
-"Apăsați control, alt și săgețile împreună pentru a vă deplasa între celulele "
-"tabelurilor"
+"Apăsați Control+Alt+săgeți pentru a naviga la alte celule de tabel. Apăsarea "
+"tastelor săgeată stânga sau săgeată dreapta va plimba cursorul printre "
+"coloane, iar apăsarea tastelor săgeată sus sau săgeată jos îl va plimba "
+"printre rânduri."
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
 msgid ""
-"Use the arrow keys or object navigation commands to move through the document"
+"Use the arrow keys or object navigation commands to move through the "
+"document."
 msgstr ""
 "Folosiți săgețile sau comenzile obiectului de navigare pentru a vă deplasa "
-"la trecerea documentului"
+"la trecerea documentului."
 
 #. Translators: Help message for terminal windows such as command prompt.
 msgid ""
 "Type commands in the terminal window and use review cursor commands to read "
-"the output"
+"the output."
 msgstr ""
 "Tastați comenzile în fereastra terminală și folosiți comenzile cursorului de "
-"examinare pentru a vizualiza ieșirea"
+"examinare pentru a vizualiza ieșirea."
 
-#. 200: Virtual Buffer.
 #. Translators: Help message for radio buttons while in browse mode.
 msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
-"ENTER key"
+"ENTER key."
 msgstr ""
 "Pentru a selecta un buton rotativ, comutați la modul focusare prin apăsarea "
-"NVDA+spațiu sau a tastei enter"
+"NVDA+spațiu sau a tastei enter."
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
 "To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key"
+"+SPACE or ENTER key."
 msgstr ""
 "Pentru a scrie un text în acest câmp de editare, comutați la modul focusare "
-"prin apăsarea NVDA+spațiu sau a tastei enter"
+"prin apăsarea NVDA+spațiu sau a tastei enter."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
 "To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key"
+"+SPACE or ENTER key."
 msgstr ""
 "Pentru a selecta un element în căsuța combinată, comutați la modul focusare "
-"prin apăsarea NVDA+spațiu sau a tastei enter"
+"prin apăsarea NVDA+spațiu sau a tastei enter."
 
 #. Translators: Help message for reading webpages.
 msgid ""
-"Use the browse mode and quick navigation commands to read through the webpage"
+"Use the browse mode and quick navigation commands to read through the "
+"webpage."
 msgstr ""
 "Folosiți modul navigare și comenzile de navigare rapidă pentru a citi prin "
-"pagina web"
+"pagina web."
 
-#. App-specific case 1: AppeModule for app is present.
-#. 300: Explorer (to deal with specific cases.
-#. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
-msgid "Use the arrow keys to move between start screen tiles"
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
 msgstr ""
-"Folosiți săgețile pentru a vă deplasa între elementele ecranului de pornire"
+"După scrierea textului de căutare, apăsați săgeată sus sau jos pentru a "
+"vedea lista de sugestii."
 
-#. 400: Microsoft powerpoint (powerpnt):
+#. Translators: Help message for reading Adobe PDF documents.
+msgid ""
+"Use the browse mode and quick navigation commands to read through the PDF "
+"document."
+msgstr ""
+"Folosiți modul navigare și comenzile de navigare rapidă pentru a citi prin "
+"pagina web."
+
+#. Translators: Help message for moving between Excel spreadsheet cells.
+msgid "Use the arrow keys to move between spreadsheet cells."
+msgstr ""
+"Utilizați săgețile pentru a vă deplasa între celulele din foaia de calcul."
+
+#. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
+msgid "Use the arrow keys to move between start screen tiles."
+msgstr ""
+"Folosiți săgețile pentru a vă deplasa între elementele ecranului de pornire."
+
 #. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
-msgid "Use up and down arrow keys to move between slides"
-msgstr "Utilizați săgețile sus și jos pentru a vă deplasa între diapozitive"
+msgid "Use up and down arrow keys to move between slides."
+msgstr "Utilizați săgețile sus și jos pentru a vă deplasa între diapozitive."
 
 #. Translators: Help message for working with slide shows.
 msgid ""
 "Press SPACE or BACKSPACE to move between slides in the slide show. To end "
-"the slide show, press escape"
+"the slide show, press escape."
 msgstr ""
 "Apăsați spațiu sau backspace pentru a vă deplasa între diapozitive în "
 "expunerea de diapozitive. Pentru a termina expunerea de diapozitive, apăsați "
-"escape"
-
-#. App-specific case 2: AppeModule for app is not present (use processes).
-#. -300: Excel.
-#. Translators: Help message for moving between Excel spreadsheet cells.
-msgid "Use the arrow keys to move between spreadsheet cells"
-msgstr ""
-"Utilizați săgețile pentru a vă deplasa între celulele din foaia de calcul"
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
-msgid ""
-"Control Usage Assistant - get brief help on interacting with the focused "
-"control"
-msgstr ""
-"Control Usage Assistant - obține un scurt ajutor la interacțiunea cu "
-"controlul focusat."
+"escape."
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
@@ -236,3 +246,19 @@ msgstr ""
 "tApasă NVDA+H pentru a obține un mesaj scurt de ajutor cu privire la  "
 "utilizarea controlului focusat, cum ar fi deplasarea prin tabele, casetele "
 "de selectare și așa mai departe."
+
+#~ msgid "Use the text navigation commands to read text"
+#~ msgstr "Folosește comenzile de navigare ale textului pentru a citi textul"
+
+#~ msgid ""
+#~ "Press control, alt and arrow keys together to move between table cells"
+#~ msgstr ""
+#~ "Apăsați control, alt și săgețile împreună pentru a vă deplasa între "
+#~ "celulele tabelurilor"
+
+#~ msgid ""
+#~ "Control Usage Assistant - get brief help on interacting with the focused "
+#~ "control"
+#~ msgstr ""
+#~ "Control Usage Assistant - obține un scurt ajutor la interacțiunea cu "
+#~ "controlul focusat."

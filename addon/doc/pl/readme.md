@@ -1,29 +1,29 @@
 # Control Usage Assistant #
 
 * Autor: Joseph Lee
-* Download [stable version][1]
-* Download [development version][2]
-* NVDA compatibility: 2017.3 to 2019.2
+* Pobierz [wersja rozwojowa][1]
+* Pobierz [wersja rozwojowa][2]
+* Zgodność z wersjami NVDA: 2017.3 do 2019.2
 
 Użyj tego dodatku, aby dowiedzieć się w jaki sposób pracować z aktualną
 kontrolką.  Naciśnij NvDA+H aby uzyskać krótką pomoc dotyczącą używania
 bieżącej kontrolki, (pola wyboru, pola edycji, itd.)
 
-## Version 3.0/19.11
+## Wersja 3.0/19.11
 
-* Version scheme is now year.month.
-* When NVDA+H is pressed, a help screen will be displayed instead of a flash
-  message being shown.
+* Shemat wersji teraz jest rok.miesiąc.
+* Gdy skrót NVDA+H jest naciśnięty, Zamiast komunikatu błyskawicznego,
+  pokazywane jest okno pomocy.
 
-## Version 2.5
+## Wersja 2.5
 
-* Compatible with Python 3.
+* Zgodny z Pythonem 3.
 
-## Version 2.1
+## Wersja 2.1
 
 * Nowe i zaktualizowane tłumaczenia.
 
-## Version 2.0
+## Wersja 2.0
 
 * Dodane instrukcje dla większej liczby kontrolek w tym dotyczące okna
   terminala.
@@ -33,7 +33,7 @@ bieżącej kontrolki, (pola wyboru, pola edycji, itd.)
   formularza (Internet Explorer, Adobe Reader, Mozilla Firefox, etc.).
 * Nowy język: duński.
 
-## Version 1.0
+## Wersja 1.0
 
 * Pierwsza wersja.
 

@@ -8,33 +8,34 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-07-23 10:25+0200\n"
-"PO-Revision-Date: 2013-07-24 20:31+0530\n"
+"PO-Revision-Date: 2019-11-17 10:57+0530\n"
 "Last-Translator: DINAKAR T.D. <td.dinkar@gmail.com>\n"
 "Language-Team: DINAKAR T.D. <td.dinkar@gmail.com>\n"
-"Language: \n"
+"Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Tamil\n"
-"X-Poedit-Country: India\n"
+"X-Generator: Poedit 1.6.11\n"
 
-#. Script category.
 #. Translators: Input gesture category for Control Usage Assistant add-on.
+#. The prototype UI message, the actual processing is done below.
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
 msgid "Control Usage Assistant"
-msgstr ""
+msgstr "கட்டுப்பாடுகளைப் பயன்படுத்துவதற்கான உதவியாளர்"
 
 #. Translators: Input help message for obtain control help command.
-msgid "Presents a short message on how to interact with the focused control."
+msgid "Presents a message on how to interact with the focused control."
 msgstr ""
-"குவிமையத்தில் இருக்கும் கட்டுப்பாடுடன் எவ்வாறு அளவளாவ வேண்டும் என்று ஒரு குறுஞ்செய்தி "
-"அறிவிக்கும்."
+"குவிமையத்தில் இருக்கும் கட்டுப்பாடுடன் எவ்வாறு அளவளாவ வேண்டும் என்று ஒரு தகவலை "
+"அளிக்கிறது."
 
 #. Translators: Message presented when there is no help message for the focused control.
 msgid "No help for this control"
-msgstr "இக்கட்டுப்பாட்டிற்கு உதவி இல்லை"
+msgstr "இக்கட்டுப்பாட்டிற்கு உதவி ஏதுமில்லை"
 
 #. Translators: Additional message when working with forms in focus mode.
-msgid ". To switch to browse mode, press NVDA+SPACE or escape key"
+msgid " To switch to browse mode, press NVDA+SPACE or escape key"
 msgstr ""
 "உலாவும் நிலைக்கு மாற, என்விடிஏ+இடைவெளிப்பட்டை, அல்லது விடுபடு விசையை அழுத்தவும்"
 
@@ -46,40 +47,35 @@ msgstr ""
 "உலாவும் நிலைக்கு மாறவும், விரைவு வழிநடத்தல் கட்டளைகளைப் பயன்படுத்தவும், என்விடிஏ"
 "+இடைவெளிப்பட்டை, அல்லது விடுபடு விசையை அழுத்தவும்"
 
-#. Default: universal across apps and states.
 #. Translators: Help message for a checkbox.
-msgid "Press space to check or uncheck the checkbox"
+msgid "Press space bar to check or uncheck this check box."
 msgstr ""
 "இத்தேர்வுப் பெட்டியை தேர்வு செய்ய, அல்லது தேர்வினை நீக்க, இடைவெளிப் பட்டையை அழுத்தவும்"
 
 #. Translators: Help message for working with radio buttons.
-msgid "Use the arrow keys to choose a radio button"
+msgid "Use the arrow keys to choose a radio button."
 msgstr "ஒரு வானொலிப் பொத்தானை தேர்வு செய்ய, அம்பு விசைகளைப் பயன்படுத்தவும் "
 
 #. Translators: Help message for a list box.
-msgid "Use the arrow keys to read this box"
+msgid "Use the arrow keys to read this box."
 msgstr "இப்பெட்டியை படிக்க, அம்பு விசைகளை பயன்படுத்தவும்"
 
 #. Translators: Help message for an edit field.
-msgid "Type text here"
+msgid "Type text here."
 msgstr "இங்கு உரையை தட்டச்சிடலாம்"
 
-#. Translators: Help message for a read-only control.
-msgid "Use the text navigation commands to read text"
-msgstr "உரையை படிக்க, உரை வழிகாட்டிக் கட்டளைகளை பயன்படுத்தவும்"
-
 #. Translators: Help message for a button.
-msgid "Press SPACE or ENTER to activate this button"
+msgid "Press SPACE or ENTER to activate this button."
 msgstr "இப்பொத்தானை அழுத்த, இடைவெளிப் பட்டை, அல்லது உள்ளிடு விசையை அழுத்தவும்"
 
 #. Translators: Help message for menu items.
-msgid "Use the arrow keys to move between the menu items"
+msgid "Use the arrow keys to move between the menu items."
 msgstr ""
 "இப்பட்டியலின் உருப்படிகளுக்கிடையே நகர, அம்பு விசைகளைப் பயன்படுத்தவும்; "
 "தெரிவாகியிருக்கும் உருப்படியை இயக்க, உள்ளிடு விசையை அழுத்தவும்"
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
-msgid "Use up and down arrow keys to move through options in the pop-up menu"
+msgid "Use up and down arrow keys to move through options in the pop-up menu."
 msgstr ""
 "இப்பட்டியலில் இருக்கும் விருப்பத் தேர்வுகளுக்கிடையே நகர, மேலம்பு, அல்லது கீழம்பு விசைகளைப் "
 "பயன்படுத்தவும்; தெரிவாகியிருக்கும் உருப்படியை இயக்க, உள்ளிடு விசையை அழுத்தவும்"
@@ -87,25 +83,25 @@ msgstr ""
 #. Translators: Help message for a combo box.
 msgid ""
 "Use the arrow keys to move among choices in the combo box until the desired "
-"option is found"
+"option is found."
 msgstr ""
 "இந்த சேர்க்கை பெட்டியில், தேவைப்படும் விருப்பத் தேர்வினை அடையும் வரை, அம்பு விசைகளைக் "
 "கொண்டு உருப்படிகளுக்கிடையே நகரவும்"
 
 #. Translators: Help message for a list view.
-msgid "Use the arrow keys to move to the next or previous item in this list"
+msgid "Use the arrow keys to move to the next or previous item in this list."
 msgstr ""
 "இப்பட்டியலில் இருக்கும் உருப்படிகளுக்கிடையே நகர, அம்பு விசைகளை பயன்படுத்தவும்; "
 "தெரிவாகியிருக்கும் உருப்படியை இயக்க, உள்ளிடு விசையை அழுத்தவும்"
 
 #. Translators: Help message for activating links.
-msgid "Press SPACE or ENTER to activate this link"
+msgid "Press SPACE or ENTER to activate this link."
 msgstr "இத்தொடுப்பினை இயக்க, இடைவெளிப் பட்டை, அல்லது உள்ளிடு விசையை அழுத்தவும்"
 
 #. Translators: Help message for working with tree view items.
 msgid ""
 "Use the up and down arrow keys to select the items. Use left arrow to "
-"collapse and right arrow to expand"
+"collapse and right arrow to expand."
 msgstr ""
 "இக்கிளைத் தோற்ற உருப்படிகளுக்கிடையே நகர, மேலம்பு, அல்லது கீழம்பு விசைகளை பயன்படுத்தவும். "
 "கிளைத் தோற்றத்தை விரிவாக்க, அல்லது குறுக்க, வலதம்பு, அல்லதுஇடதம்பு விசைகளை பயன்படுத்தவும்"
@@ -113,7 +109,7 @@ msgstr ""
 #. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
 msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
-"for next tab and control+shift+tab for previous tab"
+"for next tab and control+shift+tab for previous tab."
 msgstr ""
 "கீற்றுகளுக்கிடையே நகர, இடதம்பு, அல்லது வலதம்பு விசைகளை பயன்படுத்தவும். அடுத்த கீற்றுக்கு "
 "நகர, கட்டுப்பாடு+தத்தல் விசையை அழுத்தவும். முந்தைய கீற்றுக்கு நகர, கட்டுப்பாடு+மாற்றழுத்தி"
@@ -124,45 +120,54 @@ msgid ""
 "Use the left and down arrow keys to decrease and up and right arrow keys to "
 "increase the value in this slider. Use page up and page down to increase or "
 "decrease in larger values, and press home and end keys to select maximum and "
-"minimum value"
+"minimum value."
 msgstr ""
 "இவ்வழுக்கியில் மதிப்பைக் கூட்ட, மேலம்பு, அல்லது வலதம்பு விசைகளை அழுத்தவும்; மதிப்பைக் "
 "குறைக்க, கீழம்பு, அல்லது இடதம்பு விசைகளை அழுத்தவும். மதிப்பை பெருமளவுகளில் கூட்ட, "
 "அல்லது குறைக்க, பக்கம் மேல், அல்லது பக்கம் கீழ் விசைகளை அழுத்தவும். உட்சபட்ச, அல்லது "
 "குறைந்தபட்ச அளவிற்கு நகர, தொடக்கம், அல்லது முடிவு விசைகளை அழுத்தவும். "
 
+#. Translators: Help message for working with progress bars.
+msgid "This is a progress bar, used to show progress of an operation."
+msgstr "ஒரு நிகழ்வின் முன்னேற்றத்தைக் காட்டும் முன்னேற்றப் பட்டை."
+
 #. Translators: Help message for navigating tables.
 msgid ""
-"Press control, alt and arrow keys together to move between rows and columns"
+"Press control, alt and arrow keys together to move between rows and columns."
 msgstr ""
 "கிடைவரிசை, செங்குத்து வரிசைகளுக்கிடையே நகர, கட்டுப்பாடு, நிலைமாற்றி, அம்பு விசைகளை "
 "ஒருசேர அழுத்தவும்"
 
 #. Translators: Help message for navigating table cells.
-msgid "Press control, alt and arrow keys together to move between table cells"
+msgid ""
+"Press Control+Alt+arrow keys to other table cells. Pressing left or right "
+"arrow keys will navigate between columns, and up and down arrow keys will "
+"navigate by row."
 msgstr ""
-"அட்டவணையின் சிறுகட்டங்களுக்கிடையே நகர, கட்டுப்பாடு, நிலைமாற்றி, அம்பு விசைகளை ஒருசேர "
-"அழுத்தவும்"
+"கட்டுப்பாடு+நிலைமாற்றி விசைகளுடன்  அம்பு விசைகளை அழுத்துவதன் மூலம், ஒரு அட்டவணையில் "
+"அமைந்திருக்கும் பிற சிறுகட்டங்களுக்கு நகரலாம். இடது - வலது அம்பு விசைகளைஅழுத்தினால், "
+"இடது - வலதாக அமைந்திருக்கும் நெடுவரிசையில் அமைந்திருக்கும் சிறுகட்டத்திற்கு நகரும். மேல் "
+"- கீழ் அம்பு விசைகளை அழுத்தினால், மேல் - கீழ் கிடைவரிசையில் அமைந்திருக்கும் "
+"சிறுகட்டத்திற்கு நகரும். "
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
 msgid ""
-"Use the arrow keys or object navigation commands to move through the document"
+"Use the arrow keys or object navigation commands to move through the "
+"document."
 msgstr ""
 "ஆவணத்தினூடே நகர, அம்பு விசைகள், அல்லது பொருள் வழிகாட்டி கட்டளைகளைப் பயன்படுத்தவும்"
 
 #. Translators: Help message for terminal windows such as command prompt.
 msgid ""
 "Type commands in the terminal window and use review cursor commands to read "
-"the output"
+"the output."
 msgstr ""
-"இந்த முனைய சாளரத்தில் தட்டச்சிடவும்; வெளியீட்டைப் படிக்க, மறுபரிசீலனைச் சுட்டியைப் "
-"பயன்படுத்தவும்"
+"இந்த முனைய சாளரத்தில் தட்டச்சியவுடன், வெளியீட்டைப் படிக்க, சீராய்வுச் சுட்டியைப் பயன்படுத்தவும்"
 
-#. 200: Virtual Buffer.
 #. Translators: Help message for radio buttons while in browse mode.
 msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
-"ENTER key"
+"ENTER key."
 msgstr ""
 "ஒரு வானொலிப் பொத்தானை தெரிவு செய்ய, என்விடிஏ+இடைவெளிப்பட்டை, அல்லது இடைவெளிப்பட்டை, "
 "அல்லது உள்ளிடு விசையை அழுத்தவும்"
@@ -170,7 +175,7 @@ msgstr ""
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
 "To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key"
+"+SPACE or ENTER key."
 msgstr ""
 "இத்தொகு களத்தில் உரையைத் தட்டச்சிட, என்விடிஏ+இடைவெளிப்பட்டை, அல்லது உள்ளிடு விசையை "
 "அழுத்தி குவிமைய நிலைக்கு மாறவும்"
@@ -178,51 +183,52 @@ msgstr ""
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
 "To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key"
+"+SPACE or ENTER key."
 msgstr ""
 "சேர்க்கைப் பெட்டியில் ஒரு உருப்படியைத் தெரிவு செய்ய, என்விடிஏ+இடைவெளிப்பட்டை, அல்லது "
 "உள்ளிடு விசையை அழுத்தி குவிமைய நிலைக்கு மாறவும்"
 
 #. Translators: Help message for reading webpages.
 msgid ""
-"Use the browse mode and quick navigation commands to read through the webpage"
+"Use the browse mode and quick navigation commands to read through the "
+"webpage."
 msgstr ""
 "இணையப் பக்கத்தைப் படிக்க, உலாவும் நிலை, விரைவு வழிநடத்தல் கட்டளைகள் ஆகியவைகளைப் "
 "பயன்படுத்தவும்"
 
-#. App-specific case 1: AppeModule for app is present.
-#. 300: Explorer (to deal with specific cases.
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"தேடப்படுவதற்கான உரையைத் தட்டச்சியவுடன், பட்டியலில் காட்டப்படும் பரிந்துரைகளைச் சீராய, மேல் "
+"- கீழ் அம்பு விசைகளை பயன்படுத்தவும். "
+
+#. Translators: Help message for reading Adobe PDF documents.
+msgid ""
+"Use the browse mode and quick navigation commands to read through the PDF "
+"document."
+msgstr "PDF கோப்புகளைப் படிக்க, உலாவும் நிலை, விரைவு வழிநடத்தல் கட்டளைகளை பயன்படுத்தவும்"
+
+#. Translators: Help message for moving between Excel spreadsheet cells.
+msgid "Use the arrow keys to move between spreadsheet cells."
+msgstr "விரிதாளின் சிறுகட்டங்களுக்கிடையே நகர, அம்பு விசைகளைப் பயன்படுத்தவும்"
+
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
-msgid "Use the arrow keys to move between start screen tiles"
+msgid "Use the arrow keys to move between start screen tiles."
 msgstr "துவக்கத் திரை வில்லைகளுக்கிடையே நகர, அம்பு விசைகளைப் பயன்படுத்தவும்"
 
-#. 400: Microsoft powerpoint (powerpnt):
 #. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
-msgid "Use up and down arrow keys to move between slides"
-msgstr "படவில்லைகளுக்கிடையே நகர, மேலம்பு மற்றும் கீழம்பு விசைகளைப் பயன்படுத்தவும்"
+msgid "Use up and down arrow keys to move between slides."
+msgstr "நிலைப்படங்களுக்கிடையே நகர, மேலம்பு மற்றும் கீழம்பு விசைகளைப் பயன்படுத்தவும்"
 
 #. Translators: Help message for working with slide shows.
 msgid ""
 "Press SPACE or BACKSPACE to move between slides in the slide show. To end "
-"the slide show, press escape"
+"the slide show, press escape."
 msgstr ""
-"படவில்லைக் காட்சியில், படவில்லைகளுக்கிடையே நகர, இடைவெளிப்பட்டை, அல்லது பின்நகர் விசையை "
-"அழுத்தவும்; படவில்லைக் காட்சியை நிறைவு செய்ய, விடுபடு விசையை அழுத்தவும்"
-
-#. App-specific case 2: AppeModule for app is not present (use processes).
-#. -300: Excel.
-#. Translators: Help message for moving between Excel spreadsheet cells.
-msgid "Use the arrow keys to move between spreadsheet cells"
-msgstr "விரிதாளின் சிறுகட்டங்களுக்கிடையே நகர, அம்பு விசைகளைப் பயன்படுத்தவும்"
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
-msgid ""
-"Control Usage Assistant - get brief help on interacting with the focused "
-"control"
-msgstr ""
-"கட்டுப்பாடு பயன்படுத்து உதவியாளர் - குவிமையத்தில் இருக்கும் கட்டுப்பாட்டுடன் அளவளாவ, "
-"சிற்றுதவிக் குறிப்பினைப் பெறவும்"
+"நிலைப்படக் காட்சியில், நிலைப்படங்களுக்கிடையே நகர, இடைவெளிப்பட்டை, அல்லது பின்நகர் விசையை "
+"அழுத்தவும்; நிலைப்படக் காட்சியை நிறைவு செய்ய, விடுபடு விசையை அழுத்தவும்"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
@@ -233,6 +239,22 @@ msgid ""
 "such as moving through tables, checkboxes and so on."
 msgstr ""
 "சேர்க்கைப் பெட்டி, கிளைத் தோற்றம் போன்ற குவிமையத்தில் இருக்கும் கட்டுப்பாடுகளுடன் எவ்வாறு "
-"அளவளாவுவது என்றறிய இது உதவுகிறது. கணினி, அல்லது விண்டோஸ்/என்விடிஏவின் துவக்க நிலை "
-"பயனர்களுக்கு இது பயன்படும். கட்டுப்பாடு குறித்த சிற்றுதவிக் குறிப்பைப் பெற, என்விடிஏ+h "
-"விசையை அழுத்தவும் "
+"அளவளாவுவது என்றறிய இது உதவுகிறது.\n"
+" \tகணினி, அல்லது விண்டோஸ்/என்விடிஏவின் துவக்க நிலை பயனர்களுக்கு இது பயன்படும். "
+"கட்டுப்பாடு குறித்த சிறு உதவிக் குறிப்பைப் பெற, என்விடிஏ+h விசையை அழுத்தவும் "
+
+#~ msgid "Use the text navigation commands to read text"
+#~ msgstr "உரையை படிக்க, உரை வழிகாட்டிக் கட்டளைகளை பயன்படுத்தவும்"
+
+#~ msgid ""
+#~ "Press control, alt and arrow keys together to move between table cells"
+#~ msgstr ""
+#~ "அட்டவணையின் சிறுகட்டங்களுக்கிடையே நகர, கட்டுப்பாடு, நிலைமாற்றி, அம்பு விசைகளை "
+#~ "ஒருசேர அழுத்தவும்"
+
+#~ msgid ""
+#~ "Control Usage Assistant - get brief help on interacting with the focused "
+#~ "control"
+#~ msgstr ""
+#~ "கட்டுப்பாடு பயன்படுத்து உதவியாளர் - குவிமையத்தில் இருக்கும் கட்டுப்பாட்டுடன் அளவளாவ, "
+#~ "சிற்றுதவிக் குறிப்பினைப் பெறவும்"
