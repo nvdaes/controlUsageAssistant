@@ -10,11 +10,11 @@ controlul focalizat.  Apăsați NVDA+H pentru a obține un mesaj scurt de
 ajutor în interacționarea cu controlul focalizat, precum casete de bifat,
 câmpuri de editare și așa mai departe.
 
-## Version 3.0/19.11
+## Versiunea 3.0/19.11
 
-* Version scheme is now year.month.
-* When NVDA+H is pressed, a help screen will be displayed instead of a flash
-  message being shown.
+* Acum, schema versiunii este an.lună.
+* Când este apăsat NVDA+H, va fi afișat un ecram de ajutor în loc de un
+  mesaj flash.
 
 ## Versiunea 2.5
 
