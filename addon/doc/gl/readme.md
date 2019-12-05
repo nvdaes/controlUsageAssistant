@@ -10,11 +10,11 @@ enfocado. Preme NVDA + H para obter unha mensaxe curta de axuda na
 interacción co control enfocado, como coas caixas de verificación, campos de
 edición e así con outros.
 
-## Version 3.0/19.11
+## Versión 3.0/19.11
 
-* Version scheme is now year.month.
-* When NVDA+H is pressed, a help screen will be displayed instead of a flash
-  message being shown.
+* O esquema de versionado é agora ano.mes.
+* Cando se prema NVDA+H, amosarase unha xanela de axuda no canto dunha
+  mensaxe efímera.
 
 ## Versión 2.5
 

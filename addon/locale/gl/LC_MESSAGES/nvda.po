@@ -8,33 +8,34 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-04-07 19:22+0100\n"
-"Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
+"PO-Revision-Date: 2019-11-30 19:19+0100\n"
+"Last-Translator: Iván Novegil Cancelas <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: NVDA Add-ons translation team <LL@li.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 2.2.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. Script category.
 #. Translators: Input gesture category for Control Usage Assistant add-on.
+#. The prototype UI message, the actual processing is done below.
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
 msgid "Control Usage Assistant"
 msgstr "Control Usage Assistant"
 
 #. Translators: Input help message for obtain control help command.
-msgid "Presents a short message on how to interact with the focused control."
-msgstr ""
-"Presenta unha mensaxe curta sobre como interactuar co control enfocado."
+msgid "Presents a message on how to interact with the focused control."
+msgstr "Presenta unha mensaxe sobre como interactuar co control enfocado."
 
 #. Translators: Message presented when there is no help message for the focused control.
 msgid "No help for this control"
 msgstr "Non hai axuda para este control"
 
 #. Translators: Additional message when working with forms in focus mode.
-msgid ". To switch to browse mode, press NVDA+SPACE or escape key"
-msgstr ". Para cambiar ó modo navegación, preme NVDA+ESPAZO ou a tecla escape"
+msgid " To switch to browse mode, press NVDA+SPACE or escape key"
+msgstr " Para cambiar ó modo navegación, preme NVDA+ESPAZO ou a tecla escape"
 
 #. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
@@ -44,177 +45,188 @@ msgstr ""
 "Para usar o modo navegación e as ordes de navegación rápida para ler a "
 "páxina web, cambia o modo navegación premendo NVDA+ESPAZO"
 
-#. Default: universal across apps and states.
 #. Translators: Help message for a checkbox.
-msgid "Press space to check or uncheck the checkbox"
-msgstr "Preme espazo para marcar ou desmarcar a casiña de verificación"
+msgid "Press space bar to check or uncheck this check box."
+msgstr "Preme espazo para marcar ou desmarcar a caixa de verificación."
 
 #. Translators: Help message for working with radio buttons.
-msgid "Use the arrow keys to choose a radio button"
-msgstr "Usa os cursores para escoller  un botón de opción"
+msgid "Use the arrow keys to choose a radio button."
+msgstr "Usa as frechas para escoller  un botón de opción."
 
 #. Translators: Help message for a list box.
-msgid "Use the arrow keys to read this box"
-msgstr "Usa os cursores para ler este cadro"
+msgid "Use the arrow keys to read this box."
+msgstr "Usa as frechas para ler este cadro."
 
 #. Translators: Help message for an edit field.
-msgid "Type text here"
-msgstr "Teclea o texto aquí"
-
-#. Translators: Help message for a read-only control.
-msgid "Use the text navigation commands to read text"
-msgstr "Usa as ordes de navegación de texto para lelo"
+msgid "Type text here."
+msgstr "Teclea texto aquí."
 
 #. Translators: Help message for a button.
-msgid "Press SPACE or ENTER to activate this button"
-msgstr "Preme ESPAZO ou INTRO para activar este botón"
+msgid "Press SPACE or ENTER to activate this button."
+msgstr "Preme ESPAZO ou INTRO para activar este botón."
 
 #. Translators: Help message for menu items.
-msgid "Use the arrow keys to move between the menu items"
-msgstr "Usa os cursores para moverte entre os elementos do menú"
+msgid "Use the arrow keys to move between the menu items."
+msgstr "Usa as frechas para moverte entre os elementos do menú."
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
-msgid "Use up and down arrow keys to move through options in the pop-up menu"
+msgid "Use up and down arrow keys to move through options in the pop-up menu."
 msgstr ""
-"Usa os cursores arriba e abaixo para moverte polas opcións no menú "
-"despregable"
+"Usa as frechas arriba e abaixo para moverte polas opcións no menú "
+"despregable."
 
 #. Translators: Help message for a combo box.
 msgid ""
 "Use the arrow keys to move among choices in the combo box until the desired "
-"option is found"
+"option is found."
 msgstr ""
-"Usa os cursores para moverte polas opcións no cadro combinado ate atopar a "
-"desexada"
+"Usa as frechas para moverte polas opcións no cadro combinado ate atopar a "
+"desexada."
 
 #. Translators: Help message for a list view.
-msgid "Use the arrow keys to move to the next or previous item in this list"
+msgid "Use the arrow keys to move to the next or previous item in this list."
 msgstr ""
-"Usa os cursores para moverte ó elemento seguinte e anterior nesta lista"
+"Usa as frechas para moverte ó elemento seguinte e anterior nesta lista."
 
 #. Translators: Help message for activating links.
-msgid "Press SPACE or ENTER to activate this link"
-msgstr "Preme ESPAZO ou INTRO para activar esta liga"
+msgid "Press SPACE or ENTER to activate this link."
+msgstr "Preme ESPAZO ou INTRO para activar esta liga."
 
 #. Translators: Help message for working with tree view items.
 msgid ""
 "Use the up and down arrow keys to select the items. Use left arrow to "
-"collapse and right arrow to expand"
+"collapse and right arrow to expand."
 msgstr ""
-"Usa os cursores arriba ou abaixo para seleccionar os elementos. Usa cursor "
-"esquerdo para contraer ou cursor dereito para expandir"
+"Usa as frechas arriba ou abaixo para seleccionar os elementos. Usa cursor "
+"esquerdo para contraer ou cursor dereito para expandir."
 
 #. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
 msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
-"for next tab and control+shift+tab for previous tab"
+"for next tab and control+shift+tab for previous tab."
 msgstr ""
-"Usa os cursores esquerdo ou dereito para moverte entre pestanas, ou preme "
-"control+tab para a seguinte pestana e control+shift+tab para pestana anterior"
+"Usa as frechas esquerdo ou dereito para moverte entre pestanas, ou preme "
+"control+tab para a seguinte pestana e control+shift+tab para pestana "
+"anterior."
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
 msgid ""
 "Use the left and down arrow keys to decrease and up and right arrow keys to "
 "increase the value in this slider. Use page up and page down to increase or "
 "decrease in larger values, and press home and end keys to select maximum and "
-"minimum value"
+"minimum value."
 msgstr ""
-"Usa os cursores esquerdo ou dereito para diminuir e cursores arriba ou "
+"Usa as frechas esquerdo ou dereito para diminuir e cursores arriba ou "
 "dereito para aumentar o valor neste deslizador. Usa retroceso de páxina ou "
 "avance de páxina para aumentar ou diminuir en valores máis longos, e preme "
-"inicio ou fin para seleccionar valores máximo ou mínimo"
+"inicio ou fin para seleccionar valores máximo ou mínimo."
+
+#. Translators: Help message for working with progress bars.
+msgid "This is a progress bar, used to show progress of an operation."
+msgstr ""
+"Isto é unha barra de progreso, utilizada para amosar o progreso dunha "
+"operación."
 
 #. Translators: Help message for navigating tables.
 msgid ""
-"Press control, alt and arrow keys together to move between rows and columns"
+"Press control, alt and arrow keys together to move between rows and columns."
 msgstr ""
-"Preme control, alt e algún cursor á vez para moverte entre filas e columnas"
+"Preme control, alt e algunha tecla de frecha á vez para moverte entre filas "
+"e columnas."
 
 #. Translators: Help message for navigating table cells.
-msgid "Press control, alt and arrow keys together to move between table cells"
+msgid ""
+"Press Control+Alt+arrow keys to other table cells. Pressing left or right "
+"arrow keys will navigate between columns, and up and down arrow keys will "
+"navigate by row."
 msgstr ""
-"Preme control, alt e algún cursor á vez para moverte entre as celdas da táboa"
+"Preme Control+Alt+frechas para outra cela da táboa. Premendo as frechas "
+"esquerda e dereita navegarase por columnas, e as frechas arriba e abaixo "
+"navegarán entre filas."
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
 msgid ""
-"Use the arrow keys or object navigation commands to move through the document"
+"Use the arrow keys or object navigation commands to move through the "
+"document."
 msgstr ""
-"Usa os cursores ou as ordes de navegación de obxectos para moverte polo "
-"documento"
+"Usa as frechas ou as ordes de navegación de obxectos para moverte polo "
+"documento."
 
 #. Translators: Help message for terminal windows such as command prompt.
 msgid ""
 "Type commands in the terminal window and use review cursor commands to read "
-"the output"
+"the output."
 msgstr ""
-"Escrebe ordes na ventá da terminal e usa ordes do cursor de revisión para "
-"ler a saída"
+"Escribe ordes na ventá da terminal e usa ordes do cursor de revisión para "
+"ler a saída."
 
-#. 200: Virtual Buffer.
 #. Translators: Help message for radio buttons while in browse mode.
 msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
-"ENTER key"
+"ENTER key."
 msgstr ""
 "Para seleccionar  un botón de opción, cambia ó modo foco premendo NVDA"
-"+ESPAZO ou a tecla INTRO"
+"+ESPAZO ou a tecla INTRO."
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
 "To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key"
+"+SPACE or ENTER key."
 msgstr ""
 "Para teclear texto neste campo de edición, cambia ó modo foco premendo NVDA"
-"+ESPAZO ou a tecla INTRO"
+"+ESPAZO ou a tecla INTRO."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
 "To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key"
+"+SPACE or ENTER key."
 msgstr ""
 "Para seleccionar un elemento do cadro combinado, cambia ó modo foco premendo "
-"NVDA+ESPAZO ou a tecla INTRO"
+"NVDA+ESPAZO ou a tecla INTRO."
 
 #. Translators: Help message for reading webpages.
 msgid ""
-"Use the browse mode and quick navigation commands to read through the webpage"
+"Use the browse mode and quick navigation commands to read through the "
+"webpage."
 msgstr ""
-"Usa o modo navegación e as ordes de navegación rápida para ler a páxina web"
+"Usa o modo navegación e as ordes de navegación rápida para ler a páxina web."
 
-#. App-specific case 1: AppeModule for app is present.
-#. 300: Explorer (to deal with specific cases.
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"Despois de escribir o texto da procura, preme as frechas arriba ou abaixo "
+"para revisar a lista de suxestións."
+
+#. Translators: Help message for reading Adobe PDF documents.
+msgid ""
+"Use the browse mode and quick navigation commands to read through the PDF "
+"document."
+msgstr ""
+"Usa o modo navegación e as ordes de navegación rápida para ler o documento "
+"PDF."
+
+#. Translators: Help message for moving between Excel spreadsheet cells.
+msgid "Use the arrow keys to move between spreadsheet cells."
+msgstr ""
+"Usa as teclas do cursor para moverte entre as celas da folla de cálculo."
+
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
-msgid "Use the arrow keys to move between start screen tiles"
-msgstr "Usa as frechas para moverte entre  os mosaicos da pantalla de inicio"
+msgid "Use the arrow keys to move between start screen tiles."
+msgstr "Usa as frechas para moverte entre  os mosaicos da pantalla de inicio."
 
-#. 400: Microsoft powerpoint (powerpnt):
 #. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
-msgid "Use up and down arrow keys to move between slides"
-msgstr "Usa as frechas arriba e abaixo para moverte entre diapositivas"
+msgid "Use up and down arrow keys to move between slides."
+msgstr "Usa as frechas arriba e abaixo para moverte entre diapositivas."
 
 #. Translators: Help message for working with slide shows.
 msgid ""
 "Press SPACE or BACKSPACE to move between slides in the slide show. To end "
-"the slide show, press escape"
+"the slide show, press escape."
 msgstr ""
 "Preme ESPAZO ou RETROCESO para moverte entre diapositivas na presentación de "
-"diapositivas. Para rematar a presentación de diapositivas, preme escape"
-
-#. App-specific case 2: AppeModule for app is not present (use processes).
-#. -300: Excel.
-#. Translators: Help message for moving between Excel spreadsheet cells.
-msgid "Use the arrow keys to move between spreadsheet cells"
-msgstr ""
-"Usa as teclas do cursor para moverte entre as celdas da folla de cálculo"
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
-msgid ""
-"Control Usage Assistant - get brief help on interacting with the focused "
-"control"
-msgstr ""
-"Control Usage Assistant - da unha axuda breve sobre a interactuación co "
-"control enfocado"
+"diapositivas. Para rematar a presentación de diapositivas, preme escape."
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
@@ -226,6 +238,22 @@ msgid ""
 msgstr ""
 "Permíteche atopar a maneira de cómo interactuar co control enfocado, útil "
 "para usuarios aprendices de ordenador novos en Windows e novos en NVDA.\n"
-"Preme NVDA+H para obter unha mensaxe de  axuda curta sobre a utilización do "
-"control enfocado, como o movemento polas táboas, casiñas de verificación e "
-"así sucesivamente."
+"\tPreme NVDA+H para obter unha mensaxe de  axuda curta sobre a utilización "
+"do control enfocado, como o movemento polas táboas, caixas de verificación, "
+"etc."
+
+#~ msgid "Use the text navigation commands to read text"
+#~ msgstr "Usa as ordes de navegación de texto para lelo"
+
+#~ msgid ""
+#~ "Press control, alt and arrow keys together to move between table cells"
+#~ msgstr ""
+#~ "Preme control, alt e algún cursor á vez para moverte entre as celdas da "
+#~ "táboa"
+
+#~ msgid ""
+#~ "Control Usage Assistant - get brief help on interacting with the focused "
+#~ "control"
+#~ msgstr ""
+#~ "Control Usage Assistant - da unha axuda breve sobre a interactuación co "
+#~ "control enfocado"

@@ -13,9 +13,9 @@ Kontrollkästchen etc.).
 
 ## Version 3.0/19.11
 
-* Version scheme is now year.month.
-* When NVDA+H is pressed, a help screen will be displayed instead of a flash
-  message being shown.
+* Versionsschema ist jetzt Jahr.Monat.
+* Wenn NVDA+H gedrückt wird, wird ein Hilfebildschirm angezeigt, anstatt
+  eine Meldung auszugeben.
 
 ## Version 2.5
 
