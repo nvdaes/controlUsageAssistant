@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0Beta1'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2013-05-10 04:50-0700\n"
-"PO-Revision-Date: 2019-11-22 00:03+0100\n"
+"PO-Revision-Date: 2019-12-08 19:07+0100\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: HR <hrvojekatic@gmail.com>\n"
 "Language: hr_HR\n"
@@ -39,22 +39,21 @@ msgstr "Za ovu kontrolu ne postoji pomoć"
 #. Translators: Additional message when working with forms in focus mode.
 msgid " To switch to browse mode, press NVDA+SPACE or escape key"
 msgstr ""
-" Za prebacivanje na modus čitanja, pritisnite tipke NVDA+RAZMAK ili tipku "
-"escape"
+" Za prebacivanje na modus čitanja, pritisnite kombinaciju NVDA+RAZMAKNICA "
+"ili tipku escape"
 
 #. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
 msgstr ""
-"Da biste koristili modus čitanja i brze navigacijske tipke za čitanje web "
-"stranice, prebacite se na modus čitanja pritiskom kombinacije NVDA+RAZMAK"
+"Da biste koristili modus čitanja i prečace za brzo kretanje za čitanje web "
+"stranice, prebacite se na modus čitanja pritiskom kombinacije NVDA+RAZMAKNICA"
 
 #. Translators: Help message for a checkbox.
 msgid "Press space bar to check or uncheck this check box."
 msgstr ""
-"Pritisnite razmaknicu da biste označili ili odznačili potvrdu na potvrdnom "
-"okviru."
+"Pritisnite razmaknicu da biste označili ili odznačili ovaj potvrdni okvir."
 
 #. Translators: Help message for working with radio buttons.
 msgid "Use the arrow keys to choose a radio button."
@@ -70,7 +69,7 @@ msgstr "Ovdje upišite tekst."
 
 #. Translators: Help message for a button.
 msgid "Press SPACE or ENTER to activate this button."
-msgstr "Pritisnite RAZMAK ili ENTER da biste aktivirali ovaj gumb."
+msgstr "Pritisnite RAZMAKNICU ili ENTER da biste aktivirali ovaj gumb."
 
 #. Translators: Help message for menu items.
 msgid "Use the arrow keys to move between the menu items."
@@ -98,7 +97,7 @@ msgstr ""
 
 #. Translators: Help message for activating links.
 msgid "Press SPACE or ENTER to activate this link."
-msgstr "Pritisnite RAZMAK ili ENTER da biste aktivirali ovu poveznicu."
+msgstr "Pritisnite RAZMAKNICU ili ENTER da biste aktivirali ovu poveznicu."
 
 #. Translators: Help message for working with tree view items.
 msgid ""
@@ -155,7 +154,7 @@ msgid ""
 "Use the arrow keys or object navigation commands to move through the "
 "document."
 msgstr ""
-"Koristite strelice ili tipke za objektnu navigaciju za pomicanje kroz "
+"Koristite strelice ili naredbe za kretanje po objektima za pomicanje kroz "
 "dokument."
 
 #. Translators: Help message for terminal windows such as command prompt.
@@ -171,8 +170,8 @@ msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
 "ENTER key."
 msgstr ""
-"Da biste odabrali izborni gumb, prebacite se na modus fokusa pritiskom tipki "
-"NVDA+RAZMAK ili tipku ENTER."
+"Da biste odabrali izborni gumb, prebacite se na modus fokusa pritiskom "
+"kombinacije NVDA+RAZMAKNICA ili tipku ENTER."
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
@@ -180,7 +179,7 @@ msgid ""
 "+SPACE or ENTER key."
 msgstr ""
 "Da biste upisali tekst u ovo tekstualno polje, prebacite se na modus fokusa "
-"pritiskom tipki NVDA+RAZMAK ili tipku ENTER."
+"pritiskom kombinacije NVDA+RAZMAKNICA ili tipku ENTER."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
@@ -188,14 +187,15 @@ msgid ""
 "+SPACE or ENTER key."
 msgstr ""
 "Da biste odabrali stavku iz odabirnog okvira, prebacite se na modus fokusa "
-"pritiskom tipki NVDA+RAZMAK ili tipku ENTER."
+"pritiskom kombinacije NVDA+RAZMAKNICA ili tipku ENTER."
 
 #. Translators: Help message for reading webpages.
 msgid ""
 "Use the browse mode and quick navigation commands to read through the "
 "webpage."
 msgstr ""
-"Koristite modus čitanja i brze navigacijske naredbe za čitanje web stranice."
+"Koristite modus čitanja i naredbe za kretanje po objektima za čitanje web "
+"stranice."
 
 #. Translators: help text for search field in Windows 10 and other places.
 msgid ""
@@ -210,7 +210,8 @@ msgid ""
 "Use the browse mode and quick navigation commands to read through the PDF "
 "document."
 msgstr ""
-"Koristite modus čitanja i brze navigacijske naredbe za čitanje PDF dokumenta."
+"Koristite modus čitanja i naredbe za kretanje po objektima za čitanje PDF "
+"dokumenta."
 
 #. Translators: Help message for moving between Excel spreadsheet cells.
 msgid "Use the arrow keys to move between spreadsheet cells."
@@ -233,7 +234,7 @@ msgid ""
 "Press SPACE or BACKSPACE to move between slides in the slide show. To end "
 "the slide show, press escape."
 msgstr ""
-"Pritisnite razmak ili tipku BACKSPACE za pomicanje između slajdova u "
+"Pritisnite RAZMAKNICU ili tipku BACKSPACE za pomicanje između slajdova u "
 "dijaprojekciji. Da biste završili dijaprojekciju, pritisnite tipku ESCAPE."
 
 #. Add-on description
@@ -249,19 +250,3 @@ msgstr ""
 "zaslona.\n"
 "\tPritisnite NvDA+H da biste dobili kratku pomoćnu poruku o uporabi "
 "fokusirane kontrole, kao što je pomicanje kroz tablice, potvrdne okvire, itd."
-
-#~ msgid "Use the text navigation commands to read text"
-#~ msgstr "Koristite naredbe za navigaciju kroz tekst da biste pročitali tekst"
-
-#~ msgid ""
-#~ "Press control, alt and arrow keys together to move between table cells"
-#~ msgstr ""
-#~ "Pritisnite zajedno control, alt i strelicu za pomicanje po ćelijama "
-#~ "tablice"
-
-#~ msgid ""
-#~ "Control Usage Assistant - get brief help on interacting with the focused "
-#~ "control"
-#~ msgstr ""
-#~ "Pomoćnik za primjenu kontrola – dobivanje kratke pomoći za komunikaciju s "
-#~ "fokusiranom kontrolom"

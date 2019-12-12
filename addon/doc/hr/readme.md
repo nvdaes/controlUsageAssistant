@@ -28,8 +28,8 @@ uređivanje i tome slično.
 
 * Dodane su nove poruke pomoći za daljnje kontrole, uključujući prozore
   neredbenog retka.
-* Dodane su nove poruke pomoći za rad u nekim djelovima aplikacija, kao što
-  su Microsoft Excel i Powerpoint i Windows 8 početni zaslon.
+* Dodane su nove poruke pomoći za rad u nekim područjima aplikacija, kao što
+  su Microsoft Excel i Powerpoint i Windows 8 početni ekran.
 * Dodane su nove poruke pomoći za rad u modusima čitanja i fokusa za
   dokumente koji koriste virtualni spremnik (Internet Explorer, Adobe
   Reader, Mozilla Firefox, itd.).
