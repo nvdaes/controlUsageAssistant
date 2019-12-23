@@ -12,6 +12,7 @@ import api
 import controlTypes
 from virtualBuffers import VirtualBuffer
 import appModuleHandler
+import scriptHandler
 import addonHandler
 addonHandler.initTranslation()
 from . import helpmessages
@@ -21,19 +22,22 @@ CUAMROLevel = 0
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
-	# Translators: Input gesture category for Control Usage Assistant add-on.
-	scriptCategory = _("Control Usage Assistant")
-
 	# NVDA+H: Obtain usage help on a particular control.
 	# Start by looking at method resolution order (MRO) for object class hierarchy.
 	# Then depending on the type of control and its state(s), lookup a dictionary of control types and help messages.
 	# If the control is used differently in apps, then lookup the app entry and give the customized message.
+	
+	@scriptHandler.script(
+		# Translators: Input help message for control help command.
+		description=_("Presents a message on how to interact with the focused control."),
+		# Translators: Input gesture category for Control Usage Assistant add-on.
+		category=_("Control Usage Assistant"),
+		gesture="KB:NVDA+H"
+	)
 	def script_controlHelp(self, gesture):
 		obj = api.getFocusObject()
 		# The prototype UI message, the actual processing is done below.
 		ui.browseableMessage(self.getHelpMessage(obj), title=_("Control Usage Assistant"))
-	# Translators: Input help message for obtain control help command.
-	script_controlHelp.__doc__=_("Presents a message on how to interact with the focused control.")
 
 	# GetHelpMessage: The actual function behind the script above.
 	def getHelpMessage(self, curObj):
@@ -68,10 +72,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		helpMessages.append("Press escape to close this help screen.")
 		return "\n".join(helpMessages)
 
-	__gestures={
-		"KB:NVDA+H":"controlHelp",
-	}
-
 	# Any exceptions to lookup keys goes here.
 	# First case: virtual buffer control exceptions.
 	VBufForms={6, 8, 13} # Forms encountered on webpages; add custom message form them in browse mode.
@@ -93,3 +93,5 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		else:
 			VBufmsg = helpmessages.controlTypeHelpMessages[obj.role]
 		return VBufmsg
+
+	__gestures = {}
