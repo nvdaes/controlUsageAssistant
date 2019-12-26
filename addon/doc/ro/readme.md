@@ -2,13 +2,17 @@
 
 * Autor: Joseph Lee
 * Descărcați [versiunea stabilă][1]
-* Descărcați [versiunea în dezvoltare][2]
-* Compatibilitate NVDA: 2017.3 - 2019.2
+* NVDA compatibility: 2019.3 and beyond
+* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
 
 Folosiți acest supliment pentru a descoperi cum să interacționați cu
 controlul focalizat.  Apăsați NVDA+H pentru a obține un mesaj scurt de
 ajutor în interacționarea cu controlul focalizat, precum casete de bifat,
 câmpuri de editare și așa mai departe.
+
+## Version 20.01
+
+* NVDA 2019.3 or later is required.
 
 ## Versiunea 3.0/19.11
 
@@ -45,3 +49,5 @@ câmpuri de editare și așa mai departe.
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
 
 [2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
+
+[3]: https://addons.nvda-project.org/files/get.php?file=cua-2019

@@ -2,19 +2,22 @@
 
 * Autor: Joseph Lee
 * Preuzmi [stabilnu verziju][1]
-* Preuzmi [razvojnu verziju][2]
-* NVDA kompatibilnost: 2017.3 do 2019.2
+* NVDA kompatibilnost: 2019.3 i nadalje
+* Preuzmi [stariju verziju][3], komaptibilnu s NVDA 2019.2.1 ili ranijim
+  verzijama
 
-Koristite ovaj dodatak kako biste doznali kako koristiti fokusiranu
-kontrolu. Pritisnite NVDA+H kako biste dobili kratku poruku o tome kako
-koristiti fokusiranu kontrolu, kao što su to potvrdni okviri, polja za
-uređivanje i tome slično.
+Koristi ovaj dodatak i saznaj kako koristiti fokusiranu kontrolu. Pritisni
+NVDA+H za dobivanje kratke poruke o tome kako koristiti fokusirane kontrole,
+kao što su potvrdni okviri, polja za uređivanje i tome slično.
 
-## Version 3.0/19.11
+## Verzija 20.01
 
-* Version scheme is now year.month.
-* When NVDA+H is pressed, a help screen will be displayed instead of a flash
-  message being shown.
+* Potreban je NVDA 2019.3 ili noviji.
+
+## Verzija 3.0/19.11
+
+* Shema za određivanje verzije je sada godina.mjesec.
+* Kad se pritisne NVDA+H, prikazat će se prozor pomoći umjesto poruke.
 
 ## Verzija 2.5
 
@@ -44,3 +47,5 @@ uređivanje i tome slično.
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
 
 [2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
+
+[3]: https://addons.nvda-project.org/files/get.php?file=cua-2019

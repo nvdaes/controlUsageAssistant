@@ -2,13 +2,17 @@
 
 * Tekijä: Joseph Lee
 * Lataa [vakaa versio][1]
-* Lataa [kehitysversio][2]
-* Yhteensopivuus: NVDA 2017.3-2019.2
+* NVDA compatibility: 2019.3 and beyond
+* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
 
 Tämän lisäosan avulla on mahdollista selvittää, miten aktiivisen säätimen
 kanssa voidaan olla vuorovaikutuksessa.  Paina NVDA+H kuullaksesi lyhyen
 ohjeen aktiivisen säätimen käytöstä, kuten esim. valintaruudun
 valitsemisesta, tekstin muokkaamisesta jne.
+
+## Version 20.01
+
+* NVDA 2019.3 or later is required.
 
 ## Versio 3.0/19.11
 
@@ -43,3 +47,5 @@ valitsemisesta, tekstin muokkaamisesta jne.
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
 
 [2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
+
+[3]: https://addons.nvda-project.org/files/get.php?file=cua-2019
