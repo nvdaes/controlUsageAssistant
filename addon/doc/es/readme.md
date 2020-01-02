@@ -2,17 +2,18 @@
 
 * Autor: Joseph Lee
 * Descargar [versión estable][1]
-* NVDA compatibility: 2019.3 and beyond
-* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
+* Compatibilidad con NVDA: 2019.3 y posterior
+* Descargar [versión más antigua][3] compatible con NVDA 2019.2.1 y
+  anteriores
 
 Utiliza este complemento para averiguar cómo interactuar con el control
 enfocado.  Pulsa NVDA+H para obtener un breve mensaje de ayuda sobre la
 interacción con el control enfocado, como con casillas de verificación,
 campos de edición y así con otros.
 
-## Version 20.01
+## Versión 20.01
 
-* NVDA 2019.3 or later is required.
+* Se requiere NVDA 2019.3 o posterior.
 
 ## Versión 3.0 / 19.11
 
