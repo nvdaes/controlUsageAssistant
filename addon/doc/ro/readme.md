@@ -2,17 +2,18 @@
 
 * Autor: Joseph Lee
 * Descărcați [versiunea stabilă][1]
-* NVDA compatibility: 2019.3 and beyond
-* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
+* Compatibilitate NVDA: 2019.3 și mai nou
+* Descărcați [versiunea mai veche][3], compatibilă cu NVDA 2019.2.1 și cu
+  versiunile mai vechi ale acestuia
 
 Folosiți acest supliment pentru a descoperi cum să interacționați cu
 controlul focalizat.  Apăsați NVDA+H pentru a obține un mesaj scurt de
 ajutor în interacționarea cu controlul focalizat, precum casete de bifat,
 câmpuri de editare și așa mai departe.
 
-## Version 20.01
+## Versiunea 20.01
 
-* NVDA 2019.3 or later is required.
+* Este necesar NVDA 2019.3 sau mai nou.
 
 ## Versiunea 3.0/19.11
 
