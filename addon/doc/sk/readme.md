@@ -1,25 +1,34 @@
 # Pomoc pre prácu s prvkami #
 
 * Autor: Joseph Lee
-* Download [stable version][1]
-* Download [development version][2]
-* NVDA compatibility: 2017.3 to 2019.2
+* Stiahnuť [stabilnú verziu][1]
+* Funguje s NVDA od verzie 2019.3
+* Stiahnuť [staršiu verziu][3] Pre NVDA do verzie 2019.2.1.
 
 Doplnok poskytuje pomoc pre aktuálne zameraný prvok. Aby ste počuli pomocné
 hlásenie pre prvky, akými sú napríklad začiarkavacie alebo editačné polia ,
 stlačte NVDA+h
 
-## Version 2.5
+## Verzia 20.01
 
-* Compatible with Python 3.
+* Vyžaduje sa NVDA od verzie 2019.3.
 
-## Version 2.1
+## Verzia 3.0/19.11
+
+* Číslo verzie je odteraz rok.mesiac.
+* Skratka nvda+H zobrazí okno a nie len notifikáciu.
+
+## Verzia 2.5
+
+* Kompatibilná s Python 3.
+
+## Verzia 2.1
 
 * Nové a aktualizované preklady.
 
-## Version 2.0
+## Verzia 2.0
 
-* pridané pomocné správy pre ďalšie prvky vrátane konzolových aplikácii.
+* pridané pomocné správy pre ďalšie prvky vrátane konzolových aplikácií.
 * Pridané pomocné správy pre ďalšie časti v aplikáciách Microsoft Excel a
   Powerpoint a prihlasovacia obrazovka Windows 8.
 * Pridané pomocné správy pre prácu s formulármi v režime fokusu a režime
@@ -27,13 +36,14 @@ stlačte NVDA+h
   Firefox, atď.).
 * pridaný dánsky preklad.
 
-## Version 1.0
+## Verzia 1.0
 
 * Prvé vydanie
-
 
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
 
 [2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
+
+[3]: https://addons.nvda-project.org/files/get.php?file=cua-2019

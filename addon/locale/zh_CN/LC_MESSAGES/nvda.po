@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant 2.4\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2013-05-10 04:50-0700\n"
-"PO-Revision-Date: 2019-11-15 08:07+0800\n"
+"PO-Revision-Date: 2020-01-29 13:13+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: NVDASimplified Chinese team All volunteers <Copyright (C) "
 "2010-2019>\n"
@@ -35,7 +35,7 @@ msgstr "此控件没有帮助"
 
 #. Translators: Additional message when working with forms in focus mode.
 msgid " To switch to browse mode, press NVDA+SPACE or escape key"
-msgstr "要切换到浏览模式，请按NVDA + SPACE或退出键"
+msgstr " 要切换到浏览模式，请按NVDA + SPACE或退出键"
 
 #. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
