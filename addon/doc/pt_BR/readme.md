@@ -1,30 +1,34 @@
 # Assistente para uso de controles #
 
 * Autor: Joseph Lee
-* Download [stable version][1]
-* Download [development version][2]
-* NVDA compatibility: 2017.3 to 2019.2
+* Baixe a [versão estável][1]
+* Compatibilidade com NVDA: 2019.3 e posteriores
+* Baixe a [versão mais velha][3], compatível com NVDA 2019.2.1 e anteriores
 
 Use este complemento para descobrir como interagir com o controle em foco.
 Pressione NVDA+H para obter uma mensagem curta de ajuda sobre como interagir
 com o controle em foco, como caixas de seleção, campos de edição e assim por
 diante.
 
-## Version 3.0/19.11
+## Versão 20.01
 
-* Version scheme is now year.month.
-* When NVDA+H is pressed, a help screen will be displayed instead of a flash
-  message being shown.
+* É necessário NVDA 2019.3 ou posterior.
 
-## Version 2.5
+## Versão 3.0/19.11
 
-* Compatible with Python 3.
+* Esquema de versões agora é ano.mês
+* Quando NVDA+H for pressionada, será exibida uma tela de ajuda ao invés de
+  ser mostrada uma mensagem rápida.
 
-## Version 2.1
+## Versão 2.5
+
+* Compatível com Python 3.
+
+## Versão 2.1
 
 * Traduções novas e atualizadas.
 
-## Version 2.0
+## Versão 2.0
 
 * Adicionadas mensagens de ajuda para mais controles, incluindo janelas de
   terminal.
@@ -36,7 +40,7 @@ diante.
   Explorer, Adobe Reader, Mozilla Firefox, etc.).
 * Novo idioma: Dinamarquês.
 
-## Version 1.0
+## Versão 1.0
 
 * Versão inicial.
 
@@ -45,3 +49,5 @@ diante.
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
 
 [2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
+
+[3]: https://addons.nvda-project.org/files/get.php?file=cua-2019

@@ -2,14 +2,14 @@
 
 * 作者： Joseph Lee
 * 下载 [稳定版][1]
-* NVDA compatibility: 2019.3 and beyond
-* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
+* NVDA兼容版本: 2019.3 和 以后版本
+* 下载 [旧版本][3] 可与NVDA 2019.2.1和更早版本兼容
 
 使用此插件来查看如何与焦点所在的控件交互。按下“NVDA加H”获取一个与此控件交互的简短的帮助信息。如编辑框、复选框等。
 
-## Version 20.01
+## 版本 20.01
 
-* NVDA 2019.3 or later is required.
+* 需要NVDA 2019.3或更高版本。
 
 ## 版本 3.0/19.11
 
