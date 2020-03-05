@@ -2,23 +2,22 @@
 
 * Forfatter: Joseph Lee
 * Download [stabil version][1]
-* NVDA compatibility: 2019.3 and beyond
-* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
+* NVDA-kompatibilitet: 2019.3 og derefter
 
-Brug dette tilføjelsesprogram til at finde ud af, hvordan du kan bruge den
-aktuelle kontrol, der er i fokus. Tryk NVDA+h for at få en kort hjælpetekst
-om, hvordan du bruger den kontrol, som har fokus, f.eks. checkbokse,
-editfelter osv.
+Brug denne tilføjelse til at finde ud af, hvordan du interagerer med det
+fokuserede kontrolelement.  Tryk på NVDA+H for at få en kort hjælp til at
+interagere med det fokuserede kontrolelement, f.eks. check box og
+redigeringsfelter.
 
 ## Version 20.01
 
-* NVDA 2019.3 or later is required.
+* NVDA 2019.3 eller nyere er påkrævet.
 
 ## Version 3.0/19.11
 
-* Version scheme is now year.month.
-* When NVDA+H is pressed, a help screen will be displayed instead of a flash
-  message being shown.
+* Versionskema er nu year.month
+* Når der trykkes på NVDA+H, vises der en hjælpeskærm i stedet for, at der
+  vises en flashbesked.
 
 ## Version 2.5
 
@@ -48,5 +47,3 @@ editfelter osv.
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
 
 [2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
-
-[3]: https://addons.nvda-project.org/files/get.php?file=cua-2019

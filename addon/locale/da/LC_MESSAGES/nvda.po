@@ -8,30 +8,33 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant 2.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-07-07 09:00+0200\n"
-"PO-Revision-Date: 2019-08-11 11:48+0200\n"
+"PO-Revision-Date: 2020-03-05 13:04+0100\n"
 "Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
+"Language-Team: Dansk NVDA <dansk@nvda.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
-"Language-Team: Dansk NVDA <dansk@nvda.dk>\n"
+"X-Generator: Poedit 2.3\n"
 
-#. Script category.
 #. Translators: Input gesture category for Control Usage Assistant add-on.
+#. The prototype UI message, the actual processing is done below.
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
 msgid "Control Usage Assistant"
 msgstr "Brugsassistent til kontroller"
 
 #. Translators: Input help message for obtain control help command.
-msgid "Presents a short message on how to interact with the focused control."
-msgstr "Giver en kort beskrivelse af, hvordan man bruger kontrollen i fokus."
+msgid "Presents a message on how to interact with the focused control."
+msgstr ""
+"Viser en meddelelse om, hvordan du interagerer med den fokuserede kontrol."
 
 #. Translators: Message presented when there is no help message for the focused control.
 msgid "No help for this control"
 msgstr "Ingen hjælp til denne kontrol"
 
 #. Translators: Additional message when working with forms in focus mode.
-msgid ". To switch to browse mode, press NVDA+SPACE or escape key"
+msgid " To switch to browse mode, press NVDA+SPACE or escape key"
 msgstr ""
 "For at skifte til gennemsynstilstand, tryk på NVDA+Mellemrum eller Escape-"
 "tasten."
@@ -44,62 +47,57 @@ msgstr ""
 "For at bruge gennemsynstilstand og bogstavnavigation til at læse websiden, "
 "skift til gennemsynstilstand ved at trykke NVDA+Mellemrum."
 
-#. Default: universal across apps and states.
 #. Translators: Help message for a checkbox.
-msgid "Press space to check or uncheck the checkbox"
+msgid "Press space bar to check or uncheck this check box."
 msgstr "Tryk Mellemrum for at markere eller afmarkere checkboksen."
 
 #. Translators: Help message for working with radio buttons.
-msgid "Use the arrow keys to choose a radio button"
+msgid "Use the arrow keys to choose a radio button."
 msgstr "Brug piletasterne for at vælge en radioknap."
 
 #. Translators: Help message for a list box.
-msgid "Use the arrow keys to read this box"
+msgid "Use the arrow keys to read this box."
 msgstr "Brug piletasterne til at navigere i denne liste."
 
 #. Translators: Help message for an edit field.
-msgid "Type text here"
+msgid "Type text here."
 msgstr "Skriv tekst her."
 
-#. Translators: Help message for a read-only control.
-msgid "Use the text navigation commands to read text"
-msgstr "Brug tekstnavigeringskommandoer for at læse denne tekst."
-
 #. Translators: Help message for a button.
-msgid "Press SPACE or ENTER to activate this button"
+msgid "Press SPACE or ENTER to activate this button."
 msgstr "Tryk på Mellemrum eller Enter for at aktivere denne knap."
 
 #. Translators: Help message for menu items.
-msgid "Use the arrow keys to move between the menu items"
+msgid "Use the arrow keys to move between the menu items."
 msgstr "Brug piletasterne for at flytte mellem menupunkterne."
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
-msgid "Use up and down arrow keys to move through options in the pop-up menu"
+msgid "Use up and down arrow keys to move through options in the pop-up menu."
 msgstr ""
 "Brug pilene op og ned for at flytte gennem valgmulighederne i popup-menuen."
 
 #. Translators: Help message for a combo box.
 msgid ""
 "Use the arrow keys to move among choices in the combo box until the desired "
-"option is found"
+"option is found."
 msgstr ""
 "Brug piletasterne til at flytte mellem valgene i comboboksen, indtil den "
 "ønskede mulighed er fundet."
 
 #. Translators: Help message for a list view.
-msgid "Use the arrow keys to move to the next or previous item in this list"
+msgid "Use the arrow keys to move to the next or previous item in this list."
 msgstr ""
 "Brug piletasterne til at flytte til det forrige eller næste valg i denne "
 "liste."
 
 #. Translators: Help message for activating links.
-msgid "Press SPACE or ENTER to activate this link"
+msgid "Press SPACE or ENTER to activate this link."
 msgstr "Tryk Mellemrum eller Enter for at aktivere dette link."
 
 #. Translators: Help message for working with tree view items.
 msgid ""
 "Use the up and down arrow keys to select the items. Use left arrow to "
-"collapse and right arrow to expand"
+"collapse and right arrow to expand."
 msgstr ""
 "Brug pilene op og ned for at vælge et emne. Brug højre piletast for at folde "
 "ud og venstre piletast for at folde sammen."
@@ -107,7 +105,7 @@ msgstr ""
 #. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
 msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
-"for next tab and control+shift+tab for previous tab"
+"for next tab and control+shift+tab for previous tab."
 msgstr ""
 "Brug venstre og højre piletast til at flytte mellem faneblade, eller tryk "
 "CTRL+Tab for at flytte til det næste faneblad og Skift+CTRL+Tab for at "
@@ -118,28 +116,39 @@ msgid ""
 "Use the left and down arrow keys to decrease and up and right arrow keys to "
 "increase the value in this slider. Use page up and page down to increase or "
 "decrease in larger values, and press home and end keys to select maximum and "
-"minimum value"
+"minimum value."
 msgstr ""
 "Brug venstre piletast eller pil  ned for at formindske og pil højre eller "
 "pil op for at forøge værdien af denne skyder. Brug Side op og Side ned til "
 "at forøge eller formindske i større spring, og tryk Hjem og Slut for at "
-"vælge maximum eller minimum."
+"vælge største eller mindste værdi."
+
+#. Translators: Help message for working with progress bars.
+msgid "This is a progress bar, used to show progress of an operation."
+msgstr ""
+"Dette er en behandlingslinje, der bruges til at vise status for en operation."
 
 #. Translators: Help message for navigating tables.
 msgid ""
-"Press control, alt and arrow keys together to move between rows and columns"
+"Press control, alt and arrow keys together to move between rows and columns."
 msgstr ""
 "Tryk på CTRL, Alt og piletaster samtidig for at flytte mellem rækker og "
 "kolonner."
 
 #. Translators: Help message for navigating table cells.
-msgid "Press control, alt and arrow keys together to move between table cells"
+msgid ""
+"Press Control+Alt+arrow keys to other table cells. Pressing left or right "
+"arrow keys will navigate between columns, and up and down arrow keys will "
+"navigate by row."
 msgstr ""
-"Tryk på CTRL, alt og piletaster samtidig for at flytte mellem tabelceller."
+"Tryk på Ctrl+Alt+piletasterne for at flytte til andre tabelceller. Hvis du "
+"trykker på venstre eller højre piletast, navigeres mellem kolonner, og pil "
+"op og pil ned navigerer efter række."
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
 msgid ""
-"Use the arrow keys or object navigation commands to move through the document"
+"Use the arrow keys or object navigation commands to move through the "
+"document."
 msgstr ""
 "Brug piletaster eller objektnavigeringskommandoer for at flytte gennem "
 "dokumentet."
@@ -147,16 +156,15 @@ msgstr ""
 #. Translators: Help message for terminal windows such as command prompt.
 msgid ""
 "Type commands in the terminal window and use review cursor commands to read "
-"the output"
+"the output."
 msgstr ""
 "Skriv kommandoer i terminalvinduet og brug læsemarkørens kommandoer for at "
 "læse resultatet."
 
-#. 200: Virtual Buffer.
 #. Translators: Help message for radio buttons while in browse mode.
 msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
-"ENTER key"
+"ENTER key."
 msgstr ""
 "For at vælge en radioknap, skift til fokustilstand ved at trykke på NVDA"
 "+Mellemrum eller Enter."
@@ -164,7 +172,7 @@ msgstr ""
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
 "To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key"
+"+SPACE or ENTER key."
 msgstr ""
 "For at skrive tekst i dette redigeringsfelt, skift til fokustilstand ved at "
 "trykke NVDA+Mellemrum eller Enter."
@@ -172,49 +180,50 @@ msgstr ""
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
 "To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key"
+"+SPACE or ENTER key."
 msgstr ""
 "For at vælge et emne i comboboksen, skift til fokustilstand ved at trykke på "
-"NVDA+Mellemrum eller Enter.\v"
+"NVDA+Mellemrum eller Enter."
 
 #. Translators: Help message for reading webpages.
 msgid ""
-"Use the browse mode and quick navigation commands to read through the webpage"
+"Use the browse mode and quick navigation commands to read through the "
+"webpage."
 msgstr "Brug gennemsynstilstand og bogstavnavigation til at læse websiden."
 
-#. App-specific case 1: AppeModule for app is present.
-#. 300: Explorer (to deal with specific cases.
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"Når du har indtastet søgetekst, skal du trykke pil op eller pil ned for at "
+"gennemse listen over forslag."
+
+#. Translators: Help message for reading Adobe PDF documents.
+msgid ""
+"Use the browse mode and quick navigation commands to read through the PDF "
+"document."
+msgstr "Brug gennemsynstilstand og bogstavnavigation til at læse websiden."
+
+#. Translators: Help message for moving between Excel spreadsheet cells.
+msgid "Use the arrow keys to move between spreadsheet cells."
+msgstr "Brug piletasterne for at flytte mellem celler i regnearket."
+
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
-msgid "Use the arrow keys to move between start screen tiles"
+msgid "Use the arrow keys to move between start screen tiles."
 msgstr "Brug piletasterne for at flytte mellem fliser på startskærmen."
 
-#. 400: Microsoft powerpoint (powerpnt):
 #. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
-msgid "Use up and down arrow keys to move between slides"
+msgid "Use up and down arrow keys to move between slides."
 msgstr "Brug piletasterne op og ned for at flytte mellem dias."
 
 #. Translators: Help message for working with slide shows.
 msgid ""
 "Press SPACE or BACKSPACE to move between slides in the slide show. To end "
-"the slide show, press escape"
+"the slide show, press escape."
 msgstr ""
 "Tryk på Mellemrum eller Backspace for at flytte mellem dias i dias-showet. "
 "for at afslutte dias-showet,tryk på Escape."
-
-#. App-specific case 2: AppeModule for app is not present (use processes).
-#. -300: Excel.
-#. Translators: Help message for moving between Excel spreadsheet cells.
-msgid "Use the arrow keys to move between spreadsheet cells"
-msgstr "Brug piletasterne for at flytte mellem celler i regnearket.\v"
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
-msgid ""
-"Control Usage Assistant - get brief help on interacting with the focused "
-"control"
-msgstr ""
-"Brugsassistent til kontroller - Få en kort hjælpemeddelelse om, hvordan du "
-"bruger den kontrol, der er i fokus."
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
@@ -230,3 +239,18 @@ msgstr ""
 "\tTryk NVDA+h for at få en kort hjælpemeddelelse om, hvordan du bruger "
 "kontrollen, som er i fokus, f.eks. få hjælp til, hvordan du flytter gennem "
 "tabeller, markerer en checkboks o.s.v."
+
+#~ msgid "Use the text navigation commands to read text"
+#~ msgstr "Brug tekstnavigeringskommandoer for at læse denne tekst."
+
+#~ msgid ""
+#~ "Press control, alt and arrow keys together to move between table cells"
+#~ msgstr ""
+#~ "Tryk på CTRL, alt og piletaster samtidig for at flytte mellem tabelceller."
+
+#~ msgid ""
+#~ "Control Usage Assistant - get brief help on interacting with the focused "
+#~ "control"
+#~ msgstr ""
+#~ "Brugsassistent til kontroller - Få en kort hjælpemeddelelse om, hvordan "
+#~ "du bruger den kontrol, der er i fokus."

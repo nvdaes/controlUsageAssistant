@@ -3,11 +3,10 @@
 * Autor: Joseph Lee
 * Stiahnuť [stabilnú verziu][1]
 * Funguje s NVDA od verzie 2019.3
-* Stiahnuť [staršiu verziu][3] Pre NVDA do verzie 2019.2.1.
 
 Doplnok poskytuje pomoc pre aktuálne zameraný prvok. Aby ste počuli pomocné
 hlásenie pre prvky, akými sú napríklad začiarkavacie alebo editačné polia ,
-stlačte NVDA+h
+stlačte NVDA+h.
 
 ## Verzia 20.01
 
@@ -45,5 +44,3 @@ stlačte NVDA+h
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
 
 [2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
-
-[3]: https://addons.nvda-project.org/files/get.php?file=cua-2019

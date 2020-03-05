@@ -3,8 +3,6 @@
 * Autor: Joseph Lee
 * Descargar [versión estable][1]
 * Compatibilidad con NVDA: 2019.3 y posterior
-* Descargar [versión más antigua][3] compatible con NVDA 2019.2.1 y
-  anteriores
 
 Utiliza este complemento para averiguar cómo interactuar con el control
 enfocado.  Pulsa NVDA+H para obtener un breve mensaje de ayuda sobre la
@@ -50,5 +48,3 @@ campos de edición y así con otros.
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
 
 [2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
-
-[3]: https://addons.nvda-project.org/files/get.php?file=cua-2019

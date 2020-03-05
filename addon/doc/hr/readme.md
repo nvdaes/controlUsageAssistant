@@ -3,12 +3,10 @@
 * Autor: Joseph Lee
 * Preuzmi [stabilnu verziju][1]
 * NVDA kompatibilnost: 2019.3 i nadalje
-* Preuzmi [stariju verziju][3], komaptibilnu s NVDA 2019.2.1 ili ranijim
-  verzijama
 
-Koristi ovaj dodatak i saznaj kako koristiti fokusiranu kontrolu. Pritisni
-NVDA+H za dobivanje kratke poruke o tome kako koristiti fokusirane kontrole,
-kao što su potvrdni okviri, polja za uređivanje i tome slično.
+Use this add-on to find out how to interact with the focused control.  Press
+NVDA+H to obtain a short help message on interacting with the focused
+control, such as checkboxes, edit fields and so on.
 
 ## Verzija 20.01
 
@@ -47,5 +45,3 @@ kao što su potvrdni okviri, polja za uređivanje i tome slično.
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
 
 [2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
-
-[3]: https://addons.nvda-project.org/files/get.php?file=cua-2019
