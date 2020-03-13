@@ -4,9 +4,9 @@
 * Pobierz [wersja stabilna][1]
 * Zgodność z wersjami NVDA: 2019.3 i nowsze
 
-Use this add-on to find out how to interact with the focused control.  Press
-NVDA+H to obtain a short help message on interacting with the focused
-control, such as checkboxes, edit fields and so on.
+Użyj tego dodatku, aby dowiedzieć się w jaki sposób pracować z aktualną
+kontrolką.  Naciśnij NvDA+H aby uzyskać krótką pomoc dotyczącą używania
+bieżącej kontrolki, (pola wyboru, pola edycji, itd.)
 
 ## Wersja 20.01
 
