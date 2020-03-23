@@ -3,12 +3,10 @@
 * Autore: Joseph Lee
 * Download [stable version][1]
 * NVDA compatibility: 2019.3 and beyond
-* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
 
-Utilizzare questo componente aggiuntivo per scoprire come interagire con il
-controllo evidenziato. Premere NVDA+h per ascoltare un breve suggerimento,
-ad esempio su come selezionare una casella di controllo, come operare in un
-campo editazione e così via.
+Use this add-on to find out how to interact with the focused control.  Press
+NVDA+H to obtain a short help message on interacting with the focused
+control, such as checkboxes, edit fields and so on.
 
 ## Version 20.01
 
@@ -47,5 +45,3 @@ campo editazione e così via.
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
 
 [2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
-
-[3]: https://addons.nvda-project.org/files/get.php?file=cua-2019

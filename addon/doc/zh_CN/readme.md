@@ -2,8 +2,7 @@
 
 * 作者： Joseph Lee
 * 下载 [稳定版][1]
-* NVDA兼容版本: 2019.3 和 以后版本
-* 下载 [旧版本][3] 可与NVDA 2019.2.1和更早版本兼容
+* NVDA兼容版本: 2019.3 以上
 
 使用此插件来查看如何与焦点所在的控件交互。按下“NVDA加H”获取一个与此控件交互的简短的帮助信息。如编辑框、复选框等。
 
@@ -41,5 +40,3 @@
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
 
 [2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
-
-[3]: https://addons.nvda-project.org/files/get.php?file=cua-2019

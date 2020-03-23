@@ -3,13 +3,10 @@
 * Autor: Joseph Lee
 * Descargar [versión estable][1]
 * Compatibilidade con NVDA: 2019.3 en adiante
-* Descargar [versión máis antiga][3] compatible con NVDA 2019.2.1 e
-  anteriores
 
-Utiliza este complemento para atopar como interactuar co control
-enfocado. Preme NVDA + H para obter unha mensaxe curta de axuda na
-interacción co control enfocado, como coas caixas de verificación, campos de
-edición e así con outros.
+Utiliza este complemento para atopar como interactuar co control enfocado.
+Preme NVDA+H para obter unha mensaxe curta de axuda na interacción co
+control enfocado, como caixas de verificación, campos de edición etc.
 
 ## Versión 20.01
 
@@ -49,5 +46,3 @@ edición e así con outros.
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
 
 [2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
-
-[3]: https://addons.nvda-project.org/files/get.php?file=cua-2019

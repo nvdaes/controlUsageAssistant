@@ -3,12 +3,11 @@
 * Autor: Joseph Lee
 * Baixe a [versão estável][1]
 * Compatibilidade com NVDA: 2019.3 e posteriores
-* Baixe a [versão mais velha][3], compatível com NVDA 2019.2.1 e anteriores
 
-Use este complemento para descobrir como interagir com o controle em foco.
-Pressione NVDA+H para obter uma mensagem curta de ajuda sobre como interagir
-com o controle em foco, como caixas de seleção, campos de edição e assim por
-diante.
+Use este complemento para descobrir como interagir com o controle
+focalizado. Pressione NVDA+H para obter uma mensagem curta de ajuda sobre a
+interação com o controle em foco, como caixas de seleção, campos de edição e
+assim por diante.
 
 ## Versão 20.01
 
@@ -16,7 +15,7 @@ diante.
 
 ## Versão 3.0/19.11
 
-* Esquema de versões agora é ano.mês
+* Esquema de versões agora é ano.mês.
 * Quando NVDA+H for pressionada, será exibida uma tela de ajuda ao invés de
   ser mostrada uma mensagem rápida.
 
@@ -49,5 +48,3 @@ diante.
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
 
 [2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
-
-[3]: https://addons.nvda-project.org/files/get.php?file=cua-2019

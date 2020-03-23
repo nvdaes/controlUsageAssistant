@@ -3,12 +3,10 @@
 * Автор: Joseph Lee
 * Завантажити [стабільну версію][1]
 * NVDA compatibility: 2019.3 and beyond
-* Download [older version][3] compatible with NVDA 2019.2.1 and earlier
 
-Використовуйте цей додаток аби знати, як взаємодіяти з елементами керування
-у фокусі. Натисніть NVDA+H щоб отримати коротку довідку про те, як
-взаємодіяти з елементом, на якому ви зараз знаходитесь, наприклад, з
-прапорцем, кнопкою, комбінованим списком і так далі.
+Use this add-on to find out how to interact with the focused control.  Press
+NVDA+H to obtain a short help message on interacting with the focused
+control, such as checkboxes, edit fields and so on.
 
 ## Version 20.01
 
@@ -48,5 +46,3 @@
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
 
 [2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
-
-[3]: https://addons.nvda-project.org/files/get.php?file=cua-2019

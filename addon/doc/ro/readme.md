@@ -3,13 +3,10 @@
 * Autor: Joseph Lee
 * Descărcați [versiunea stabilă][1]
 * Compatibilitate NVDA: 2019.3 și mai nou
-* Descărcați [versiunea mai veche][3], compatibilă cu NVDA 2019.2.1 și cu
-  versiunile mai vechi ale acestuia
 
-Folosiți acest supliment pentru a descoperi cum să interacționați cu
-controlul focalizat.  Apăsați NVDA+H pentru a obține un mesaj scurt de
-ajutor în interacționarea cu controlul focalizat, precum casete de bifat,
-câmpuri de editare și așa mai departe.
+Use this add-on to find out how to interact with the focused control.  Press
+NVDA+H to obtain a short help message on interacting with the focused
+control, such as checkboxes, edit fields and so on.
 
 ## Versiunea 20.01
 
@@ -50,5 +47,3 @@ câmpuri de editare și așa mai departe.
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
 
 [2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
-
-[3]: https://addons.nvda-project.org/files/get.php?file=cua-2019
