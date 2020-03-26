@@ -2,7 +2,7 @@
 
 * Autor: Joseph Lee
 * [Stabile Version herunterladen][1]
-* NVDA compatibility: 2019.3 and beyond
+* NVDA-Kompatibilität: 2019.3 und neuer
 
 Use this add-on to find out how to interact with the focused control.  Press
 NVDA+H to obtain a short help message on interacting with the focused
@@ -10,7 +10,7 @@ control, such as checkboxes, edit fields and so on.
 
 ## Version 20.01
 
-* NVDA 2019.3 or later is required.
+* Benötigt NVDA 2019.3 oder neuer.
 
 ## Version 3.0/19.11
 
