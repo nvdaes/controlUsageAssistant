@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2019-12-01 18:52+0100\n"
-"Last-Translator: Bernd Dorer <bdorer@mailbox.org>\n"
+"PO-Revision-Date: 2020-03-27 07:17+0100\n"
+"Last-Translator: Waldschmetterling <a.r.waldschmetterling@gmx.de>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
@@ -153,10 +153,10 @@ msgid ""
 "arrow keys will navigate between columns, and up and down arrow keys will "
 "navigate by row."
 msgstr ""
-"Drücken Sie Steuerung+Alt+Pfeiltasten, um  zu anderen Tabellenzellen zu "
-"bewegen. Wenn Sie die Pfeiltasten nach links oder rechts drücken, navigieren "
-"Sie zwischen den Spalten, während die Pfeiltasten nach oben und unten "
-"zwischen den Zeilen wechseln."
+"Drücken Sie Steuerung+Alt+Pfeiltasten, um  sich zu anderen Tabellenzellen zu "
+"bewegen. Mit den Pfeiltasten nach links oder rechts, navigieren Sie zwischen "
+"den Spalten. Mit den Pfeiltasten nach oben und unten navigieren Sie zwischen "
+"den Zeilen."
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
 msgid ""
@@ -247,7 +247,7 @@ msgid ""
 "the slide show, press escape."
 msgstr ""
 "Drücken Sie die Leertaste oder die Rücktaste, um zwischen den Folien zu "
-"wechseln. Drücken Sie ESC, um die Präsentation zu beenden."
+"wechseln. Drücken Sie Escape, um die Präsentation zu beenden."
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
