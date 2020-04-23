@@ -4,9 +4,11 @@
 * [Stabile Version herunterladen][1]
 * NVDA-Kompatibilität: 2019.3 und neuer
 
-Use this add-on to find out how to interact with the focused control.  Press
-NVDA+H to obtain a short help message on interacting with the focused
-control, such as checkboxes, edit fields and so on.
+Verwenden Sie diese Erweiterung, um zu erfahren, wie Sie das aktuell
+hervorgehobene Steuerelement benutzen können. Drücken Sie NVDA+H, um eine
+kurze Hilfestellung zur Verwendung des aktuell hervorgehobenen
+Steuerelementes zu erhalten (eingeben von Text, aktivieren von
+Kontrollkästchen etc.).
 
 ## Version 20.01
 
