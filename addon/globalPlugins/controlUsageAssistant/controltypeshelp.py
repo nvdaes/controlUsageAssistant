@@ -61,6 +61,3 @@ browseModeHelpMessages = {
 	# Translators: Help message for reading webpages.
 	controlTypes.ROLE_DOCUMENT: _("Use the browse mode and quick navigation commands to read through the webpage."),
 }
-
-# Translators: Help message for a read-only control.
-#-8: _("Use the text navigation commands to read text."),
