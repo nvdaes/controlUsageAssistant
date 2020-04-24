@@ -59,9 +59,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if isinstance(curObj.treeInterceptor, VirtualBuffer):
 			# In case we're dealing with virtual buffer, call the below method.
 			helpMessages.append(self.VBufHelp(curObj))
-		#if curObj.role == 8 and controlTypes.STATE_READONLY in obj.states:
-			# Special case 1: WE have encountered a read-only edit field.
-			#helpMessages.append(_(helpmessages.helpMessages[-8]))
 		if len(helpMessages) == CUAMROLevel:
 			if curObj.role in helpmessages.controlTypeHelpMessages:
 				helpMessages.append(helpmessages.controlTypeHelpMessages[curObj.role])
