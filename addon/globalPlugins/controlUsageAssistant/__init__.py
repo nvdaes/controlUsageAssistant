@@ -74,7 +74,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	# Any exceptions to lookup keys goes here.
 	# First case: virtual buffer control exceptions.
-	VBufForms = {6, 8, 13} # Forms encountered on webpages; add custom message form them in browse mode.
+	VBufForms = {6, 8, 13}  # Forms encountered on webpages; add custom message form them in browse mode.
 	# And the function for handling these:
 	def VBufHelp(self, obj):
 		if obj.role in self.VBufForms:
