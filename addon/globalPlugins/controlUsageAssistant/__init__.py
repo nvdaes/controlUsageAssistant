@@ -9,9 +9,7 @@
 import globalPluginHandler
 import ui
 import api
-import controlTypes
 from virtualBuffers import VirtualBuffer
-import appModuleHandler
 import scriptHandler
 import addonHandler
 addonHandler.initTranslation()
@@ -19,6 +17,7 @@ from . import helpmessages
 
 # How many method resolution order (MRO) level help messages to consider before resorting to role-based messages.
 CUAMROLevel = 0
+
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
