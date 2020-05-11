@@ -89,5 +89,3 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		else:
 			VBufmsg = helpmessages.controlTypeHelpMessages[obj.role]
 		return VBufmsg
-
-	__gestures = {}
