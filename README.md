@@ -7,6 +7,11 @@
 Use this add-on to find out how to interact with the focused control.
 Press NvDA+H to obtain a short help message on interacting with the focused control, such as checkboxes, edit fields and so on.
 
+## Version 20.06
+
+* Resolved many coding style issues and potential bugs with Flake8.
+* NVDA will appear to do nothing or play error tones when trying to obtain help for certain browse mode controls.
+
 ## Version 20.01
 
 * NVDA 2019.3 or later is required.
