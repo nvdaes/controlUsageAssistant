@@ -2,12 +2,19 @@
 
 * Tekijä: Joseph Lee
 * Lataa [vakaa versio][1]
-* Yhteensopivuus: NVDA 2019.3 ja uudemmat
+* Yhteensopivuus: NVDA 2019.3-2020.1
 
 Tämän lisäosan avulla voit selvittää, miten aktiivisen säätimen kanssa
 ollaan vuorovaikutuksessa.  Paina NVDA+H kuullaksesi lyhyen ohjeen
 aktiivisen säätimen käytöstä, kuten esim. valintaruudun valitsemisesta,
 tekstin muokkaamisesta jne.
+
+## Versio 20.06
+
+* Ratkaistu useita koodaustyylin ongelmia sekä mahdollisia bugeja Flake8:n
+  kanssa.
+* NVDA ei näytä tekevän mitään tai soita virheääniä yritettäessä saada
+  ohjeita tietyille selaustilasäätimille.
 
 ## Versio 20.01
 

@@ -2,11 +2,17 @@
 
 * Autor: Joseph Lee
 * Pobierz [wersja stabilna][1]
-* Zgodność z wersjami NVDA: 2019.3 i nowsze
+* NVDA compatibility: 2019.3 to 2020.1
 
 Użyj tego dodatku, aby dowiedzieć się w jaki sposób pracować z aktualną
 kontrolką.  Naciśnij NvDA+H aby uzyskać krótką pomoc dotyczącą używania
 bieżącej kontrolki, (pola wyboru, pola edycji, itd.)
+
+## Version 20.06
+
+* Resolved many coding style issues and potential bugs with Flake8.
+* NVDA will appear to do nothing or play error tones when trying to obtain
+  help for certain browse mode controls.
 
 ## Wersja 20.01
 

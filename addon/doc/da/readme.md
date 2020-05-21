@@ -2,12 +2,18 @@
 
 * Forfatter: Joseph Lee
 * Download [stabil version][1]
-* NVDA-kompatibilitet: 2019.3 og derefter
+* NVDA compatibility: 2019.3 to 2020.1
 
 Brug denne tilføjelse til at finde ud af, hvordan du interagerer med det
 fokuserede kontrolelement.  Tryk på NVDA+H for at få en kort hjælp til at
 interagere med det fokuserede kontrolelement, f.eks. check box og
 redigeringsfelter.
+
+## Version 20.06
+
+* Resolved many coding style issues and potential bugs with Flake8.
+* NVDA will appear to do nothing or play error tones when trying to obtain
+  help for certain browse mode controls.
 
 ## Version 20.01
 

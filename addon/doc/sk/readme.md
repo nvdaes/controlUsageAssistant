@@ -2,11 +2,16 @@
 
 * Autor: Joseph Lee
 * Stiahnuť [stabilnú verziu][1]
-* Funguje s NVDA od verzie 2019.3
+* Funguje s NVDA 2019.3 a 2020.1
 
 Doplnok poskytuje pomoc pre aktuálne zameraný prvok. Aby ste počuli pomocné
 hlásenie pre prvky, akými sú napríklad začiarkavacie alebo editačné polia ,
 stlačte NVDA+h.
+
+## Verzia 20.06
+
+* Opravené drobné chyby v kóde.
+* NVDA viac nezamrzne alebo nehlási chybu pri prvkoch v režime prehliadania.
 
 ## Verzia 20.01
 

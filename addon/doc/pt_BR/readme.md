@@ -2,12 +2,19 @@
 
 * Autor: Joseph Lee
 * Baixe a [versão estável][1]
-* Compatibilidade com NVDA: 2019.3 e além
+* Compatibilidade com NVDA: 2019.3 a 2020.1
 
 Use este complemento para descobrir como interagir com o controle
 focalizado. Pressione NVDA+H para obter uma mensagem curta de ajuda sobre a
 interação com o controle em foco, como caixas de seleção, campos de edição e
 assim por diante.
+
+## Versão 20.06
+
+* Foram resolvidos muitos problemas de estilo de codificação e possíveis
+  erros com o Flake8.
+* O NVDA parece não fazer nada ou reproduzir tons de erro ao tentar obter
+  ajuda para determinados controles do modo de navegação.
 
 ## Versão 20.01
 

@@ -2,12 +2,19 @@
 
 * Autor: Joseph Lee
 * Descargar [versión estable][1]
-* Compatibilidad con NVDA: 2019.3 y posterior
+* Compatibilidad con NVDA: de 2019.3 a 2020.1
 
 Utiliza este complemento para averiguar cómo interactuar con el control
 enfocado.  Pulsa NVDA+H para obtener un breve mensaje de ayuda sobre la
 interacción con el control enfocado, como con casillas de verificación,
 campos de edición y así con otros.
+
+## Versión 20.06
+
+* Se han resuelto muchos problemas de estilo del código y fallos potenciales
+  con Flake8.
+* NVDA ya no parecerá hacer nada o reproducir tonos de error al intentar
+  obtener ayuda en ciertos controles en modo exploración.
 
 ## Versión 20.01
 

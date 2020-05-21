@@ -2,12 +2,18 @@
 
 * Автор: Joseph Lee
 * Изтегляне на [стабилна версия][1]
-* Съвместимост с NVDA: 2019.3 и по-нови версии
+* NVDA compatibility: 2019.3 to 2020.1
 
 Използвайте тази добавка, за да разберете как да си взаимодействате с
 елемента на фокус. Натиснете NVDA+H, за да чуете кратко помощно съобщение за
 начините на взаимодействие с елемента на фокус, например поле за отметка,
 поле за писане и други.
+
+## Version 20.06
+
+* Resolved many coding style issues and potential bugs with Flake8.
+* NVDA will appear to do nothing or play error tones when trying to obtain
+  help for certain browse mode controls.
 
 ## Версия 20.01
 

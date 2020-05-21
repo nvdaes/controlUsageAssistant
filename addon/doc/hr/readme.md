@@ -2,11 +2,18 @@
 
 * Autor: Joseph Lee
 * Preuzmi [stabilnu verziju][1]
-* NVDA kompatibilnost: 2019.3 i nadalje
+* NVDA kompatibilnost: 2019.3 do 2020.1
 
 Koristi ovaj dodatak i saznaj kako koristiti fokusiranu kontrolu. Pritisni
 NVDA+H za dobivanje kratke poruke o tome kako koristiti fokusirane kontrole,
 kao što su potvrdni okviri, polja za uređivanje i tome slično.
+
+## Verzija 20.06
+
+* Riješeni su mnogi problemi sa stilom kodiranja kao i potencijalne greške s
+  Flake8.
+* NVDA će se ponašati kao da ništa ne radi i reproducirat će zvukove greške
+  prilikom pokušaja dohvaćanja pomoći za određene kontrole u modusu čitanja.
 
 ## Verzija 20.01
 

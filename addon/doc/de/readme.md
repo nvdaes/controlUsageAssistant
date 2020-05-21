@@ -2,13 +2,19 @@
 
 * Autor: Joseph Lee
 * [Stabile Version herunterladen][1]
-* NVDA-Kompatibilität: 2019.3 und neuer
+* NVDA compatibility: 2019.3 to 2020.1
 
 Verwenden Sie diese Erweiterung, um zu erfahren, wie Sie das aktuell
 hervorgehobene Steuerelement benutzen können. Drücken Sie NVDA+H, um eine
 kurze Hilfestellung zur Verwendung des aktuell hervorgehobenen
 Steuerelementes zu erhalten (eingeben von Text, aktivieren von
 Kontrollkästchen etc.).
+
+## Version 20.06
+
+* Resolved many coding style issues and potential bugs with Flake8.
+* NVDA will appear to do nothing or play error tones when trying to obtain
+  help for certain browse mode controls.
 
 ## Version 20.01
 
