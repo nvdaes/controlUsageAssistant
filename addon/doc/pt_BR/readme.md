@@ -2,7 +2,7 @@
 
 * Autor: Joseph Lee
 * Baixe a [versão estável][1]
-* Compatibilidade com NVDA: 2019.3 a 2020.1
+* NVDA compatibility: 2019.3 to 2020.2
 
 Use este complemento para descobrir como interagir com o controle
 focalizado. Pressione NVDA+H para obter uma mensagem curta de ajuda sobre a
