@@ -2,7 +2,7 @@
 
 * Autor: Joseph Lee
 * Descargar [versión estable][1]
-* NVDA compatibility: 2019.3 to 2020.2
+* Compatibilidade con NVDA: da 2019.3 á 2020.2
 
 Utiliza este complemento para atopar como interactuar co control enfocado.
 Preme NVDA+H para obter unha mensaxe curta de axuda na interacción co
