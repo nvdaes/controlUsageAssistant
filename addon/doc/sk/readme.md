@@ -2,7 +2,7 @@
 
 * Autor: Joseph Lee
 * Stiahnuť [stabilnú verziu][1]
-* NVDA compatibility: 2019.3 to 2020.2
+* Funguje s NVDA 2019.3 až 2020.2
 
 Doplnok poskytuje pomoc pre aktuálne zameraný prvok. Aby ste počuli pomocné
 hlásenie pre prvky, akými sú napríklad začiarkavacie alebo editačné polia ,
