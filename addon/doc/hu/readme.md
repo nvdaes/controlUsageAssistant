@@ -1,23 +1,37 @@
 # Tájékoztató üzemmód #
 
 * Készítő: Joseph Lee
-* Download [stable version][1]
-* Download [development version][2]
-* NVDA compatibility: 2017.3 to 2019.2
+* [stabil verzió letöltése][1]
+* Támogatott NVDA kiadások: NVDA 2019.3 - 2020.2
 
-A kiegészítő segítségével információt kaphat a kurzor alatt lévő elemről
-(pl. hogyan jelölheti be a jelölőnégyzetet, stb). Használatához csak nyomja
-meg az NVDA+h billentyűparancsot.
+A bővítmény az NVDA+H billentyűparanccsal információkat ad a fókuszban lévő
+vezérlők és elemek használatához.
 
-## Version 2.5
+## 20.06-os verzió
 
-* Compatible with Python 3.
+* Javítottak több kódolási hibát és lehetséges bugot.
+* Az NVDA nem tesz semmit vagy hibajelző hangot ad amikor bizonyos
+  böngészőmódú elemeken próbáljuk meg aktiválni a tájékoztató üzemmódot.
 
-## Version 2.1
+## 20.01 verzió
+
+* NVDA 2019.3 vagy újabb kiadás szükséges
+
+## 3.0/19.11 verzió
+
+* A verziószám mostantól az év.hónap formátumot követi.
+* Az NVDA+H lenyomása után most már egy súgóablak jelenik meg és nem csak
+  egy üzenet.
+
+## 2.5 verzió
+
+* Python 3 kompatibilitás.
+
+## 2.1 verzió
 
 * Új és frissített fordítások.
 
-## Version 2.0
+## 2.0 verzió
 
 * Több súgóüzenetet is hozzáadtak, beleértve a terminál ablakhoz tartozókat.
 * Több, a munkát elősegítő programhoz rendeltek hozzá súgóüzenetet, úgy mint
@@ -26,10 +40,9 @@ meg az NVDA+h billentyűparancsot.
   (Internet explorer, Adobe reader, Mozilla Firefox, stb).
 * Új nyelv: Dán
 
-## Version 1.0
+## 1.0 verzió
 
 * Első verzió
-
 
 [[!tag dev stable]]
 

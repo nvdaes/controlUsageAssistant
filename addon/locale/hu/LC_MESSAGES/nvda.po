@@ -8,34 +8,36 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2018-05-16 10:53+0200\n"
+"PO-Revision-Date: 2020-07-27 20:42+0100\n"
 "Last-Translator: OAron <info@o-soft.hu>\n"
 "Language-Team: HU <LL@li.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 1.6.10\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. Script category.
 #. Translators: Input gesture category for Control Usage Assistant add-on.
+#. The prototype UI message, the actual processing is done below.
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
 msgid "Control Usage Assistant"
 msgstr "Tájékoztató üzemmód"
 
 #. Translators: Input help message for obtain control help command.
-msgid "Presents a short message on how to interact with the focused control."
+msgid "Presents a message on how to interact with the focused control."
 msgstr ""
-"Megjelenít egy rövid üzenetet az aktuális elem használatával kapcsolatban."
+"Megjelenít egy rövid üzenetet az aktív elem használatával kapcsolatban."
 
 #. Translators: Message presented when there is no help message for the focused control.
 msgid "No help for this control"
 msgstr "Nem tartozik súgó ehhez az elemhez"
 
 #. Translators: Additional message when working with forms in focus mode.
-msgid ". To switch to browse mode, press NVDA+SPACE or escape key"
+msgid " To switch to browse mode, press NVDA+SPACE or escape key"
 msgstr ""
-"Böngészőmódba váltáshoz nyomja meg az NVDA+szóköz, vagy az escape billentyűt."
+"Böngészőmódra váltáshoz nyomja meg az NVDA+szóköz, vagy az escape billentyűt."
 
 #. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
@@ -45,177 +47,187 @@ msgstr ""
 "A böngészőmód és a gyors navigációs gombok használatához nyomja meg az NVDA"
 "+szóköz billentyűparancsot"
 
-#. Default: universal across apps and states.
 #. Translators: Help message for a checkbox.
-msgid "Press space to check or uncheck the checkbox"
-msgstr "Nyomja meg a szóközt a jelölőnégyzet be/kikapcsolásához"
+msgid "Press space bar to check or uncheck this check box."
+msgstr ""
+"Nyomja meg a szóközt a jelölőnégyzet bejelöléséhez vagy a bejelölés "
+"eltávolításához."
 
 #. Translators: Help message for working with radio buttons.
-msgid "Use the arrow keys to choose a radio button"
-msgstr "Használja a fel/le nyíl billentyűket egy választógomb kiválasztásához"
+msgid "Use the arrow keys to choose a radio button."
+msgstr "Használja a nyílbillentyűket egy választógomb kiválasztásához."
 
 #. Translators: Help message for a list box.
-msgid "Use the arrow keys to read this box"
-msgstr "Használja anyíl billentyűket a szöveg elolvasásához"
+msgid "Use the arrow keys to read this box."
+msgstr "Használja a nyílbillentyűket a lista elemein való mozgáshoz."
 
 #. Translators: Help message for an edit field.
-msgid "Type text here"
-msgstr "Szöveg beviteli mező"
-
-#. Translators: Help message for a read-only control.
-msgid "Use the text navigation commands to read text"
-msgstr "Használja a szöveg navigációs billentyűparancsokat az elolvasáshoz"
+msgid "Type text here."
+msgstr "Ez egy beviteli mező, ide írja a szöveget"
 
 #. Translators: Help message for a button.
-msgid "Press SPACE or ENTER to activate this button"
-msgstr "Nyomja meg a szóköz/enter billentyűt a gomb aktiválásához"
+msgid "Press SPACE or ENTER to activate this button."
+msgstr "használja a szóköz vagy az enter billentyűt a gomb megnyomásához."
 
 #. Translators: Help message for menu items.
-msgid "Use the arrow keys to move between the menu items"
+msgid "Use the arrow keys to move between the menu items."
 msgstr "Használja a nyíl billentyűket a menüben való mozgáshoz"
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
-msgid "Use up and down arrow keys to move through options in the pop-up menu"
-msgstr ""
-"Használja a fel és lenyilakat a beállítások között való mozgásra a helyi "
-"menüben"
+msgid "Use up and down arrow keys to move through options in the pop-up menu."
+msgstr "A felnyíl és lenyíl billentyűkkel mozoghat a helyi menüben."
 
 #. Translators: Help message for a combo box.
 msgid ""
 "Use the arrow keys to move among choices in the combo box until the desired "
-"option is found"
-msgstr "A nyíl billentyűk segítségével válassza ki az önnek megfelelő opciót"
+"option is found."
+msgstr ""
+"A nyílbillentyűk segítségével válassza ki az önnek megfelelő opciót a "
+"listából."
 
 #. Translators: Help message for a list view.
-msgid "Use the arrow keys to move to the next or previous item in this list"
-msgstr ""
-"A nyilak segítségével mozoghat az előző és következő listaelemek között"
+msgid "Use the arrow keys to move to the next or previous item in this list."
+msgstr "A nyílbillentyűk segítségével mozoghat a  lista elemei között"
 
 #. Translators: Help message for activating links.
-msgid "Press SPACE or ENTER to activate this link"
-msgstr "Nyomja meg a szóköz/enter billentyűt a hivatkozás aktiválásához"
+msgid "Press SPACE or ENTER to activate this link."
+msgstr "Nyomja meg a szóközvagy az enter billentyűt a hivatkozásra ugráshoz."
 
 #. Translators: Help message for working with tree view items.
 msgid ""
 "Use the up and down arrow keys to select the items. Use left arrow to "
-"collapse and right arrow to expand"
+"collapse and right arrow to expand."
 msgstr ""
-"A fel és lefele nyilakkal kiválaszthat egy elemet, a jobbra nyillal "
-"kinyithatja, a balra nyíllal bezárhatja azt"
+"A Felnyíllal és Lenyíllal választhat ki egy elemet, amit a Jobbnyíllal "
+"nyithat ki, ill. a Balnyíllal zárhat be."
 
 #. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
 msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
-"for next tab and control+shift+tab for previous tab"
+"for next tab and control+shift+tab for previous tab."
 msgstr ""
-"A bal és jobbra nyilak segítségével, vagy a control+tab és control+shift+tab "
-"használatával váltogathat a lapfülek között"
+"A Balnyíl és Jobbnyíl segítségével mozoghat a füleken, a Ctrl+tab "
+"billentyűparancs a következő fülre vált, míg a Ctrl+Shift+Tab parancs az "
+"előző fülre."
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
 msgid ""
 "Use the left and down arrow keys to decrease and up and right arrow keys to "
 "increase the value in this slider. Use page up and page down to increase or "
 "decrease in larger values, and press home and end keys to select maximum and "
-"minimum value"
+"minimum value."
 msgstr ""
-"Használja a balra és lefele nyilakat a csökkentéshez, a jobbra és a felfele "
-"nyilakat pedig az érték növeléséhez a csúszkán. A page up és page down "
-"billentyűparanccsal nagyobb lépésekkel növelheti vagy csökkentheti az "
-"értéket, a home és end billentyűparanccsal pedig a két szélső értéket érheti "
-"el."
+"a Balnyíl vagy Lenyíl segítségével csökkentheti, a Jobbnyíl vagy Felnyíl  "
+"segítségével növelheti az értéket a csúszkán. A PageUp és PageDown "
+"billentyűkkel nagyobb lépésekben változtathat. A Home és End gombokkal "
+"azonnal a maximális ill. a minimális értékre ugorhat."
+
+#. Translators: Help message for working with progress bars.
+msgid "This is a progress bar, used to show progress of an operation."
+msgstr "Ez egy folyamatjelző, megmutatja hol tart az aktuális művelet"
 
 #. Translators: Help message for navigating tables.
 msgid ""
-"Press control, alt and arrow keys together to move between rows and columns"
+"Press control, alt and arrow keys together to move between rows and columns."
 msgstr ""
-"A control+alt+nyilak együttes lenyomásával mozoghat a táblázat cellái és "
-"sorai között"
+"A Ctrl+Alt+Nyílbillentyűk paranccsal mozoghat a táblázat cellái között. "
+"Felnyíl és Lenyíl a sorok közti, ill. Balnyíl és jobbnyíl az oszlopok közti "
+"mozgáshoz."
 
 #. Translators: Help message for navigating table cells.
-msgid "Press control, alt and arrow keys together to move between table cells"
+msgid ""
+"Press Control+Alt+arrow keys to other table cells. Pressing left or right "
+"arrow keys will navigate between columns, and up and down arrow keys will "
+"navigate by row."
 msgstr ""
-"A control+alt+nyilak egyidejű megnyomásával mozoghat a táblázat cellái "
-"között."
+"A Ctrl+Alt+Nyílbillentyűk paranccsal mozoghat a táblázat cellái között. "
+"Felnyíl és Lenyíl a sorok közti, ill. Balnyíl és jobbnyíl az oszlopok közti "
+"mozgáshoz."
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
 msgid ""
-"Use the arrow keys or object navigation commands to move through the document"
+"Use the arrow keys or object navigation commands to move through the "
+"document."
 msgstr ""
-"A nyilak vagy az áttekintő parancsok segítségével mozoghat a dokumentumban"
+"a nyílbillentyűkkel vagy az elemnavigációs parancsok használatával mozoghat "
+"a dokumentumban."
 
 #. Translators: Help message for terminal windows such as command prompt.
 msgid ""
 "Type commands in the terminal window and use review cursor commands to read "
-"the output"
+"the output."
 msgstr ""
 "Gépelje be a parancsokat a terminál ablakba, majd használja az áttekintő "
-"kurzort a visszaolvasáshoz."
+"kurzor navigációs parancsait a visszaolvasáshoz."
 
-#. 200: Virtual Buffer.
 #. Translators: Help message for radio buttons while in browse mode.
 msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
-"ENTER key"
+"ENTER key."
 msgstr ""
-"Egy választógomb kiválasztásához váltson interaktív módba, vagy nyomja le az "
-"enter billentyűt"
+"Egy választógomb kiválasztásához váltson fókuszmódra az NVDA+szóköz vagy az "
+"enter lenyomásával."
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
 "To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key"
+"+SPACE or ENTER key."
 msgstr ""
-"A szöveg begépeléséhez váltson át interaktív módra az NVDA+szóköz, vagy az "
-"enter billentyű lenyomásával."
+"Szöveg begépeléséhez váltson fókuszmódra az NVDA+szóköz vagy az enter "
+"lenyomásával."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
 "To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key"
+"+SPACE or ENTER key."
 msgstr ""
-"Egy elem kiválasztásához a kombinált listában váltson át interaktív módra az "
-"NVDA+szóköz, vagy az enter billentyű lenyomásával."
+"A kombinált listamező egy elemének kiválasztásához váltson fókuszmódra az "
+"NVDA+szóköz vagy az enter lenyomásával."
 
 #. Translators: Help message for reading webpages.
 msgid ""
-"Use the browse mode and quick navigation commands to read through the webpage"
+"Use the browse mode and quick navigation commands to read through the "
+"webpage."
 msgstr ""
-"Használja böngészőmódban a gyors navigációs parancsokkat a weboldal "
-"áttekintéséhez."
+"Használja a böngészőmódot és a gyorsnavigációs parancsokat a weboldal "
+"olvasásához."
 
-#. App-specific case 1: AppeModule for app is present.
-#. 300: Explorer (to deal with specific cases.
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"A keresőkifejezés beírása után használja a lenyíl és felnyíl billentyűket a "
+"javaslatok áttekintéséhez."
+
+#. Translators: Help message for reading Adobe PDF documents.
+msgid ""
+"Use the browse mode and quick navigation commands to read through the PDF "
+"document."
+msgstr ""
+"Használja a böngészőmódot és a gyorsnavigációs parancsokat a pdf-dokumentum "
+"olvasásához."
+
+#. Translators: Help message for moving between Excel spreadsheet cells.
+msgid "Use the arrow keys to move between spreadsheet cells."
+msgstr "A nyílbillentyűkkel mozoghat a munkafüzet cellái között."
+
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
-msgid "Use the arrow keys to move between start screen tiles"
-msgstr "Használja a nyíl billentyűket a képernyő csempéken való mozgáshoz."
+msgid "Use the arrow keys to move between start screen tiles."
+msgstr "Használja a nyílbillentyűket a kezdőképernyő csempéin való mozgáshoz."
 
-#. 400: Microsoft powerpoint (powerpnt):
 #. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
-msgid "Use up and down arrow keys to move between slides"
-msgstr "Használja a nyíl billentyűket a diák között való mozgáshoz"
+msgid "Use up and down arrow keys to move between slides."
+msgstr ""
+"Használja a lenyíl és felnyíl billentyűket a diák között való mozgáshoz"
 
 #. Translators: Help message for working with slide shows.
 msgid ""
 "Press SPACE or BACKSPACE to move between slides in the slide show. To end "
-"the slide show, press escape"
+"the slide show, press escape."
 msgstr ""
-"Nyomja meg a szóközt vagy a backspace-t a diák közötti mozgáshoz, a "
-"diavetítés bezárását az escape billentyűvel teheti meg."
-
-#. App-specific case 2: AppeModule for app is not present (use processes).
-#. -300: Excel.
-#. Translators: Help message for moving between Excel spreadsheet cells.
-msgid "Use the arrow keys to move between spreadsheet cells"
-msgstr "Használja a nyíl billentyűket a táblázat cellák közötti mozgáshoz"
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
-msgid ""
-"Control Usage Assistant - get brief help on interacting with the focused "
-"control"
-msgstr ""
-"Tájékoztató üzemmód - rövid segítséget kaphat arról, hogy hogyan kell "
-"használni az aktív vezérlőelemet."
+"Diavetítés közben a szóköz és a backspace billentyűkkel mozoghat a diák "
+"között előre és hátra, a diavetítést az escape billentyűvel állíthatja le."
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
@@ -225,8 +237,24 @@ msgid ""
 "\tPress NvDA+H to get a short help message on using the focused control, "
 "such as moving through tables, checkboxes and so on."
 msgstr ""
-"Bővebb információt kaphat az aktuális elem használatáról, ami főleg a kezdő "
+"Bővebb információt kaphat az aktív elem használatáról, ami főleg a kezdő "
 "számítógép felhasználóknak hasznos.\n"
 "\tNyomja meg az NVDA+h billentyűparancsot az üzenet meghallgatásához, pl. "
 "egy táblázatban megtudhatja hogyan mozoghat a cellákon és a sorokon "
 "billentyűparancsok segítségével."
+
+#~ msgid "Use the text navigation commands to read text"
+#~ msgstr "Használja a szöveg navigációs billentyűparancsokat az elolvasáshoz"
+
+#~ msgid ""
+#~ "Press control, alt and arrow keys together to move between table cells"
+#~ msgstr ""
+#~ "A control+alt+nyilak egyidejű megnyomásával mozoghat a táblázat cellái "
+#~ "között."
+
+#~ msgid ""
+#~ "Control Usage Assistant - get brief help on interacting with the focused "
+#~ "control"
+#~ msgstr ""
+#~ "Tájékoztató üzemmód - rövid segítséget kaphat arról, hogy hogyan kell "
+#~ "használni az aktív vezérlőelemet."
