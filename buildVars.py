@@ -13,8 +13,8 @@ addon_info = {
 	"addon_summary": _("Control Usage Assistant"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on installation and add-on information
-	"addon_description": _("""Allows you to find out how to interact with the focused control, useful for new computer users new to Windows and to NvDA.
-	Press NvDA+H to get a short help message on using the focused control, such as moving through tables, checkboxes and so on."""),
+	"addon_description": _("""Allows you to find out how to interact with the focused control, useful for new computer users new to Windows and to NVDA.
+	Press NVDA+H to get a short help message on using the focused control, such as moving through tables, checkboxes and so on."""),
 	# version
 	"addon_version": "20.06",
 	# Author(s)

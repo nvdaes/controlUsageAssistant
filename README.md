@@ -5,7 +5,7 @@
 * NVDA compatibility: 2019.3 to 2020.2
 
 Use this add-on to find out how to interact with the focused control.
-Press NvDA+H to obtain a short help message on interacting with the focused control, such as checkboxes, edit fields and so on.
+Press NVDA+H to obtain a short help message on interacting with the focused control, such as checkboxes, edit fields and so on.
 
 ## Version 20.06
 
