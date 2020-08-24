@@ -4,7 +4,7 @@
 # Copyright 2013-2020, released under GPL.
 
 # Press NVDA+H to hear (or read in braille) a sentence or two on interacting with a particular control.
-# Extension plan: ability to get context-sensitive help on NvDA options.
+# Extension plan: ability to get context-sensitive help on NVDA options.
 
 import globalPluginHandler
 import ui
