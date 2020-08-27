@@ -18,16 +18,16 @@ msgstr ""
 "X-Generator: Poedit 2.3.1\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
+#. Translators: Input help message for control help command.
+msgid "Presents a message on how to interact with the focused control."
+msgstr "Mostra uma mensagem, indicando o modo de uso do controlo sob o foco"
+
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
 msgid "Control Usage Assistant"
 msgstr "Assistente para uso de controlos"
-
-#. Translators: Input help message for obtain control help command.
-msgid "Presents a message on how to interact with the focused control."
-msgstr "Mostra uma mensagem, indicando o modo de uso do controlo sob o foco"
 
 #. Translators: Message presented when there is no help message for the focused control.
 msgid "No help for this control"
@@ -232,10 +232,11 @@ msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
+#, fuzzy
 msgid ""
 "Allows you to find out how to interact with the focused control, useful for "
-"new computer users new to Windows and to NvDA.\n"
-"\tPress NvDA+H to get a short help message on using the focused control, "
+"new computer users new to Windows and to NVDA.\n"
+"\tPress NVDA+H to get a short help message on using the focused control, "
 "such as moving through tables, checkboxes and so on."
 msgstr ""
 "Permite-lhe encontrar uma forma de agir com o controlo sob o foco. é útil "
