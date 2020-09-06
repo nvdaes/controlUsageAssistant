@@ -7,6 +7,9 @@
 # This module also serves as a home for messages for overlay classes found in app modules and global plugins.
 # Other add-ons should update this dictionary with help messages for their own overlay classes.
 
+import addonHandler
+addonHandler.initTranslation()
+
 # Help messages for objects: key = string representation of a class name, value = generic help message.
 # Base API classes (such as NVDAObjects.NVDAObject) are not included.
 # Source: NVDA pull request for issue 2699 (context-sensitive help)

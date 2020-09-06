@@ -7,6 +7,8 @@
 # If specific states are found, help messages will come from state-specific subsets.
 
 import controlTypes
+import addonHandler
+addonHandler.initTranslation()
 
 # Default help messages for controls: key = role, value = messages.
 # Source: NVDA pull request for issue 2699 (context-sensitive help)
