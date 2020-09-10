@@ -2,27 +2,29 @@
 
 * Автор: Joseph Lee
 * Завантажити [стабільну версію][1]
-* NVDA compatibility: 2019.3 to 2020.2
+* Сумісність з NVDA: від 2019.3 до 2020.2
 
-Use this add-on to find out how to interact with the focused control.  Press
-NVDA+H to obtain a short help message on interacting with the focused
-control, such as checkboxes, edit fields and so on.
+Використовуйте цей додаток аби знати, як взаємодіяти з елементами керування
+у фокусі. Натисніть NVDA+H щоб отримати коротку довідку про взаємодію з
+поточним елементом, наприклад, з прапорцем, кнопкою, комбінованим списком і
+так далі.
 
-## Version 20.06
+## Версія 20.06
 
-* Resolved many coding style issues and potential bugs with Flake8.
-* NVDA will appear to do nothing or play error tones when trying to obtain
-  help for certain browse mode controls.
+* Вирішено низку проблем зі стилем кодування і потенційними помилками із
+  Flake8.
+* NVDA нічого не робить або відтворює звук помилки при спробі отримати
+  допомогу для певних елементів керування у режимі огляду.
 
-## Version 20.01
+## Версія 20.01
 
-* NVDA 2019.3 or later is required.
+* Необхідна NVDA версії 2019.3 чи новіша.
 
-## Version 3.0/19.11
+## Версія 3.0/19.11
 
-* Version scheme is now year.month.
-* When NVDA+H is pressed, a help screen will be displayed instead of a flash
-  message being shown.
+* Тепер використовується схема версій рік.місяць.
+* При натисканні NVDA + H замість миттєвого повідомлення відображатиметься
+  екран довідки.
 
 ## Версія 2.5
 
@@ -41,7 +43,7 @@ control, such as checkboxes, edit fields and so on.
 * Додано довідкові повідомлення для роботи з формами у режимах огляду і
   редагування, тобто в документах, які використовують віртуальний буфер
   (Internet Explorer, Adobe Reader, Mozilla Firefox і так далі).
-* Нова мова: дацька.
+* Нова мова: данська.
 
 ## Версія 1.0
 
