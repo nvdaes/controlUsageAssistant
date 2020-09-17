@@ -2,7 +2,7 @@
 
 * Készítő: Joseph Lee
 * [stabil verzió letöltése][1]
-* Támogatott NVDA kiadások: NVDA 2019.3 - 2020.2
+* NVDA compatibility: 2019.3 to 2020.3
 
 A bővítmény az NVDA+H billentyűparanccsal információkat ad a fókuszban lévő
 vezérlők és elemek használatához.

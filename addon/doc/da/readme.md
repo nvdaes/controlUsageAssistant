@@ -2,7 +2,7 @@
 
 * Forfatter: Joseph Lee
 * Download [stabil version][1]
-* NVDA-kompatibilitet: 2019.3 til 2020.2
+* NVDA compatibility: 2019.3 to 2020.3
 
 Brug denne tilføjelse til at finde ud af, hvordan du interagerer med det
 fokuserede kontrolelement.  Tryk på NVDA+H for at få en kort hjælp til at

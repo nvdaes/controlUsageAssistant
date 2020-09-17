@@ -2,7 +2,7 @@
 
 * Autor: Joseph Lee
 * Pobierz [wersja stabilna][1]
-* NVDA compatibility: 2019.3 to 2020.2
+* NVDA compatibility: 2019.3 to 2020.3
 
 Użyj tego dodatku, aby dowiedzieć się w jaki sposób pracować z aktualną
 kontrolką.  Naciśnij NvDA+H aby uzyskać krótką pomoc dotyczącą używania
