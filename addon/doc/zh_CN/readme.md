@@ -6,6 +6,10 @@
 
 使用此插件来查看如何与焦点所在的控件交互。按下“NVDA加H”获取一个与此控件交互的简短的帮助信息。如编辑框、复选框等。
 
+## Version 20.10
+
+* Help messages are announced in languages other than English.
+
 ## 版本 20.06
 
 * 使用 Flake8 解决了许多编码样式问题和潜在错误。

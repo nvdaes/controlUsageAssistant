@@ -7,6 +7,10 @@
 A bővítmény az NVDA+H billentyűparanccsal információkat ad a fókuszban lévő
 vezérlők és elemek használatához.
 
+## Version 20.10
+
+* Help messages are announced in languages other than English.
+
 ## 20.06-os verzió
 
 * Javítottak több kódolási hibát és lehetséges bugot.

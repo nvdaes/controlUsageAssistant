@@ -8,6 +8,10 @@ Użyj tego dodatku, aby dowiedzieć się w jaki sposób pracować z aktualną
 kontrolką.  Naciśnij NvDA+H aby uzyskać krótką pomoc dotyczącą używania
 bieżącej kontrolki, (pola wyboru, pola edycji, itd.)
 
+## Version 20.10
+
+* Help messages are announced in languages other than English.
+
 ## Version 20.06
 
 * Resolved many coding style issues and potential bugs with Flake8.

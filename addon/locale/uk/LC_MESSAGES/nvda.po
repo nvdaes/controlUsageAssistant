@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant 1.0Beta1\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2013-05-10 04:50-0700\n"
-"PO-Revision-Date: 2020-09-06 21:00+0300\n"
+"PO-Revision-Date: 2020-10-06 20:13+0300\n"
 "Last-Translator: Volodymyr Pyrih <vp88.mobile@gmail.com>\n"
 "Language-Team: \n"
 "Language: uk\n"
@@ -233,7 +233,6 @@ msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
-#, fuzzy
 msgid ""
 "Allows you to find out how to interact with the focused control, useful for "
 "new computer users new to Windows and to NVDA.\n"

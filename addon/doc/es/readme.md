@@ -9,6 +9,10 @@ enfocado.  Pulsa NVDA+H para obtener un breve mensaje de ayuda sobre la
 interacción con el control enfocado, como con casillas de verificación,
 campos de edición y así con otros.
 
+## Versión 20.10
+
+* Se anuncian los mensajes de ayuda en idiomas distintos al inglés.
+
 ## Versión 20.06
 
 * Se han resuelto muchos problemas de estilo del código y fallos potenciales

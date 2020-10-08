@@ -8,6 +8,10 @@ Utiliza este complemento para atopar como interactuar co control enfocado.
 Preme NVDA+H para obter unha mensaxe curta de axuda na interacción co
 control enfocado, como caixas de verificación, campos de edición etc.
 
+## Versión 20.10
+
+* As mensaxes de axuda anúncianse en idiomas diferentes do inglés.
+
 ## Versión 20.06
 
 * Resoltas varias incidencias de estilo do código e erros potenciais con

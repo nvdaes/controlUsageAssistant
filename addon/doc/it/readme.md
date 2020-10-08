@@ -8,6 +8,10 @@ Use this add-on to find out how to interact with the focused control.  Press
 NVDA+H to obtain a short help message on interacting with the focused
 control, such as checkboxes, edit fields and so on.
 
+## Version 20.10
+
+* Help messages are announced in languages other than English.
+
 ## Version 20.06
 
 * Resolved many coding style issues and potential bugs with Flake8.

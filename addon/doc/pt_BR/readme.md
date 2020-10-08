@@ -9,6 +9,10 @@ focalizado. Pressione NVDA+H para obter uma mensagem curta de ajuda sobre a
 interação com o controle em foco, como caixas de seleção, campos de edição e
 assim por diante.
 
+## Version 20.10
+
+* Help messages are announced in languages other than English.
+
 ## Versão 20.06
 
 * Foram resolvidos muitos problemas de estilo de codificação e possíveis

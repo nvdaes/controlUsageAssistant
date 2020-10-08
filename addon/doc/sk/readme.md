@@ -8,6 +8,10 @@ Doplnok poskytuje pomoc pre aktuálne zameraný prvok. Aby ste počuli pomocné
 hlásenie pre prvky, akými sú napríklad začiarkavacie alebo editačné polia ,
 stlačte NVDA+h.
 
+## Version 20.10
+
+* Help messages are announced in languages other than English.
+
 ## Verzia 20.06
 
 * Opravené drobné chyby v kóde.

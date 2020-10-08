@@ -9,6 +9,10 @@ ollaan vuorovaikutuksessa.  Paina NVDA+H kuullaksesi lyhyen ohjeen
 aktiivisen säätimen käytöstä, kuten esim. valintaruudun valitsemisesta,
 tekstin muokkaamisesta jne.
 
+## Version 20.10
+
+* Help messages are announced in languages other than English.
+
 ## Versio 20.06
 
 * Ratkaistu useita koodaustyylin ongelmia sekä mahdollisia bugeja Flake8:n

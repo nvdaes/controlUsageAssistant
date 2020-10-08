@@ -9,6 +9,10 @@ fokuserede kontrolelement.  Tryk på NVDA+H for at få en kort hjælp til at
 interagere med det fokuserede kontrolelement, f.eks. check box og
 redigeringsfelter.
 
+## Version 20.10
+
+* Help messages are announced in languages other than English.
+
 ## Version 20.06
 
 * Løst mange problemer med kodningstil og potentielle fejl med Flake8.

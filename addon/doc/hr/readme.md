@@ -8,6 +8,10 @@ Koristi ovaj dodatak i saznaj kako koristiti fokusiranu kontrolu. Pritisni
 NVDA+H za dobivanje kratke poruke o tome kako koristiti fokusirane kontrole,
 kao što su potvrdni okviri, polja za uređivanje i tome slično.
 
+## Verzija 20.10
+
+* Poruke pomoći najavljuju se na jezicima koji nisu engleski.
+
 ## Verzija 20.06
 
 * Riješeni su mnogi problemi sa stilom kodiranja kao i potencijalne greške s
