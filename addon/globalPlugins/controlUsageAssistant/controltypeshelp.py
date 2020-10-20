@@ -36,7 +36,8 @@ controlTypeHelpMessages = {
 	controlTypes.ROLE_LINK: _("Press SPACE or ENTER to activate this link."),
 	# Translators: Help message for working with tree view items.
 	controlTypes.ROLE_TREEVIEWITEM: _("Use the up and down arrow keys to select the items. Use left arrow to collapse and right arrow to expand."),
-	# Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
+	# Translators: Help message for navigating tabs,
+	# such as various property tabs for drive properties in My Computer.
 	controlTypes.ROLE_TAB: _("Use the left and right arrow keys to move between tabs, or press control+tab for next tab and control+shift+tab for previous tab."),
 	# Translators: Help message for working with slider controls such as volume mixer in Windows 7.
 	controlTypes.ROLE_SLIDER: _("Use the left and down arrow keys to decrease and up and right arrow keys to increase the value in this slider. Use page up and page down to increase or decrease in larger values, and press home and end keys to select maximum and minimum value."),

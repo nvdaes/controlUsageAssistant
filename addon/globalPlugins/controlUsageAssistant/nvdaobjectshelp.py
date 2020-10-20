@@ -36,7 +36,8 @@ appModuleOverlayObjectsHelpMessages = {
 	# The below two items are really the same control type.
 	"appModules.explorer.GridListTileElement": commonAppModuleOverlayClassHelpMessages["appModules.explorer.StartScreenTiles"],
 	"appModules.explorer.GridTileElement": commonAppModuleOverlayClassHelpMessages["appModules.explorer.StartScreenTiles"],
-	# Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
+	# Translators: Message for moving between slides in slide view
+	# (a list of slides for a Powerpoint presentation).
 	"appModules.powerpnt.DocumentWindow": _("Use up and down arrow keys to move between slides."),
 	# Translators: Help message for working with slide shows.
 	"appModules.powerpnt.SlideShowWindow": _("Press SPACE or BACKSPACE to move between slides in the slide show. To end the slide show, press escape."),
