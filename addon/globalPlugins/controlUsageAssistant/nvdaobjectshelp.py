@@ -15,15 +15,19 @@ addonHandler.initTranslation()
 # Source: NVDA pull request for issue 2699 (context-sensitive help)
 
 objectsHelpMessages = {
-	# Translators: help text for search field in Windows 10 and other places.
-	"NVDAObjects.behaviors.EditableTextWithSuggestions": _("After typing search text, press up or down arrow keys to review list of suggestions."),
-	# Translators: Help message for reading Adobe PDF documents.
-	"NVDAObjects.IAccessible.adobeAcrobat.Document": _("Use the browse mode and quick navigation commands to read through the PDF document."),
+	"NVDAObjects.behaviors.EditableTextWithSuggestions": _(
+		# Translators: help text for search field in Windows 10 and other places.
+		"After typing search text, press up or down arrow keys to review list of suggestions."
+	),
+	"NVDAObjects.IAccessible.adobeAcrobat.Document": _(
+		# Translators: Help message for reading Adobe PDF documents.
+		"Use the browse mode and quick navigation commands to read through the PDF document."
+	),
 	# Translators: Help message for moving between Excel spreadsheet cells.
 	"NVDAObjects.window.excel.ExcelCell": _("Use the arrow keys to move between spreadsheet cells."),
 }
 
-# In some paps, two or more controls behave the same, such as Start screen tiles in Windows 8.x.
+# In some apps, two or more controls behave the same, such as Start screen tiles in Windows 8.x.
 commonAppModuleOverlayClassHelpMessages = {
 	# Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
 	"appModules.explorer.StartScreenTiles": _("Use the arrow keys to move between start screen tiles."),
@@ -34,13 +38,21 @@ appModuleOverlayObjectsHelpMessages = {
 	# Translators: Message for Calculator's display field.
 	"appModules.calc.Display": "Enter or review calculations using Calculator commands.",
 	# The below two items are really the same control type.
-	"appModules.explorer.GridListTileElement": commonAppModuleOverlayClassHelpMessages["appModules.explorer.StartScreenTiles"],
-	"appModules.explorer.GridTileElement": commonAppModuleOverlayClassHelpMessages["appModules.explorer.StartScreenTiles"],
+	"appModules.explorer.GridListTileElement": commonAppModuleOverlayClassHelpMessages[
+		"appModules.explorer.StartScreenTiles"
+	],
+	"appModules.explorer.GridTileElement": commonAppModuleOverlayClassHelpMessages[
+		"appModules.explorer.StartScreenTiles"
+	],
 	# Translators: Message for moving between slides in slide view
 	# (a list of slides for a Powerpoint presentation).
 	"appModules.powerpnt.DocumentWindow": _("Use up and down arrow keys to move between slides."),
 	# Translators: Help message for working with slide shows.
-	"appModules.powerpnt.SlideShowWindow": _("Press SPACE or BACKSPACE to move between slides in the slide show. To end the slide show, press escape."),
+	"appModules.powerpnt.SlideShowWindow": _(
+		# Translators: Help message for working with slide shows.
+		"Press SPACE or BACKSPACE to move between slides in the slide show. "
+		"To end the slide show, press escape."
+	),
 }
 
 # And combine the above two maps.
