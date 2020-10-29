@@ -1,52 +1,55 @@
 # Control Usage Assistant #
 
 * Autore: Joseph Lee
-* Download [stable version][1]
-* NVDA compatibility: 2019.3 to 2020.3
+* Scarica [versione stabile][1]
+* Compatibilità NVDA. dalla versione 2019.3 alla 2020.3
 
-Use this add-on to find out how to interact with the focused control.  Press
-NVDA+H to obtain a short help message on interacting with the focused
-control, such as checkboxes, edit fields and so on.
+Utilizzare questo componente aggiuntivo per scoprire come interagire con il
+controllo evidenziato. Premere NVDA+h per ascoltare un breve suggerimento,
+ad esempio su come selezionare una casella di controllo, come operare in un
+campo editazione e così via.
 
-## Version 20.10
+## Novità nella versione 20.10
 
-* Help messages are announced in languages other than English.
+* I messaggi di aiuto sono annunciati anche in lingue diverse dall'inglese.
 
-## Version 20.06
+## Novità nella versione 20.06
 
-* Resolved many coding style issues and potential bugs with Flake8.
-* NVDA will appear to do nothing or play error tones when trying to obtain
-  help for certain browse mode controls.
+* Risolti molti problemi con il codice e bug potenziali con Flake8.
+* NVDA si bloccherà o riprodurrà un suono di errore quando si cercherà di
+  ottenere aiuto su alcuni controlli della modalità navigazione.
 
-## Version 20.01
+## Novità nella versione 20.01
 
-* NVDA 2019.3 or later is required.
+* E' richiesto NVDA 2019.3 o versioni successive.
 
-## Version 3.0/19.11
+## Novità nella versione 3.0/19.11..
 
-* Version scheme is now year.month.
-* When NVDA+H is pressed, a help screen will be displayed instead of a flash
-  message being shown.
+* A partire da questa versione, lo schema per il numero di versione è
+  anno.mese.
+* Quando si preme NVDA+h, verrà mostrata una schermata di avvio anziché un
+  messaggio flash.
 
-## Versione 2.5
+## Novità nella versione 2.5
 
-* Compatibile con python 3
+* Compatibile con python 3.
 
-## Versione 2.1
+## Novità nella versione 2.1
 
-* Traduzioni nuove e aggiornate
+* Traduzioni nuove e aggiornate.
 
-## Versione 2.0
+## Novità nella versione 2.0
 
 * Aggiunti messaggi di aiuto per diversi controlli, comprese le finestre
-  terminale
-* Aggiunti messaggi di aiuto per alcune sezioni di programmi come Excel,
-  Powerpoint o le videate di Windows8
-* Aggiunti messaggi d'aiuto per utilizzare i form sia in modalità focus che
-  modalità cursore virtuale
-* Nuova lingua: danese
+  terminale.
+* Aggiunti messaggi di aiuto per lavorare in alcune sezioni di programmi,
+  come Excel, Powerpoint o le videate di avvio di Windows8.
+* Aggiunti messaggi d'aiuto per utilizzare i form in modalità focus e in
+  modalità navigazione con il cursore virtuale (Internet Explorer, Adobe
+  Reader, Mozilla Firefox, etc.).
+* Nuova lingua: danese.
 
-## Versione 1.0
+## Novità nella versione 1.0
 
 * Versione iniziale.
 
