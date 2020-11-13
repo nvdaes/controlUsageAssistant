@@ -2,16 +2,16 @@
 
 * Tekijä: Joseph Lee
 * Lataa [vakaa versio][1]
-* NVDA compatibility: 2019.3 to 2020.3
+* Yhteensopivuus: NVDA 2019.3-2020.3
 
 Tämän lisäosan avulla voit selvittää, miten aktiivisen säätimen kanssa
 ollaan vuorovaikutuksessa.  Paina NVDA+H kuullaksesi lyhyen ohjeen
 aktiivisen säätimen käytöstä, kuten esim. valintaruudun valitsemisesta,
 tekstin muokkaamisesta jne.
 
-## Version 20.10
+## Versio 20.10
 
-* Help messages are announced in languages other than English.
+* Ohjeviestit puhutaan muillakin kielillä kuin englanniksi.
 
 ## Versio 20.06
 
