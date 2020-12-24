@@ -2,7 +2,7 @@
 
 * Autor: Joseph Lee
 * Preuzmi [stabilnu verziju][1]
-* NVDA kompatibilnost: 2019.3 do 2020.3
+* NVDA kompatibilnost: 2019.3 do 2020.4
 
 Koristi ovaj dodatak i saznaj kako koristiti fokusiranu kontrolu. Pritisni
 NVDA+H za dobivanje kratke poruke o tome kako koristiti fokusirane kontrole,

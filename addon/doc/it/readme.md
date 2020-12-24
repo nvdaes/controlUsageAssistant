@@ -2,7 +2,7 @@
 
 * Autore: Joseph Lee
 * Scarica [versione stabile][1]
-* Compatibilità NVDA. dalla versione 2019.3 alla 2020.3
+* NVDA compatibility: 2019.3 to 2020.4
 
 Utilizzare questo componente aggiuntivo per scoprire come interagire con il
 controllo evidenziato. Premere NVDA+h per ascoltare un breve suggerimento,
