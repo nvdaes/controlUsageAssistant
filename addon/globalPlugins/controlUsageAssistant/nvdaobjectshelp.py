@@ -1,6 +1,6 @@
 # Control Usage Assistant/NVDA objects help messages
 # An add-on for NVDA
-# Copyright 2019-2020 Joseph Lee, released under GPL.
+# Copyright 2019-2021 Joseph Lee, released under GPL.
 
 # Provides help messages for built-in NVDA objects, mirroring NVDA objects collection in NVDA Core.
 # Each help message records objects to a general help message.

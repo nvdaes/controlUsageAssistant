@@ -1,6 +1,6 @@
 # Control Usage Assistant/control types help messages
 # An add-on for NVDA
-# Copyright 2019-2020 Joseph Lee, released under GPL.
+# Copyright 2019-2021 Joseph Lee, released under GPL.
 
 # Provides help messages for control roles and states, mirroring control types module in NVDA Core.
 # Each help messages dictionary records control roles and help messages.

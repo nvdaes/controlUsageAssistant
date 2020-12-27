@@ -1,6 +1,6 @@
 # Control Usage Assistant
 # A global plugin for NVDA
-# Copyright 2013-2020 Joseph Lee, released under GPL.
+# Copyright 2013-2021 Joseph Lee, released under GPL.
 
 # NVDA+H: Obtain usage help on a particular control.
 # Start by looking at method resolution order (MRO) for object class hierarchy.

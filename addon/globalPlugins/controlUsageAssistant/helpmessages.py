@@ -1,6 +1,6 @@
 # Control Usage Assistant
 # An add-on for NVDA
-# Copyright 2013-2020 Joseph Lee, released under GPL.
+# Copyright 2013-2021 Joseph Lee, released under GPL.
 
 # A database of help messages, organized by object type, control type, and app messages (if any).
 # Structure mirrors that of control types module, NVDA objects collection,
