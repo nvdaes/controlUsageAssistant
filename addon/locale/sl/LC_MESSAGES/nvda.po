@@ -8,10 +8,9 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2019-12-12 02:47+0100\n"
+"PO-Revision-Date: 2021-01-15 13:08+0100\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -232,7 +231,6 @@ msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
-#, fuzzy
 msgid ""
 "Allows you to find out how to interact with the focused control, useful for "
 "new computer users new to Windows and to NVDA.\n"
@@ -241,7 +239,7 @@ msgid ""
 msgstr ""
 "Omogoča vam, da spoznate kako delati s kontrolnikom v žarišču. To je "
 "uporabno za tiste, ki ste novi v Oknih in v NVDA.\n"
-"\tPritisnite NvDA+H za to, da vam NVDA poda kratko sporočilo kako  delati s "
+"\tPritisnite NvDA+H za to, da vam NVDA poda kratko sporočilo, kako  delati s "
 "posameznim kontrolnikom, kot je premikanje po tabelah, delo z izbirniki in "
 "druge možnosti."
 
