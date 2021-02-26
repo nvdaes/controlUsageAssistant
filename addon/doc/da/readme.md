@@ -2,7 +2,7 @@
 
 * Forfatter: Joseph Lee
 * Download [stabil version][1]
-* NVDA compatibility: 2019.3 to 2020.4
+* NVDA-kompatibilitet: 2019.3 til 2020.4
 
 Brug denne tilføjelse til at finde ud af, hvordan du interagerer med det
 fokuserede kontrolelement.  Tryk på NVDA+H for at få en kort hjælp til at
@@ -11,7 +11,7 @@ redigeringsfelter.
 
 ## Version 20.10
 
-* Help messages are announced in languages other than English.
+* Hjælpemeddelelser annonceres nu på andre sprog udover engelsk.
 
 ## Version 20.06
 
@@ -25,7 +25,7 @@ redigeringsfelter.
 
 ## Version 3.0/19.11
 
-* Versionskema er nu year.month
+* Versionskema er nu år.måned
 * Når der trykkes på NVDA+H, vises der en hjælpeskærm i stedet for, at der
   vises en flashbesked.
 
