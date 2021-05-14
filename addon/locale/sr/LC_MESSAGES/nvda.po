@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: controlUsageAssistant 3.0-dev\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-04-08 01:04+1000\n"
 "PO-Revision-Date: 2020-12-16 21:43+0100\n"
 "Last-Translator: Nikola Jović <wwenikola123@gmail.com>\n"
