@@ -66,7 +66,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			else:
 				# Translators: Message presented when there is no help message for the focused control.
 				helpMessages.append(_("No help for this control"))
-		helpMessages.append("Press escape to close this help screen.")
+		# Translators: message presented at the end of help messages.
+		helpMessages.append(_("Press escape to close this help screen."))
 		return "\n".join(helpMessages)
 
 	# Any exceptions to lookup keys goes here.
