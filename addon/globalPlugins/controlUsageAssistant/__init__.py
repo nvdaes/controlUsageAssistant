@@ -90,7 +90,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				VBufmsg = helpmessages.controlTypeHelpMessages[obj.role]
 				# Translators: Additional message when working with forms in focus mode.
 				VBufmsg += _(" To switch to browse mode, press NVDA+SPACE or escape key")
-		elif obj.role == 52:
+		elif obj.role == controlTypes.ROLE_DOCUMENT:
 			if not obj.treeInterceptor.passThrough:
 				VBufmsg = helpmessages.browseModeHelpMessages[obj.role]
 			else:
