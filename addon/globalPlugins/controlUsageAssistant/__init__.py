@@ -9,6 +9,7 @@
 # Extension plan: ability to get context-sensitive help on NVDA options.
 
 import globalPluginHandler
+import controlTypes
 import ui
 import api
 from virtualBuffers import VirtualBuffer
@@ -72,7 +73,13 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	# Any exceptions to lookup keys goes here.
 	# First case: virtual buffer control exceptions.
-	VBufForms = {6, 8, 13}  # Forms encountered on webpages; add custom message form them in browse mode.
+	# Forms encountered on webpages; add custom message for them in browse mode.
+	VBufForms = {
+		controlTypes.ROLE_RADIOBUTTON,
+		controlTypes.ROLE_EDITABLETEXT,
+		controlTypes.ROLE_COMBOBOX
+	}
+
 	# And the function for handling these:
 
 	def VBufHelp(self, obj):
