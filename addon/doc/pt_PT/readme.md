@@ -1,30 +1,45 @@
 # Assistente para Uso de Controlos #
 
 * Autor: Joseph Lee
-* Download [stable version][1]
-* Download [development version][2]
-* NVDA compatibility: 2017.3 to 2019.2
+* Baixar [versão estável][1]
+* Compatibilidade com o NVDA: 2019.3 a 2021.1
 
-Use este extra para descobrir como interagir com o controle sob o
-foco. Pressione NvDA + H para obter uma breve mensagem de ajuda ao interagir
-com o controle focado, como caixas de seleção, campos de edição e assim por
-diante.
+Utilize este extra para descobrir como interagir com o controlo sob o foco.
+Pressione NVDA+H para obter uma breve mensagem de ajuda sobre como interagir
+com os controlos sob o foco, tais como caixas de verificação, campos de
+edição e assim por diante.
 
-## Version 3.0/19.11
+## Versão 20.10
 
-* Version scheme is now year.month.
-* When NVDA+H is pressed, a help screen will be displayed instead of a flash
-  message being shown.
+* As mensagens de ajuda são anunciadas em outras línguas para além do
+  inglês.
 
-## Version 2.5
+## Versão 20.06
 
-* Compatible with Python 3.
+* Resolvidos vários problemas de estilo de codificação e potenciais bugs com
+  Flake8.
+* O NVDA parecerá não fazer nada ou reproduzir tons de erro ao tentar obter
+  ajuda para certos controlos do modo de navegação.
 
-## Version 2.1
+## Versão 20.01
+
+* Requere o NVDA 2019.3 ou posterior.
+
+## Versão 3.0/19.11
+
+* O esquema da versão é agora ano.mês.
+* Quando o atalho NVDA+H é pressionado, será mostrado um ecrã de ajuda em
+  vez de ser mostrada uma mensagem flash.
+
+## Versão 2.5
+
+* Compatível com Python 3.
+
+## Versão 2.1
 
 * Traduções novas e actualizadas.
 
-## Version 2.0
+## Versão 2.0
 
 * Mensagens de ajuda para mais controlos adicionados, incluindo janelas de
   terminal.
@@ -36,7 +51,7 @@ diante.
   Adobe Reader, Mozilla Firefox, etc.).
 * Novo idioma: dinamarquês.
 
-## Version 1.0
+## Versão 1.0
 
 * Versão inicial.
 

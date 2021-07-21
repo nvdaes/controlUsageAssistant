@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant 2.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-04-22 03:05+1000\n"
-"PO-Revision-Date: 2019-11-16 14:13+0200\n"
+"PO-Revision-Date: 2021-07-13 08:58+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 3.0\n"
 
 #. Translators: Input help message for control help command.
 msgid "Presents a message on how to interact with the focused control."
@@ -23,8 +23,9 @@ msgstr "Prezintă un mesaj cu privire la interacțiunea cu controlul focusat."
 
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information.
 msgid "Control Usage Assistant"
 msgstr "Control Usage Assistant"
 
@@ -32,12 +33,15 @@ msgstr "Control Usage Assistant"
 msgid "No help for this control"
 msgstr "Nici un ajutor pentru acest control"
 
+#. Translators: message presented at the end of help messages.
+msgid "Press escape to close this help screen."
+msgstr "Apăsați tasta escape pentru a închide această fereastră de ajutor."
+
 #. Translators: Additional message when working with forms in focus mode.
 msgid " To switch to browse mode, press NVDA+SPACE or escape key"
 msgstr ""
 " Pentru a comuta la modul navigare, apăsați NVDA+Spațiu sau tasta escape"
 
-#. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
@@ -101,7 +105,8 @@ msgstr ""
 "Folosiți săgețile sus și jos pentru a selecta elementele. Folosiți săgeată "
 "stânga pentru a reduce și săgeată dreapta pentru a extinde."
 
-#. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
+#. Translators: Help message for navigating tabs,
+#. such as various property tabs for drive properties in My Computer.
 msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
 "for next tab and control+shift+tab for previous tab."
@@ -220,7 +225,8 @@ msgid "Use the arrow keys to move between start screen tiles."
 msgstr ""
 "Folosiți săgețile pentru a vă deplasa între elementele ecranului de pornire."
 
-#. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
+#. Translators: Message for moving between slides in slide view
+#. (a list of slides for a Powerpoint presentation).
 msgid "Use up and down arrow keys to move between slides."
 msgstr "Utilizați săgețile sus și jos pentru a vă deplasa între diapozitive."
 
@@ -234,8 +240,7 @@ msgstr ""
 "escape."
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
-#, fuzzy
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Allows you to find out how to interact with the focused control, useful for "
 "new computer users new to Windows and to NVDA.\n"

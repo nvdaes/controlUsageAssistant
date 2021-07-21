@@ -27,8 +27,9 @@ msgstr ""
 
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information.
 msgid "Control Usage Assistant"
 msgstr "Control Usage Assistant"
 
@@ -36,12 +37,15 @@ msgstr "Control Usage Assistant"
 msgid "No help for this control"
 msgstr "Нет справки для этого элемента управления"
 
+#. Translators: message presented at the end of help messages.
+msgid "Press escape to close this help screen."
+msgstr ""
+
 #. Translators: Additional message when working with forms in focus mode.
 msgid " To switch to browse mode, press NVDA+SPACE or escape key"
 msgstr ""
 ". Для переключения в режим просмотра, нажмите NVDA+Пробел или клавишу эскейп"
 
-#. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
@@ -105,7 +109,8 @@ msgstr ""
 "Используйте стрелки вверх и вниз для выбора пункта. Используйте стрелку "
 "влево, чтобы закрыть и стрелку вправо, чтобы открыть"
 
-#. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
+#. Translators: Help message for navigating tabs,
+#. such as various property tabs for drive properties in My Computer.
 msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
 "for next tab and control+shift+tab for previous tab."
@@ -223,7 +228,8 @@ msgid "Use the arrow keys to move between start screen tiles."
 msgstr ""
 "Используйте клавиши стрелок для перемещения между плитками стартового экрана"
 
-#. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
+#. Translators: Message for moving between slides in slide view
+#. (a list of slides for a Powerpoint presentation).
 msgid "Use up and down arrow keys to move between slides."
 msgstr "Используйте стрелки вверх и вниз для перемещения между слайдами"
 
@@ -236,7 +242,7 @@ msgstr ""
 "Чтобы завершить показ слайдов, нажмите эскейп"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 #, fuzzy
 msgid ""
 "Allows you to find out how to interact with the focused control, useful for "

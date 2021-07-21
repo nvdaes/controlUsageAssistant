@@ -1,18 +1,19 @@
 # Brazilian Portuguese translation of Control Usage Assistant.
-# Copyright (C) 2013-2018 NVDA Contributors.
+# Copyright (C) 2013-2021 NVDA Contributors.
 # This file is distributed under the same license as the NVDA package.
-# Cleverson Casarin Uliana <clever97@gmail.com>, 2013, 2016, 2017.
+# Cleverson Casarin Uliana <clever97@gmail.com>, 2013, 2016, 2017, 2019.
 # Marlin Rodrigues da Silva <marlinfilos@gmail.com>, 2013.
-# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018, 2021.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
+"Project-Id-Version: 'controlUsageAssistant'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2019-11-16 22:11-0300\n"
-"Last-Translator: Cleverson Casarin Uliana <clever97@gmail.com>\n"
-"Language-Team: Equipe de tradução do NVDA para Português do Brasil "
-"<clever97@gmail.com>\n"
+"PO-Revision-Date: 2021-07-09 15:54-0300\n"
+"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
+"Language-Team: NVDA Brazilian Portuguese translation team (Equipe de "
+"tradução do NVDA para Português Brasileiro) <clever97@gmail.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,21 +28,25 @@ msgstr ""
 
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information.
 msgid "Control Usage Assistant"
-msgstr "Assistente para uso de controles"
+msgstr "Assistente para Uso de Controles"
 
 #. Translators: Message presented when there is no help message for the focused control.
 msgid "No help for this control"
 msgstr "Sem AJUDA para este controle"
 
+#. Translators: message presented at the end of help messages.
+msgid "Press escape to close this help screen."
+msgstr "Pressione Esc para fechar esta tela de ajuda."
+
 #. Translators: Additional message when working with forms in focus mode.
 msgid " To switch to browse mode, press NVDA+SPACE or escape key"
 msgstr ""
-"Para alternar ao modo de navegação, pressione NVDA+ESPAÇO ou tecla escape"
+" Para alternar ao modo de navegação, pressione NVDA+ESPAÇO ou tecla escape"
 
-#. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
@@ -101,7 +106,8 @@ msgstr ""
 "Use as setas cima e baixo para selecionar os itens. Use a seta esquerda para "
 "recolher e a direita para expandir."
 
-#. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
+#. Translators: Help message for navigating tabs,
+#. such as various property tabs for drive properties in My Computer.
 msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
 "for next tab and control+shift+tab for previous tab."
@@ -215,7 +221,8 @@ msgstr "Use as setas para mover entre as células da planilha."
 msgid "Use the arrow keys to move between start screen tiles."
 msgstr "Use as setas para mover-se entre blocos dinâmicos da tela inicial."
 
-#. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
+#. Translators: Message for moving between slides in slide view
+#. (a list of slides for a Powerpoint presentation).
 msgid "Use up and down arrow keys to move between slides."
 msgstr "Use as setas cima e baixo para mover entre slides."
 
@@ -228,19 +235,18 @@ msgstr ""
 "slides. Para finalizar a apresentação, pressione escape."
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
-#, fuzzy
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Allows you to find out how to interact with the focused control, useful for "
 "new computer users new to Windows and to NVDA.\n"
 "\tPress NVDA+H to get a short help message on using the focused control, "
 "such as moving through tables, checkboxes and so on."
 msgstr ""
-"Ajuda a descobrir como interagir com o controle em foco, útil para usuários "
-"recém-chegados ao Windows e ao NVDA.\n"
-"\tPressione NVDA+H para obter uma breve mensagem de auxílio em como usar o "
-"controle em foco, como por exemplo mover-se em tabelas, caixas de seleção, "
-"etc."
+"Possibilita que você descubra como interagir com o controle em foco, útil "
+"para novos usuários de computador no Windows e no NVDA.\n"
+"\tPressione NVDA+H para obter uma mensagem curta de ajuda sobre o uso do "
+"controle focalizado, como navegar pelas tabelas, caixas de seleção e assim "
+"por diante."
 
 #~ msgid "Use the text navigation commands to read text"
 #~ msgstr "Use comandos de navegação para ler texto"

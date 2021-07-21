@@ -2,7 +2,7 @@
 
 * Autor: Joseph Lee
 * Descărcați [versiunea stabilă][1]
-* NVDA compatibility: 2019.3 to 2020.4
+* NVDA compatibility: 2019.3 to 2021.1
 
 Use this add-on to find out how to interact with the focused control.  Press
 NVDA+H to obtain a short help message on interacting with the focused

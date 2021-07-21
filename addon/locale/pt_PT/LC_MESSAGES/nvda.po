@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant 3.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-04-08 01:04+1000\n"
-"PO-Revision-Date: 2020-06-23 20:31+0100\n"
+"PO-Revision-Date: 2021-07-09 19:21+0100\n"
 "Last-Translator: Ângelo Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 3.0\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #. Translators: Input help message for control help command.
@@ -24,8 +24,9 @@ msgstr "Mostra uma mensagem, indicando o modo de uso do controlo sob o foco"
 
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information.
 msgid "Control Usage Assistant"
 msgstr "Assistente para uso de controlos"
 
@@ -33,12 +34,15 @@ msgstr "Assistente para uso de controlos"
 msgid "No help for this control"
 msgstr "Sem ajuda para este controlo"
 
+#. Translators: message presented at the end of help messages.
+msgid "Press escape to close this help screen."
+msgstr "Pressione escape para fechar este ecrã de ajuda."
+
 #. Translators: Additional message when working with forms in focus mode.
 msgid " To switch to browse mode, press NVDA+SPACE or escape key"
 msgstr ""
 "Para mudar para o modo de navegação, pressione \"nvda+espaço\" ou \"escape\"."
 
-#. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
@@ -102,7 +106,8 @@ msgstr ""
 "Use setas para baixo e para cima, para se mover entre os elementos. Use seta "
 "direita para espandir e esquerda para contrair."
 
-#. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
+#. Translators: Help message for navigating tabs,
+#. such as various property tabs for drive properties in My Computer.
 msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
 "for next tab and control+shift+tab for previous tab."
@@ -218,7 +223,8 @@ msgstr "Use as setas para semover entre as células da folha de cálculo."
 msgid "Use the arrow keys to move between start screen tiles."
 msgstr "Use as setas para se mover entre as partes do ecrã inicial."
 
-#. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
+#. Translators: Message for moving between slides in slide view
+#. (a list of slides for a Powerpoint presentation).
 msgid "Use up and down arrow keys to move between slides."
 msgstr "Use setas para baixo e para cima, para se mover entre os diapositivos."
 
@@ -231,8 +237,7 @@ msgstr ""
 "vista de diapositivos. Para fechar a vista de diapositivos, pressione Escape."
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
-#, fuzzy
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Allows you to find out how to interact with the focused control, useful for "
 "new computer users new to Windows and to NVDA.\n"

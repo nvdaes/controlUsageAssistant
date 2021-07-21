@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant 1.0Beta2\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2013-05-13 05:45+0100\n"
-"PO-Revision-Date: 2019-11-15 10:41+0100\n"
+"PO-Revision-Date: 2021-06-04 16:49+0200\n"
 "Last-Translator: Bachir BENANOU <ben_bach@yahoo.fr>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 3.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. Translators: Input help message for control help command.
@@ -25,8 +25,9 @@ msgstr ""
 
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information.
 msgid "Control Usage Assistant"
 msgstr "Control Usage Assistant"
 
@@ -34,11 +35,14 @@ msgstr "Control Usage Assistant"
 msgid "No help for this control"
 msgstr "Pas d'aide pour cet élément"
 
+#. Translators: message presented at the end of help messages.
+msgid "Press escape to close this help screen."
+msgstr "Pressez Échap pour fermer cet écran d'aide."
+
 #. Translators: Additional message when working with forms in focus mode.
 msgid " To switch to browse mode, press NVDA+SPACE or escape key"
 msgstr "Pour passer en mode navigation, pressez NVDA+ESPACE ou la touche échap"
 
-#. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
@@ -100,7 +104,8 @@ msgstr ""
 "Utilisez les flèches haute et basse pour sélectionner un élément, et les "
 "flèches gauche et droite pour le plier ou le déplier"
 
-#. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
+#. Translators: Help message for navigating tabs,
+#. such as various property tabs for drive properties in My Computer.
 msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
 "for next tab and control+shift+tab for previous tab."
@@ -182,7 +187,6 @@ msgstr ""
 "formulaire en pressant NVDA+espace ou la touche entrée"
 
 #. Translators: Help message for reading webpages.
-#, fuzzy
 msgid ""
 "Use the browse mode and quick navigation commands to read through the "
 "webpage."
@@ -216,7 +220,8 @@ msgid "Use the arrow keys to move between start screen tiles."
 msgstr ""
 "Utilisez les flèches pour vous déplacer entre les tuiles du menu de démarrage"
 
-#. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
+#. Translators: Message for moving between slides in slide view
+#. (a list of slides for a Powerpoint presentation).
 msgid "Use up and down arrow keys to move between slides."
 msgstr ""
 "Utilisez les flèches hat et bas pour vous déplacer entre les diapositives"
@@ -230,8 +235,7 @@ msgstr ""
 "diaporama. Pour quitter le diaporama, appuyez sur échap"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
-#, fuzzy
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Allows you to find out how to interact with the focused control, useful for "
 "new computer users new to Windows and to NVDA.\n"
@@ -240,7 +244,8 @@ msgid ""
 msgstr ""
 "Permet de savoir comment interagir avec l'élément actif, pratique pour un "
 "débutant sous Windows ou NVDA.\n"
-"\tPAppuyez sur NVDA+H pour obtenire l'information."
+"\tPAppuyez sur NVDA+H pour une aide rapide sur la manière d'utiliser le "
+"contrôle actif, comme naviguer dans les tableaux, les cases à cocher etc."
 
 #~ msgid "Use the text navigation commands to read text"
 #~ msgstr "Utilisez les touches de navigation pour lire le texte"

@@ -2,16 +2,16 @@
 
 * Autor: Joseph Lee
 * Baixe a [versão estável][1]
-* NVDA compatibility: 2019.3 to 2020.4
+* Compatibilidade com NVDA: 2019.3 a 2021.1
 
 Use este complemento para descobrir como interagir com o controle
 focalizado. Pressione NVDA+H para obter uma mensagem curta de ajuda sobre a
 interação com o controle em foco, como caixas de seleção, campos de edição e
 assim por diante.
 
-## Version 20.10
+## Versão 20.10
 
-* Help messages are announced in languages other than English.
+* As mensagens de ajuda são anunciadas em outros idiomas além do inglês.
 
 ## Versão 20.06
 
