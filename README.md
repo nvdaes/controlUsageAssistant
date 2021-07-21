@@ -4,7 +4,7 @@
 * Download [stable version][1]
 * NVDA compatibility: 2019.3 and beyond
 
-Note: I (Joseph Lee) am looking for people who will maintain Control Usage Assistant add-on from September 1, 2021 onwards.
+Note: I (Joseph Lee) am looking for people who will maintain Control Usage Assistant add-on from January 1, 2022 onwards.
 
 Use this add-on to find out how to interact with the focused control.
 Press NVDA+H to obtain a short help message on interacting with the focused control, such as checkboxes, edit fields and so on.
