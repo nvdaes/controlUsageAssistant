@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant 2.4\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2013-05-10 04:50-0700\n"
-"PO-Revision-Date: 2020-01-29 13:13+0800\n"
+"PO-Revision-Date: 2021-07-25 14:52+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: NVDASimplified Chinese team All volunteers <Copyright (C) "
 "2010-2019>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.4.3\n"
 
 #. Translators: Input help message for control help command.
 msgid "Presents a message on how to interact with the focused control."
@@ -24,24 +24,28 @@ msgstr "呈现有关如何与焦点控件交互的消息。"
 
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information.
 msgid "Control Usage Assistant"
 msgstr "控件使用助理"
 
 #. Translators: Message presented when there is no help message for the focused control.
 msgid "No help for this control"
-msgstr "此控件没有帮助"
+msgstr "此控件没有可获取的帮助"
+
+#. Translators: message presented at the end of help messages.
+msgid "Press escape to close this help screen."
+msgstr "按 Esc 关闭此帮助。"
 
 #. Translators: Additional message when working with forms in focus mode.
 msgid " To switch to browse mode, press NVDA+SPACE or escape key"
-msgstr " 要切换到浏览模式，请按NVDA + SPACE或退出键"
+msgstr " 要切换到浏览模式，请按 NVDA + 空格 或按 ESC 键"
 
-#. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
-msgstr "要使用浏览模式和快速导航键阅读网页，请通过按NVDA + 空格切换到浏览模式"
+msgstr "要使用浏览模式和快速导航键阅读网页，请按NVDA + 空格切换到浏览模式"
 
 #. Translators: Help message for a checkbox.
 msgid "Press space bar to check or uncheck this check box."
@@ -69,7 +73,7 @@ msgstr "使用光标在菜单项之间移动。"
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
 msgid "Use up and down arrow keys to move through options in the pop-up menu."
-msgstr "使用上下光标在弹出菜单中移动选项。"
+msgstr "使用上下光标在弹出的菜单中移动选项。"
 
 #. Translators: Help message for a combo box.
 msgid ""
@@ -89,15 +93,16 @@ msgstr "按空格键或回车键激活此链接。"
 msgid ""
 "Use the up and down arrow keys to select the items. Use left arrow to "
 "collapse and right arrow to expand."
-msgstr "使用上下光标选择。使用左光标折叠，用右光标展开。"
+msgstr "用上下光标选择。用左光标折叠，用右光标展开。"
 
-#. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
+#. Translators: Help message for navigating tabs,
+#. such as various property tabs for drive properties in My Computer.
 msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
 "for next tab and control+shift+tab for previous tab."
 msgstr ""
-"使用左和右光标键在选项卡之间移动，或按Ctrl + Tab键显示下一个选项卡，并按Ctrl "
-"+ Shift + Tab键显示上一个选项卡。"
+"使用左右光标键在选项卡之间移动，或者按Ctrl + Tab键切换到下一个选项卡，按Ctrl "
+"+ Shift + Tab 键切换到上一个选项卡。"
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
 msgid ""
@@ -106,7 +111,7 @@ msgid ""
 "decrease in larger values, and press home and end keys to select maximum and "
 "minimum value."
 msgstr ""
-"使用左光标和下光标减小滑块中的值，而向上和向右光标增大此滑块中的值。使用上一"
+"使用左光标和下光标减小滑块中的值，使用上光标和右光标增大滑块中的值。使用上一"
 "页和下一页增加或减少较大的值，按Home和End键选择最大值和最小值。"
 
 #. Translators: Help message for working with progress bars.
@@ -116,7 +121,7 @@ msgstr "这是一个进度条，用于显示操作的进度。"
 #. Translators: Help message for navigating tables.
 msgid ""
 "Press control, alt and arrow keys together to move between rows and columns."
-msgstr "同时按Control，Alt和左右光标可在行和列之间移动。"
+msgstr "同时按 Control + Alt + 左右光标可在行和列之间移动。"
 
 #. Translators: Help message for navigating table cells.
 msgid ""
@@ -124,32 +129,32 @@ msgid ""
 "arrow keys will navigate between columns, and up and down arrow keys will "
 "navigate by row."
 msgstr ""
-"按Control + Alt +光标到其他表格单元格。按向左或向右光标将在各列之间浏览，而向"
-"上和向下光标将按行进行浏览。"
+"同时按 Control + Alt +四个光标键在各单元格之间移动。左右光标切换列，上下光标"
+"切换行。"
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
 msgid ""
 "Use the arrow keys or object navigation commands to move through the "
 "document."
-msgstr "使用光标或对象导航命令在文档中移动。"
+msgstr "使用光标或对象导航在文档中移动。"
 
 #. Translators: Help message for terminal windows such as command prompt.
 msgid ""
 "Type commands in the terminal window and use review cursor commands to read "
 "the output."
-msgstr "在终端窗口中键入命令，然后使用光标键读取输出。"
+msgstr "在命令行终端窗口中键入命令，然后使用文本查看模式来阅读输出。"
 
 #. Translators: Help message for radio buttons while in browse mode.
 msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
 "ENTER key."
-msgstr "要选择单选按钮，请使用NVDA + 空格或回车键切换到焦点模式。"
+msgstr "要选择单选按钮，请使用NVDA + 空格或按回车键切换到焦点模式。"
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
 "To type text into this edit field, switch to focus mode by pressing NVDA"
 "+SPACE or ENTER key."
-msgstr "要将文本键入此编辑框，请按NVDA + 空格或回车键切换到焦点模式。"
+msgstr "要将文本输入到此编辑框，请按NVDA + 空格或按回车键切换到焦点模式。"
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
@@ -161,7 +166,7 @@ msgstr "要在组合框中选择项目，请按NVDA + 空格或回车键切换�
 msgid ""
 "Use the browse mode and quick navigation commands to read through the "
 "webpage."
-msgstr "使用浏览模式和快速导航命令来阅读网页。"
+msgstr "使用浏览模式和单键导航来阅读网页。"
 
 #. Translators: help text for search field in Windows 10 and other places.
 msgid ""
@@ -173,17 +178,18 @@ msgstr "输入搜索文本后，按向上或向下光标查看建议列表。"
 msgid ""
 "Use the browse mode and quick navigation commands to read through the PDF "
 "document."
-msgstr "使用浏览模式和快速导航命令来阅读PDF文档。"
+msgstr "使用浏览模式和单键导航来阅读 PDF 文档。"
 
 #. Translators: Help message for moving between Excel spreadsheet cells.
 msgid "Use the arrow keys to move between spreadsheet cells."
-msgstr "使用光标在电子表格单元格之间移动。"
+msgstr "使用光标在电子表格的单元格之间移动。"
 
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
 msgid "Use the arrow keys to move between start screen tiles."
-msgstr "使用光标在开始屏幕磁贴之间移动。"
+msgstr "使用光标键在开始屏幕上的磁贴之间移动。"
 
-#. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
+#. Translators: Message for moving between slides in slide view
+#. (a list of slides for a Powerpoint presentation).
 msgid "Use up and down arrow keys to move between slides."
 msgstr "使用上下光标在幻灯片之间移动。"
 
@@ -191,17 +197,21 @@ msgstr "使用上下光标在幻灯片之间移动。"
 msgid ""
 "Press SPACE or BACKSPACE to move between slides in the slide show. To end "
 "the slide show, press escape."
-msgstr "按或退格在幻灯片放映中的幻灯片之间移动。要结束幻灯片放映，请按Escape。"
+msgstr ""
+"用空格键或退格键在放映中的幻灯片之间移动。要结束幻灯片放映，请按 ESC 键。"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
-#, fuzzy
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Allows you to find out how to interact with the focused control, useful for "
 "new computer users new to Windows and to NVDA.\n"
 "\tPress NVDA+H to get a short help message on using the focused control, "
 "such as moving through tables, checkboxes and so on."
-msgstr "针对新计算机用户，使您可以找出如何与具有焦点的控件交互。"
+msgstr ""
+"帮助您了解如何与当前所聚焦的控件交互，这对刚接触 Windows 和 NVDA 的新手非常有"
+"用。\n"
+"\t例如在表格、复选框等控件中移动时可按下 NVDA +H 来获取一段有关于使用当前控件"
+"的简短帮助。"
 
 #~ msgid "Use the text navigation commands to read text"
 #~ msgstr "使用文本导航命令读取文本"
