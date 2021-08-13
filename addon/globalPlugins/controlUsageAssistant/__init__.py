@@ -75,9 +75,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# First case: virtual buffer control exceptions.
 	# Forms encountered on webpages; add custom message for them in browse mode.
 	VBufForms = {
-		controlTypes.ROLE_RADIOBUTTON,
-		controlTypes.ROLE_EDITABLETEXT,
-		controlTypes.ROLE_COMBOBOX
+		controlTypes.Role.RADIOBUTTON,
+		controlTypes.Role.EDITABLETEXT,
+		controlTypes.Role.COMBOBOX
 	}
 
 	# And the function for handling these:
@@ -90,7 +90,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				VBufmsg = helpmessages.controlTypeHelpMessages[obj.role]
 				# Translators: Additional message when working with forms in focus mode.
 				VBufmsg += _(" To switch to browse mode, press NVDA+SPACE or escape key")
-		elif obj.role == controlTypes.ROLE_DOCUMENT:
+		elif obj.role == controlTypes.Role.DOCUMENT:
 			if not obj.treeInterceptor.passThrough:
 				VBufmsg = helpmessages.browseModeHelpMessages[obj.role]
 			else:
