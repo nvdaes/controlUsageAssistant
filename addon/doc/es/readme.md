@@ -2,12 +2,17 @@
 
 * Autor: Joseph Lee
 * Descargar [versión estable][1]
-* Compatibilidad con NVDA: de 2019.3 a 2021.1
+* Compatibilidad con NVDA: de 2021.2 en adelante
 
 Utiliza este complemento para averiguar cómo interactuar con el control
 enfocado.  Pulsa NVDA+H para obtener un breve mensaje de ayuda sobre la
 interacción con el control enfocado, como con casillas de verificación,
 campos de edición y así con otros.
+
+## Versión 21.10
+
+* Se requiere NVDA 2021.2 o posterior a causa de cambios en NVDA que afectan
+  a este complemento.
 
 ## Versión 20.10
 
@@ -57,5 +62,3 @@ campos de edición y así con otros.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
-
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

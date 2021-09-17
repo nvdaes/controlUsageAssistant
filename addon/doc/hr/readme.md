@@ -2,11 +2,16 @@
 
 * Autor: Joseph Lee
 * Preuzmi [stabilnu verziju][1]
-* NVDA compatibility: 2019.3 to 2021.1
+* NVDA compatibility: 2021.2 and beyond
 
 Koristi ovaj dodatak i saznaj kako koristiti fokusiranu kontrolu. Pritisni
 NVDA+H za dobivanje kratke poruke o tome kako koristiti fokusirane kontrole,
 kao što su potvrdni okviri, polja za uređivanje i tome slično.
+
+## Version 21.10
+
+* NVDA 2021.2 or later is required due to changes to NVDA that affects this
+  add-on.
 
 ## Verzija 20.10
 
@@ -16,8 +21,8 @@ kao što su potvrdni okviri, polja za uređivanje i tome slično.
 
 * Riješeni su mnogi problemi sa stilom kodiranja kao i potencijalne greške s
   Flake8.
-* NVDA će se ponašati kao da ništa ne radi i reproducirat će zvukove greške
-  prilikom pokušaja dohvaćanja pomoći za određene kontrole u modusu čitanja.
+* NVDA will no longer appear to do nothing or play error tones when trying
+  to obtain help for certain browse mode controls.
 
 ## Verzija 20.01
 
@@ -54,5 +59,3 @@ kao što su potvrdni okviri, polja za uređivanje i tome slično.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
-
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

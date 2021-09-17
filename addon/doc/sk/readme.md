@@ -2,11 +2,16 @@
 
 * Autor: Joseph Lee
 * Stiahnuť [stabilnú verziu][1]
-* NVDA compatibility: 2019.3 to 2021.1
+* NVDA compatibility: 2021.2 and beyond
 
 Doplnok poskytuje pomoc pre aktuálne zameraný prvok. Aby ste počuli pomocné
 hlásenie pre prvky, akými sú napríklad začiarkavacie alebo editačné polia ,
 stlačte NVDA+h.
+
+## Version 21.10
+
+* NVDA 2021.2 or later is required due to changes to NVDA that affects this
+  add-on.
 
 ## Version 20.10
 
@@ -15,7 +20,8 @@ stlačte NVDA+h.
 ## Verzia 20.06
 
 * Opravené drobné chyby v kóde.
-* NVDA viac nezamrzne alebo nehlási chybu pri prvkoch v režime prehliadania.
+* NVDA will no longer appear to do nothing or play error tones when trying
+  to obtain help for certain browse mode controls.
 
 ## Verzia 20.01
 
@@ -51,5 +57,3 @@ stlačte NVDA+h.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
-
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

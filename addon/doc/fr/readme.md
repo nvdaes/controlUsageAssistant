@@ -2,11 +2,16 @@
 
 * Autheur : Joseph Lee
 * Télécharger [version stable][1]
-* NVDA compatibility: 2019.3 to 2021.1
+* NVDA compatibility: 2021.2 and beyond
 
 Utilisez cette extension pour savoir comment interagir avec l'élément
 actif. Appuyez sur NVDA+H sur l'objet sur lequel vous souhaitez avoir cette
 information.
+
+## Version 21.10
+
+* NVDA 2021.2 or later is required due to changes to NVDA that affects this
+  add-on.
 
 ## Version 20.10
 
@@ -16,8 +21,8 @@ information.
 
 * Résolution de nombreux problèmes de style de codage et de bugs potentiels
   avec Flake8.
-* NVDA semblera ne rien faire ou jouer des tonalités d'erreur en essayant
-  d'obtenir de l'aide pour certaines commandes du mode de navigation.
+* NVDA will no longer appear to do nothing or play error tones when trying
+  to obtain help for certain browse mode controls.
 
 ## Version 20.01
 
@@ -55,5 +60,3 @@ information.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
-
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

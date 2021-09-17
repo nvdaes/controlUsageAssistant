@@ -2,10 +2,15 @@
 
 * Készítő: Joseph Lee
 * [stabil verzió letöltése][1]
-* NVDA compatibility: 2019.3 to 2021.1
+* NVDA compatibility: 2021.2 and beyond
 
 A bővítmény az NVDA+H billentyűparanccsal információkat ad a fókuszban lévő
 vezérlők és elemek használatához.
+
+## Version 21.10
+
+* NVDA 2021.2 or later is required due to changes to NVDA that affects this
+  add-on.
 
 ## Version 20.10
 
@@ -14,8 +19,8 @@ vezérlők és elemek használatához.
 ## 20.06-os verzió
 
 * Javítottak több kódolási hibát és lehetséges bugot.
-* Az NVDA nem tesz semmit vagy hibajelző hangot ad amikor bizonyos
-  böngészőmódú elemeken próbáljuk meg aktiválni a tájékoztató üzemmódot.
+* NVDA will no longer appear to do nothing or play error tones when trying
+  to obtain help for certain browse mode controls.
 
 ## 20.01 verzió
 
@@ -51,5 +56,3 @@ vezérlők és elemek használatához.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
-
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

@@ -2,12 +2,17 @@
 
 * Autor: Joseph Lee
 * Baixe a [versão estável][1]
-* Compatibilidade com NVDA: 2019.3 a 2021.1
+* NVDA compatibility: 2021.2 and beyond
 
 Use este complemento para descobrir como interagir com o controle
 focalizado. Pressione NVDA+H para obter uma mensagem curta de ajuda sobre a
 interação com o controle em foco, como caixas de seleção, campos de edição e
 assim por diante.
+
+## Version 21.10
+
+* NVDA 2021.2 or later is required due to changes to NVDA that affects this
+  add-on.
 
 ## Versão 20.10
 
@@ -17,8 +22,8 @@ assim por diante.
 
 * Foram resolvidos muitos problemas de estilo de codificação e possíveis
   erros com o Flake8.
-* O NVDA parece não fazer nada ou reproduzir tons de erro ao tentar obter
-  ajuda para determinados controles do modo de navegação.
+* NVDA will no longer appear to do nothing or play error tones when trying
+  to obtain help for certain browse mode controls.
 
 ## Versão 20.01
 
@@ -57,5 +62,3 @@ assim por diante.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
-
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

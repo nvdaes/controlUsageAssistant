@@ -2,12 +2,17 @@
 
 * Autore: Joseph Lee
 * Scarica [versione stabile][1]
-* NVDA compatibility: 2019.3 to 2021.1
+* NVDA compatibility: 2021.2 and beyond
 
 Questo componente aggiuntivo si utilizza per scoprire come interagire con il
 controllo evidenziato. Premere NVDA+h per ascoltare un breve suggerimento,
 ad esempio su come attivare una casella di controllo, come operare in un
 campo editazione e così via.
+
+## Version 21.10
+
+* NVDA 2021.2 or later is required due to changes to NVDA that affects this
+  add-on.
 
 ## Novità nella versione 20.10
 
@@ -16,8 +21,8 @@ campo editazione e così via.
 ## Novità nella versione 20.06
 
 * Risolti molti problemi con il codice e bug potenziali con Flake8.
-* NVDA si bloccherà o riprodurrà un suono di errore quando si cercherà di
-  ottenere aiuto su alcuni controlli in modalità navigazione.
+* NVDA will no longer appear to do nothing or play error tones when trying
+  to obtain help for certain browse mode controls.
 
 ## Novità nella versione 20.01
 
@@ -56,5 +61,3 @@ campo editazione e così via.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
-
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

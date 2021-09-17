@@ -2,12 +2,17 @@
 
 * Tekijä: Joseph Lee
 * Lataa [vakaa versio][1]
-* Yhteensopivuus: NVDA 2019.3-2021.1
+* NVDA compatibility: 2021.2 and beyond
 
 Tämän lisäosan avulla voit selvittää, miten aktiivisen säätimen kanssa
 ollaan vuorovaikutuksessa.  Paina NVDA+H kuullaksesi lyhyen ohjeen
 aktiivisen säätimen käytöstä, kuten esim. valintaruudun valitsemisesta,
 tekstin muokkaamisesta jne.
+
+## Version 21.10
+
+* NVDA 2021.2 or later is required due to changes to NVDA that affects this
+  add-on.
 
 ## Versio 20.10
 
@@ -17,8 +22,8 @@ tekstin muokkaamisesta jne.
 
 * Ratkaistu useita koodaustyylin ongelmia sekä mahdollisia bugeja Flake8:n
   kanssa.
-* NVDA ei näytä tekevän mitään tai soita virheääniä yritettäessä saada
-  ohjeita tietyille selaustilasäätimille.
+* NVDA will no longer appear to do nothing or play error tones when trying
+  to obtain help for certain browse mode controls.
 
 ## Versio 20.01
 
@@ -55,5 +60,3 @@ tekstin muokkaamisesta jne.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
-
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

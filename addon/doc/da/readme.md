@@ -2,12 +2,17 @@
 
 * Forfatter: Joseph Lee
 * Download [stabil version][1]
-* NVDA-kompatibilitet: 2019.3 til 2021.1
+* NVDA compatibility: 2021.2 and beyond
 
 Brug denne tilføjelse til at finde ud af, hvordan du interagerer med det
 fokuserede kontrolelement.  Tryk på NVDA+H for at få en kort hjælp til at
 interagere med det fokuserede kontrolelement, f.eks. check box og
 redigeringsfelter.
+
+## Version 21.10
+
+* NVDA 2021.2 or later is required due to changes to NVDA that affects this
+  add-on.
 
 ## Version 20.10
 
@@ -16,8 +21,8 @@ redigeringsfelter.
 ## Version 20.06
 
 * Løst mange problemer med kodningstil og potentielle fejl med Flake8.
-* NVDA vil se ud til ikke at gøre noget eller afspille fejletoner, når man
-  prøver at få hjælp til visse kontrolelementer i gennemsynstilstand.
+* NVDA will no longer appear to do nothing or play error tones when trying
+  to obtain help for certain browse mode controls.
 
 ## Version 20.01
 
@@ -55,5 +60,3 @@ redigeringsfelter.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
-
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
