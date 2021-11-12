@@ -2,7 +2,7 @@
 
 * Autor: Joseph Lee
 * [Stabile Version herunterladen][1]
-* NVDA compatibility: 2021.2 and beyond
+* NVDA-Kompatibilität: 2021.2 und neuer
 
 Verwenden Sie diese Erweiterung, um zu erfahren, wie Sie das aktuell
 hervorgehobene Steuerelement benutzen können. Drücken Sie NVDA+H, um eine
@@ -12,8 +12,8 @@ Kontrollkästchen etc.).
 
 ## Version 21.10
 
-* NVDA 2021.2 or later is required due to changes to NVDA that affects this
-  add-on.
+* NVDA 2021.2 oder neuer ist erforderlich, da die Änderungen diese
+  Erweiterung betreffen.
 
 ## Version 20.10
 
@@ -23,8 +23,8 @@ Kontrollkästchen etc.).
 
 * Mit Flake8 wurden viele Probleme mit dem Codierstil und potenzielle Fehler
   behoben.
-* NVDA will no longer appear to do nothing or play error tones when trying
-  to obtain help for certain browse mode controls.
+* NVDA wird keine Fehlertöne abspielen oder scheinbar nichts mehr tun, wenn
+  Sie Hilfe zu Steuerelementen im Lesemodus abfragen.
 
 ## Version 20.01
 
