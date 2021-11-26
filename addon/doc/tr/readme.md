@@ -2,16 +2,16 @@
 
 * Yazar: Joseph Lee
 * [Kararlı sürüm][1]ü indir
-* NVDA compatibility: 2021.2 and beyond
+* NVDA uyumluluğu: 2021.2 ve sonrası
 
 Mevcut odak hakkında kısa bir yardım mesajı dinlemek için bu eklentiyi
 kullanın.  Onay kutuları, yazı alanları vb Odaktaki kontrolle nasıl
 etkileşime geçeceğinizle ilgili kısa bir mesaj için NvDA+H tuşlarına basın.
 
-## Version 21.10
+## Sürüm 21.10
 
-* NVDA 2021.2 or later is required due to changes to NVDA that affects this
-  add-on.
+* Bu eklentiyi etkileyen NVDA'daki değişiklikler nedeniyle NVDA 2021.2 veya
+  üstü gereklidir.
 
 ## Sürüm 20.10
 
@@ -20,8 +20,8 @@ etkileşime geçeceğinizle ilgili kısa bir mesaj için NvDA+H tuşlarına bas�
 ## Sürüm 20.06
 
 * Flake8 ile birçok kodlama stili sorunu ve olası hatalar çözüldü.
-* NVDA will no longer appear to do nothing or play error tones when trying
-  to obtain help for certain browse mode controls.
+* NVDA, belirli tarama kipi kontrolleri için yardım almaya çalışırken artık
+  hiçbir şey yapmıyormuş gibi görünmeyecek veya hata tonları çalmayacaktır.
 
 ## Sürüm 20.01
 
