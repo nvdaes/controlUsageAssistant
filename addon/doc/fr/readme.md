@@ -1,8 +1,8 @@
 # Control Usage Assistant #
 
-* Autheur : Joseph Lee
+* Auteur : Joseph Lee
 * Télécharger [version stable][1]
-* NVDA compatibility: 2021.2 and beyond
+* Compatibilité NVDA : 2021.2 et ultérieure
 
 Utilisez cette extension pour savoir comment interagir avec l'élément
 actif. Appuyez sur NVDA+H sur l'objet sur lequel vous souhaitez avoir cette
@@ -10,8 +10,8 @@ information.
 
 ## Version 21.10
 
-* NVDA 2021.2 or later is required due to changes to NVDA that affects this
-  add-on.
+* NVDA 2021.2 ou une version ultérieure est requis en raison de
+  modifications apportées à NVDA qui affectent cette extension.
 
 ## Version 20.10
 
@@ -21,8 +21,9 @@ information.
 
 * Résolution de nombreux problèmes de style de codage et de bugs potentiels
   avec Flake8.
-* NVDA will no longer appear to do nothing or play error tones when trying
-  to obtain help for certain browse mode controls.
+* NVDA ne semblera plus ne rien faire ni n'émettra de son d'erreur en
+  essayant d'obtenir de l'aide pour certaines commandes du mode de
+  navigation.
 
 ## Version 20.01
 
@@ -47,9 +48,9 @@ information.
 * Messages d'aides ajoutés pour plus d'éléments, comme les fenêtres de
   consoles.
 * Ajout de messages d'aide pour des zones d'applications, comme Microsoft
-  Excel et Powerpoint ou l'écran d'accueil windows 8.
+  Excel et Powerpoint ou l'écran d'accueil Windows 8.
 * Ajout de message pour les formulaires dans les navigateurs en mode
-  formulaire ou moe navigation (Internet Explorer, Adobe Reader, Mozilla
+  formulaire ou mode navigation (Internet Explorer, Adobe Reader, Mozilla
   Firefox, etc.).
 * Nouvelle langue : Danois
 
