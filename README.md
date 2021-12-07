@@ -2,7 +2,7 @@
 
 * Author: Joseph Lee
 * Download [stable version][1]
-* NVDA compatibility: 2021.2 and beyond
+* NVDA compatibility: 2021.2 and later
 
 Note: I (Joseph Lee) am looking for people who will maintain Control Usage Assistant add-on from January 1, 2022 onwards.
 
