@@ -2,7 +2,7 @@
 
 * Készítő: Joseph Lee
 * [stabil verzió letöltése][1]
-* NVDA compatibility: 2021.2 and beyond
+* NVDA compatibility: 2021.2 and later
 
 A bővítmény az NVDA+H billentyűparanccsal információkat ad a fókuszban lévő
 vezérlők és elemek használatához.

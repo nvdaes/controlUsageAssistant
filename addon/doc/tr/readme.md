@@ -2,7 +2,7 @@
 
 * Yazar: Joseph Lee
 * [Kararlı sürüm][1]ü indir
-* NVDA uyumluluğu: 2021.2 ve sonrası
+* NVDA uyumluluğu: 2021.2 ve üstü
 
 Mevcut odak hakkında kısa bir yardım mesajı dinlemek için bu eklentiyi
 kullanın.  Onay kutuları, yazı alanları vb Odaktaki kontrolle nasıl
