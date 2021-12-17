@@ -8,10 +8,9 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-01-15 13:08+0100\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2021-12-13 18:55+0100\n"
+"Last-Translator: Jožef Gregorc <jozko.gregorc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -37,7 +36,7 @@ msgstr "Ni pomoči za ta kontrolnik"
 
 #. Translators: message presented at the end of help messages.
 msgid "Press escape to close this help screen."
-msgstr ""
+msgstr "Pritisnite escape, da zaprete ta ekran s pomočjo."
 
 #. Translators: Additional message when working with forms in focus mode.
 msgid " To switch to browse mode, press NVDA+SPACE or escape key"

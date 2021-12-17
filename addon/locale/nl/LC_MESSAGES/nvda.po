@@ -6,38 +6,44 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0Beta1'\n"
-"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2013-05-10 04:50-0700\n"
-"PO-Revision-Date: 2016-07-30 13:46+0100\n"
+"PO-Revision-Date: 2021-12-15 11:46+0100\n"
 "Last-Translator: Bart Simons <bart@bartsimons.be>\n"
 "Language-Team: NVDA Nederlandstalig vertaalteam <nvda-nl@googlegroups.com>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.6\n"
+"X-Generator: Poedit 1.6.11\n"
 
-#. Script category.
+#. Translators: Input help message for control help command.
+msgid "Presents a message on how to interact with the focused control."
+msgstr ""
+"Laat in een bericht zien hoe het besturingselement met focus bediend moet "
+"worden."
+
 #. Translators: Input gesture category for Control Usage Assistant add-on.
+#. The prototype UI message, the actual processing is done below.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information.
 msgid "Control Usage Assistant"
 msgstr "Assistent voor besturingselementgebruik"
-
-#. Translators: Input help message for obtain control help command.
-msgid "Presents a short message on how to interact with the focused control."
-msgstr ""
-"Laat in een kort bericht zien hoe het besturingselement met focus bediend "
-"moet worden."
 
 #. Translators: Message presented when there is no help message for the focused control.
 msgid "No help for this control"
 msgstr "Geen help voor dit besturingselement"
 
-#. Translators: Additional message when working with forms in focus mode.
-msgid ". To switch to browse mode, press NVDA+SPACE or escape key"
-msgstr ""
-". Om naar bladermodus te schakelen, druk op NVDA+spatie of de escape-toets"
+#. Translators: message presented at the end of help messages.
+msgid "Press escape to close this help screen."
+msgstr "Druk op escape om dit helpscherm te sluiten."
 
-#. Translators: Help message for reading a webpage while in focus mode.
+#. Translators: Additional message when working with forms in focus mode.
+msgid " To switch to browse mode, press NVDA+SPACE or escape key"
+msgstr ""
+" Om naar bladermodus te schakelen, druk op NVDA+spatie of de escape-toets"
+
 msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
@@ -45,194 +51,221 @@ msgstr ""
 "Om bladermodus en snelle navigatietoetsen te gebruiken om de webpagina te "
 "lezen, schakel naar bladermodus door het indrukken van NVDA+spatie"
 
-#. Default: universal across apps and states.
 #. Translators: Help message for a checkbox.
-msgid "Press space to check or uncheck the checkbox"
-msgstr "Druk op spatie om het selectievakje in of uit te schakelen"
+msgid "Press space bar to check or uncheck this check box."
+msgstr "Druk op spatie om het selectievakje in of uit te schakelen."
 
 #. Translators: Help message for working with radio buttons.
-msgid "Use the arrow keys to choose a radio button"
-msgstr "Gebruik de pijltjestoetsen om een keuzerondje te kiezen"
+msgid "Use the arrow keys to choose a radio button."
+msgstr "Gebruik de pijltjestoetsen om een keuzerondje te kiezen."
 
 #. Translators: Help message for a list box.
-msgid "Use the arrow keys to read this box"
-msgstr "Gebruik de pijltjestoetsen om deze lijst te lezen"
+msgid "Use the arrow keys to read this box."
+msgstr "Gebruik de pijltjestoetsen om deze lijst te lezen."
 
 #. Translators: Help message for an edit field.
-msgid "Type text here"
-msgstr "Typ hier tekst in"
-
-#. Translators: Help message for a read-only control.
-msgid "Use the text navigation commands to read text"
-msgstr "Gebruik de tekstnavigatiecommando's om tekst te lezen"
+msgid "Type text here."
+msgstr "Typ hier tekst in."
 
 #. Translators: Help message for a button.
-msgid "Press SPACE or ENTER to activate this button"
-msgstr "Druk op spatie of enter om deze knop te activeren"
+msgid "Press SPACE or ENTER to activate this button."
+msgstr "Druk op spatie of enter om deze knop te activeren."
 
 #. Translators: Help message for menu items.
-msgid "Use the arrow keys to move between the menu items"
-msgstr "Gebruik de pijltjestoetsen om tussen de menu-items te navigeren"
+msgid "Use the arrow keys to move between the menu items."
+msgstr "Gebruik de pijltjestoetsen om tussen de menu-items te navigeren."
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
-msgid "Use up and down arrow keys to move through options in the pop-up menu"
+msgid "Use up and down arrow keys to move through options in the pop-up menu."
 msgstr ""
 "Gebruik pijl omhoog en omlaag om door de opties in het pop-up-menu te "
-"navigeren"
+"navigeren."
 
 #. Translators: Help message for a combo box.
 msgid ""
 "Use the arrow keys to move among choices in the combo box until the desired "
-"option is found"
+"option is found."
 msgstr ""
 "Gebruik de pijltjestoetsen om tussen keuzemogelijkheden in de "
-"vervolgkeuzelijst te navigeren tot de gewenste optie gevonden is"
+"vervolgkeuzelijst te navigeren tot de gewenste optie gevonden is."
 
 #. Translators: Help message for a list view.
-msgid "Use the arrow keys to move to the next or previous item in this list"
+msgid "Use the arrow keys to move to the next or previous item in this list."
 msgstr ""
 "Gebruik de pijltjestoetsen om naar het volgende of vorige item in deze lijst "
-"te navigeren"
+"te navigeren."
 
 #. Translators: Help message for activating links.
-msgid "Press SPACE or ENTER to activate this link"
-msgstr "Druk op spatie of enter om deze link te activeren"
+msgid "Press SPACE or ENTER to activate this link."
+msgstr "Druk op spatie of enter om deze link te activeren."
 
 #. Translators: Help message for working with tree view items.
 msgid ""
 "Use the up and down arrow keys to select the items. Use left arrow to "
-"collapse and right arrow to expand"
+"collapse and right arrow to expand."
 msgstr ""
 "Gebruik pijl omhoog en omlaag om de items te selecteren. Gebruik pijl links "
-"om samen te vouwen en pijl rechts om uit te vouwen"
+"om samen te vouwen en pijl rechts om uit te vouwen."
 
-#. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
+#. Translators: Help message for navigating tabs,
+#. such as various property tabs for drive properties in My Computer.
 msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
-"for next tab and control+shift+tab for previous tab"
+"for next tab and control+shift+tab for previous tab."
 msgstr ""
 "Gebruik de linker en rechter pijltjestoetsen om tussen tabbladen te "
 "navigeren, of druk op control+tab voor het volgende tabblad en control+shift"
-"+tab voor het vorige tabblad"
+"+tab voor het vorige tabblad."
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
 msgid ""
 "Use the left and down arrow keys to decrease and up and right arrow keys to "
 "increase the value in this slider. Use page up and page down to increase or "
 "decrease in larger values, and press home and end keys to select maximum and "
-"minimum value"
+"minimum value."
 msgstr ""
 "Gebruik pijl links en omlaag om de waarde van deze schuifregelaar te "
 "verlagen en pijl rechts en omhoog om de waarde te verhogen. Gebruik page up "
 "en page down om de waarde in grotere stappen te verhogen of te verlagen, en "
-"druk op e toetsen home en end om de maximale en minimale waarde te selecteren"
+"druk op de toetsen home en end om de maximale en minimale waarde te "
+"selecteren."
+
+#. Translators: Help message for working with progress bars.
+msgid "This is a progress bar, used to show progress of an operation."
+msgstr ""
+"Dit is een voortgangsbalk die wordt gebruikt om de voortgang van een "
+"bewerking weer te geven."
 
 #. Translators: Help message for navigating tables.
 msgid ""
-"Press control, alt and arrow keys together to move between rows and columns"
+"Press control, alt and arrow keys together to move between rows and columns."
 msgstr ""
 "Druk tegelijkertijd op control, alt en één van de pijltjestoetsenom tussen "
-"rijen en kolommen te navigeren"
+"rijen en kolommen te navigeren."
 
 #. Translators: Help message for navigating table cells.
-msgid "Press control, alt and arrow keys together to move between table cells"
+msgid ""
+"Press Control+Alt+arrow keys to other table cells. Pressing left or right "
+"arrow keys will navigate between columns, and up and down arrow keys will "
+"navigate by row."
 msgstr ""
-"Druk tegelijkertijd op control, alt en één van de pijltjestoetsenom tussen "
-"tabelcellen te navigeren"
+"Druk op Control+Alt+pijltjestoetsen om naar andere tabelcellen te gaan. Door "
+"op de linker- of rechterpijltoetsen te drukken, navigeert u tussen kolommen "
+"en met de pijltoetsen omhoog en omlaag per rij."
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
 msgid ""
-"Use the arrow keys or object navigation commands to move through the document"
+"Use the arrow keys or object navigation commands to move through the "
+"document."
 msgstr ""
 "Gebruik de pijltjestoetsen of objectnavigatiecommando's om door het document "
-"te navigeren"
+"te navigeren."
 
 #. Translators: Help message for terminal windows such as command prompt.
 msgid ""
 "Type commands in the terminal window and use review cursor commands to read "
-"the output"
+"the output."
 msgstr ""
-"Typ commando's in het promptvenster en gebruik leescursorcommando's om de "
-"uitvoer te lezen"
+"Typ commando's in het terminalvenster en gebruik leescursorcommando's om de "
+"uitvoer te lezen."
 
-#. 200: Virtual Buffer.
 #. Translators: Help message for radio buttons while in browse mode.
 msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
-"ENTER key"
+"ENTER key."
 msgstr ""
 "Om een keuzerondje te selecteren, schakel naar de focusmodus door het "
-"indrukken van NVDA+spatie of de enter-toets"
+"indrukken van NVDA+spatie of de enter-toets."
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
 "To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key"
+"+SPACE or ENTER key."
 msgstr ""
 "Om tekst in dit invoerveld te typen, schakel naar de focusmodus door het "
-"indrukken van NVDA+spatie of de enter-toets"
+"indrukken van NVDA+spatie of de enter-toets."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
 "To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key"
+"+SPACE or ENTER key."
 msgstr ""
 "Om een item in de vervolgkeuzelijst te selecteren, schakel naar de "
-"focusmodus door het indrukken van NVDA+spatie of de enter-toets"
+"focusmodus door het indrukken van NVDA+spatie of de enter-toets."
 
 #. Translators: Help message for reading webpages.
 msgid ""
-"Use the browse mode and quick navigation commands to read through the webpage"
+"Use the browse mode and quick navigation commands to read through the "
+"webpage."
 msgstr ""
-"Gebruik de bladermodus en snelnavigatiecommando's om door de webpagina te "
+"Gebruik de bladermodus en snelnavigatiecommando's om de webpagina te lezen."
+
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"Druk na het typen van de zoekopdracht op de pijltoetsen omhoog of omlaag om "
+"de lijst met suggesties te bekijken."
+
+#. Translators: Help message for reading Adobe PDF documents.
+msgid ""
+"Use the browse mode and quick navigation commands to read through the PDF "
+"document."
+msgstr ""
+"Gebruik de bladermodus en snelnavigatiecommando's om het pdf document te "
 "lezen"
 
-#. App-specific case 1: AppeModule for app is present.
-#. 300: Explorer (to deal with specific cases.
+#. Translators: Help message for moving between Excel spreadsheet cells.
+msgid "Use the arrow keys to move between spreadsheet cells."
+msgstr "Gebruik de pijltjestoetsen om tussen werkbladcellen te navigeren."
+
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
-msgid "Use the arrow keys to move between start screen tiles"
+msgid "Use the arrow keys to move between start screen tiles."
 msgstr ""
 "Gebruik de pijltjestoetsen om tussen de tegels op het startscherm te "
-"navigeren"
+"navigeren."
 
-#. 400: Microsoft powerpoint (powerpnt):
-#. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
-msgid "Use up and down arrow keys to move between slides"
-msgstr "Gebruik pijl omhoog en omlaag om tussen dia's te navigeren"
+#. Translators: Message for moving between slides in slide view
+#. (a list of slides for a Powerpoint presentation).
+msgid "Use up and down arrow keys to move between slides."
+msgstr "Gebruik pijl omhoog en omlaag om tussen dia's te navigeren."
 
 #. Translators: Help message for working with slide shows.
 msgid ""
 "Press SPACE or BACKSPACE to move between slides in the slide show. To end "
-"the slide show, press escape"
+"the slide show, press escape."
 msgstr ""
-"Druk op spatie of backspace om tussen dia's te navigeren in de "
-"diavoorstelling"
-
-#. App-specific case 2: AppeModule for app is not present (use processes).
-#. -300: Excel.
-#. Translators: Help message for moving between Excel spreadsheet cells.
-msgid "Use the arrow keys to move between spreadsheet cells"
-msgstr "Gebruik de pijltjestoetsen om tussen werkbladcellen te navigeren"
+"Druk op spatie of backspace om tussen dia's in de diavoorstelling te "
+"navigeren. Druk op escape om de diavoorstelling te beëindigen."
 
 #. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
-msgid ""
-"Control Usage Assistant - get brief help on interacting with the focused "
-"control"
-msgstr ""
-"Assistent voor besturingselementgebruik - krijg beknopte hulp over hoe om te "
-"gaan met het besturingselement met focus"
-
-#. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Allows you to find out how to interact with the focused control, useful for "
-"new computer users new to Windows and to NvDA.\n"
-"\tPress NvDA+H to get a short help message on using the focused control, "
+"new computer users new to Windows and to NVDA.\n"
+"\tPress NVDA+H to get a short help message on using the focused control, "
 "such as moving through tables, checkboxes and so on."
 msgstr ""
-"stelt u in staat om uit te vinden hoe het besturingselement met focus "
-"bediend moet worden, nuttig voor nieuwe computergebruikers die weinig "
-"ervaring hebben met Windows en NVDA.\n"
-"\tDruk op NVDA+H voor een kort helpbericht over het besturingselement met "
-"focus, zoals het navigeren door tabellen, selectievakjes, etc."
+"Hiermee kunt u ontdekken hoe u met het besturingselement met focus kunt "
+"werken, wat handig is voor nieuwe computergebruikers die niet bekend zijn "
+"met Windows en NVDA.\n"
+"\tDruk op NVDA+H om een kort hulpbericht te krijgen over het gebruik van het "
+"besturingselement met focus, zoals bladeren door tabellen, selectievakjes "
+"enzovoort."
+
+#~ msgid "Use the text navigation commands to read text"
+#~ msgstr "Gebruik de tekstnavigatiecommando's om tekst te lezen"
+
+#~ msgid ""
+#~ "Press control, alt and arrow keys together to move between table cells"
+#~ msgstr ""
+#~ "Druk tegelijkertijd op control, alt en één van de pijltjestoetsenom "
+#~ "tussen tabelcellen te navigeren"
+
+#~ msgid ""
+#~ "Control Usage Assistant - get brief help on interacting with the focused "
+#~ "control"
+#~ msgstr ""
+#~ "Assistent voor besturingselementgebruik - krijg beknopte hulp over hoe om "
+#~ "te gaan met het besturingselement met focus"

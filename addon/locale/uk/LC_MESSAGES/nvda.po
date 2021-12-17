@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant 1.0Beta1\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2013-05-10 04:50-0700\n"
-"PO-Revision-Date: 2020-10-06 20:13+0300\n"
+"PO-Revision-Date: 2021-12-12 10:57+0200\n"
 "Last-Translator: Volodymyr Pyrih <vp88.mobile@gmail.com>\n"
 "Language-Team: \n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #. Translators: Input help message for control help command.
 msgid "Presents a message on how to interact with the focused control."
@@ -37,7 +37,7 @@ msgstr "Немає довідки для цього елемента керув�
 
 #. Translators: message presented at the end of help messages.
 msgid "Press escape to close this help screen."
-msgstr ""
+msgstr "Натисніть escape для закриття цього довідкового вікна"
 
 #. Translators: Additional message when working with forms in focus mode.
 msgid " To switch to browse mode, press NVDA+SPACE or escape key"
