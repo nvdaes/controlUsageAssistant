@@ -1,6 +1,6 @@
 # Control Usage Assistant #
 
-* Author: Joseph Lee
+* Author: Joseph Lee, Noelia Ruiz Martínez
 * Download [stable version][1]
 * NVDA compatibility: 2021.2 and later
 
