@@ -14,9 +14,10 @@ import ui
 import api
 from virtualBuffers import VirtualBuffer
 import scriptHandler
+from .controltypeshelp import controlTypeHelpMessages, browseModeHelpMessages
+from nvdaobjectshelp import objectsHelpMessages
 import addonHandler
 addonHandler.initTranslation()
-from . import helpmessages
 
 # How many method resolution order (MRO) level help messages to consider
 # before resorting to role-based messages.
@@ -51,8 +52,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		else:
 			for entry in curObj.__class__.__mro__:
 				clsName = str(entry).split("'")[1]
-				if clsName in helpmessages.objectsHelpMessages:
-					helpMessages.append(helpmessages.objectsHelpMessages[clsName])
+				if clsName in objectsHelpMessages:
+					helpMessages.append(objectsHelpMessages[clsName])
 		# Except for virtual buffers, do not proceed if we do have help messages from MRO lookup.
 		# Additional constraints.
 		# Just in case browse mode is active.
@@ -60,8 +61,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			# In case we're dealing with virtual buffer, call the below method.
 			helpMessages.append(self.VBufHelp(curObj))
 		if len(helpMessages) == CUAMROLevel:
-			if curObj.role in helpmessages.controlTypeHelpMessages:
-				helpMessages.append(helpmessages.controlTypeHelpMessages[curObj.role])
+			if curObj.role in controlTypeHelpMessages:
+				helpMessages.append(controlTypeHelpMessages[curObj.role])
 			# Last resort: If we fail to obtain any default or app-specific message
 			# (because there is no entry for the role in the help messages), give the below message.
 			else:
@@ -85,14 +86,14 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def VBufHelp(self, obj):
 		if obj.role in self.VBufForms:
 			if not obj.treeInterceptor.passThrough:
-				VBufmsg = helpmessages.browseModeHelpMessages[obj.role]
+				VBufmsg = browseModeHelpMessages[obj.role]
 			else:
-				VBufmsg = helpmessages.controlTypeHelpMessages[obj.role]
+				VBufmsg = controlTypeHelpMessages[obj.role]
 				# Translators: Additional message when working with forms in focus mode.
 				VBufmsg += _(" To switch to browse mode, press NVDA+SPACE or escape key")
 		elif obj.role == controlTypes.Role.DOCUMENT:
 			if not obj.treeInterceptor.passThrough:
-				VBufmsg = helpmessages.browseModeHelpMessages[obj.role]
+				VBufmsg = browseModeHelpMessages[obj.role]
 			else:
 				# Translators: Help message for reading a webpage while in focus mode.
 				VBufmsg = _(
@@ -101,7 +102,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				)
 		else:
 			try:
-				VBufmsg = helpmessages.controlTypeHelpMessages[obj.role]
+				VBufmsg = controlTypeHelpMessages[obj.role]
 			except KeyError:
 				VBufmsg = _("No help for this control")
 		return VBufmsg
