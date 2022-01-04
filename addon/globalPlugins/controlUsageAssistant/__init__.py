@@ -12,7 +12,7 @@ import globalPluginHandler
 import controlTypes
 import ui
 import api
-from virtualBuffers import VirtualBuffer
+from browseMode import BrowseModeDocumentTreeInterceptor
 import scriptHandler
 from .controltypeshelp import controlTypeHelpMessages, browseModeHelpMessages
 from .nvdaobjectshelp import objectsHelpMessages
@@ -57,9 +57,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# Except for virtual buffers, do not proceed if we do have help messages from MRO lookup.
 		# Additional constraints.
 		# Just in case browse mode is active.
-		if isinstance(curObj.treeInterceptor, VirtualBuffer):
+		if isinstance(curObj.treeInterceptor, BrowseModeDocumentTreeInterceptor):
 			# In case we're dealing with virtual buffer, call the below method.
-			helpMessages.append(self.VBufHelp(curObj))
+			helpMessages.append(self.VBufHelp(curObj.treeInterceptor.currentNVDAObject))
 		if len(helpMessages) == CUAMROLevel:
 			if curObj.role in controlTypeHelpMessages:
 				helpMessages.append(controlTypeHelpMessages[curObj.role])
