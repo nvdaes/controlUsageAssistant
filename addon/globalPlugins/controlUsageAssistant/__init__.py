@@ -14,9 +14,10 @@ import ui
 import api
 from virtualBuffers import VirtualBuffer
 import scriptHandler
+from . import helpmessages
 import addonHandler
 addonHandler.initTranslation()
-from . import helpmessages
+
 
 # How many method resolution order (MRO) level help messages to consider
 # before resorting to role-based messages.
