@@ -1,7 +1,9 @@
 # Control Usage Assistant
 # A global plugin for NVDA
 # Copyright 2013-2021 Joseph Lee, released under GPL.
-
+import speech
+from speech.commands import PitchCommand
+import braille
 # NVDA+H: Obtain usage help on a particular control.
 # Start by looking at method resolution order (MRO) for object class hierarchy.
 # Then depending on the type of control and its state(s), lookup a map of control types and help messages.
@@ -12,12 +14,18 @@ import globalPluginHandler
 import controlTypes
 import ui
 import api
-from virtualBuffers import VirtualBuffer
+from browseMode import BrowseModeDocumentTreeInterceptor
 import scriptHandler
+import config
 from .controltypeshelp import controlTypeHelpMessages, browseModeHelpMessages
 from .nvdaobjectshelp import objectsHelpMessages
+from .utils import confspec, getAutomaticSpeechSequence, AddonSettingsPanel
+from gui import NVDASettingsDialog
+from typing import Callable
 import addonHandler
 addonHandler.initTranslation()
+
+_: Callable[[str], str]
 
 # How many method resolution order (MRO) level help messages to consider
 # before resorting to role-based messages.
@@ -25,6 +33,14 @@ CUAMROLevel = 0
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
+
+	def __init__(self):
+		super(GlobalPlugin, self).__init__()
+		config.conf.spec["controlUsageAssistant"] = confspec
+		NVDASettingsDialog.categoryClasses.append(AddonSettingsPanel)
+
+	def terminate(self):
+		NVDASettingsDialog.categoryClasses.remove(AddonSettingsPanel)
 
 	@scriptHandler.script(
 		# Translators: Input help message for control help command.
@@ -57,9 +73,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# Except for virtual buffers, do not proceed if we do have help messages from MRO lookup.
 		# Additional constraints.
 		# Just in case browse mode is active.
-		if isinstance(curObj.treeInterceptor, VirtualBuffer):
+		if isinstance(curObj.treeInterceptor, BrowseModeDocumentTreeInterceptor):
 			# In case we're dealing with virtual buffer, call the below method.
-			helpMessages.append(self.VBufHelp(curObj))
+			helpMessages.append(self.VBufHelp(curObj.treeInterceptor.currentNVDAObject))
 		if len(helpMessages) == CUAMROLevel:
 			if curObj.role in controlTypeHelpMessages:
 				helpMessages.append(controlTypeHelpMessages[curObj.role])
@@ -106,3 +122,24 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			except KeyError:
 				VBufmsg = _("No help for this control")
 		return VBufmsg
+
+	def event_loseFocus(self, obj, nextHandler):
+		nextHandler()
+		self.oldFocus = obj
+
+	def event_gainFocus(self, obj, nextHandler):
+		nextHandler()
+		if obj.role == self.oldFocus.role:
+			return
+		settings = config.conf["controlUsageAssistant"]
+		if not settings["speech"] and not settings["braille"]:
+			return
+		try:
+			message = controlTypeHelpMessages[obj.role]
+		except KeyError:
+			return
+		if settings["speech"]:
+			speechSequence = getAutomaticSpeechSequence(message, PitchCommand(settings["pitch"]))
+			speech.speak(speechSequence)
+		if settings["braille"]:
+			braille.handler.message(message)
