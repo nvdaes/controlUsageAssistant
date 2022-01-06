@@ -123,14 +123,13 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				VBufmsg = _("No help for this control")
 		return VBufmsg
 
-	def event_loseFocus(self, obj, nextHandler):
-		nextHandler()
-		self.oldFocus = obj
+	def shouldGetHelpAutomaticMessage(self) -> bool:
+		settings = config.conf["controlUsageAssistant"]
+		if settings["speech"] or settings["braille"]:
+			return True
+		return False
 
-	def event_gainFocus(self, obj, nextHandler):
-		nextHandler()
-		if obj.role == self.oldFocus.role:
-			return
+	def reportAutomaticHelpMessage(self, obj):
 		settings = config.conf["controlUsageAssistant"]
 		if not settings["speech"] and not settings["braille"]:
 			return
@@ -143,3 +142,21 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			speech.speak(speechSequence)
 		if settings["braille"]:
 			braille.handler.message(message)
+
+	def event_loseFocus(self, obj, nextHandler):
+		nextHandler()
+		if self.shouldGetHelpAutomaticMessage:
+			self.prevObj = obj
+
+	def event_gainFocus(self, obj, nextHandler):
+		nextHandler()
+		if not self.shouldGetHelpAutomaticMessage:
+			return
+		ti = obj.treeInterceptor
+		if isinstance(ti, BrowseModeDocumentTreeInterceptor) and not ti.passThrough:
+			return
+		if obj.role == self.prevObj.role:
+			return
+		if self.prevObj.role == controlTypes.Role.POPUPMENU and obj.role == controlTypes.Role.MENUITEM:
+			return
+		self.reportAutomaticHelpMessage(obj)
