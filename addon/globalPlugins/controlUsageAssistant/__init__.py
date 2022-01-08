@@ -145,6 +145,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def event_loseFocus(self, obj, nextHandler):
 		nextHandler()
+		ti = obj.treeInterceptor
+		if isinstance(ti, BrowseModeDocumentTreeInterceptor):
+			return
 		if self.shouldGetHelpAutomaticMessage():
 			self.prevObj = obj
 
