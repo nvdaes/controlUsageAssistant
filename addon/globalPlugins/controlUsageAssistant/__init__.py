@@ -145,17 +145,19 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def event_loseFocus(self, obj, nextHandler):
 		nextHandler()
-		if self.shouldGetHelpAutomaticMessage:
+		if self.shouldGetHelpAutomaticMessage():
 			self.prevObj = obj
 
 	def event_gainFocus(self, obj, nextHandler):
 		nextHandler()
-		if not self.shouldGetHelpAutomaticMessage:
+		if not self.shouldGetHelpAutomaticMessage():
 			return
 		ti = obj.treeInterceptor
-		if isinstance(ti, BrowseModeDocumentTreeInterceptor) and not ti.passThrough:
+		if isinstance(ti, BrowseModeDocumentTreeInterceptor):
 			return
 		if obj.role == self.prevObj.role:
+			return
+		if obj.role == controlTypes.Role.EDITABLETEXT and controlTypes.State.READONLY in obj.states:
 			return
 		if self.prevObj.role == controlTypes.Role.POPUPMENU and obj.role == controlTypes.Role.MENUITEM:
 			return
