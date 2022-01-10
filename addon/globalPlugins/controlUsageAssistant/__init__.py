@@ -111,8 +111,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			if not obj.treeInterceptor.passThrough:
 				VBufmsg = browseModeHelpMessages[obj.role]
 			else:
-				# Translators: Help message for reading a webpage while in focus mode.
 				VBufmsg = _(
+					# Translators: Help message for reading a webpage while in focus mode.
 					"To use browse mode and quick navigation keys to read the webpage, "
 					"switch to browse mode by pressing NVDA+SPACE"
 				)
@@ -120,6 +120,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			try:
 				VBufmsg = controlTypeHelpMessages[obj.role]
 			except KeyError:
+				# Translators: Message presented when there's no help for this control.
 				VBufmsg = _("No help for this control")
 		return VBufmsg
 
