@@ -1,7 +1,9 @@
 # Control Usage Assistant
 # A global plugin for NVDA
 # Copyright 2013-2021 Joseph Lee, released under GPL.
-
+import speech
+from speech.commands import PitchCommand
+import braille
 # NVDA+H: Obtain usage help on a particular control.
 # Start by looking at method resolution order (MRO) for object class hierarchy.
 # Then depending on the type of control and its state(s), lookup a map of control types and help messages.
@@ -12,12 +14,18 @@ import globalPluginHandler
 import controlTypes
 import ui
 import api
-from virtualBuffers import VirtualBuffer
+from browseMode import BrowseModeDocumentTreeInterceptor
 import scriptHandler
+import config
 from .controltypeshelp import controlTypeHelpMessages, browseModeHelpMessages
 from .nvdaobjectshelp import objectsHelpMessages
+from .utils import confspec, getAutomaticSpeechSequence, AddonSettingsPanel
+from gui import NVDASettingsDialog
+from typing import Callable
 import addonHandler
 addonHandler.initTranslation()
+
+_: Callable[[str], str]
 
 # How many method resolution order (MRO) level help messages to consider
 # before resorting to role-based messages.
@@ -25,6 +33,14 @@ CUAMROLevel = 0
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
+
+	def __init__(self):
+		super(GlobalPlugin, self).__init__()
+		config.conf.spec["controlUsageAssistant"] = confspec
+		NVDASettingsDialog.categoryClasses.append(AddonSettingsPanel)
+
+	def terminate(self):
+		NVDASettingsDialog.categoryClasses.remove(AddonSettingsPanel)
 
 	@scriptHandler.script(
 		# Translators: Input help message for control help command.
@@ -57,9 +73,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# Except for virtual buffers, do not proceed if we do have help messages from MRO lookup.
 		# Additional constraints.
 		# Just in case browse mode is active.
-		if isinstance(curObj.treeInterceptor, VirtualBuffer):
+		if isinstance(curObj.treeInterceptor, BrowseModeDocumentTreeInterceptor):
 			# In case we're dealing with virtual buffer, call the below method.
-			helpMessages.append(self.VBufHelp(curObj))
+			helpMessages.append(self.VBufHelp(curObj.treeInterceptor.currentNVDAObject))
 		if len(helpMessages) == CUAMROLevel:
 			if curObj.role in controlTypeHelpMessages:
 				helpMessages.append(controlTypeHelpMessages[curObj.role])
@@ -95,8 +111,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			if not obj.treeInterceptor.passThrough:
 				VBufmsg = browseModeHelpMessages[obj.role]
 			else:
-				# Translators: Help message for reading a webpage while in focus mode.
 				VBufmsg = _(
+					# Translators: Help message for reading a webpage while in focus mode.
 					"To use browse mode and quick navigation keys to read the webpage, "
 					"switch to browse mode by pressing NVDA+SPACE"
 				)
@@ -104,5 +120,49 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			try:
 				VBufmsg = controlTypeHelpMessages[obj.role]
 			except KeyError:
+				# Translators: Message presented when there's no help for this control.
 				VBufmsg = _("No help for this control")
 		return VBufmsg
+
+	def shouldGetHelpAutomaticMessage(self) -> bool:
+		settings = config.conf["controlUsageAssistant"]
+		if settings["speech"] or settings["braille"]:
+			return True
+		return False
+
+	def reportAutomaticHelpMessage(self, obj):
+		settings = config.conf["controlUsageAssistant"]
+		if not settings["speech"] and not settings["braille"]:
+			return
+		try:
+			message = controlTypeHelpMessages[obj.role]
+		except KeyError:
+			return
+		if settings["speech"]:
+			speechSequence = getAutomaticSpeechSequence(message, PitchCommand(settings["pitch"]))
+			speech.speak(speechSequence)
+		if settings["braille"]:
+			braille.handler.message(message)
+
+	def event_loseFocus(self, obj, nextHandler):
+		nextHandler()
+		ti = obj.treeInterceptor
+		if isinstance(ti, BrowseModeDocumentTreeInterceptor):
+			return
+		if self.shouldGetHelpAutomaticMessage():
+			self.prevObj = obj
+
+	def event_gainFocus(self, obj, nextHandler):
+		nextHandler()
+		if not self.shouldGetHelpAutomaticMessage():
+			return
+		ti = obj.treeInterceptor
+		if isinstance(ti, BrowseModeDocumentTreeInterceptor):
+			return
+		if obj.role == self.prevObj.role:
+			return
+		if obj.role == controlTypes.Role.EDITABLETEXT and controlTypes.State.READONLY in obj.states:
+			return
+		if self.prevObj.role == controlTypes.Role.POPUPMENU and obj.role == controlTypes.Role.MENUITEM:
+			return
+		self.reportAutomaticHelpMessage(obj)
