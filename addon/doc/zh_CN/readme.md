@@ -2,14 +2,13 @@
 
 * 作者： Joseph Lee
 * 下载 [稳定版][1]
-* NVDA compatibility: 2021.2 and later
+* NVDA 兼容性：2021.2 及更高版本
 
 借助此插件可了解如何与当前所聚焦的控件进行交互。例如，当聚焦到复选框、编辑框时，按 NVDA+H 来获取一段有关于使用当前控件的简短帮助。
 
-## Version 21.10
+## 版本 21.10
 
-* NVDA 2021.2 or later is required due to changes to NVDA that affects this
-  add-on.
+* 由于对 NVDA 的更改会影响此插件，因此需要 NVDA 2021.2 或更高版本。
 
 ## 版本 20.10
 
@@ -18,8 +17,7 @@
 ## 版本 20.06
 
 * 使用 Flake8 解决了许多编码风格问题和潜在的错误。
-* NVDA will no longer appear to do nothing or play error tones when trying
-  to obtain help for certain browse mode controls.
+* 修复了尝试获取某些浏览模式控件的帮助时， NVDA 不执行任何操作或只播放错误提示音的 Bug。
 
 ## 版本 20.01
 
