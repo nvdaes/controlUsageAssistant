@@ -2,7 +2,7 @@
 
 * Auteur : Joseph Lee
 * Télécharger [version stable][1]
-* NVDA compatibility: 2021.2 and later
+* Compatibilité NVDA : 2021.2 et ultérieure
 
 Utilisez cette extension pour savoir comment interagir avec l'élément
 actif. Appuyez sur NVDA+H sur l'objet sur lequel vous souhaitez avoir cette
