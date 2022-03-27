@@ -2,7 +2,7 @@
 
 * Author: Joseph Lee, Noelia Ruiz Martínez
 * Download [stable version][1]
-* NVDA compatibility: 2021.3 and later
+* NVDA compatibility: 2022.1 and later
 
 Use this add-on to find out how to interact with the focused control.
 Press NVDA+H to obtain a short help message on interacting with the focused control, such as checkboxes, edit fields and so on.
@@ -10,7 +10,7 @@ Press NVDA+H to obtain a short help message on interacting with the focused cont
 Go to NVDA's menu, Preferences submenu, Settings dialog, Control Usage Asistant category to configure add-on settings:
 
 * Select output modes for automatic messages: This list of checkboxes allows to select speech and braille.
-* Pitch change for automatic messages: This spin box allows to set the pitch change when NVDA reads automatic messages.
+* Pitch change for automatic messages: This spin box allows to set the pitch change when NVDA reads automatic messages (from -30 to +30).
 
 ## Note
 
@@ -18,7 +18,7 @@ Be aware: automatic messages shouldn't be spoken in documents that support brows
 
 ## Version 2022.03.27
 
-* Compatible with NVDA 2021.3 and later.
+* Requires NVDA 2021.3 and later.
 
 ## Version 22.01
 
