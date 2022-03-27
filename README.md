@@ -18,7 +18,7 @@ Be aware: automatic messages shouldn't be spoken in documents that support brows
 
 ## Version 2022.03.27
 
-* Requires NVDA 2021.3 and later.
+* Requires NVDA 2022.1 or later.
 
 ## Version 22.01
 
