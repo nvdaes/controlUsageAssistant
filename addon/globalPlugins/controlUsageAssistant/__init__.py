@@ -1,14 +1,19 @@
+# -*- coding: UTF-8 -*-
+
 # Control Usage Assistant
 # A global plugin for NVDA
-# Copyright 2013-2021 Joseph Lee, released under GPL.
+# Copyright 2013-2022 Joseph Lee, Noelia Ruiz Martínez
+# Released under GPL.
+
 import speech
-from speech.commands import PitchCommand
-import braille
+
 # NVDA+H: Obtain usage help on a particular control.
 # Start by looking at method resolution order (MRO) for object class hierarchy.
 # Then depending on the type of control and its state(s), lookup a map of control types and help messages.
 # If the control is used differently in apps, then lookup the app entry and give the customized message.
 # Extension plan: ability to get context-sensitive help on NVDA options.
+
+from typing import Callable
 
 import globalPluginHandler
 import controlTypes
@@ -17,12 +22,15 @@ import api
 from browseMode import BrowseModeDocumentTreeInterceptor
 import scriptHandler
 import config
+from speech.commands import PitchCommand
+import braille
+from gui import NVDASettingsDialog
+import addonHandler
+
 from .controltypeshelp import controlTypeHelpMessages, browseModeHelpMessages
 from .nvdaobjectshelp import objectsHelpMessages
 from .utils import confspec, getAutomaticSpeechSequence, AddonSettingsPanel
-from gui import NVDASettingsDialog
-from typing import Callable
-import addonHandler
+
 addonHandler.initTranslation()
 
 _: Callable[[str], str]

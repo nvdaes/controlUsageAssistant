@@ -6,9 +6,11 @@
 # Each help messages dictionary records control roles and help messages.
 # If specific states are found, help messages will come from state-specific subsets.
 
-import controlTypes
 from typing import Callable
+
+import controlTypes
 import addonHandler
+
 addonHandler.initTranslation()
 
 _: Callable[[str], str]

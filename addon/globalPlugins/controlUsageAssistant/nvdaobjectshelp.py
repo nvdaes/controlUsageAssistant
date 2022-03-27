@@ -8,7 +8,9 @@
 # Other add-ons should update this dictionary with help messages for their own overlay classes.
 
 from typing import Callable
+
 import addonHandler
+
 addonHandler.initTranslation()
 
 _: Callable[[str], str]

@@ -1,9 +1,16 @@
+# -*- coding: UTF-8 -*-
+
+# controlUsageAssistant/utils.py
+# Copyright 2022 Noelia Ruiz Martínez
+# Released under GPL
+
+from typing import Dict
+from typing import Callable
+
 import gui
 from gui import SettingsPanel, guiHelper
 import config
-from typing import Dict
 from speech import types
-from typing import Callable
 import addonHandler
 
 addonHandler.initTranslation()
