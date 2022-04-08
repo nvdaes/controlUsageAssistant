@@ -45,6 +45,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def __init__(self):
 		super(GlobalPlugin, self).__init__()
 		config.conf.spec["controlUsageAssistant"] = confspec
+		self.automaticHelpMessage = None
 		NVDASettingsDialog.categoryClasses.append(AddonSettingsPanel)
 
 	def terminate(self):
@@ -96,6 +97,21 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		helpMessages.append(_("Press escape to close this help screen."))
 		return "\n".join(helpMessages)
 
+	def getAutomaticHelpMessage(self, curObj):
+		helpMessages = []
+		if isinstance(curObj.treeInterceptor, BrowseModeDocumentTreeInterceptor):
+			return None
+		for entry in curObj.__class__.__mro__:
+			clsName = str(entry).split("'")[1]
+			if clsName in objectsHelpMessages:
+				helpMessages.append(objectsHelpMessages[clsName])
+		if len(helpMessages) == CUAMROLevel:
+			if curObj.role in controlTypeHelpMessages:
+				helpMessages.append(controlTypeHelpMessages[curObj.role])
+			else:
+				return None
+		return "\n".join(helpMessages)
+
 	# Any exceptions to lookup keys goes here.
 	# First case: virtual buffer control exceptions.
 	# Forms encountered on webpages; add custom message for them in browse mode.
@@ -143,34 +159,20 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if not settings["speech"] and not settings["braille"]:
 			return
 		try:
-			message = controlTypeHelpMessages[obj.role]
+			message = self.getAutomaticHelpMessage(obj)
 		except KeyError:
+			return
+		if message == self.automaticHelpMessage:
 			return
 		if settings["speech"]:
 			speechSequence = getAutomaticSpeechSequence(message, PitchCommand(settings["pitch"]))
 			speech.speak(speechSequence)
 		if settings["braille"]:
 			braille.handler.message(message)
-
-	def event_loseFocus(self, obj, nextHandler):
-		nextHandler()
-		ti = obj.treeInterceptor
-		if isinstance(ti, BrowseModeDocumentTreeInterceptor):
-			return
-		if self.shouldGetHelpAutomaticMessage():
-			self.prevObj = obj
+		self.automaticHelpMessage = message
 
 	def event_gainFocus(self, obj, nextHandler):
 		nextHandler()
 		if not self.shouldGetHelpAutomaticMessage():
-			return
-		ti = obj.treeInterceptor
-		if isinstance(ti, BrowseModeDocumentTreeInterceptor):
-			return
-		if obj.role == self.prevObj.role:
-			return
-		if obj.role == controlTypes.Role.EDITABLETEXT and controlTypes.State.READONLY in obj.states:
-			return
-		if self.prevObj.role == controlTypes.Role.POPUPMENU and obj.role == controlTypes.Role.MENUITEM:
 			return
 		self.reportAutomaticHelpMessage(obj)
