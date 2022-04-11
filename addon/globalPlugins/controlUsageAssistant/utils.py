@@ -4,7 +4,7 @@
 # Copyright 2022 Noelia Ruiz Martínez
 # Released under GPL
 
-from typing import Dict
+from typing import Dict, Optional
 from typing import Callable
 
 import gui
@@ -26,12 +26,13 @@ confspec: Dict[str, str] = {
 }
 
 
-def getAutomaticSpeechSequence(message: str, speechCommand=None) -> types.SpeechSequence:
+def getAutomaticSpeechSequence(message: str, speechCommand=None) -> Optional[types.SpeechSequence]:
 	sequence = []
 	if speechCommand is not None:
 		sequence.append(speechCommand)
 	sequence.append(message)
-	return sequence
+	if message:
+		return sequence
 
 
 class AddonSettingsPanel(SettingsPanel):
