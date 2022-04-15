@@ -32,6 +32,7 @@ msgid "Control Usage Assistant"
 msgstr "கட்டுப்பாடுகளைப் பயன்படுத்துவதற்கான உதவியாளர்"
 
 #. Translators: Message presented when there is no help message for the focused control.
+#. Translators: Message presented when there's no help for this control.
 msgid "No help for this control"
 msgstr "இக்கட்டுப்பாட்டிற்கு உதவி ஏதுமில்லை"
 
@@ -44,6 +45,7 @@ msgid " To switch to browse mode, press NVDA+SPACE or escape key"
 msgstr ""
 "உலாவும் நிலைக்கு மாற, என்விடிஏ+இடைவெளிப்பட்டை, அல்லது விடுபடு விசையை அழுத்தவும்"
 
+#. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
@@ -235,6 +237,22 @@ msgid ""
 msgstr ""
 "நிலைப்படக் காட்சியில், நிலைப்படங்களுக்கிடையே நகர, இடைவெளிப்பட்டை, அல்லது பின்நகர் விசையை "
 "அழுத்தவும்; நிலைப்படக் காட்சியை நிறைவு செய்ய, விடுபடு விசையை அழுத்தவும்"
+
+#. Translators: label of a dialog.
+msgid "Sele&ct output modes for automatic messages"
+msgstr ""
+
+#. Translators: label of a dialog.
+msgid "Speech"
+msgstr ""
+
+#. Translators: label of a dialog.
+msgid "Braille"
+msgstr ""
+
+#. Translators: label of a dialog.
+msgid "&Pitch change for automatic messages"
+msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager

@@ -2,7 +2,7 @@
 
 * Autor: Joseph Lee
 * [Stabile Version herunterladen][1]
-* NVDA compatibility: 2021.2 and later
+* NVDA-Kompatibilität: 2021.2 und neuer
 
 Verwenden Sie diese Erweiterung, um zu erfahren, wie Sie das aktuell
 hervorgehobene Steuerelement benutzen können. Drücken Sie NVDA+H, um eine

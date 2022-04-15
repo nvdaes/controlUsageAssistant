@@ -31,6 +31,7 @@ msgid "Control Usage Assistant"
 msgstr "Control Usage Assistant"
 
 #. Translators: Message presented when there is no help message for the focused control.
+#. Translators: Message presented when there's no help for this control.
 msgid "No help for this control"
 msgstr "No hay ayuda para este control"
 
@@ -43,6 +44,7 @@ msgid " To switch to browse mode, press NVDA+SPACE or escape key"
 msgstr ""
 " Para cambiar al modo exploración, pulsa NVDA+ESPACIO o la tecla escape"
 
+#. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
@@ -237,6 +239,22 @@ msgstr ""
 "Pulsa ESPACIO o RETROCESO para moverte entre diapositivas en la presentación "
 "de diapositivas. Para finalizar la presentación de diapositivas, pulsa "
 "escape."
+
+#. Translators: label of a dialog.
+msgid "Sele&ct output modes for automatic messages"
+msgstr ""
+
+#. Translators: label of a dialog.
+msgid "Speech"
+msgstr ""
+
+#. Translators: label of a dialog.
+msgid "Braille"
+msgstr ""
+
+#. Translators: label of a dialog.
+msgid "&Pitch change for automatic messages"
+msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
