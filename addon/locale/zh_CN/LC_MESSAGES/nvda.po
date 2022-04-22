@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant 2.4\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2013-05-10 04:50-0700\n"
-"PO-Revision-Date: 2021-07-25 14:52+0800\n"
+"PO-Revision-Date: 2022-04-15 18:17+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: NVDASimplified Chinese team All volunteers <Copyright (C) "
 "2010-2019>\n"
@@ -204,19 +204,19 @@ msgstr ""
 
 #. Translators: label of a dialog.
 msgid "Sele&ct output modes for automatic messages"
-msgstr ""
+msgstr "选择自动消息的输出方式(&c)"
 
 #. Translators: label of a dialog.
 msgid "Speech"
-msgstr ""
+msgstr "语音"
 
 #. Translators: label of a dialog.
 msgid "Braille"
-msgstr ""
+msgstr "盲文"
 
 #. Translators: label of a dialog.
 msgid "&Pitch change for automatic messages"
-msgstr ""
+msgstr "自动消息音调变化(&P)"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager

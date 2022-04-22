@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-06-04 17:19+0200\n"
-"Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
+"PO-Revision-Date: 2022-04-15 12:43+0200\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -233,19 +233,19 @@ msgstr ""
 
 #. Translators: label of a dialog.
 msgid "Sele&ct output modes for automatic messages"
-msgstr ""
+msgstr "Va&litse automaattisten ilmoitusten tulostustilat"
 
 #. Translators: label of a dialog.
 msgid "Speech"
-msgstr ""
+msgstr "Puhe"
 
 #. Translators: label of a dialog.
 msgid "Braille"
-msgstr ""
+msgstr "Pistekirjoitus"
 
 #. Translators: label of a dialog.
 msgid "&Pitch change for automatic messages"
-msgstr ""
+msgstr "Ää&nenkorkeuden muutos automaattisille ilmoituksille"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0Beta1'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2013-05-10 04:50-0700\n"
-"PO-Revision-Date: 2021-05-28 08:35+0300\n"
+"PO-Revision-Date: 2022-04-15 12:40+0300\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: Български <>\n"
 "Language: bg\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: Poedit 2.4.3\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #. Translators: Input help message for control help command.
 msgid "Presents a message on how to interact with the focused control."
@@ -253,19 +253,19 @@ msgstr ""
 
 #. Translators: label of a dialog.
 msgid "Sele&ct output modes for automatic messages"
-msgstr ""
+msgstr "И&збор на изходни режими за автоматичните съобщения"
 
 #. Translators: label of a dialog.
 msgid "Speech"
-msgstr ""
+msgstr "Реч"
 
 #. Translators: label of a dialog.
 msgid "Braille"
-msgstr ""
+msgstr "Брайл"
 
 #. Translators: label of a dialog.
 msgid "&Pitch change for automatic messages"
-msgstr ""
+msgstr "Промяна на висо&чината на гласа за автоматичните съобщения"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
