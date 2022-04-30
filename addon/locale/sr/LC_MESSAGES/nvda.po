@@ -30,6 +30,7 @@ msgid "Control Usage Assistant"
 msgstr "Control Usage Assistant"
 
 #. Translators: Message presented when there is no help message for the focused control.
+#. Translators: Message presented when there's no help for this control.
 msgid "No help for this control"
 msgstr "Nema pomoći za ovu kontrolu"
 
@@ -43,6 +44,7 @@ msgstr ""
 "Da se prebacite u režim pretraživanja, Pritisnite NVDA+razmak ili taster "
 "escape"
 
+#. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
@@ -229,6 +231,22 @@ msgid ""
 msgstr ""
 "Pritisnite razmak ili backspace da se krećete kroz slajdove u slajd šou. Da "
 "završite slajd šou, pritisnite escape."
+
+#. Translators: label of a dialog.
+msgid "Sele&ct output modes for automatic messages"
+msgstr ""
+
+#. Translators: label of a dialog.
+msgid "Speech"
+msgstr ""
+
+#. Translators: label of a dialog.
+msgid "Braille"
+msgstr ""
+
+#. Translators: label of a dialog.
+msgid "&Pitch change for automatic messages"
+msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager

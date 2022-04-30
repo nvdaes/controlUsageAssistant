@@ -32,6 +32,7 @@ msgid "Control Usage Assistant"
 msgstr "Tájékoztató üzemmód"
 
 #. Translators: Message presented when there is no help message for the focused control.
+#. Translators: Message presented when there's no help for this control.
 msgid "No help for this control"
 msgstr "Nem tartozik súgó ehhez az elemhez"
 
@@ -44,6 +45,7 @@ msgid " To switch to browse mode, press NVDA+SPACE or escape key"
 msgstr ""
 "Böngészőmódra váltáshoz nyomja meg az NVDA+szóköz, vagy az escape billentyűt."
 
+#. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
@@ -234,6 +236,22 @@ msgid ""
 msgstr ""
 "Diavetítés közben a szóköz és a backspace billentyűkkel mozoghat a diák "
 "között előre és hátra, a diavetítést az escape billentyűvel állíthatja le."
+
+#. Translators: label of a dialog.
+msgid "Sele&ct output modes for automatic messages"
+msgstr ""
+
+#. Translators: label of a dialog.
+msgid "Speech"
+msgstr ""
+
+#. Translators: label of a dialog.
+msgid "Braille"
+msgstr ""
+
+#. Translators: label of a dialog.
+msgid "&Pitch change for automatic messages"
+msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0Beta1'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2013-05-10 04:50-0700\n"
-"PO-Revision-Date: 2021-05-28 08:35+0300\n"
+"PO-Revision-Date: 2022-04-15 12:40+0300\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: Български <>\n"
 "Language: bg\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: Poedit 2.4.3\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #. Translators: Input help message for control help command.
 msgid "Presents a message on how to interact with the focused control."
@@ -34,6 +34,7 @@ msgid "Control Usage Assistant"
 msgstr "Control Usage Assistant"
 
 #. Translators: Message presented when there is no help message for the focused control.
+#. Translators: Message presented when there's no help for this control.
 msgid "No help for this control"
 msgstr "Няма помощна информация за този елемент"
 
@@ -47,6 +48,7 @@ msgstr ""
 " За да преминете в режим на разглеждане, натиснете NVDA+Интервал или клавиша "
 "Escape"
 
+#. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
@@ -248,6 +250,22 @@ msgstr ""
 "Натиснете Интервал или Backspace, за да се придвижите към предишен или "
 "следващ слайд във визуализацията на слайдовете. За да прекратите "
 "визуализацията, натиснете Escape."
+
+#. Translators: label of a dialog.
+msgid "Sele&ct output modes for automatic messages"
+msgstr "И&збор на изходни режими за автоматичните съобщения"
+
+#. Translators: label of a dialog.
+msgid "Speech"
+msgstr "Реч"
+
+#. Translators: label of a dialog.
+msgid "Braille"
+msgstr "Брайл"
+
+#. Translators: label of a dialog.
+msgid "&Pitch change for automatic messages"
+msgstr "Промяна на висо&чината на гласа за автоматичните съобщения"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager

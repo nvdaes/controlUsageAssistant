@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-06-04 11:25+0200\n"
+"PO-Revision-Date: 2022-04-15 10:53+0200\n"
 "Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
 "Language-Team: NVDA add-ons translation team <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #. Translators: Input help message for control help command.
 msgid "Presents a message on how to interact with the focused control."
@@ -31,6 +31,7 @@ msgid "Control Usage Assistant"
 msgstr "Control Usage Assistant"
 
 #. Translators: Message presented when there is no help message for the focused control.
+#. Translators: Message presented when there's no help for this control.
 msgid "No help for this control"
 msgstr "No hay ayuda para este control"
 
@@ -43,6 +44,7 @@ msgid " To switch to browse mode, press NVDA+SPACE or escape key"
 msgstr ""
 " Para cambiar al modo exploración, pulsa NVDA+ESPACIO o la tecla escape"
 
+#. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
@@ -237,6 +239,22 @@ msgstr ""
 "Pulsa ESPACIO o RETROCESO para moverte entre diapositivas en la presentación "
 "de diapositivas. Para finalizar la presentación de diapositivas, pulsa "
 "escape."
+
+#. Translators: label of a dialog.
+msgid "Sele&ct output modes for automatic messages"
+msgstr "Sele&cciona los modos de salida de los mensajes automáticos"
+
+#. Translators: label of a dialog.
+msgid "Speech"
+msgstr "Voz"
+
+#. Translators: label of a dialog.
+msgid "Braille"
+msgstr "Braille"
+
+#. Translators: label of a dialog.
+msgid "&Pitch change for automatic messages"
+msgstr "Cambio de &tono para los mensajes automáticos"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager

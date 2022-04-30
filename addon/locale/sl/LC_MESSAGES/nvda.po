@@ -11,6 +11,7 @@ msgstr ""
 "PO-Revision-Date: 2021-12-13 18:55+0100\n"
 "Last-Translator: Jožef Gregorc <jozko.gregorc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,6 +32,7 @@ msgid "Control Usage Assistant"
 msgstr "Pomoč za Uporabo Kontrolnikov"
 
 #. Translators: Message presented when there is no help message for the focused control.
+#. Translators: Message presented when there's no help for this control.
 msgid "No help for this control"
 msgstr "Ni pomoči za ta kontrolnik"
 
@@ -44,6 +46,7 @@ msgstr ""
 "Za prehod na brskalniško delovanje pritisnite NVDA+preslednica ali tipko "
 "Escape."
 
+#. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
@@ -234,6 +237,22 @@ msgid ""
 msgstr ""
 "Pritisnite Preslednico ali Vračalko za pomik med diapozitivi v načinu "
 "diaprojekcije. Za izhod iz diaprojekcije pritisnite escape."
+
+#. Translators: label of a dialog.
+msgid "Sele&ct output modes for automatic messages"
+msgstr ""
+
+#. Translators: label of a dialog.
+msgid "Speech"
+msgstr ""
+
+#. Translators: label of a dialog.
+msgid "Braille"
+msgstr ""
+
+#. Translators: label of a dialog.
+msgid "&Pitch change for automatic messages"
+msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
