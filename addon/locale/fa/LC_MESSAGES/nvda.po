@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0Beta1'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2013-05-10 04:50-0700\n"
-"PO-Revision-Date: 2021-12-17 00:09+0330\n"
+"PO-Revision-Date: 2022-04-29 13:11+0330\n"
 "Last-Translator: Mohammadreza Rashad <mohammadreza5712@gmail.com>\n"
 "Language-Team: NVDA Translation Team <nvda-translations@groups.io>\n"
 "Language: fa\n"
@@ -237,19 +237,19 @@ msgstr ""
 
 #. Translators: label of a dialog.
 msgid "Sele&ct output modes for automatic messages"
-msgstr ""
+msgstr "حالت‌های خروجی را برای پیام‌های خودکار ان&تخاب کنید"
 
 #. Translators: label of a dialog.
 msgid "Speech"
-msgstr ""
+msgstr "گفتار"
 
 #. Translators: label of a dialog.
 msgid "Braille"
-msgstr ""
+msgstr "بریل"
 
 #. Translators: label of a dialog.
 msgid "&Pitch change for automatic messages"
-msgstr ""
+msgstr "تغییرِ &زیر و بمی برای پیام‌های خودکار"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager

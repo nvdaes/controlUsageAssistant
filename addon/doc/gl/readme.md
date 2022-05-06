@@ -2,6 +2,7 @@
 
 * Autor: Joseph Lee
 * Descargar [versión estable][1]
+* Descargar [versión de desenvolvemento][2]
 * Compatibilidade con NVDA: 2021.2 en diante
 
 Utiliza este complemento para atopar como interactuar co control enfocado.
@@ -60,3 +61,5 @@ control enfocado, como caixas de verificación, campos de edición etc.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

@@ -2,6 +2,7 @@
 
 * Autor: Joseph Lee
 * [Stabile Version herunterladen][1]
+* [Stabile Version][2] herunterladen
 * NVDA-Kompatibilität: 2021.2 und neuer
 
 Verwenden Sie diese Erweiterung, um zu erfahren, wie Sie das aktuell
@@ -62,3 +63,5 @@ Kontrollkästchen etc.).
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

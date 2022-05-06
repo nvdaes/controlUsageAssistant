@@ -2,6 +2,7 @@
 
 * Autor: Joseph Lee
 * Stiahnuť [stabilnú verziu][1]
+* Download [development version][2]
 * NVDA compatibility: 2021.2 and later
 
 Doplnok poskytuje pomoc pre aktuálne zameraný prvok. Aby ste počuli pomocné
@@ -57,3 +58,5 @@ stlačte NVDA+h.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

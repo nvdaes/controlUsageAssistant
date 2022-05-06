@@ -2,6 +2,7 @@
 
 * Autor: Joseph Lee
 * Baixe a [versão estável][1]
+* Download [development version][2]
 * Compatibilidade com NVDA: 2021.2 e posteriores
 
 Use este complemento para descobrir como interagir com o controle
@@ -62,3 +63,5 @@ assim por diante.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

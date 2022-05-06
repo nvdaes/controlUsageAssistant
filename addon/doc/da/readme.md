@@ -2,6 +2,7 @@
 
 * Forfatter: Joseph Lee
 * Download [stabil version][1]
+* Download [development version][2]
 * NVDA compatibility: 2021.2 and later
 
 Brug denne tilføjelse til at finde ud af, hvordan du interagerer med det
@@ -60,3 +61,5 @@ redigeringsfelter.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
