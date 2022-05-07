@@ -2,6 +2,7 @@
 
 * Автор: Joseph Lee
 * Завантажити [стабільну версію][1]
+* Завантажити [версію в розробці][2]
 * NVDA compatibility: 2021.2 and later
 
 Використовуйте цей додаток аби знати, як взаємодіяти з елементами керування
@@ -62,3 +63,5 @@
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

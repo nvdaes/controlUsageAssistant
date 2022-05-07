@@ -2,6 +2,7 @@
 
 * Yazar: Joseph Lee
 * [Kararlı sürüm][1]ü indir
+* Download [development version][2]
 * NVDA uyumluluğu: 2021.2 ve üstü
 
 Mevcut odak hakkında kısa bir yardım mesajı dinlemek için bu eklentiyi
@@ -57,3 +58,5 @@ etkileşime geçeceğinizle ilgili kısa bir mesaj için NvDA+H tuşlarına bas�
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

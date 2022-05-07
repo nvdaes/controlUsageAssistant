@@ -2,6 +2,7 @@
 
 * Auteur : Joseph Lee
 * Télécharger [version stable][1]
+* Download [development version][2]
 * Compatibilité NVDA : 2021.2 et ultérieure
 
 Utilisez cette extension pour savoir comment interagir avec l'élément
@@ -61,3 +62,5 @@ information.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

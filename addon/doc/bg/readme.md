@@ -2,7 +2,8 @@
 
 * Автор: Joseph Lee
 * Изтегляне на [стабилна версия][1]
-* NVDA compatibility: 2021.2 and later
+* Изтегляне на [тестова версия][2]
+* Съвместимост с NVDA: от 2021.2 и по-нови версии
 
 Използвайте тази добавка, за да разберете как да си взаимодействате с
 елемента на фокус. Натиснете NVDA+H, за да чуете кратко помощно съобщение за
@@ -62,3 +63,5 @@
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

@@ -2,6 +2,7 @@
 
 * Autore: Joseph Lee
 * Scarica [versione stabile][1]
+* Download [development version][2]
 * NVDA compatibility: 2021.2 and later
 
 Questo componente aggiuntivo si utilizza per scoprire come interagire con il
@@ -61,3 +62,5 @@ campo editazione e così via.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

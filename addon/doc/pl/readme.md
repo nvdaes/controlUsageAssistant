@@ -2,6 +2,7 @@
 
 * Autor: Joseph Lee
 * Pobierz [wersja stabilna][1]
+* Pobierz [wersja rozwojowa][2]
 * NVDA compatibility: 2021.2 and later
 
 Użyj tego dodatku, aby dowiedzieć się w jaki sposób pracować z aktualną
@@ -58,3 +59,5 @@ bieżącej kontrolki, (pola wyboru, pola edycji, itd.)
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

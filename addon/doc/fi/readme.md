@@ -2,6 +2,7 @@
 
 * Tekijä: Joseph Lee
 * Lataa [vakaa versio][1]
+* Lataa [kehitysversio][2]
 * Yhteensopivuus: NVDA 2021.2 ja uudemmat
 
 Tämän lisäosan avulla voit selvittää, miten aktiivisen säätimen kanssa
@@ -60,3 +61,5 @@ tekstin muokkaamisesta jne.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

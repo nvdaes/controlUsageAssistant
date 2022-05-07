@@ -2,6 +2,7 @@
 
 * Autor: Joseph Lee
 * Descărcați [versiunea stabilă][1]
+* Descărcați [versiunea în dezvoltare][2]
 * NVDA compatibility: 2021.2 and later
 
 Use this add-on to find out how to interact with the focused control.  Press
@@ -60,3 +61,5 @@ control, such as checkboxes, edit fields and so on.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

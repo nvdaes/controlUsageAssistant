@@ -2,6 +2,7 @@
 
 * 作者： Joseph Lee
 * 下载 [稳定版][1]
+* 下载 [开发板][2]
 * NVDA 兼容性：2021.2 及更高版本
 
 借助此插件可了解如何与当前所聚焦的控件进行交互。例如，当聚焦到复选框、编辑框时，按 NVDA+H 来获取一段有关于使用当前控件的简短帮助。
@@ -51,3 +52,5 @@
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

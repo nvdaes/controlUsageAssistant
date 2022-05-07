@@ -2,6 +2,7 @@
 
 * Autor: Joseph Lee
 * Descargar [versión estable][1]
+* Descargar [versión de desarrollo][2]
 * Compatibilidad con NVDA: de 2021.2 en adelante
 
 Utiliza este complemento para averiguar cómo interactuar con el control
@@ -62,3 +63,5 @@ campos de edición y así con otros.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev

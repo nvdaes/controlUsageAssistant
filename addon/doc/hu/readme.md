@@ -2,6 +2,7 @@
 
 * Készítő: Joseph Lee
 * [stabil verzió letöltése][1]
+* Download [development version][2]
 * NVDA compatibility: 2021.2 and later
 
 A bővítmény az NVDA+H billentyűparanccsal információkat ad a fókuszban lévő
@@ -56,3 +57,5 @@ vezérlők és elemek használatához.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=cua
+
+[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
