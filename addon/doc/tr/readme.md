@@ -2,7 +2,7 @@
 
 * Yazar: Joseph Lee
 * [Kararlı sürüm][1]ü indir
-* Download [development version][2]
+* [geliştirme sürümü][2]nü indir
 * NVDA uyumluluğu: 2021.2 ve üstü
 
 Mevcut odak hakkında kısa bir yardım mesajı dinlemek için bu eklentiyi
