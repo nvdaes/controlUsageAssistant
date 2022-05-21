@@ -189,7 +189,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			return
 		message = None
 		try:
-			realActionName = obj.getActionName()
+			obj.getActionName()
 			message = self.getMessageForClickableObject()
 		except Exception:
 			if obj.isFocusable:

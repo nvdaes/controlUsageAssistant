@@ -88,4 +88,3 @@ class AddonSettingsPanel(SettingsPanel):
 		config.conf["controlUsageAssistant"]["speech"] = self.outputModesList.IsChecked(0)
 		config.conf["controlUsageAssistant"]["braille"] = self.outputModesList.IsChecked(1)
 		config.conf["controlUsageAssistant"]["pitch"] = self.pitchEdit.GetValue()
-
