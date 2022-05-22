@@ -4,6 +4,7 @@
 # Copyright 2022 Noelia Ruiz Martínez
 # Released under GPL
 
+import wx
 from typing import Dict, Optional
 from typing import Callable
 
@@ -20,9 +21,11 @@ _: Callable[[str], str]
 ADDON_SUMMARY = addonHandler.getCodeAddon().manifest["summary"]
 
 confspec: Dict[str, str] = {
+	"focusMessages": "boolean(default=True)",
+	"clickableObjectMessage": "string(default="")",
 	"speech": "boolean(default=False)",
 	"braille": "boolean(default=False)",
-	"pitch": "integer(default=0)"
+	"pitch": "integer(default=0)",
 }
 
 
@@ -41,6 +44,16 @@ class AddonSettingsPanel(SettingsPanel):
 
 	def makeSettings(self, settingsSizer):
 		sHelper = guiHelper.BoxSizerHelper(self, sizer=settingsSizer)
+		# Translators: label of a dialog.
+		self.focusMessagesCheckBox = sHelper.addItem(wx.CheckBox(self, label=_("&Automatic messages for focus")))
+		self.focusMessagesCheckBox.SetValue(config.conf["controlUsageAssistant"]["focusMessages"])
+		# Translators: label of a dialog.
+		setClickableObjLabel = _("Type the message to be used when an object can be activated")
+		self.setClickableObjEdit = sHelper.addLabeledControl(setClickableObjLabel, wx.TextCtrl)
+		try:
+			self.setClickableObjEdit.SetValue(config.conf["controlUsageAssistant"]["clickableObjectMessage"])
+		except Exception:
+			self.setClickableObjEdit.SetValue("")
 		# Translators: label of a dialog.
 		outputModesLabel = _("Sele&ct output modes for automatic messages")
 		outputModesChoices = [
@@ -69,10 +82,9 @@ class AddonSettingsPanel(SettingsPanel):
 			initial=config.conf["controlUsageAssistant"]["pitch"]
 		)
 
-	def postInit(self):
-		self.outputModesList.SetFocus()
-
 	def onSave(self):
+		config.conf["controlUsageAssistant"]["focusMessages"] = self.focusMessagesCheckBox.GetValue()
+		config.conf["controlUsageAssistant"]["clickableObjectMessage"] = self.setClickableObjEdit.GetValue()
 		config.conf["controlUsageAssistant"]["speech"] = self.outputModesList.IsChecked(0)
 		config.conf["controlUsageAssistant"]["braille"] = self.outputModesList.IsChecked(1)
 		config.conf["controlUsageAssistant"]["pitch"] = self.pitchEdit.GetValue()

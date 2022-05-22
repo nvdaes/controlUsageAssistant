@@ -154,9 +154,16 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			return True
 		return False
 
-	def reportAutomaticHelpMessage(self, obj):
+	def reportMessage(self, message):
 		settings = config.conf["controlUsageAssistant"]
-		if not settings["speech"] and not settings["braille"]:
+		if settings["speech"]:
+			speechSequence = getAutomaticSpeechSequence(message, PitchCommand(settings["pitch"]))
+			speech.speak(speechSequence)
+		if settings["braille"]:
+			braille.handler.message(message)
+
+	def reportAutomaticHelpMessage(self, obj):
+		if not self.shouldGetHelpAutomaticMessage():
 			return
 		try:
 			message = self.getAutomaticHelpMessage(obj)
@@ -164,15 +171,28 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			return
 		if message == self.automaticHelpMessage:
 			return
-		if settings["speech"]:
-			speechSequence = getAutomaticSpeechSequence(message, PitchCommand(settings["pitch"]))
-			speech.speak(speechSequence)
-		if settings["braille"]:
-			braille.handler.message(message)
+		self.reportMessage(message)
 		self.automaticHelpMessage = message
 
 	def event_gainFocus(self, obj, nextHandler):
 		nextHandler()
-		if not self.shouldGetHelpAutomaticMessage():
+		if not config.conf["controlUsageAssistant"]["focusMessages"] or not self.shouldGetHelpAutomaticMessage():
 			return
 		self.reportAutomaticHelpMessage(obj)
+
+	def getMessageForClickableObject(self):
+		return config.conf["controlUsageAssistant"]["clickableObjectMessage"]
+
+	def event_becomeNavigatorObject(self, obj, nextHandler, isFocus):
+		nextHandler()
+		if isFocus or not self.shouldGetHelpAutomaticMessage():
+			return
+		message = None
+		try:
+			obj.getActionName()
+			message = self.getMessageForClickableObject()
+		except Exception:
+			if obj.isFocusable:
+				message = self.getMessageForFocusableObject()
+		if message:
+			self.reportMessage(message)
