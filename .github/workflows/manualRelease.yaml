@@ -44,15 +44,6 @@ jobs:
         git config --global user.email github-actions@github.com
         git commit -a -m "Update buildVars"
         git push origin HEAD:main
-    - name: Import GPG key
-      id: import_gpg
-      uses: crazy-max/ghaction-import-gpg@v4
-      with:
-        gpg_private_key: ${{ secrets.PRIVATE_KEY }}
-        passfrase: ${{ secrets.PRIVATE_PASSFRASE }}
-        git_config_global: true
-        git_user_signingkey: true
-        git_tag_gpgsign: true
     - name: Build add-on
       run: scons
     - name: Calculate sha256
