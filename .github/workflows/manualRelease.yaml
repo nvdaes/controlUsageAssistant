@@ -58,7 +58,10 @@ jobs:
     - name: Calculate sha256
       run: sha256sum *.nvda-addon >> sha256.txt
     - name: Sign add-on
-      run: gpg --detach-sign *.nvda-addon
+      run: |
+        echo ${{ secrets.PRIVATE_PASSFRASE }} > passfrase.txt
+        gpg --batch --detach-sign --passphrase-fd 0 *.nvda-addon < passfrase.txt
+        gpg --detach-sign *.nvda-addon
     - name: Release
       uses: softprops/action-gh-release@v1
       env:
