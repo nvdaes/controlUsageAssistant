@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant 1.0Beta2\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2013-05-13 05:45+0100\n"
-"PO-Revision-Date: 2021-06-04 16:49+0200\n"
+"PO-Revision-Date: 2022-06-10 09:23+0200\n"
 "Last-Translator: Bachir BENANOU <ben_bach@yahoo.fr>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr\n"
@@ -54,57 +54,56 @@ msgstr ""
 
 #. Translators: Help message for a checkbox.
 msgid "Press space bar to check or uncheck this check box."
-msgstr "Appuyez sur espace pour cocher ou décocher cette case"
+msgstr "Appuyez sur espace pour cocher ou décocher cette case."
 
 #. Translators: Help message for working with radio buttons.
 msgid "Use the arrow keys to choose a radio button."
-msgstr "Utilisez les flèches pour choisir un bouton radio"
+msgstr "Utilisez les flèches pour choisir un bouton radio."
 
 #. Translators: Help message for a list box.
 msgid "Use the arrow keys to read this box."
-msgstr "Utilisez les flèches pour lire cette boîte"
+msgstr "Utilisez les flèches pour lire cette boîte."
 
 #. Translators: Help message for an edit field.
 msgid "Type text here."
-msgstr "Saisissez le texte ici"
+msgstr "Saisissez le texte ici."
 
 #. Translators: Help message for a button.
 msgid "Press SPACE or ENTER to activate this button."
-msgstr "Appuyez sur ESPACE ou ENTRÉE pour activer ce bouton"
+msgstr "Appuyez sur ESPACE ou ENTRÉE pour activer ce bouton."
 
 #. Translators: Help message for menu items.
 msgid "Use the arrow keys to move between the menu items."
-msgstr "Utilisez les flèches pour vous déplacer entre les éléments du menu"
+msgstr "Utilisez les flèches pour vous déplacer entre les éléments du menu."
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
 msgid "Use up and down arrow keys to move through options in the pop-up menu."
 msgstr ""
-"Utilisez les flèches haute et basse pour naviguer entre les option du menu"
+"Utilisez les flèches haute et basse pour naviguer entre les option du menu."
 
 #. Translators: Help message for a combo box.
 msgid ""
 "Use the arrow keys to move among choices in the combo box until the desired "
 "option is found."
-msgstr ""
-"Utilisez les flèches pour faire votre choix dans cette liste déroulente"
+msgstr "Utilisez les flèches pour faire votre choix dans la liste déroulante."
 
 #. Translators: Help message for a list view.
 msgid "Use the arrow keys to move to the next or previous item in this list."
 msgstr ""
 "Utilisez les flèches pour aller à l'élément suivant ou précédent dans cette "
-"liste"
+"liste."
 
 #. Translators: Help message for activating links.
 msgid "Press SPACE or ENTER to activate this link."
-msgstr "Appuyez sur ESPACE ou ENTRÉE pour activer ce lien"
+msgstr "Appuyez sur ESPACE ou ENTRÉE pour activer ce lien."
 
 #. Translators: Help message for working with tree view items.
 msgid ""
 "Use the up and down arrow keys to select the items. Use left arrow to "
 "collapse and right arrow to expand."
 msgstr ""
-"Utilisez les flèches haute et basse pour sélectionner un élément, et les "
-"flèches gauche et droite pour le plier ou le déplier"
+"Utilisez les flèches haut et bas pour sélectionner un élément. Utilisez la "
+"flèche gauche pour réduire et la flèche droite pour développer."
 
 #. Translators: Help message for navigating tabs,
 #. such as various property tabs for drive properties in My Computer.
@@ -114,7 +113,7 @@ msgid ""
 msgstr ""
 "Utilisez les flèches gauche et droite pour vous déplacer entre les onglets, "
 "ou sur contrôle+tab pour l'onglet suivant et Contrôle+maj+tab pour le "
-"précédent"
+"précédent."
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
 msgid ""
@@ -124,8 +123,9 @@ msgid ""
 "minimum value."
 msgstr ""
 "Utilisez les flèches gauche et bas pour diminuer, droite et haut pour "
-"augmenter la valeur. Page prec/suiv changent la valeur dans un plus grand "
-"interval, origine et fin définissent à la valeur minimum/maximum"
+"augmenter la valeur de ce curseur. Page prec/suiv changent la valeur dans un "
+"plus grand interval, origine et fin sélectionnent la valeur maximum et "
+"minimum."
 
 #. Translators: Help message for working with progress bars.
 msgid "This is a progress bar, used to show progress of an operation."
@@ -136,7 +136,7 @@ msgstr ""
 #. Translators: Help message for navigating tables.
 msgid ""
 "Press control, alt and arrow keys together to move between rows and columns."
-msgstr "Appuyez sur Alt+contrôle+flèche pour vous déplacer dans ce tableau"
+msgstr "Appuyez sur Alt+contrôle+flèche pour vous déplacer dans ce tableau."
 
 #. Translators: Help message for navigating table cells.
 msgid ""
@@ -154,7 +154,7 @@ msgid ""
 "document."
 msgstr ""
 "Utilisez les flèches ou la navigation par objet pour vous déplacer dans ce "
-"document"
+"document."
 
 #. Translators: Help message for terminal windows such as command prompt.
 msgid ""
@@ -162,7 +162,7 @@ msgid ""
 "the output."
 msgstr ""
 "Tapez les commandes dans la fenêtre du terminal et utilisez les commandes de "
-"curseur de revue pour lire le résultat"
+"curseur de revue pour lire le résultat."
 
 #. Translators: Help message for radio buttons while in browse mode.
 msgid ""
@@ -170,7 +170,7 @@ msgid ""
 "ENTER key."
 msgstr ""
 "Pour sélectionner un bouton radio, passez en mode formulaire en pressant NVDA"
-"+espace ou la touche entrée"
+"+espace ou la touche entrée."
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
@@ -178,7 +178,7 @@ msgid ""
 "+SPACE or ENTER key."
 msgstr ""
 "Pour entrer du texte dans cette zone d'édition, passez en mode formulaire en "
-"pressant NVDA+espace ou la touche entrée"
+"pressant NVDA+espace ou la touche entrée."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
@@ -186,7 +186,7 @@ msgid ""
 "+SPACE or ENTER key."
 msgstr ""
 "Pour sémectionner un élément dans une liste déroulante, passez en mode "
-"formulaire en pressant NVDA+espace ou la touche entrée"
+"formulaire en pressant NVDA+espace ou la touche entrée."
 
 #. Translators: Help message for reading webpages.
 msgid ""
@@ -194,7 +194,7 @@ msgid ""
 "webpage."
 msgstr ""
 "Utilisez le mode navigation et les commandes de navigation rapide pour "
-"parcourir la page web"
+"parcourir la page web."
 
 #. Translators: help text for search field in Windows 10 and other places.
 msgid ""
@@ -210,23 +210,24 @@ msgid ""
 "document."
 msgstr ""
 "Utilisez le mode navigation et les commandes de navigation rapide pour "
-"parcourir la page web"
+"parcourir le document PDF."
 
 #. Translators: Help message for moving between Excel spreadsheet cells.
 msgid "Use the arrow keys to move between spreadsheet cells."
 msgstr ""
-"Utilisez les flèches pour vous déplacer entre les cellules d'un tableur"
+"Utilisez les flèches pour vous déplacer entre les cellules de la feuille de "
+"calcul."
 
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
 msgid "Use the arrow keys to move between start screen tiles."
 msgstr ""
-"Utilisez les flèches pour vous déplacer entre les tuiles du menu de démarrage"
+"Utilisez les flèches pour vous déplacer entre les tuiles du menu Démarrer."
 
 #. Translators: Message for moving between slides in slide view
 #. (a list of slides for a Powerpoint presentation).
 msgid "Use up and down arrow keys to move between slides."
 msgstr ""
-"Utilisez les flèches hat et bas pour vous déplacer entre les diapositives"
+"Utilisez les flèches haut et bas pour vous déplacer entre les diapositives."
 
 #. Translators: Help message for working with slide shows.
 msgid ""
@@ -234,23 +235,23 @@ msgid ""
 "the slide show, press escape."
 msgstr ""
 "Appuyez sur ESPACE ou RETOUR ARRIÈRE pour vous déplacer entre les images du "
-"diaporama. Pour quitter le diaporama, appuyez sur échap"
+"diaporama. Pour quitter le diaporama, appuyez sur échap."
 
 #. Translators: label of a dialog.
 msgid "Sele&ct output modes for automatic messages"
-msgstr ""
+msgstr "Sé&lectionner les modes de sortie pour les messages automatiques"
 
 #. Translators: label of a dialog.
 msgid "Speech"
-msgstr ""
+msgstr "Parole"
 
 #. Translators: label of a dialog.
 msgid "Braille"
-msgstr ""
+msgstr "Braille"
 
 #. Translators: label of a dialog.
 msgid "&Pitch change for automatic messages"
-msgstr ""
+msgstr "&Changement de hauteur pour les messages automatiques"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
