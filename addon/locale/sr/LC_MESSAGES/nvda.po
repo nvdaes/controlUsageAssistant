@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant 3.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-04-08 01:04+1000\n"
-"PO-Revision-Date: 2021-07-22 17:06+0100\n"
+"PO-Revision-Date: 2022-06-19 03:53+0100\n"
 "Last-Translator: Nikola Jović <wwenikola123@gmail.com>\n"
 "Language-Team: Serbian <wwenikola123@gmail.com>\n"
 "Language: sr\n"
@@ -234,19 +234,19 @@ msgstr ""
 
 #. Translators: label of a dialog.
 msgid "Sele&ct output modes for automatic messages"
-msgstr ""
+msgstr "Iza&berite režim prikazivanja za automatske poruke"
 
 #. Translators: label of a dialog.
 msgid "Speech"
-msgstr ""
+msgstr "Govor"
 
 #. Translators: label of a dialog.
 msgid "Braille"
-msgstr ""
+msgstr "Brajev"
 
 #. Translators: label of a dialog.
 msgid "&Pitch change for automatic messages"
-msgstr ""
+msgstr "&Promena visine za automatske poruke"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
