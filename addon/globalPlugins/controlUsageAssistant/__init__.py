@@ -192,7 +192,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			obj.getActionName()
 			message = self.getMessageForClickableObject()
 		except Exception:
-			if obj.isFocusable:
-				message = self.getMessageForFocusableObject()
+			pass
 		if message:
 			self.reportMessage(message)
