@@ -185,7 +185,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def event_becomeNavigatorObject(self, obj, nextHandler, isFocus):
 		nextHandler()
-		if isFocus or not self.shouldGetHelpAutomaticMessage():
+		if isFocus or not self.shouldGetHelpAutomaticMessage() or obj.appModule.productName == 'MicrosoftWindows.Client.CBS':
 			return
 		message = None
 		try:
