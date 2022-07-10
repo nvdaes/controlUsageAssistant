@@ -16,7 +16,7 @@ Go to NVDA's menu, Preferences submenu, Settings dialog, Control Usage Asistant 
 
 ## Version 2022.07.10
 
-* Added ability to set a message for object navigation, to announce if an object can be activated.
+* Added ability to set a message for object navigation, to announce if the current object can be activated.
 
 ## Version 2022.03.27
 
