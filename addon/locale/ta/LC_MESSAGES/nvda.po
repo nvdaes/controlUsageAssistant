@@ -240,6 +240,14 @@ msgstr ""
 "அழுத்தவும்; நிலைப்படக் காட்சியை நிறைவு செய்ய, விடுபடு விசையை அழுத்தவும்"
 
 #. Translators: label of a dialog.
+msgid "&Automatic messages for focus"
+msgstr ""
+
+#. Translators: label of a dialog.
+msgid "Type the message to be used when an object can be activated"
+msgstr ""
+
+#. Translators: label of a dialog.
 msgid "Sele&ct output modes for automatic messages"
 msgstr "தன்னியக்கச் செய்திகளுக்கு வெளியீட்டு நிலையைத் தெரிவுச் செய்க (&C)"
 

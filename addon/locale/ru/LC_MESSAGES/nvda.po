@@ -244,6 +244,14 @@ msgstr ""
 "Чтобы завершить показ слайдов, нажмите эскейп"
 
 #. Translators: label of a dialog.
+msgid "&Automatic messages for focus"
+msgstr ""
+
+#. Translators: label of a dialog.
+msgid "Type the message to be used when an object can be activated"
+msgstr ""
+
+#. Translators: label of a dialog.
 msgid "Sele&ct output modes for automatic messages"
 msgstr ""
 
