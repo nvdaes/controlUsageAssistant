@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-06-29 10:22+0100\n"
+"PO-Revision-Date: 2022-07-14 11:02+0100\n"
 "Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
 "Language-Team: Simone Dal Maso <simone.dalmaso@juvox.it>\n"
 "Language: it\n"
@@ -246,20 +246,28 @@ msgstr ""
 "della presentazione. Premere Esc per uscire dalla presentazione."
 
 #. Translators: label of a dialog.
-msgid "Sele&ct output modes for automatic messages"
+msgid "&Automatic messages for focus"
 msgstr ""
+
+#. Translators: label of a dialog.
+msgid "Type the message to be used when an object can be activated"
+msgstr ""
+
+#. Translators: label of a dialog.
+msgid "Sele&ct output modes for automatic messages"
+msgstr "Seleziona come vei&colare i messaggi automatici"
 
 #. Translators: label of a dialog.
 msgid "Speech"
-msgstr ""
+msgstr "Sintesi vocale"
 
 #. Translators: label of a dialog.
 msgid "Braille"
-msgstr ""
+msgstr "Braille"
 
 #. Translators: label of a dialog.
 msgid "&Pitch change for automatic messages"
-msgstr ""
+msgstr "&Cambio di tono per i messaggi automatici"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager

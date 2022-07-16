@@ -11,6 +11,7 @@ msgstr ""
 "PO-Revision-Date: 2022-06-14 15:55+0100\n"
 "Last-Translator: Jožef Gregorc <jozko.gregorc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -236,6 +237,14 @@ msgid ""
 msgstr ""
 "Pritisnite Preslednico ali Vračalko za pomik med diapozitivi v načinu "
 "diaprojekcije. Za izhod iz diaprojekcije pritisnite escape."
+
+#. Translators: label of a dialog.
+msgid "&Automatic messages for focus"
+msgstr ""
+
+#. Translators: label of a dialog.
+msgid "Type the message to be used when an object can be activated"
+msgstr ""
 
 #. Translators: label of a dialog.
 msgid "Sele&ct output modes for automatic messages"
