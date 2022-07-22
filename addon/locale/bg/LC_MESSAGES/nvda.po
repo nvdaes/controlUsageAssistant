@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0Beta1'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2013-05-10 04:50-0700\n"
-"PO-Revision-Date: 2022-04-15 12:40+0300\n"
+"PO-Revision-Date: 2022-07-20 11:12+0300\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: Български <>\n"
 "Language: bg\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #. Translators: Input help message for control help command.
 msgid "Presents a message on how to interact with the focused control."
@@ -31,7 +31,7 @@ msgstr ""
 #. Translators: Summary for this add-on
 #. to be shown on installation and add-on information.
 msgid "Control Usage Assistant"
-msgstr "Control Usage Assistant"
+msgstr "Асистент за работа с контроли"
 
 #. Translators: Message presented when there is no help message for the focused control.
 #. Translators: Message presented when there's no help for this control.
@@ -253,11 +253,13 @@ msgstr ""
 
 #. Translators: label of a dialog.
 msgid "&Automatic messages for focus"
-msgstr ""
+msgstr "&Автоматични съобщения за фокус"
 
 #. Translators: label of a dialog.
 msgid "Type the message to be used when an object can be activated"
 msgstr ""
+"Въведете съобщението, което да се използва, когато даден обект може да бъде "
+"активиран"
 
 #. Translators: label of a dialog.
 msgid "Sele&ct output modes for automatic messages"

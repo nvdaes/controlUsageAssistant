@@ -10,6 +10,36 @@ ollaan vuorovaikutuksessa.  Paina NVDA+H kuullaksesi lyhyen ohjeen
 aktiivisen säätimen käytöstä, kuten esim. valintaruudun valitsemisesta,
 tekstin muokkaamisesta jne.
 
+Avaa NVDA-valikko, mene Asetukset-alivalikkoon, valitse Asetukset ja
+avautuvasta valintaikkunasta Säätimen käyttöapu -kategoria määrittääksesi
+lisäosan asetukset:
+
+* Automaattiset kohdistuksen ilmoitukset: Oletusarvoisesti valittuna.
+* Kirjoita ilmoitus, jota käytetään, kun objekti voidaan aktivoida: Voit
+  sisällyttää lyhyen ilmoituksen, joka ilmaisee oletusarvoisen tai
+  määrittämäsi näppäinkomennon, jotta tiedät, liittyykö nykyiseen objektiin
+  toiminto painettaessa näppäinkomentoa, kuten NVDA+Enter
+  objektinavigoinnissa.
+* Valitse automaattisten ilmoitusten tulostustilat: Tämän
+  valintaruutuluettelon avulla voit valita puheen ja pistekirjoituksen.
+* Äänenkorkeuden muutos automaattisille ilmoituksille: Tämän askellusruudun
+  avulla voit määrittää äänenkorkeuden muutoksen, jota NVDA käyttää
+  lukiessaan automaattisia ilmoituksia (-30 - +30).
+
+## Versio 2022.07.10
+
+* Lisätty mahdollisuus määrittää objektinavigoinnin ilmoitus, joka
+  ilmoittaa, voidaanko nykyinen objekti aktivoida.
+
+## Versio 2022.03.27
+
+* Edellyttää NVDA 2022.1:tä tai uudempaa.
+
+## Versio 22.01
+
+* Lisätty tuki automaattisille ilmoituksille.
+* Parannettu tuki pyydetyille ilmoituksille selaustilassa.
+
 ## Versio 21.10
 
 * NVDA 2021.2 tai uudempi vaaditaan tähän lisäosaan vaikuttavien

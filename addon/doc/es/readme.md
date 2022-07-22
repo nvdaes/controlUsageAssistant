@@ -10,6 +10,34 @@ enfocado.  Pulsa NVDA+H para obtener un breve mensaje de ayuda sobre la
 interacción con el control enfocado, como con casillas de verificación,
 campos de edición y así con otros.
 
+Ve al menú NVDA, submenú Preferencias, diálogo Opciones, categoría Control
+Usage Assistant para configurar las opciones del complemento:
+
+* Mensajes automáticos para el foco: marcada por defecto.
+* Teclea el mensaje a utilizar cuando se pueda activar un objeto: puedes
+  incluir un breve mensaje indicando el gesto por defecto o el que hayas
+  configurado para saber si el objeto actual tiene una acción asociada al
+  pulsar un gesto como NVDA+intro en navegación de objetos.
+* Seleccionar modos de salida para los mensajes automáticos: esta lista de
+  casillas de verificación permite seleccionar voz y braille.
+* Cambio de tono para los mensajes automáticos: este botón giratorio permite
+  configurar el cambio de tono cuando NVDA lee mensajes automáticos (de -30
+  a +30).
+
+## Versión 2022.07.10
+
+* Añadida la posibilidad de configurar un mensaje en la navegación de
+  objetos para anunciar si se puede activar el objeto actual.
+
+## Versión 2022.03.27
+
+* Requiere NVDA 2022.1 o posterior.
+
+## Versión 22.01
+
+* Se ha añadido soporte para mensajes automáticos.
+* Soporte mejorado para los mensajes solicitados en modo exploración.
+
 ## Versión 21.10
 
 * Se requiere NVDA 2021.2 o posterior a causa de cambios en NVDA que afectan
