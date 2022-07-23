@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-04-15 10:53+0200\n"
+"PO-Revision-Date: 2022-07-15 07:54+0200\n"
 "Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
 "Language-Team: NVDA add-ons translation team <LL@li.org>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #. Translators: Input help message for control help command.
 msgid "Presents a message on how to interact with the focused control."
@@ -242,11 +242,11 @@ msgstr ""
 
 #. Translators: label of a dialog.
 msgid "&Automatic messages for focus"
-msgstr ""
+msgstr "Mensajes &automáticos para el foco"
 
 #. Translators: label of a dialog.
 msgid "Type the message to be used when an object can be activated"
-msgstr ""
+msgstr "Teclea el mensaje a usar cuando se puede activar un objeto"
 
 #. Translators: label of a dialog.
 msgid "Sele&ct output modes for automatic messages"
@@ -277,19 +277,3 @@ msgstr ""
 "\tPulsa NVDA+H para obtener un breve mensaje de ayuda sobre la utilización "
 "del control enfocado, tal como el movimiento a través de las tablas, "
 "casillas de verificación y así sucesivamente."
-
-#~ msgid "Use the text navigation commands to read text"
-#~ msgstr "Utiliza las órdenes de navegación de texto para leerlo"
-
-#~ msgid ""
-#~ "Press control, alt and arrow keys together to move between table cells"
-#~ msgstr ""
-#~ "Pulsa  control, alt y cualquier flecha juntas para moverte entre celdas "
-#~ "de una tabla"
-
-#~ msgid ""
-#~ "Control Usage Assistant - get brief help on interacting with the focused "
-#~ "control"
-#~ msgstr ""
-#~ "Control Usage Assistant - ofrece una breve ayuda sobre la interactuación "
-#~ "con el control enfocado"

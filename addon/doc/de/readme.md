@@ -11,6 +11,33 @@ kurze Hilfestellung zur Verwendung des aktuell hervorgehobenen
 Steuerelementes zu erhalten (eingeben von Text, aktivieren von
 Kontrollkästchen etc.).
 
+Go to NVDA's menu, Preferences submenu, Settings dialog, Control Usage
+Asistant category to configure add-on settings:
+
+* Automatic messages for focus: Checked by default.
+* Type the message to be used when an object can be activated: You may
+  include a short message indicating the default or your configured gesture
+  to know if the current object has an associated action when pressing a
+  gesture like NVDA+enter in object navigation.
+* Select output modes for automatic messages: This list of checkboxes allows
+  to select speech and braille.
+* Pitch change for automatic messages: This spin box allows to set the pitch
+  change when NVDA reads automatic messages (from -30 to +30).
+
+## Version 2022.07.10
+
+* Added ability to set a message for object navigation, to announce if the
+  current object can be activated.
+
+## Version 2022.03.27
+
+* Requires NVDA 2022.1 or later.
+
+## Version 22.01
+
+* Added support for automatic messages.
+* Improved support for requested messages in browse mode.
+
 ## Version 21.10
 
 * NVDA 2021.2 oder neuer ist erforderlich, da die Änderungen diese
