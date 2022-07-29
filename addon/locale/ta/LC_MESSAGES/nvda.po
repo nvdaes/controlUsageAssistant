@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2013-07-23 10:25+0200\n"
-"PO-Revision-Date: 2022-04-30 11:19+0530\n"
+"PO-Revision-Date: 2022-07-23 13:37+0530\n"
 "Last-Translator: DINAKAR T.D. <td.dinkar@gmail.com>\n"
 "Language-Team: DINAKAR T.D. <td.dinkar@gmail.com>\n"
 "Language: ta\n"
@@ -241,11 +241,11 @@ msgstr ""
 
 #. Translators: label of a dialog.
 msgid "&Automatic messages for focus"
-msgstr ""
+msgstr "குவிமையத்திற்கான தன்னியக்கச் செய்திகள்"
 
 #. Translators: label of a dialog.
 msgid "Type the message to be used when an object can be activated"
-msgstr ""
+msgstr "ஒரு பொருள் இயக்கப்பட இயலும்பொழுது பயன்படுத்தப்படவேண்டியச் செய்தியைத் தட்டச்சிடவும்"
 
 #. Translators: label of a dialog.
 msgid "Sele&ct output modes for automatic messages"
