@@ -11,32 +11,35 @@ kurze Hilfestellung zur Verwendung des aktuell hervorgehobenen
 Steuerelementes zu erhalten (eingeben von Text, aktivieren von
 Kontrollkästchen etc.).
 
-Go to NVDA's menu, Preferences submenu, Settings dialog, Control Usage
-Asistant category to configure add-on settings:
+Gehen Sie in das NVDA-Menü, Untermenü „Optionen“, Dialogfeld
+„Einstellungen“, Kategorie „Hilfe zur Verwendung von Steuerelementen“, um
+Erweiterungseinstellungen zu konfigurieren:
 
-* Automatic messages for focus: Checked by default.
-* Type the message to be used when an object can be activated: You may
-  include a short message indicating the default or your configured gesture
-  to know if the current object has an associated action when pressing a
-  gesture like NVDA+enter in object navigation.
-* Select output modes for automatic messages: This list of checkboxes allows
-  to select speech and braille.
-* Pitch change for automatic messages: This spin box allows to set the pitch
-  change when NVDA reads automatic messages (from -30 to +30).
+* Automatische Meldungen für den Fokus: Standardmäßig aktiviert.
+* Geben Sie die Meldung ein, die verwendet werden soll, wenn ein Objekt
+  aktiviert werden kann: Sie können eine kurze Nachricht einfügen, die die
+  Standard- oder Ihre konfigurierte Geste angibt, um zu erfahren, ob das
+  aktuelle Objekt eine zugeordnete Aktion hat, wenn Sie eine Geste wie
+  NVDA+Enter in der Objektnavigation drücken.
+* Ausgabemodi für automatische Meldungen auswählen: Diese Liste von
+  Kontrollkästchen ermöglicht die Auswahl von Sprache und Braille.
+* Stimme bei automatischen Meldungen  anheben/senken: Mit diesem Drehfeld
+  können Sie die Tonhöhenänderung (von -30 bis +30)festlegen, wenn NVDA
+  automatische Nachrichten liest.
 
 ## Version 2022.07.10
 
-* Added ability to set a message for object navigation, to announce if the
-  current object can be activated.
+* Nun kann man in der Objektnavigation eine Meldung ausgeben lassen, wenn
+  das aktuelle Objekt aktiviert werden kann.
 
 ## Version 2022.03.27
 
-* Requires NVDA 2022.1 or later.
+* Benötigt NVDA 2022.1 oder neuer.
 
 ## Version 22.01
 
-* Added support for automatic messages.
-* Improved support for requested messages in browse mode.
+* Unterstützung für automatische Meldungen hinzugefügt.
+* Im Lesemodus wurden gewünschte Meldungen verbessert.
 
 ## Version 21.10
 
