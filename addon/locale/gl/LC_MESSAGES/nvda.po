@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-06-22 19:36+0200\n"
+"PO-Revision-Date: 2022-08-03 13:03+0200\n"
 "Last-Translator: Iván Novegil Cancelas <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: NVDA Add-ons translation team <LL@li.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #. Translators: Input help message for control help command.
 msgid "Presents a message on how to interact with the focused control."
@@ -238,27 +238,27 @@ msgstr ""
 
 #. Translators: label of a dialog.
 msgid "&Automatic messages for focus"
-msgstr ""
+msgstr "Mensaxes &automáticas para o foco"
 
 #. Translators: label of a dialog.
 msgid "Type the message to be used when an object can be activated"
-msgstr ""
+msgstr "Escribe a mensaxe a utilizar cando un obxecto pode activarse"
 
 #. Translators: label of a dialog.
 msgid "Sele&ct output modes for automatic messages"
-msgstr ""
+msgstr "Sele&ccionar modos de saída para mensaxes automáticas"
 
 #. Translators: label of a dialog.
 msgid "Speech"
-msgstr ""
+msgstr "Voz"
 
 #. Translators: label of a dialog.
 msgid "Braille"
-msgstr ""
+msgstr "Braille"
 
 #. Translators: label of a dialog.
 msgid "&Pitch change for automatic messages"
-msgstr ""
+msgstr "Cambio de &ton para mensaxes automáticas"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
