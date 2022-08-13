@@ -9,32 +9,34 @@ Koristi ovaj dodatak i saznaj kako koristiti fokusiranu kontrolu. Pritisni
 NVDA+H za dobivanje kratke poruke o tome kako koristiti fokusirane kontrole,
 kao što su potvrdni okviri, polja za uređivanje i tome slično.
 
-Go to NVDA's menu, Preferences submenu, Settings dialog, Control Usage
-Asistant category to configure add-on settings:
+Za konfiguriranje postavki dodatka idi na NVDA izbornik, podizbornik
+Postavke, dijaloški okvir Postavke, kategorija Pomoćnik za primjenu
+kontrola:
 
-* Automatic messages for focus: Checked by default.
-* Type the message to be used when an object can be activated: You may
-  include a short message indicating the default or your configured gesture
-  to know if the current object has an associated action when pressing a
-  gesture like NVDA+enter in object navigation.
-* Select output modes for automatic messages: This list of checkboxes allows
-  to select speech and braille.
-* Pitch change for automatic messages: This spin box allows to set the pitch
-  change when NVDA reads automatic messages (from -30 to +30).
+* Automatske poruke za fokus: standardno je označeno.
+* Upiši poruku koja će se koristiti kad se objekt može aktivirati: možeš
+  uključiti kratku poruku koja označava standardnu ili tvoju konfiguriranu
+  gestu za dobivanje informacije o tome je li trenutačni objekt ima
+  pridruženu radnju kad pritisneš gestu kao što je NVDA+enter u kretanju po
+  objektima.
+* Odaberite moduse rezultata za automatske poruke: Ovaj popis označivih
+  polja omogućuje biranje govora i brajice.
+* Promjena tona za automatske poruke: Ovaj kotačić omogućuje mijenjanje tona
+  kad NVDA čita automatske poruke (od −30 do +30).
 
-## Version 2022.07.10
+## Verzija 2022.07.10
 
-* Added ability to set a message for object navigation, to announce if the
-  current object can be activated.
+* Dodana je mogućnost postavljanja poruke za kretanja po objektima, za
+  najavu je li se trenutačni objekt može aktivirati.
 
-## Version 2022.03.27
+## Verzija 2022.03.27
 
-* Requires NVDA 2022.1 or later.
+* Zahtijeva NVDA 2022.1 ili noviju verziju.
 
-## Version 22.01
+## Verzija 22.01
 
-* Added support for automatic messages.
-* Improved support for requested messages in browse mode.
+* Dodana je podrška za automatske poruke.
+* Poboljšana je podrška za tražene poruke u modusu čitanja.
 
 ## Verzija 21.10
 
