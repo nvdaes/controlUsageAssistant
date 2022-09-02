@@ -1,9 +1,7 @@
 # Kontrol Kullanım Asistanı #
-
-* Yazar: Joseph Lee
-* [Kararlı sürüm][1]ü indir
-* [geliştirme sürümü][2]nü indir
-* NVDA uyumluluğu: 2021.2 ve üstü
+* Author: Joseph Lee, Noelia Ruiz Martínez
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Mevcut odak hakkında kısa bir yardım mesajı dinlemek için bu eklentiyi
 kullanın.  Onay kutuları, yazı alanları vb Odaktaki kontrolle nasıl

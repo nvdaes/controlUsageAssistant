@@ -1,9 +1,7 @@
 # Control Usage Assistant #
-
-* Autor: Joseph Lee
-* Descargar [versión estable][1]
-* Descargar [versión de desenvolvemento][2]
-* Compatibilidade con NVDA: 2021.2 en diante
+* Author: Joseph Lee, Noelia Ruiz Martínez
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Utiliza este complemento para atopar como interactuar co control enfocado.
 Preme NVDA+H para obter unha mensaxe curta de axuda na interacción co

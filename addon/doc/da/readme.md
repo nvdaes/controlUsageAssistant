@@ -1,9 +1,7 @@
 # Brugsassistent til kontroller #
-
-* Forfatter: Joseph Lee
-* Download [stabil version][1]
-* Download [development version][2]
-* NVDA compatibility: 2021.2 and later
+* Author: Joseph Lee, Noelia Ruiz Martínez
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Brug denne tilføjelse til at finde ud af, hvordan du interagerer med det
 fokuserede kontrolelement.  Tryk på NVDA+H for at få en kort hjælp til at

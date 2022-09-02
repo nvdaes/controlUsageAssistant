@@ -1,9 +1,7 @@
 # Säätimen käyttöapu #
-
-* Tekijä: Joseph Lee
-* Lataa [vakaa versio][1]
-* Lataa [kehitysversio][2]
-* Yhteensopivuus: NVDA 2021.2 ja uudemmat
+* Author: Joseph Lee, Noelia Ruiz Martínez
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Tämän lisäosan avulla voit selvittää, miten aktiivisen säätimen kanssa
 ollaan vuorovaikutuksessa.  Paina NVDA+H kuullaksesi lyhyen ohjeen

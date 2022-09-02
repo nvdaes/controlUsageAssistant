@@ -1,9 +1,7 @@
 # Assistente para Uso de Controlos #
-
-* Autor: Joseph Lee
-* Baixar [versão estável][1]
-* Download [development version][2]
-* NVDA compatibility: 2021.2 and later
+* Author: Joseph Lee, Noelia Ruiz Martínez
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Utilize este extra para descobrir como interagir com o controlo sob o foco.
 Pressione NVDA+H para obter uma breve mensagem de ajuda sobre como interagir

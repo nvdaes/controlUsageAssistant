@@ -1,9 +1,8 @@
 # Hilfe zur Verwendung von Steuerelementen #
-
-* Autor: Joseph Lee
-* [Stabile Version herunterladen][1]
-* [Stabile Version][2] herunterladen
-* NVDA-Kompatibilität: 2021.2 und neuer
+* Autoren: Joseph Lee und Noelia Ruiz Martínez
+* [Stabile Version herunterladen][1] (kompatibel mit NVDA 2022.1 und neuer)
+* [Entwicklerversion herunterladen][2] (kompatibel mit NVDA 2022.1 und
+  neuer)
 
 Verwenden Sie diese Erweiterung, um zu erfahren, wie Sie das aktuell
 hervorgehobene Steuerelement benutzen können. Drücken Sie NVDA+H, um eine

@@ -1,9 +1,7 @@
 # Control Usage Assistant #
-
-* Autor: Joseph Lee
-* Descărcați [versiunea stabilă][1]
-* Descărcați [versiunea în dezvoltare][2]
-* NVDA compatibility: 2021.2 and later
+* Author: Joseph Lee, Noelia Ruiz Martínez
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Use this add-on to find out how to interact with the focused control.  Press
 NVDA+H to obtain a short help message on interacting with the focused
