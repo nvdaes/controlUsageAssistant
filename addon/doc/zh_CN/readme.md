@@ -1,9 +1,7 @@
 # Control Usage Assistant-控件使用助理 #
-
-* 作者： Joseph Lee
-* 下载 [稳定版][1]
-* 下载 [开发板][2]
-* NVDA 兼容性：2021.2 及更高版本
+* Author: Joseph Lee, Noelia Ruiz Martínez
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 借助此插件可了解如何与当前所聚焦的控件进行交互。例如，当聚焦到复选框、编辑框时，按 NVDA+H 来获取一段有关于使用当前控件的简短帮助。
 

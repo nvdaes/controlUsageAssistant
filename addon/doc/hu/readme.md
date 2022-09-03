@@ -1,9 +1,7 @@
 # Tájékoztató üzemmód #
-
-* Készítő: Joseph Lee
-* [stabil verzió letöltése][1]
-* Download [development version][2]
-* NVDA compatibility: 2021.2 and later
+* Author: Joseph Lee, Noelia Ruiz Martínez
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 A bővítmény az NVDA+H billentyűparanccsal információkat ad a fókuszban lévő
 vezérlők és elemek használatához.

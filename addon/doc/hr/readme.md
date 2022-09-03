@@ -1,9 +1,7 @@
 # Pomoćnik za primjenu kontrola #
-
-* Autor: Joseph Lee
-* Preuzmi [stabilnu verziju][1]
-* Preuzmi [razvojnu verziju][2]
-* NVDA kompatibilnost: 2021.2 i novija verzija
+* Author: Joseph Lee, Noelia Ruiz Martínez
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Koristi ovaj dodatak i saznaj kako koristiti fokusiranu kontrolu. Pritisni
 NVDA+H za dobivanje kratke poruke o tome kako koristiti fokusirane kontrole,

@@ -1,9 +1,7 @@
 # Control Usage Assistant #
-
-* Autore: Joseph Lee
-* Scarica [versione stabile][1]
-* Download [development version][2]
-* NVDA compatibility: 2021.2 and later
+* Author: Joseph Lee, Noelia Ruiz Martínez
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Questo componente aggiuntivo si utilizza per scoprire come interagire con il
 controllo evidenziato. Premere NVDA+h per ascoltare un breve suggerimento,
