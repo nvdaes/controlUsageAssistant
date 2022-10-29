@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant 1.0Beta2\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2013-05-13 05:45+0100\n"
-"PO-Revision-Date: 2022-06-10 09:23+0200\n"
+"PO-Revision-Date: 2022-10-26 10:26+0200\n"
 "Last-Translator: Bachir BENANOU <ben_bach@yahoo.fr>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr\n"
@@ -42,7 +42,8 @@ msgstr "Pressez Échap pour fermer cet écran d'aide."
 
 #. Translators: Additional message when working with forms in focus mode.
 msgid " To switch to browse mode, press NVDA+SPACE or escape key"
-msgstr "Pour passer en mode navigation, pressez NVDA+ESPACE ou la touche échap"
+msgstr ""
+" Pour passer en mode navigation, pressez NVDA+ESPACE ou la touche échap"
 
 #. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
@@ -239,11 +240,11 @@ msgstr ""
 
 #. Translators: label of a dialog.
 msgid "&Automatic messages for focus"
-msgstr ""
+msgstr "taïwanaise"
 
 #. Translators: label of a dialog.
 msgid "Type the message to be used when an object can be activated"
-msgstr ""
+msgstr "Entrez le message à utiliser lorsqu'un objet peut être activé"
 
 #. Translators: label of a dialog.
 msgid "Sele&ct output modes for automatic messages"
