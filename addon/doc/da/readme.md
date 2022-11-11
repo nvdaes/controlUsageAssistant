@@ -1,44 +1,47 @@
 # Brugsassistent til kontroller #
-* Author: Joseph Lee, Noelia Ruiz Martínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
+* Forfatter: Joseph Lee, Noelia Ruiz Martínez
+* Download [stabil version][1] (kompatibel med NVDA 2022.1 og nyere)
+* Download [udviklingsversion][2] (kompatibel med NVDA 2022.1 og nyere)
 
 Brug denne tilføjelse til at finde ud af, hvordan du interagerer med det
 fokuserede kontrolelement.  Tryk på NVDA+H for at få en kort hjælp til at
 interagere med det fokuserede kontrolelement, f.eks. check box og
 redigeringsfelter.
 
-Go to NVDA's menu, Preferences submenu, Settings dialog, Control Usage
-Asistant category to configure add-on settings:
+Gå til NVDAs menu, undermenuen Opsætning, dialogboksen Indstillinger,
+kategorien Brugsassistent til kontroller for at konfigurere
+tilføjelsesindstillinger:
 
-* Automatic messages for focus: Checked by default.
-* Type the message to be used when an object can be activated: You may
-  include a short message indicating the default or your configured gesture
-  to know if the current object has an associated action when pressing a
-  gesture like NVDA+enter in object navigation.
-* Select output modes for automatic messages: This list of checkboxes allows
-  to select speech and braille.
-* Pitch change for automatic messages: This spin box allows to set the pitch
-  change when NVDA reads automatic messages (from -30 to +30).
+* Automatiske beskeder til fokus: Markeret som standard.
+* Indtast beskeden, der skal bruges, når et objekt kan aktiveres: Du kan
+  inkludere en kort meddelelse, der angiver standard- eller din
+  konfigurerede kommando for at vide, om det aktuelle objekt har en
+  tilknyttet handling, når du udfører et tastetryk som NVDA+enter i
+  objektnavigation.
+* Vælg output-tilstande for automatiske beskeder: Denne liste over bokse gør
+  det muligt at vælge tale og punktskrift.
+* Ændre toneleje for automatiske beskeder: Denne drejeknap gør det muligt at
+  indstille ændringen af tonehøjden, når NVDA læser automatiske beskeder
+  (fra -30 til +30).
 
 ## Version 2022.07.10
 
-* Added ability to set a message for object navigation, to announce if the
-  current object can be activated.
+* Tilføjet mulighed for at indstille en besked til objektnavigation, for at
+  meddele, om det aktuelle objekt kan aktiveres.
 
 ## Version 2022.03.27
 
-* Requires NVDA 2022.1 or later.
+* Kræver NVDA 2022.1 eller nyere.
 
 ## Version 22.01
 
-* Added support for automatic messages.
-* Improved support for requested messages in browse mode.
+* Tilføjet understøttelse af automatiske beskeder.
+* Forbedret understøttelse af anmodede beskeder i browsertilstand.
 
 ## Version 21.10
 
-* NVDA 2021.2 or later is required due to changes to NVDA that affects this
-  add-on.
+* NVDA 2021.2 eller nyere er påkrævet på grund af ændringer til NVDA, der
+  påvirker denne tilføjelse.
 
 ## Version 20.10
 
@@ -47,8 +50,9 @@ Asistant category to configure add-on settings:
 ## Version 20.06
 
 * Løst mange problemer med kodningstil og potentielle fejl med Flake8.
-* NVDA will no longer appear to do nothing or play error tones when trying
-  to obtain help for certain browse mode controls.
+* NVDA vil ikke længere se ud til ikke at gøre noget eller afspille
+  fejletoner, når man prøver at få hjælp til visse kontrolelementer i
+  gennemsynstilstand.
 
 ## Version 20.01
 
