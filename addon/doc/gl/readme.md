@@ -1,38 +1,40 @@
 # Control Usage Assistant #
-* Author: Joseph Lee, Noelia Ruiz Martínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
+* Autor: Joseph Lee, Noelia Ruiz Martínez
+* Descargar [versión estable][1] (compatible con NVDA 2022.1 e posterior)
+* Descargar [versión de desenvolvemento][2] (compatible con NVDA 2022.1 e
+  posterior)
 
 Utiliza este complemento para atopar como interactuar co control enfocado.
 Preme NVDA+H para obter unha mensaxe curta de axuda na interacción co
 control enfocado, como caixas de verificación, campos de edición etc.
 
-Go to NVDA's menu, Preferences submenu, Settings dialog, Control Usage
-Asistant category to configure add-on settings:
+Vai ó menú de NVDA, submenú Preferencias, diálogo Opcións, categoría Control
+Usage Assistant para configurar as opcións do complemento:
 
-* Automatic messages for focus: Checked by default.
-* Type the message to be used when an object can be activated: You may
-  include a short message indicating the default or your configured gesture
-  to know if the current object has an associated action when pressing a
-  gesture like NVDA+enter in object navigation.
-* Select output modes for automatic messages: This list of checkboxes allows
-  to select speech and braille.
-* Pitch change for automatic messages: This spin box allows to set the pitch
-  change when NVDA reads automatic messages (from -30 to +30).
+* Mensaxes automáticas para o foco: Marcada por defecto.
+* Escribe a mensaxe que se utilizará cando un obxecto poida ser activado:
+  Poderías incluír unha mensaxe curta indicando o xesto por defecto ou aquel
+  que configurases para saber se o obxecto ten unha acción asociada cando se
+  prema NVDA+intro na navegación de obxectos.
+* Selecciona modos de saída para mensaxes automáticas: Esta listaxe de
+  caixas de verificación permite seleccionar fala e braille.
+* Cambio de ton para mensaxes automáticas: Este deslizador permite
+  establecer o cambio de ton cando NVDA lea mensaxes automáticas (de -30 a
+  +30).
 
-## Version 2022.07.10
+## Versión 2022.07.10
 
-* Added ability to set a message for object navigation, to announce if the
-  current object can be activated.
+* Engadida a posibilidade de configurar unha mensaxe para a navegación por
+  obxectos, para anunciar se o obxecto actual se pode activar.
 
-## Version 2022.03.27
+## Versión 2022.03.27
 
-* Requires NVDA 2022.1 or later.
+* Require NVDA 2022.1 ou posterior.
 
-## Version 22.01
+## Versión 22.01
 
-* Added support for automatic messages.
-* Improved support for requested messages in browse mode.
+* Engadido soporte para mensaxes automáticas.
+* Mellorado o soporte para as mensaxes solicitadas en modo exploración.
 
 ## Versión 21.10
 
