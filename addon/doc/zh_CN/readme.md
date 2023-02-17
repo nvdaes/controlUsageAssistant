@@ -1,36 +1,59 @@
 # Control Usage Assistant-控件使用助理 #
-* Author: Joseph Lee, Noelia Ruiz Martínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
+* 作者： Joseph Lee, Noelia Ruiz Martínez
+* 下载[稳定版][1]（兼容NVDA 2022.1及以后版本）
+* 自动读出焦点帮助（默认选中）
+  键入可激活对象时要使用的消息：您可以包含一条短消息，指示默认或您配置的手势，以了解在对象导航中按下 NVDA+enter
+  等手势时当前对象是否具有关联操作。
+  针对可激活对象的帮助：您可以键入一条短消息，用以提示默认或您自定义的手势，从而或知在对象导航过程中按下 NVDA+enter
+  等手势时当前对象是否具有默认操作。
+  选择自动消息的输出模式：此复选框列表允许选择语音和盲文。
+  选择自动帮助的消息输出方式：在此复选框列表可以选择语音和盲文。
+  自动焦点控件帮助（默认选中）
+  选择自动帮助的输出方式：在此复选框列表可以选择语音和盲文。
+  改进了对浏览模式下请求消息的支持。
+  需要 NVDA 2022.1 或更高版本。
+  添加了为对象导航设置消息的功能，以宣布当前对象是否可以被激活。
+  Noelia Ruiz Martínez
+  下载【稳定版】[1]（兼容NVDA 2022.1及以后版本）
+  下载[开发版][2]（兼容NVDA 2022.1及以后版本）
 
 借助此插件可了解如何与当前所聚焦的控件进行交互。例如，当聚焦到复选框、编辑框时，按 NVDA+H 来获取一段有关于使用当前控件的简短帮助。
 
-Go to NVDA's menu, Preferences submenu, Settings dialog, Control Usage
-Asistant category to configure add-on settings:
+转到 NVDA 菜单、选项子菜单、设置、控件使用助理类别来设置该插件：
 
-* Automatic messages for focus: Checked by default.
-* Type the message to be used when an object can be activated: You may
-  include a short message indicating the default or your configured gesture
-  to know if the current object has an associated action when pressing a
-  gesture like NVDA+enter in object navigation.
-* Select output modes for automatic messages: This list of checkboxes allows
-  to select speech and braille.
-* Pitch change for automatic messages: This spin box allows to set the pitch
-  change when NVDA reads automatic messages (from -30 to +30).
+* 自动提示焦点控件帮助信息（默认选中）
+* 针对可激活对象的帮助：您可以键入一条短消息，用以提示默认或您自定义的手势，从而或知在对象导航过程中按下 NVDA+enter
+  等手势时当前对象是否具有默认操作。
+* 选择自动帮助信息的输出方式：在此复选框列表可以选择语音和盲文。
+* 输出自动帮助信息时的音高变化：该下拉组合框可以让您设置输出自动帮助信息时的音高变化，（从 -30 到 +30）。
 
-## Version 2022.07.10
+## 版本 2022.07.10
 
-* Added ability to set a message for object navigation, to announce if the
-  current object can be activated.
+* 添加了为对象导航设置帮助信息的功能，以指示当前对象是否可被激活。
 
-## Version 2022.03.27
+## 版本 2022.03.27
 
-* Requires NVDA 2022.1 or later.
+* 需要 NVDA 2022.1 或更高版本。
 
-## Version 22.01
+## 自动读出焦点帮助（默认选中）
+键入可激活对象时要使用的消息：您可以包含一条短消息，指示默认或您配置的手势，以了解在对象导航中按下 NVDA+enter 等手势时当前对象是否具有关联操作。
+针对可激活对象的帮助：您可以键入一条短消息，用以提示默认或您自定义的手势，从而或知在对象导航过程中按下 NVDA+enter 等手势时当前对象是否具有默认操作。
+选择自动消息的输出模式：此复选框列表允许选择语音和盲文。
+选择自动帮助的消息输出方式：在此复选框列表可以选择语音和盲文。
+自动焦点控件帮助（默认选中）
+选择自动帮助的输出方式：在此复选框列表可以选择语音和盲文。
+改进了对浏览模式下请求消息的支持。
+需要 NVDA 2022.1 或更高版本。
+添加了为对象导航设置消息的功能，以宣布当前对象是否可以被激活。
+Noelia Ruiz Martínez
+下载【稳定版】[1]（兼容NVDA 2022.1及以后版本）
+下载【开发版】[2]（兼容NVDA 2022.1及以后版本）
+版本 2022.07.10
+版本 2022.03.27
+版本 22.01
 
-* Added support for automatic messages.
-* Improved support for requested messages in browse mode.
+* 添加了自动提示焦点控件帮助的功能。
+* 改进了在浏览模式下获取帮助信息的支持。
 
 ## 版本 21.10
 
