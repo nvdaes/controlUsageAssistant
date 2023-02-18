@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant 2.4\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2013-05-10 04:50-0700\n"
-"PO-Revision-Date: 2022-04-15 18:17+0800\n"
+"PO-Revision-Date: 2023-02-12 02:49+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: NVDASimplified Chinese team All volunteers <Copyright (C) "
 "2010-2019>\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #. Translators: Input help message for control help command.
 msgid "Presents a message on how to interact with the focused control."
-msgstr "呈现有关如何与焦点控件交互的消息。"
+msgstr "显示有关如何与当前焦点控件交互的帮助信息。"
 
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
@@ -204,15 +204,15 @@ msgstr ""
 
 #. Translators: label of a dialog.
 msgid "&Automatic messages for focus"
-msgstr ""
+msgstr "自动提示焦点控件帮助信息(&A)"
 
 #. Translators: label of a dialog.
 msgid "Type the message to be used when an object can be activated"
-msgstr ""
+msgstr "针对可激活对象的帮助"
 
 #. Translators: label of a dialog.
 msgid "Sele&ct output modes for automatic messages"
-msgstr "选择自动消息的输出方式(&c)"
+msgstr "选择自动帮助信息的输出方式(&C)"
 
 #. Translators: label of a dialog.
 msgid "Speech"
@@ -224,7 +224,7 @@ msgstr "盲文"
 
 #. Translators: label of a dialog.
 msgid "&Pitch change for automatic messages"
-msgstr "自动消息音调变化(&P)"
+msgstr "输出自动帮助信息时的音高变化(&P)"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
