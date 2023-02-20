@@ -5,6 +5,8 @@
 # Copyright 2013-2022 Joseph Lee, Noelia Ruiz Martínez
 # Released under GPL.
 
+import wx
+
 import speech
 
 # NVDA+H: Obtain usage help on a particular control.
@@ -197,4 +199,4 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		except Exception:
 			pass
 		if message:
-			self.reportMessage(message)
+			wx.CallAfter(self.reportMessage, message)
