@@ -1,4 +1,5 @@
 # Control Usage Assistant #
+
 * Autor: Joseph Lee, Noelia Ruiz Martínez
 * Descargar [versión estable][1] (compatible con NVDA 2022.1 e posterior)
 * Descargar [versión de desenvolvemento][2] (compatible con NVDA 2022.1 e
@@ -21,6 +22,12 @@ Usage Assistant para configurar as opcións do complemento:
 * Cambio de ton para mensaxes automáticas: Este deslizador permite
   establecer o cambio de ton cando NVDA lea mensaxes automáticas (de -30 a
   +30).
+
+## Version 2023.02.19
+
+* The message configured for clickable objects will be reported after other
+  properties.
+* Compatible with NVDA 2023.1.
 
 ## Versión 2022.07.10
 

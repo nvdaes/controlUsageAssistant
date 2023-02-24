@@ -1,4 +1,5 @@
 # Brugsassistent til kontroller #
+
 * Forfatter: Joseph Lee, Noelia Ruiz Martínez
 * Download [stabil version][1] (kompatibel med NVDA 2022.1 og nyere)
 * Download [udviklingsversion][2] (kompatibel med NVDA 2022.1 og nyere)
@@ -23,6 +24,12 @@ tilføjelsesindstillinger:
 * Ændre toneleje for automatiske beskeder: Denne drejeknap gør det muligt at
   indstille ændringen af tonehøjden, når NVDA læser automatiske beskeder
   (fra -30 til +30).
+
+## Version 2023.02.19
+
+* The message configured for clickable objects will be reported after other
+  properties.
+* Compatible with NVDA 2023.1.
 
 ## Version 2022.07.10
 

@@ -1,4 +1,5 @@
 # Hilfe zur Verwendung von Steuerelementen #
+
 * Autoren: Joseph Lee und Noelia Ruiz Martínez
 * [Stabile Version herunterladen][1] (kompatibel mit NVDA 2022.1 und neuer)
 * [Entwicklerversion herunterladen][2] (kompatibel mit NVDA 2022.1 und
@@ -25,6 +26,12 @@ Erweiterungseinstellungen zu konfigurieren:
 * Stimme bei automatischen Meldungen  anheben/senken: Mit diesem Drehfeld
   können Sie die Tonhöhenänderung (von -30 bis +30)festlegen, wenn NVDA
   automatische Nachrichten liest.
+
+## Version 2023.02.19
+
+* The message configured for clickable objects will be reported after other
+  properties.
+* Compatible with NVDA 2023.1.
 
 ## Version 2022.07.10
 

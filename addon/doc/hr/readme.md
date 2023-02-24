@@ -1,4 +1,5 @@
 # Pomoćnik za primjenu kontrola #
+
 * Autor: Joseph Lee, Noelia Ruiz Martínez
 * Preuzmi [stabilnu verziju][1] (kompatibilna s NVDA 2022.1 i novijom)
 * Preuzmi [razvojnu verziju][2] (kompatibilna s NVDA 2022.1 i novijom)
@@ -21,6 +22,12 @@ kontrola:
   polja omogućuje biranje govora i brajice.
 * Promjena tona za automatske poruke: Ovaj kotačić omogućuje mijenjanje tona
   kad NVDA čita automatske poruke (od −30 do +30).
+
+## Verzija 2023.02.19
+
+* Konfigurirana poruka za objekte na koje se može kliknuti bit će
+  prijavljena nakon ostalih svojstava.
+* Kompatibilno s NVDA čitačem 2023.1.
 
 ## Verzija 2022.07.10
 
