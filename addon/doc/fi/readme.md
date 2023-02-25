@@ -1,4 +1,5 @@
 # Säätimen käyttöapu #
+
 * Tekijät: Joseph Lee ja Noelia Ruiz Martínez
 * Lataa [vakaa versio][1] (yhteensopiva NVDA 2022.1:n ja sitä uudempien
   kanssa)
@@ -25,6 +26,12 @@ lisäosan asetukset:
 * Äänenkorkeuden muutos automaattisille ilmoituksille: Tämän askellusruudun
   avulla voit määrittää äänenkorkeuden muutoksen, jota NVDA käyttää
   lukiessaan automaattisia ilmoituksia (-30 - +30).
+
+## Versio 2023.02.19
+
+* Napsautettaville kohteille määritetty ilmoitus puhutaan muiden
+  ominaisuuksien jälkeen.
+* Yhteensopiva NVDA 2023.1:n kanssa.
 
 ## Versio 2022.07.10
 

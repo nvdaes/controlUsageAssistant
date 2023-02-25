@@ -1,4 +1,5 @@
 # Control Usage Assistant #
+
 * Autor: Joseph Lee, Noelia Ruiz Martínez
 * Descargar [versión estable][1] (compatible con NVDA 2022.1 y posterior)
 * Descargar [versión de desarrollo][2] (compatible con NVDA 2022.1 y
@@ -22,6 +23,12 @@ Usage Assistant para configurar las opciones del complemento:
 * Cambio de tono para los mensajes automáticos: este botón giratorio permite
   configurar el cambio de tono cuando NVDA lee mensajes automáticos (de -30
   a +30).
+
+## Versión 2023.02.19
+
+* Se anunciará el mensaje configurado para objetos clicables después de
+  otras propiedades.
+* Compatible con NVDA 2023.1.
 
 ## Versión 2022.07.10
 

@@ -1,4 +1,5 @@
 # Control Usage Assistant #
+
 * 作者: Joseph Lee, Noelia Ruiz Martínez
 * ダウンロード[安定版][1](NVDA 2022.1以降に互換)
 * ダウンロード[開発版][2](NVDA 2022.1以降に互換)
@@ -12,6 +13,12 @@
   現在のオブジェクトが、オブジェクトナビゲーションで、NVDA+エンターのようなジェスチャーを押した時に、操作可能か知るために、初期またはあなたが設定したジェスチャーを表す短いメッセージを含めることが出来ます。
 * 自動メッセージの出力モードを選択: チェックボックスのこのリストで読み上げまたは点字を選べます。
 * 自動メッセージのピッチを変更: このスピンボックスで、NVDAが自動メッセージを読み上げる時に、ピッチを変更するか設定出来ます(-30から+30)。
+
+## Version 2023.02.19
+
+* The message configured for clickable objects will be reported after other
+  properties.
+* Compatible with NVDA 2023.1.
 
 ## バージョン 2022.07.10
 
