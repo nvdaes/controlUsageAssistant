@@ -29,9 +29,9 @@ Erweiterungseinstellungen zu konfigurieren:
 
 ## Version 2023.02.19
 
-* The message configured for clickable objects will be reported after other
-  properties.
-* Compatible with NVDA 2023.1.
+* Die für anklickbare Objekte konfigurierte Meldung wird nach anderen
+  Eigenschaften mitgeteilt.
+* Kompatibel mit NVDA 2023.1.
 
 ## Version 2022.07.10
 
