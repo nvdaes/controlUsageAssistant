@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '2.0'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2013-09-17 04:18-0700\n"
-"PO-Revision-Date: 2022-05-29 11:12+0200\n"
+"PO-Revision-Date: 2023-03-12 02:44+0100\n"
 "Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
 "Language-Team: \n"
 "Language: pl_PL\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #. Translators: Input help message for control help command.
 msgid "Presents a message on how to interact with the focused control."
@@ -171,21 +171,21 @@ msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
 "ENTER key."
 msgstr ""
-"Aby wybrać przycisk opcji, przejdź do trybu formularza naciskając NVDA"
-"+spacja albo klawisz Enter."
+"Aby wybrać przycisk opcji, przejdź do trybu formularza naciskając "
+"NVDA+spacja albo klawisz Enter."
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
-"To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To type text into this edit field, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Aby wpisać tekst w tym polu edycji, przejdź do trybu formularza naciskając "
 "NVDA+spacja albo klawisz Enter."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
-"To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To select an item in the combo box, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Aby wybrać element w liście rozwijanej, przejdź do trybu formularza "
 "naciskając NVDA+spacja albo klawisz Enter."
@@ -238,11 +238,12 @@ msgstr ""
 
 #. Translators: label of a dialog.
 msgid "&Automatic messages for focus"
-msgstr ""
+msgstr "&Automatyczne komunikaty dla fokusa"
 
 #. Translators: label of a dialog.
 msgid "Type the message to be used when an object can be activated"
 msgstr ""
+"Wpisz komunikat, który ma być używany, gdy obiekt może zostać aktywowany"
 
 #. Translators: label of a dialog.
 msgid "Sele&ct output modes for automatic messages"
