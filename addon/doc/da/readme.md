@@ -2,7 +2,6 @@
 
 * Forfatter: Joseph Lee, Noelia Ruiz Martínez
 * Download [stabil version][1] (kompatibel med NVDA 2022.1 og nyere)
-* Download [udviklingsversion][2] (kompatibel med NVDA 2022.1 og nyere)
 
 Brug denne tilføjelse til at finde ud af, hvordan du interagerer med det
 fokuserede kontrolelement.  Tryk på NVDA+H for at få en kort hjælp til at
@@ -96,6 +95,5 @@ tilføjelsesindstillinger:
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=cua
-
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
+[1]:
+https://addons.nvda-project.org/files/get.php?file=controlUsageAssistant

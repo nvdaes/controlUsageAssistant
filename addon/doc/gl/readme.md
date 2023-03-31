@@ -2,8 +2,6 @@
 
 * Autor: Joseph Lee, Noelia Ruiz Martínez
 * Descargar [versión estable][1] (compatible con NVDA 2022.1 e posterior)
-* Descargar [versión de desenvolvemento][2] (compatible con NVDA 2022.1 e
-  posterior)
 
 Utiliza este complemento para atopar como interactuar co control enfocado.
 Preme NVDA+H para obter unha mensaxe curta de axuda na interacción co
@@ -94,6 +92,5 @@ Usage Assistant para configurar as opcións do complemento:
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=cua
-
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
+[1]:
+https://addons.nvda-project.org/files/get.php?file=controlUsageAssistant

@@ -2,21 +2,6 @@
 
 * 作者： Joseph Lee, Noelia Ruiz Martínez
 * 下载[稳定版][1]（兼容NVDA 2022.1及以后版本）
-* 自动读出焦点帮助（默认选中）
-  键入可激活对象时要使用的消息：您可以包含一条短消息，指示默认或您配置的手势，以了解在对象导航中按下 NVDA+enter
-  等手势时当前对象是否具有关联操作。
-  针对可激活对象的帮助：您可以键入一条短消息，用以提示默认或您自定义的手势，从而或知在对象导航过程中按下 NVDA+enter
-  等手势时当前对象是否具有默认操作。
-  选择自动消息的输出模式：此复选框列表允许选择语音和盲文。
-  选择自动帮助的消息输出方式：在此复选框列表可以选择语音和盲文。
-  自动焦点控件帮助（默认选中）
-  选择自动帮助的输出方式：在此复选框列表可以选择语音和盲文。
-  改进了对浏览模式下请求消息的支持。
-  需要 NVDA 2022.1 或更高版本。
-  添加了为对象导航设置消息的功能，以宣布当前对象是否可以被激活。
-  Noelia Ruiz Martínez
-  下载【稳定版】[1]（兼容NVDA 2022.1及以后版本）
-  下载[开发版][2]（兼容NVDA 2022.1及以后版本）
 
 借助此插件可了解如何与当前所聚焦的控件进行交互。例如，当聚焦到复选框、编辑框时，按 NVDA+H 来获取一段有关于使用当前控件的简短帮助。
 
@@ -105,6 +90,5 @@ Noelia Ruiz Martínez
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=cua
-
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
+[1]:
+https://addons.nvda-project.org/files/get.php?file=controlUsageAssistant

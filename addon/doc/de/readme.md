@@ -2,8 +2,6 @@
 
 * Autoren: Joseph Lee und Noelia Ruiz Martínez
 * [Stabile Version herunterladen][1] (kompatibel mit NVDA 2022.1 und neuer)
-* [Entwicklerversion herunterladen][2] (kompatibel mit NVDA 2022.1 und
-  neuer)
 
 Verwenden Sie diese Erweiterung, um zu erfahren, wie Sie das aktuell
 hervorgehobene Steuerelement benutzen können. Drücken Sie NVDA+H, um eine
@@ -98,6 +96,5 @@ Erweiterungseinstellungen zu konfigurieren:
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=cua
-
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
+[1]:
+https://addons.nvda-project.org/files/get.php?file=controlUsageAssistant
