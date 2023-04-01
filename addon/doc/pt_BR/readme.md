@@ -2,7 +2,6 @@
 
 * Author: Joseph Lee, Noelia Ruiz Martínez
 * Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Use este complemento para descobrir como interagir com o controle
 focalizado. Pressione NVDA+H para obter uma mensagem curta de ajuda sobre a
@@ -94,6 +93,5 @@ Asistant category to configure add-on settings:
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=cua
-
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
+[1]:
+https://addons.nvda-project.org/files/get.php?file=controlUsageAssistant

@@ -3,8 +3,6 @@
 * Tekijät: Joseph Lee ja Noelia Ruiz Martínez
 * Lataa [vakaa versio][1] (yhteensopiva NVDA 2022.1:n ja sitä uudempien
   kanssa)
-* Lataa [kehitysversio][2] (yhteensopiva NVDA 2022.1:n ja sitä uudempien
-  kanssa)
 
 Tämän lisäosan avulla voit selvittää, miten aktiivisen säätimen kanssa
 ollaan vuorovaikutuksessa.  Paina NVDA+H kuullaksesi lyhyen ohjeen
@@ -97,6 +95,5 @@ lisäosan asetukset:
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=cua
-
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
+[1]:
+https://addons.nvda-project.org/files/get.php?file=controlUsageAssistant

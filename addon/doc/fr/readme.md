@@ -2,7 +2,6 @@
 
 * Author: Joseph Lee, Noelia Ruiz Martínez
 * Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Utilisez cette extension pour savoir comment interagir avec l'élément
 actif. Appuyez sur NVDA+H sur l'objet sur lequel vous souhaitez avoir cette
@@ -93,6 +92,5 @@ Asistant category to configure add-on settings:
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=cua
-
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
+[1]:
+https://addons.nvda-project.org/files/get.php?file=controlUsageAssistant

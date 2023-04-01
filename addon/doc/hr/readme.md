@@ -2,7 +2,6 @@
 
 * Autor: Joseph Lee, Noelia Ruiz Martínez
 * Preuzmi [stabilnu verziju][1] (kompatibilna s NVDA 2022.1 i novijom)
-* Preuzmi [razvojnu verziju][2] (kompatibilna s NVDA 2022.1 i novijom)
 
 Koristi ovaj dodatak i saznaj kako koristiti fokusiranu kontrolu. Pritisni
 NVDA+H za dobivanje kratke poruke o tome kako koristiti fokusirane kontrole,
@@ -94,6 +93,5 @@ kontrola:
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=cua
-
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
+[1]:
+https://addons.nvda-project.org/files/get.php?file=controlUsageAssistant

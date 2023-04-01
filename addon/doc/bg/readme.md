@@ -2,7 +2,6 @@
 
 * Автори: Joseph Lee, Noelia Ruiz Martínez
 * Изтегляне на [стабилна версия][1] (съвместима с NVDA 2022.1 и по-нови)
-* Изтегляне на [тестова версия][2] (съвместима с NVDA 2022.1 и по-нови)
 
 Използвайте тази добавка, за да разберете как да си взаимодействате с
 елемента на фокус. Натиснете NVDA+H, за да чуете кратко помощно съобщение за
@@ -97,6 +96,5 @@
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=cua
-
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
+[1]:
+https://addons.nvda-project.org/files/get.php?file=controlUsageAssistant

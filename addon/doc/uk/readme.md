@@ -2,7 +2,6 @@
 
 * Автори: Joseph Lee, Noelia Ruiz Martínez
 * Завантажити [стабільну версію][1] (сумісну з NVDA 2022.1 і новішими)
-* Завантажити [версію в розробці][2] (сумісну з NVDA 2022.1 і новішими)
 
 Використовуйте цей додаток аби знати, як взаємодіяти з елементами керування
 у фокусі. Натисніть NVDA+H щоб отримати коротку довідку про взаємодію з
@@ -96,6 +95,5 @@ Asistant, щоб налаштувати додаток:
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=cua
-
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
+[1]:
+https://addons.nvda-project.org/files/get.php?file=controlUsageAssistant
