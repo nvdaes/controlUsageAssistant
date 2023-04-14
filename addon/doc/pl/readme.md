@@ -1,44 +1,45 @@
 # Control Usage Assistant #
 
-* Author: Joseph Lee, Noelia Ruiz Martínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Autor: Joseph Lee, Noelia Ruiz Martínez
+* Pobierz [stabilna wersja][1] (kompatybilna z NVDA 2022.1 i nowszymi)
 
 Użyj tego dodatku, aby dowiedzieć się w jaki sposób pracować z aktualną
 kontrolką.  Naciśnij NvDA+H aby uzyskać krótką pomoc dotyczącą używania
 bieżącej kontrolki, (pola wyboru, pola edycji, itd.)
 
-Go to NVDA's menu, Preferences submenu, Settings dialog, Control Usage
-Asistant category to configure add-on settings:
+Przejdź do menu NVDA, podmenu Preferencje, okno dialogowe Ustawienia,
+kategoria Kontrola użycia Asistant aby skonfigurować ustawienia dodatków:
 
-* Automatic messages for focus: Checked by default.
-* Type the message to be used when an object can be activated: You may
-  include a short message indicating the default or your configured gesture
-  to know if the current object has an associated action when pressing a
-  gesture like NVDA+enter in object navigation.
-* Select output modes for automatic messages: This list of checkboxes allows
-  to select speech and braille.
-* Pitch change for automatic messages: This spin box allows to set the pitch
-  change when NVDA reads automatic messages (from -30 to +30).
+* Automatyczne komunikaty fokusu: zaznaczone domyślnie.
+* Wpisz komunikat, który ma być używany, gdy obiekt może zostać aktywowany:
+  Możesz dołączyć krótki komunikat wskazujący domyślny lub skonfigurowany
+  gest, aby dowiedzieć się, czy bieżący obiekt ma skojarzoną akcję po
+  naciśnięciu gestu, takiego jak NVDA+enter w nawigacji po obiekcie.
+* Wybierz tryby wyjściowe dla wiadomości automatycznych: Ta lista pól wyboru
+  umożliwia wybranie mowy i alfabetu Braille'a.
+* Zmiana wysokości dźwięku dla automatycznych wiadomości: To pole obrotu
+  pozwala ustawić zmianę wysokości dźwięku, gdy NVDA odczytuje automatyczne
+  wiadomości (od -30 do +30).
 
-## Version 2023.02.19
+## Wersja 2023.02.19
 
-* The message configured for clickable objects will be reported after other
-  properties.
-* Compatible with NVDA 2023.1.
+* Komunikat skonfigurowany dla klikalnych obiektów będzie raportowany po
+  innych właściwościach.
+* Kompatybilny z NVDA 2023.1.
 
-## Version 2022.07.10
+## Wersja 2022.07.10
 
-* Added ability to set a message for object navigation, to announce if the
-  current object can be activated.
+* Dodano możliwość ustawienia komunikatu dla nawigacji po obiekcie, aby
+  poinformować, czy bieżący obiekt może zostać aktywowany.
 
-## Version 2022.03.27
+## Wersja 2022.03.27
 
-* Requires NVDA 2022.1 or later.
+* Wymaga NVDA 2022.1 lub nowszego.
 
-## Version 22.01
+## Wersja 22.01
 
-* Added support for automatic messages.
-* Improved support for requested messages in browse mode.
+* Dodano obsługę wiadomości automatycznych.
+* Ulepszona obsługa żądanych wiadomości w trybie przeglądania.
 
 ## Wersja 21.10
 
