@@ -95,5 +95,4 @@ Asistant, щоб налаштувати додаток:
 
 [[!tag dev stable]]
 
-[1]:
-https://addons.nvda-project.org/files/get.php?file=controlUsageAssistant
+[1]: https://www.nvaccess.org/addonStore/legacy?file=controlUsageAssistant

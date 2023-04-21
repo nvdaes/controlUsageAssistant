@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0Beta1'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2013-05-10 04:50-0700\n"
-"PO-Revision-Date: 2022-04-29 13:11+0330\n"
+"PO-Revision-Date: 2023-04-17 16:33+0330\n"
 "Last-Translator: Mohammadreza Rashad <mohammadreza5712@gmail.com>\n"
 "Language-Team: NVDA Translation Team <nvda-translations@groups.io>\n"
 "Language: fa\n"
@@ -237,11 +237,12 @@ msgstr ""
 
 #. Translators: label of a dialog.
 msgid "&Automatic messages for focus"
-msgstr ""
+msgstr "پیام‌های &خودکار برای فکوس"
 
 #. Translators: label of a dialog.
 msgid "Type the message to be used when an object can be activated"
 msgstr ""
+"پیامی را تایپ کنید که در هنگامِ فعال کردنِ یک شیء مورد استفاده قرار گیرد."
 
 #. Translators: label of a dialog.
 msgid "Sele&ct output modes for automatic messages"
