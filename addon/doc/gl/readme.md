@@ -21,11 +21,11 @@ Usage Assistant para configurar as opcións do complemento:
   establecer o cambio de ton cando NVDA lea mensaxes automáticas (de -30 a
   +30).
 
-## Version 2023.02.19
+## Versión 2023.02.19
 
-* The message configured for clickable objects will be reported after other
-  properties.
-* Compatible with NVDA 2023.1.
+* A mensaxe configurada para obxectos clickeables anunciarase despois
+  doutras propiedades.
+* Compatible con NVDA 2023.1.
 
 ## Versión 2022.07.10
 
