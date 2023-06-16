@@ -1,44 +1,45 @@
 # Kontrol Kullanım Asistanı #
 
-* Author: Joseph Lee, Noelia Ruiz Martínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Yazarlar: Joseph Lee, Noelia Ruiz Martínez
+* [Kararlı sürümü indir][1] (NVDA 2022.1 ve sonrası ile uyumlu)
 
 Mevcut odak hakkında kısa bir yardım mesajı dinlemek için bu eklentiyi
 kullanın.  Onay kutuları, yazı alanları vb Odaktaki kontrolle nasıl
 etkileşime geçeceğinizle ilgili kısa bir mesaj için NvDA+H tuşlarına basın.
 
-Go to NVDA's menu, Preferences submenu, Settings dialog, Control Usage
-Asistant category to configure add-on settings:
+Eklenti ayarlarını yapılandırmak için NVDA menüsü, Tercihler alt menüsü,
+Ayarlar iletişim kutusu, Kontrol Kullanım Asistanı kategorisine gidin:
 
-* Automatic messages for focus: Checked by default.
-* Type the message to be used when an object can be activated: You may
-  include a short message indicating the default or your configured gesture
-  to know if the current object has an associated action when pressing a
-  gesture like NVDA+enter in object navigation.
-* Select output modes for automatic messages: This list of checkboxes allows
-  to select speech and braille.
-* Pitch change for automatic messages: This spin box allows to set the pitch
-  change when NVDA reads automatic messages (from -30 to +30).
+* Odaklanma için otomatik mesajlar: Varsayılan olarak işaretlidir.
+* Bir nesne etkinleştirilebildiğinde kullanılacak iletiyi yazın: Nesne
+  gezintisinde NVDA+enter gibi bir harekete basarken, geçerli nesnenin
+  ilişkili bir eylemi olup olmadığını bilmek için varsayılanı veya
+  yapılandırılmış hareketinizi belirten kısa bir mesaj ekleyebilirsiniz.
+* Otomatik mesajlar için çıkış modlarını seçin: Bu onay kutuları listesi,
+  konuşma ve braille'in seçilmesine olanak tanır.
+* Otomatik mesajlar için ses perdesi değişikliği: Bu döndürme kutusu, NVDA
+  otomatik mesajları okuduğunda (-30'dan +30'a) perde değişikliğini
+  ayarlamanıza olanak tanır.
 
-## Version 2023.02.19
+## Sürüm 2023.02.19
 
-* The message configured for clickable objects will be reported after other
-  properties.
-* Compatible with NVDA 2023.1.
+* Tıklanabilir nesneler için yapılandırılan mesaj, diğer özelliklerden sonra
+  bildirilecektir.
+* NVDA 2023.1 ile uyumlu.
 
-## Version 2022.07.10
+## Sürüm 2022.07.10
 
-* Added ability to set a message for object navigation, to announce if the
-  current object can be activated.
+* Mevcut nesnenin etkinleştirilip etkinleştirilemeyeceğini duyurmak için
+  nesne navigasyonu için bir mesaj ayarlama yeteneği eklendi.
 
-## Version 2022.03.27
+## Sürüm 2022.03.27
 
-* Requires NVDA 2022.1 or later.
+* NVDA 2022.1 veya sonraki bir sürümü gerektirir.
 
-## Version 22.01
+## Sürüm 22.01
 
-* Added support for automatic messages.
-* Improved support for requested messages in browse mode.
+* Otomatik mesajlar için destek eklendi.
+* Tarama modunda istenen mesajlar için geliştirilmiş destek.
 
 ## Sürüm 21.10
 
@@ -61,7 +62,7 @@ Asistant category to configure add-on settings:
 
 ## Sürüm 3.0/19.11
 
-* Sürüm şeması artık yıl.ay şeklinde
+* Sürüm şeması artık yıl.ay şeklinde.
 * NVDA+H'ye basıldığında, hızlı bir mesaj yerine bir yardım ekranı
   gösterilecektir.
 
@@ -78,8 +79,9 @@ Asistant category to configure add-on settings:
 * Terminal pencereleri dahil, daha fazla kontrol için yardım mesajı eklendi.
 * Microsoft Excel ve Powerpoint ve Windows 8 başlangıç ​​ekranı gibi bazı
   uygulamalar için yardım mesajları eklendi.
-* (Internet Explorer, Adobe Reader, Mozilla Firefox, vb) uygulamalar için,
-  tarama ve odak kiplerine dair yardım mesajları eklendi
+* Sanal arabellek belgelerinde (Internet Explorer, Adobe Reader, Mozilla
+  Firefox, vb.) hem göz atma hem de odaklanma modlarında formlarla çalışmak
+  için yardım mesajları eklendi.
 * Yeni dil: Danimarkaca.
 
 ## Sürüm 1.0
