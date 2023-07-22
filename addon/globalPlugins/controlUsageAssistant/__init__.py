@@ -26,7 +26,8 @@ import scriptHandler
 import config
 from speech.commands import PitchCommand
 import braille
-from gui import NVDASettingsDialog
+import gui
+from gui.settingsDialogs import NVDASettingsDialog
 import addonHandler
 
 from .controltypeshelp import controlTypeHelpMessages, browseModeHelpMessages
@@ -44,8 +45,11 @@ CUAMROLevel = 0
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
+	# Translators: Input gesture category for Control Usage Assistant add-on.
+	scriptCategory=_("Control Usage Assistant")
+
 	def __init__(self):
-		super(GlobalPlugin, self).__init__()
+		super().__init__()
 		config.conf.spec["controlUsageAssistant"] = confspec
 		self.automaticHelpMessage = None
 		NVDASettingsDialog.categoryClasses.append(AddonSettingsPanel)
@@ -53,11 +57,19 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def terminate(self):
 		NVDASettingsDialog.categoryClasses.remove(AddonSettingsPanel)
 
+	def onSettings(self, evt):
+		gui.mainFrame.popupSettingsDialog(NVDASettingsDialog, AddonSettingsPanel)
+
+	@scriptHandler.script(
+		# Translators: Input help message for command to show settings.
+		description=_("Shows the Control Usage Assistant settings."),
+	)
+	def script_settings(self, gesture):
+		wx.CallAfter(self.onSettings, None)
+
 	@scriptHandler.script(
 		# Translators: Input help message for control help command.
 		description=_("Presents a message on how to interact with the focused control."),
-		# Translators: Input gesture category for Control Usage Assistant add-on.
-		category=_("Control Usage Assistant"),
 		gesture="KB:NVDA+H"
 	)
 	def script_controlHelp(self, gesture):
