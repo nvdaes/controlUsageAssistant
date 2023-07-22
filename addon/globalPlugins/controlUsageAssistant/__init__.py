@@ -46,7 +46,7 @@ CUAMROLevel = 0
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	# Translators: Input gesture category for Control Usage Assistant add-on.
-	scriptCategory=_("Control Usage Assistant")
+	scriptCategory = _("Control Usage Assistant")
 
 	def __init__(self):
 		super().__init__()
