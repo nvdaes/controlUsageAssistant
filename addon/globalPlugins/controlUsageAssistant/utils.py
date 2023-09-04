@@ -9,7 +9,8 @@ from typing import Dict, Optional
 from typing import Callable
 
 import gui
-from gui import SettingsPanel, guiHelper
+from gui import guiHelper
+from gui.settingsDialogs import SettingsPanel
 import config
 from speech import types
 import addonHandler
