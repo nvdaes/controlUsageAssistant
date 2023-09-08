@@ -1,7 +1,6 @@
 # Control Usage Assistant #
 
 * Автори: Joseph Lee, Noelia Ruiz Martínez
-* Завантажити [стабільну версію][1] (сумісну з NVDA 2022.1 і новішими)
 
 Використовуйте цей додаток аби знати, як взаємодіяти з елементами керування
 у фокусі. Натисніть NVDA+H щоб отримати коротку довідку про взаємодію з
@@ -94,5 +93,3 @@ Asistant, щоб налаштувати додаток:
 * Перша версія.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=controlUsageAssistant

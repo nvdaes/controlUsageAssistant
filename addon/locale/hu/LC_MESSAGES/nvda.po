@@ -18,11 +18,6 @@ msgstr ""
 "X-Generator: Poedit 1.6.10\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. Translators: Input help message for control help command.
-msgid "Presents a message on how to interact with the focused control."
-msgstr ""
-"Megjelenít egy rövid üzenetet az aktív elem használatával kapcsolatban."
-
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -30,6 +25,16 @@ msgstr ""
 #. to be shown on installation and add-on information.
 msgid "Control Usage Assistant"
 msgstr "Tájékoztató üzemmód"
+
+#. Translators: Input help message for command to show settings.
+#, fuzzy
+msgid "Shows the Control Usage Assistant settings."
+msgstr "Tájékoztató üzemmód"
+
+#. Translators: Input help message for control help command.
+msgid "Presents a message on how to interact with the focused control."
+msgstr ""
+"Megjelenít egy rövid üzenetet az aktív elem használatával kapcsolatban."
 
 #. Translators: Message presented when there is no help message for the focused control.
 #. Translators: Message presented when there's no help for this control.

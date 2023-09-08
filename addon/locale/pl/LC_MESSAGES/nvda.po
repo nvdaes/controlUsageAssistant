@@ -19,10 +19,6 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 3.2.2\n"
 
-#. Translators: Input help message for control help command.
-msgid "Presents a message on how to interact with the focused control."
-msgstr "Wymawia komunikat o używaniu kontrolki fokusowanej."
-
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -30,6 +26,15 @@ msgstr "Wymawia komunikat o używaniu kontrolki fokusowanej."
 #. to be shown on installation and add-on information.
 msgid "Control Usage Assistant"
 msgstr "Control Usage Assistant"
+
+#. Translators: Input help message for command to show settings.
+#, fuzzy
+msgid "Shows the Control Usage Assistant settings."
+msgstr "Control Usage Assistant"
+
+#. Translators: Input help message for control help command.
+msgid "Presents a message on how to interact with the focused control."
+msgstr "Wymawia komunikat o używaniu kontrolki fokusowanej."
 
 #. Translators: Message presented when there is no help message for the focused control.
 #. Translators: Message presented when there's no help for this control.
@@ -171,21 +176,21 @@ msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
 "ENTER key."
 msgstr ""
-"Aby wybrać przycisk opcji, przejdź do trybu formularza naciskając "
-"NVDA+spacja albo klawisz Enter."
+"Aby wybrać przycisk opcji, przejdź do trybu formularza naciskając NVDA"
+"+spacja albo klawisz Enter."
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
-"To type text into this edit field, switch to focus mode by pressing "
-"NVDA+SPACE or ENTER key."
+"To type text into this edit field, switch to focus mode by pressing NVDA"
+"+SPACE or ENTER key."
 msgstr ""
 "Aby wpisać tekst w tym polu edycji, przejdź do trybu formularza naciskając "
 "NVDA+spacja albo klawisz Enter."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
-"To select an item in the combo box, switch to focus mode by pressing "
-"NVDA+SPACE or ENTER key."
+"To select an item in the combo box, switch to focus mode by pressing NVDA"
+"+SPACE or ENTER key."
 msgstr ""
 "Aby wybrać element w liście rozwijanej, przejdź do trybu formularza "
 "naciskając NVDA+spacja albo klawisz Enter."

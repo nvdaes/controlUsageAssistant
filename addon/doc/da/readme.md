@@ -1,7 +1,6 @@
 # Brugsassistent til kontroller #
 
 * Forfatter: Joseph Lee, Noelia Ruiz Martínez
-* Download [stabil version][1] (kompatibel med NVDA 2022.1 og nyere)
 
 Brug denne tilføjelse til at finde ud af, hvordan du interagerer med det
 fokuserede kontrolelement.  Tryk på NVDA+H for at få en kort hjælp til at
@@ -94,5 +93,3 @@ tilføjelsesindstillinger:
 * Første version.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=controlUsageAssistant

@@ -1,7 +1,6 @@
 # Control Usage Assistant #
 
 * Author: Joseph Lee, Noelia Ruiz Martínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
 
 Questo componente aggiuntivo si utilizza per scoprire come interagire con il
 controllo evidenziato. Premere NVDA+h per ascoltare un breve suggerimento,
@@ -91,5 +90,3 @@ Asistant category to configure add-on settings:
 * Versione iniziale.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=controlUsageAssistant

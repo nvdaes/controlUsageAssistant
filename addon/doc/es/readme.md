@@ -1,7 +1,6 @@
 # Control Usage Assistant #
 
 * Autor: Joseph Lee, Noelia Ruiz Martínez
-* Descargar [versión estable][1] (compatible con NVDA 2022.1 y posterior)
 
 Utiliza este complemento para averiguar cómo interactuar con el control
 enfocado.  Pulsa NVDA+H para obtener un breve mensaje de ayuda sobre la
@@ -93,5 +92,3 @@ Usage Assistant para configurar las opciones del complemento:
 * Versión inicial.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=controlUsageAssistant

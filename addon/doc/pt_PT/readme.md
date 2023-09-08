@@ -1,7 +1,6 @@
 # Assistente para Uso de Controlos #
 
 * Author: Joseph Lee, Noelia Ruiz Martínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
 
 Utilize este extra para descobrir como interagir com o controlo sob o foco.
 Pressione NVDA+H para obter uma breve mensagem de ajuda sobre como interagir
@@ -93,5 +92,3 @@ Asistant category to configure add-on settings:
 * Versão inicial.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=controlUsageAssistant

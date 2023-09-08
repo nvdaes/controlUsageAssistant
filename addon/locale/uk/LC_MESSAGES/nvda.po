@@ -17,12 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.2.2\n"
 
-#. Translators: Input help message for control help command.
-msgid "Presents a message on how to interact with the focused control."
-msgstr ""
-"Показує короткі довідкові повідомлення про те, як взаємодіяти з елементом "
-"керування у фокусі."
-
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -30,6 +24,17 @@ msgstr ""
 #. to be shown on installation and add-on information.
 msgid "Control Usage Assistant"
 msgstr "Control Usage Assistant"
+
+#. Translators: Input help message for command to show settings.
+#, fuzzy
+msgid "Shows the Control Usage Assistant settings."
+msgstr "Control Usage Assistant"
+
+#. Translators: Input help message for control help command.
+msgid "Presents a message on how to interact with the focused control."
+msgstr ""
+"Показує короткі довідкові повідомлення про те, як взаємодіяти з елементом "
+"керування у фокусі."
 
 #. Translators: Message presented when there is no help message for the focused control.
 #. Translators: Message presented when there's no help for this control.
@@ -116,8 +121,8 @@ msgid ""
 "for next tab and control+shift+tab for previous tab."
 msgstr ""
 "Використовуйте стрілки вліво або вправо для переміщення між вкладками, або "
-"використовуйте контрол+таб для переходу до наступної вкладки та "
-"контрол+шіфт+таб для переходу до попередньої вкладки."
+"використовуйте контрол+таб для переходу до наступної вкладки та контрол+шіфт"
+"+таб для переходу до попередньої вкладки."
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
 msgid ""
@@ -173,21 +178,21 @@ msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
 "ENTER key."
 msgstr ""
-"Для вибору радіокнопки перейдіть у режим редагування, натиснувши "
-"NVDA+пробіл, або натисніть ентер."
+"Для вибору радіокнопки перейдіть у режим редагування, натиснувши NVDA"
+"+пробіл, або натисніть ентер."
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
-"To type text into this edit field, switch to focus mode by pressing "
-"NVDA+SPACE or ENTER key."
+"To type text into this edit field, switch to focus mode by pressing NVDA"
+"+SPACE or ENTER key."
 msgstr ""
 "Щоб ввести текст у це поле редагування перейдіть до режиму редагування, "
 "натиснувши NVDA+пробіл, або натисніть ентер."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
-"To select an item in the combo box, switch to focus mode by pressing "
-"NVDA+SPACE or ENTER key."
+"To select an item in the combo box, switch to focus mode by pressing NVDA"
+"+SPACE or ENTER key."
 msgstr ""
 "Для вибору елемента у комбінованому списку перейдіть до режиму редагування, "
 "натиснувши NVDA+пробіл, або натисніть ентер."

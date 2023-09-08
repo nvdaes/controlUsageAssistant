@@ -1,7 +1,6 @@
 # Pomoćnik za primjenu kontrola #
 
 * Autor: Joseph Lee, Noelia Ruiz Martínez
-* Preuzmi [stabilnu verziju][1] (kompatibilna s NVDA 2022.1 i novijom)
 
 Koristi ovaj dodatak i saznaj kako koristiti fokusiranu kontrolu. Pritisni
 NVDA+H za dobivanje kratke poruke o tome kako koristiti fokusirane kontrole,
@@ -92,5 +91,3 @@ kontrola:
 * Prva verzija.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=controlUsageAssistant

@@ -1,7 +1,6 @@
 # Control Usage Assistant #
 
 * Autor: Joseph Lee, Noelia Ruiz Martínez
-* Pobierz [stabilna wersja][1] (kompatybilna z NVDA 2022.1 i nowszymi)
 
 Użyj tego dodatku, aby dowiedzieć się w jaki sposób pracować z aktualną
 kontrolką.  Naciśnij NvDA+H aby uzyskać krótką pomoc dotyczącą używania
@@ -91,5 +90,3 @@ kategoria Kontrola użycia Asistant aby skonfigurować ustawienia dodatków:
 * Pierwsza wersja.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=controlUsageAssistant

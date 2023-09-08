@@ -1,7 +1,6 @@
 # Control Usage Assistant #
 
 * Auteur : Joseph Lee, Noelia Ruiz Martínez
-* Télécharger [version stable][1] (compatible avec NVDA 2022.1 et au-delà)
 
 Utilisez cette extension pour savoir comment interagir avec l'élément
 actif. Appuyez sur NVDA+H sur l'objet sur lequel vous souhaitez avoir cette
@@ -94,5 +93,3 @@ l'extension :
 * Première version
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=controlUsageAssistant
