@@ -1,7 +1,6 @@
 # Pomoc pre prácu s prvkami #
 
 * Author: Joseph Lee, Noelia Ruiz Martínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
 
 Doplnok poskytuje pomoc pre aktuálne zameraný prvok. Aby ste počuli pomocné
 hlásenie pre prvky, akými sú napríklad začiarkavacie alebo editačné polia ,
@@ -87,5 +86,3 @@ Asistant category to configure add-on settings:
 * Prvé vydanie
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=controlUsageAssistant

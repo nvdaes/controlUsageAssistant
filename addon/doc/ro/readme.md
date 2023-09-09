@@ -1,7 +1,6 @@
 # Control Usage Assistant #
 
 * Author: Joseph Lee, Noelia Ruiz Martínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
 
 Use this add-on to find out how to interact with the focused control.  Press
 NVDA+H to obtain a short help message on interacting with the focused
@@ -90,5 +89,3 @@ Asistant category to configure add-on settings:
 * Versiunea inițială.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=controlUsageAssistant

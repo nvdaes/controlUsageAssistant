@@ -1,7 +1,6 @@
 # Kontrol Kullanım Asistanı #
 
 * Yazarlar: Joseph Lee, Noelia Ruiz Martínez
-* [Kararlı sürümü indir][1] (NVDA 2022.1 ve sonrası ile uyumlu)
 
 Mevcut odak hakkında kısa bir yardım mesajı dinlemek için bu eklentiyi
 kullanın.  Onay kutuları, yazı alanları vb Odaktaki kontrolle nasıl
@@ -89,5 +88,3 @@ Ayarlar iletişim kutusu, Kontrol Kullanım Asistanı kategorisine gidin:
 * İlk sürüm.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=controlUsageAssistant

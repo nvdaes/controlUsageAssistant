@@ -1,7 +1,6 @@
 # Tájékoztató üzemmód #
 
 * Author: Joseph Lee, Noelia Ruiz Martínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
 
 A bővítmény az NVDA+H billentyűparanccsal információkat ad a fókuszban lévő
 vezérlők és elemek használatához.
@@ -86,5 +85,3 @@ Asistant category to configure add-on settings:
 * Első verzió
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=controlUsageAssistant

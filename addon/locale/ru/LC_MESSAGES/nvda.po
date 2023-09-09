@@ -19,12 +19,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#. Translators: Input help message for control help command.
-msgid "Presents a message on how to interact with the focused control."
-msgstr ""
-"Предоставляет короткое сообщение о том, как взаимодействовать с определённым "
-"типом управленияв фокусе."
-
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -32,6 +26,17 @@ msgstr ""
 #. to be shown on installation and add-on information.
 msgid "Control Usage Assistant"
 msgstr "Control Usage Assistant"
+
+#. Translators: Input help message for command to show settings.
+#, fuzzy
+msgid "Shows the Control Usage Assistant settings."
+msgstr "Control Usage Assistant"
+
+#. Translators: Input help message for control help command.
+msgid "Presents a message on how to interact with the focused control."
+msgstr ""
+"Предоставляет короткое сообщение о том, как взаимодействовать с определённым "
+"типом управленияв фокусе."
 
 #. Translators: Message presented when there is no help message for the focused control.
 #. Translators: Message presented when there's no help for this control.

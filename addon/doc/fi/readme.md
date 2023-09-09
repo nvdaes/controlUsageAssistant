@@ -1,8 +1,6 @@
 # Säätimen käyttöapu #
 
 * Tekijät: Joseph Lee ja Noelia Ruiz Martínez
-* Lataa [vakaa versio][1] (yhteensopiva NVDA 2022.1:n ja sitä uudempien
-  kanssa)
 
 Tämän lisäosan avulla voit selvittää, miten aktiivisen säätimen kanssa
 ollaan vuorovaikutuksessa.  Paina NVDA+H kuullaksesi lyhyen ohjeen
@@ -94,5 +92,3 @@ lisäosan asetukset:
 * Ensimmäinen versio.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=controlUsageAssistant

@@ -1,7 +1,6 @@
 # Control Usage Assistant #
 
 * 作者: Joseph Lee, Noelia Ruiz Martínez
-* ダウンロード[安定版][1](NVDA 2022.1以降に互換)
 
 フォーカスされたコントロールをどのように操作するかを見つけるのにこのアドオンを使用します。チェックボックス、エディットフィールドなどの、フォーカスされたコントロールを操作することについての短いヘルプメッセージを得るためにNVDA+Hを押します。
 
@@ -76,5 +75,3 @@
 * 最初のバージョン。
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=controlUsageAssistant

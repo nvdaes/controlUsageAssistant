@@ -1,7 +1,6 @@
 # Hilfe zur Verwendung von Steuerelementen #
 
 * Autoren: Joseph Lee und Noelia Ruiz Martínez
-* [Stabile Version herunterladen][1] (kompatibel mit NVDA 2022.1 und neuer)
 
 Verwenden Sie diese Erweiterung, um zu erfahren, wie Sie das aktuell
 hervorgehobene Steuerelement benutzen können. Drücken Sie NVDA+H, um eine
@@ -95,5 +94,3 @@ Erweiterungseinstellungen zu konfigurieren:
 * Erstveröffentlichung.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=controlUsageAssistant

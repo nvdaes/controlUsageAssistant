@@ -17,12 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.11\n"
 
-#. Translators: Input help message for control help command.
-msgid "Presents a message on how to interact with the focused control."
-msgstr ""
-"Laat in een bericht zien hoe het besturingselement met focus bediend moet "
-"worden."
-
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -30,6 +24,17 @@ msgstr ""
 #. to be shown on installation and add-on information.
 msgid "Control Usage Assistant"
 msgstr "Assistent voor besturingselementgebruik"
+
+#. Translators: Input help message for command to show settings.
+#, fuzzy
+msgid "Shows the Control Usage Assistant settings."
+msgstr "Assistent voor besturingselementgebruik"
+
+#. Translators: Input help message for control help command.
+msgid "Presents a message on how to interact with the focused control."
+msgstr ""
+"Laat in een bericht zien hoe het besturingselement met focus bediend moet "
+"worden."
 
 #. Translators: Message presented when there is no help message for the focused control.
 #. Translators: Message presented when there's no help for this control.
