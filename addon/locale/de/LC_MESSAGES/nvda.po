@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-07-24 13:19+0200\n"
-"Last-Translator: Bernd Dorer <mail@bdorer.de>\n"
+"PO-Revision-Date: 2023-09-09 00:10+0200\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
@@ -26,9 +26,8 @@ msgid "Control Usage Assistant"
 msgstr "Hilfe zur Verwendung von Steuerelementen"
 
 #. Translators: Input help message for command to show settings.
-#, fuzzy
 msgid "Shows the Control Usage Assistant settings."
-msgstr "Hilfe zur Verwendung von Steuerelementen"
+msgstr "Zeigt die Einstellungen der Hilfe zur Verwendung von Steuerelementenan"
 
 #. Translators: Input help message for control help command.
 msgid "Presents a message on how to interact with the focused control."
@@ -130,8 +129,8 @@ msgid ""
 "for next tab and control+shift+tab for previous tab."
 msgstr ""
 "Verwenden Sie die Pfeiltasten nach links und rechts, um zwischen den "
-"Registerkarten zu wechseln. Alternativ können Sie auch Strg+Tab und Strg"
-"+Umschalt+Tab verwenden."
+"Registerkarten zu wechseln. Alternativ können Sie auch Strg+Tab und "
+"Strg+Umschalt+Tab verwenden."
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
 msgid ""
@@ -197,16 +196,16 @@ msgstr ""
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
-"To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To type text into this edit field, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Drücken Sie NVDA-Leertaste oder die Eingabetaste, um in den Fokusmodus zu "
 "wechseln und Text in dieses Eingabefeld einzugeben."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
-"To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To select an item in the combo box, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Drücken Sie NVDA-Leertaste oder die Eingabetaste, um in den Fokusmodus zu "
 "wechseln und einen Eintrag in diesem Kombinationsfeld auszuwählen."
@@ -278,7 +277,7 @@ msgstr "Ausgabemodus für automatische Meldungen &wählen"
 
 #. Translators: label of a dialog.
 msgid "Speech"
-msgstr "Sprache"
+msgstr "Sprachausgabe"
 
 #. Translators: label of a dialog.
 msgid "Braille"

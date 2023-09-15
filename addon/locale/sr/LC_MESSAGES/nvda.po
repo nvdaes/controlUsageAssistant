@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant 3.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-04-08 01:04+1000\n"
-"PO-Revision-Date: 2022-07-16 16:41+0100\n"
+"PO-Revision-Date: 2023-09-09 16:49+0100\n"
 "Last-Translator: Nikola Jović <wwenikola123@gmail.com>\n"
 "Language-Team: Serbian <wwenikola123@gmail.com>\n"
 "Language: sr\n"
@@ -23,12 +23,11 @@ msgstr ""
 #. Translators: Summary for this add-on
 #. to be shown on installation and add-on information.
 msgid "Control Usage Assistant"
-msgstr "Control Usage Assistant"
+msgstr "Asistent za korišćenje kontrola"
 
 #. Translators: Input help message for command to show settings.
-#, fuzzy
 msgid "Shows the Control Usage Assistant settings."
-msgstr "Control Usage Assistant"
+msgstr "Prikazuje podešavanja asistenta za korišćenje kontrola."
 
 #. Translators: Input help message for control help command.
 msgid "Presents a message on how to interact with the focused control."

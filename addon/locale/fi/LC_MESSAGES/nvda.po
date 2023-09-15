@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-07-20 18:29+0200\n"
+"PO-Revision-Date: 2023-09-08 18:26+0200\n"
 "Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -27,9 +27,8 @@ msgid "Control Usage Assistant"
 msgstr "Säätimen käyttöapu"
 
 #. Translators: Input help message for command to show settings.
-#, fuzzy
 msgid "Shows the Control Usage Assistant settings."
-msgstr "Säätimen käyttöapu"
+msgstr "Näyttää Säätimen käyttöavun asetukset."
 
 #. Translators: Input help message for control help command.
 msgid "Presents a message on how to interact with the focused control."
