@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-07-29 15:18+0300\n"
-"Last-Translator: Ömer Yılmaz <yilmaz.omer2002@gmail.com>\n"
+"PO-Revision-Date: 2023-09-08 14:43+0300\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language-Team: tr <cagrid@hotmail.com>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 3.3.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. Translators: Input gesture category for Control Usage Assistant add-on.
@@ -27,9 +27,8 @@ msgid "Control Usage Assistant"
 msgstr "Kontrol Kullanım Asistanı"
 
 #. Translators: Input help message for command to show settings.
-#, fuzzy
 msgid "Shows the Control Usage Assistant settings."
-msgstr "Kontrol Kullanım Asistanı"
+msgstr "Kontrol Kullanım Asistanı ayarlarını gösterir."
 
 #. Translators: Input help message for control help command.
 msgid "Presents a message on how to interact with the focused control."
@@ -48,64 +47,65 @@ msgstr "Bu yardım ekranını kapatmak için Esc tuşuna basın."
 
 #. Translators: Additional message when working with forms in focus mode.
 msgid " To switch to browse mode, press NVDA+SPACE or escape key"
-msgstr "Tarama kipine geçmek için NVDA+aralık ya da esc tuşuna basın"
+msgstr " Tarama kipine geçmek için NVDA+aralık ya da esc tuşuna basın"
 
 #. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
 msgstr ""
-"Tarama kipine geçmek ve çabuk dolaşım tuşlarını kullanabilmek için NVDA"
-"+aralık tuşuna basın"
+"Tarama kipine geçmek ve çabuk dolaşım tuşlarını kullanabilmek için "
+"NVDA+aralık tuşuna basın"
 
 #. Translators: Help message for a checkbox.
 msgid "Press space bar to check or uncheck this check box."
 msgstr ""
 "Onay kutusunu işaretlemek ya da işaretini kaldırmak için aralık çubuğuna "
-"basın"
+"basın."
 
 #. Translators: Help message for working with radio buttons.
 msgid "Use the arrow keys to choose a radio button."
-msgstr "Seçim düğmelerinden birini tercih etmek için yön tuşlarını kullanın"
+msgstr "Seçim düğmelerinden birini tercih etmek için yön tuşlarını kullanın."
 
 #. Translators: Help message for a list box.
 msgid "Use the arrow keys to read this box."
-msgstr "Bu kutuyu okumak için yön tuşlarını kullanın"
+msgstr "Bu kutuyu okumak için yön tuşlarını kullanın."
 
 #. Translators: Help message for an edit field.
 msgid "Type text here."
-msgstr "Buraya metin girin"
+msgstr "Buraya metin girin."
 
 #. Translators: Help message for a button.
 msgid "Press SPACE or ENTER to activate this button."
 msgstr ""
-"Bu düğmeyi etkinleştirmek için aralık çubuğunu ya da enter tuşunu kullanın"
+"Bu düğmeyi etkinleştirmek için aralık çubuğunu ya da enter tuşunu kullanın."
 
 #. Translators: Help message for menu items.
 msgid "Use the arrow keys to move between the menu items."
-msgstr "Menü ögeleri arasında dolaşmak için yön tuşlarını kullanın"
+msgstr "Menü ögeleri arasında dolaşmak için yön tuşlarını kullanın."
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
 msgid "Use up and down arrow keys to move through options in the pop-up menu."
 msgstr ""
-"Pop-up menü içindeki seçenekler arasında dolaşmak için yukarı ve aşağı yön "
-"tuşlarını kullanın"
+"Açılır menü içindeki seçenekler arasında dolaşmak için yukarı ve aşağı yön "
+"tuşlarını kullanın."
 
 #. Translators: Help message for a combo box.
 msgid ""
 "Use the arrow keys to move among choices in the combo box until the desired "
 "option is found."
 msgstr ""
-"Seçim kutusundaki ilgilendiğiniz seçeneği bulmak için yön tuşlarını kullanın"
+"Seçim kutusundaki ilgilendiğiniz seçeneği bulmak için yön tuşlarını kullanın."
 
 #. Translators: Help message for a list view.
 msgid "Use the arrow keys to move to the next or previous item in this list."
-msgstr "Listedeki seçenekler arasında dolaşmak için yön tuşlarını kullanın"
+msgstr "Listedeki seçenekler arasında dolaşmak için yön tuşlarını kullanın."
 
 #. Translators: Help message for activating links.
 msgid "Press SPACE or ENTER to activate this link."
 msgstr ""
-"Bu bağlantıyı etkinleştirmek için aralık çubuğunu ya da enter tuşunu kullanın"
+"Bu bağlantıyı etkinleştirmek için aralık çubuğunu ya da enter tuşunu "
+"kullanın."
 
 #. Translators: Help message for working with tree view items.
 msgid ""
@@ -122,9 +122,9 @@ msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
 "for next tab and control+shift+tab for previous tab."
 msgstr ""
-"Sekme sayfaları arasında dolaşmak için sol ve sağ yön tuşlarını kullanın  ya "
-"da sonraki sekme için CTRL+tab, önceki sekme için CTRL+shift+tab tuşlarını "
-"kullanın"
+"Sekme sayfaları arasında dolaşmak için sol ve sağ yön tuşlarını kullanın. Ya "
+"da sonraki sekme için CTRL+tab ve önceki sekme için CTRL+shift+tab tuşlarını "
+"kullanın."
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
 msgid ""
@@ -166,7 +166,7 @@ msgid ""
 "document."
 msgstr ""
 "Belge içinde dolaşmak için yön tuşlarını ya da nesne dolaşım komutlarını "
-"kullanın"
+"kullanın."
 
 #. Translators: Help message for terminal windows such as command prompt.
 msgid ""
@@ -174,7 +174,7 @@ msgid ""
 "the output."
 msgstr ""
 "Komutları terminal penceresinde yazın ve sonucu incelemek için metin "
-"inceleme komutlarını kullanın"
+"inceleme komutlarını kullanın."
 
 #. Translators: Help message for radio buttons while in browse mode.
 msgid ""
@@ -182,23 +182,23 @@ msgid ""
 "ENTER key."
 msgstr ""
 "Bir seçim düğmesini seçmek için, NVDA+aralık ya da enter tuşuyla odak kipine "
-"geçin"
+"geçin."
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
-"To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To type text into this edit field, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Bu yazı alanına giriş yapabilmek için NVDA+aralık ya da enter tuşunu "
-"kullanarak odak kipine geçin"
+"kullanarak odak kipine geçin."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
-"To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To select an item in the combo box, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Seçim kutusunda dolaşmak için NVDA+aralık ya da enter tuşuyla odak kipine "
-"geçin"
+"geçin."
 
 #. Translators: Help message for reading webpages.
 msgid ""
@@ -206,14 +206,14 @@ msgid ""
 "webpage."
 msgstr ""
 "Belge içinde dolaşmak için yön tuşlarını ya da hızlı dolaşım komutlarını "
-"kullanın"
+"kullanın."
 
 #. Translators: help text for search field in Windows 10 and other places.
 msgid ""
 "After typing search text, press up or down arrow keys to review list of "
 "suggestions."
 msgstr ""
-"aradığınız metni yazdıktan sonra, öneriler listesini incelemek için yukarı "
+"Aradığınız metni yazdıktan sonra, öneriler listesini incelemek için yukarı "
 "veya aşağı ok tuşlarına basın."
 
 #. Translators: Help message for reading Adobe PDF documents.
@@ -222,21 +222,22 @@ msgid ""
 "document."
 msgstr ""
 "PDF belgesi içinde dolaşmak için yön tuşlarını ya da hızlı dolaşım "
-"komutlarını kullanın"
+"komutlarını kullanın."
 
 #. Translators: Help message for moving between Excel spreadsheet cells.
 msgid "Use the arrow keys to move between spreadsheet cells."
-msgstr "Hücreler arasında dolaşmak için yön tuşlarını kullanın"
+msgstr "Hücreler arasında dolaşmak için yön tuşlarını kullanın."
 
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
 msgid "Use the arrow keys to move between start screen tiles."
 msgstr ""
-"Başlat ekranındaki bölümler arasında dolaşmak için yön tuşlarını kullanın"
+"Başlat ekranındaki bölümler arasında dolaşmak için yön tuşlarını kullanın."
 
 #. Translators: Message for moving between slides in slide view
 #. (a list of slides for a Powerpoint presentation).
 msgid "Use up and down arrow keys to move between slides."
-msgstr "Slaytlar arasında dolaşmak için yön tuşlarını kullanın"
+msgstr ""
+"Slaytlar arasında geçiş yapmak için yukarı ve aşağı ok tuşlarını kullanın."
 
 #. Translators: Help message for working with slide shows.
 msgid ""
@@ -244,7 +245,7 @@ msgid ""
 "the slide show, press escape."
 msgstr ""
 "Slayt gösterisindeki slaytlar arasında dolaşmak için aralık ve geri sil "
-"tuşlarını kullanın. Slayt gösterisini sonlandırmak için escape tuşuna basın"
+"tuşlarını kullanın. Slayt gösterisini sonlandırmak için escape tuşuna basın."
 
 #. Translators: label of a dialog.
 msgid "&Automatic messages for focus"
