@@ -26,11 +26,11 @@ addon_info = {
 	"addon_description": _("""Allows you to find out how to interact with the focused control, useful for new computer users new to Windows and to NVDA.
 	Press NVDA+H to get a short help message on using the focused control, such as moving through tables, checkboxes and so on."""),
 	# version
-	"addon_version": "20230904.0.0",
+	"addon_version": "20230910.0.0",
 	# Author(s)
 	"addon_author": "Joseph Lee <joseph.lee22590@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>",
 	# URL for the add-on documentation support
-	"addon_url": "https://addons.nvda-project.org/",
+	"addon_url": "https://github.com/nvdaes/controlUsageAssistant",
 	# Documentation file name
 	"addon_docFileName": "readme.html",
 	# Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)
