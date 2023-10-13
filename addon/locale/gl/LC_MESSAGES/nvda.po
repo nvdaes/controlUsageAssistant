@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-08-03 13:03+0200\n"
-"Last-Translator: Iván Novegil Cancelas <ivan.novegil.cancelas@gmail.com>\n"
+"PO-Revision-Date: 2023-10-06 23:27+0200\n"
+"Last-Translator: Juan C. Buño <oprisniki@gmail.com>\n"
 "Language-Team: NVDA Add-ons translation team <LL@li.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.4\n"
 
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
@@ -27,9 +27,8 @@ msgid "Control Usage Assistant"
 msgstr "Control Usage Assistant"
 
 #. Translators: Input help message for command to show settings.
-#, fuzzy
 msgid "Shows the Control Usage Assistant settings."
-msgstr "Control Usage Assistant"
+msgstr "Amosa as opcións do Control Usage Assistant."
 
 #. Translators: Input help message for control help command.
 msgid "Presents a message on how to interact with the focused control."
@@ -177,21 +176,21 @@ msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
 "ENTER key."
 msgstr ""
-"Para seleccionar  un botón de opción, cambia ó modo foco premendo NVDA"
-"+ESPAZO ou a tecla INTRO."
+"Para seleccionar  un botón de opción, cambia ó modo foco premendo "
+"NVDA+ESPAZO ou a tecla INTRO."
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
-"To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To type text into this edit field, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
-"Para teclear texto neste campo de edición, cambia ó modo foco premendo NVDA"
-"+ESPAZO ou a tecla INTRO."
+"Para teclear texto neste campo de edición, cambia ó modo foco premendo "
+"NVDA+ESPAZO ou a tecla INTRO."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
-"To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To select an item in the combo box, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Para seleccionar un elemento do cadro combinado, cambia ó modo foco premendo "
 "NVDA+ESPAZO ou a tecla INTRO."
