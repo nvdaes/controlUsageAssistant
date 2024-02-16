@@ -1,6 +1,6 @@
 # Control Usage Assistant #
 
-* Автори: Joseph Lee, Noelia Ruiz Martínez
+* Author: Joseph Lee, Noelia Ruiz Martínez
 
 Використовуйте цей додаток аби знати, як взаємодіяти з елементами керування
 у фокусі. Натисніть NVDA+H щоб отримати коротку довідку про взаємодію з

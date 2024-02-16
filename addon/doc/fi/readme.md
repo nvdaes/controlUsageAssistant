@@ -1,6 +1,6 @@
 # Säätimen käyttöapu #
 
-* Tekijät: Joseph Lee ja Noelia Ruiz Martínez
+* Author: Joseph Lee, Noelia Ruiz Martínez
 
 Tämän lisäosan avulla voit selvittää, miten aktiivisen säätimen kanssa
 ollaan vuorovaikutuksessa.  Paina NVDA+H kuullaksesi lyhyen ohjeen

@@ -1,6 +1,6 @@
 # Pomoćnik za primjenu kontrola #
 
-* Autor: Joseph Lee, Noelia Ruiz Martínez
+* Author: Joseph Lee, Noelia Ruiz Martínez
 
 Koristi ovaj dodatak i saznaj kako koristiti fokusiranu kontrolu. Pritisni
 NVDA+H za dobivanje kratke poruke o tome kako koristiti fokusirane kontrole,

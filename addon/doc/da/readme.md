@@ -1,6 +1,6 @@
 # Brugsassistent til kontroller #
 
-* Forfatter: Joseph Lee, Noelia Ruiz Martínez
+* Author: Joseph Lee, Noelia Ruiz Martínez
 
 Brug denne tilføjelse til at finde ud af, hvordan du interagerer med det
 fokuserede kontrolelement.  Tryk på NVDA+H for at få en kort hjælp til at
