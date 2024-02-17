@@ -1,6 +1,6 @@
 # Асистент за работа с контроли (Control Usage Assistant) #
 
-* Автори: Joseph Lee, Noelia Ruiz Martínez
+* Author: Joseph Lee, Noelia Ruiz Martínez
 
 Използвайте тази добавка, за да разберете как да си взаимодействате с
 елемента на фокус. Натиснете NVDA+H, за да чуете кратко помощно съобщение за

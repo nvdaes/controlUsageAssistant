@@ -1,6 +1,6 @@
 # Control Usage Assistant #
 
-* Autor: Joseph Lee, Noelia Ruiz Martínez
+* Author: Joseph Lee, Noelia Ruiz Martínez
 
 Utiliza este complemento para atopar como interactuar co control enfocado.
 Preme NVDA+H para obter unha mensaxe curta de axuda na interacción co

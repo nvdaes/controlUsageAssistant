@@ -1,6 +1,6 @@
 # Kontrol Kullanım Asistanı #
 
-* Yazarlar: Joseph Lee, Noelia Ruiz Martínez
+* Yazar: Joseph Lee, Noelia Ruiz Martínez
 
 Mevcut odak hakkında kısa bir yardım mesajı dinlemek için bu eklentiyi
 kullanın.  Onay kutuları, yazı alanları vb Odaktaki kontrolle nasıl

@@ -1,6 +1,6 @@
 # Control Usage Assistant #
 
-* 作者: Joseph Lee, Noelia Ruiz Martínez
+* Author: Joseph Lee, Noelia Ruiz Martínez
 
 フォーカスされたコントロールをどのように操作するかを見つけるのにこのアドオンを使用します。チェックボックス、エディットフィールドなどの、フォーカスされたコントロールを操作することについての短いヘルプメッセージを得るためにNVDA+Hを押します。
 

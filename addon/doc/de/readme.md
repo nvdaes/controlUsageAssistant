@@ -1,6 +1,6 @@
 # Hilfe zur Verwendung von Steuerelementen #
 
-* Autoren: Joseph Lee und Noelia Ruiz Martínez
+* Author: Joseph Lee, Noelia Ruiz Martínez
 
 Verwenden Sie diese Erweiterung, um zu erfahren, wie Sie das aktuell
 hervorgehobene Steuerelement benutzen können. Drücken Sie NVDA+H, um eine
