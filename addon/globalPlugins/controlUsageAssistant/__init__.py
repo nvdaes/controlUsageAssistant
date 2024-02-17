@@ -19,7 +19,6 @@ from typing import Callable
 
 import globalPluginHandler
 import controlTypes
-import ui
 import api
 from browseMode import BrowseModeDocumentTreeInterceptor
 import scriptHandler
