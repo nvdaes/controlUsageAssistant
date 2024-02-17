@@ -19,7 +19,6 @@ from typing import Callable
 
 import globalPluginHandler
 import controlTypes
-import ui
 import api
 from browseMode import BrowseModeDocumentTreeInterceptor
 import scriptHandler
@@ -33,6 +32,7 @@ import addonHandler
 from .controltypeshelp import controlTypeHelpMessages, browseModeHelpMessages
 from .nvdaobjectshelp import objectsHelpMessages
 from .utils import confspec, getAutomaticSpeechSequence, AddonSettingsPanel
+from .securityUtils import secureBrowseableMessage  # Created by Cyrille (@CyrilleB79)
 
 addonHandler.initTranslation()
 
@@ -75,7 +75,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_controlHelp(self, gesture):
 		obj = api.getFocusObject()
 		# The prototype UI message, the actual processing is done below.
-		ui.browseableMessage(self.getHelpMessage(obj), title=_("Control Usage Assistant"))
+		secureBrowseableMessage(self.getHelpMessage(obj), title=_("Control Usage Assistant"))
 
 	# GetHelpMessage: The actual function behind the script above.
 	def getHelpMessage(self, curObj):
