@@ -20,9 +20,13 @@ _: Callable[[str], str]
 # Source: NVDA pull request for issue 2699 (context-sensitive help)
 
 objectsHelpMessages = {
-	"NVDAObjects.behaviors.EditableTextWithSuggestions": _(
+	# "NVDAObjects.behaviors.EditableTextWithSuggestions": _(
 		# Translators: help text for search field in Windows 10 and other places.
-		"After typing search text, press up or down arrow keys to review list of suggestions."
+		# "After typing search text, press up or down arrow keys to review list of suggestions."
+	# ),
+	"NVDAObjects.behaviors.EditableText": _(
+		# Translators: Help message for edit boxes.
+		"Use arrow keys to move the cursor across text. You may type text here."
 	),
 	"NVDAObjects.IAccessible.adobeAcrobat.Document": _(
 		# Translators: Help message for reading Adobe PDF documents.
