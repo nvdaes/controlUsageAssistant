@@ -44,19 +44,17 @@ _: Callable[[str], str]
 # before resorting to role-based messages.
 CUAMROLevel = 0
 
-shouldReportSuggestion = False
-
-
 class EnhancedSuggestion(NVDAObjects.behaviors.InputFieldWithSuggestions):
 
 	def event_suggestionsOpened(self):
 		super().event_suggestionsOpened()
-		global shouldReportSuggestion
-		shouldReportSuggestion = True
+		self.helpText = (
+			# Translators: help text for search field in Windows 10 and other places.
+		 _("After typing search text, press up or down arrow keys to review list of suggestions.")
+			)
 
 	def event_suggestionsClosed(self):
-		global shouldReportSuggestion
-		shouldReportSuggestion = False
+		self.helpText = None
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
@@ -109,11 +107,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				clsName = str(entry).split("'")[1]
 				if clsName in objectsHelpMessages:
 					helpMessages.append(objectsHelpMessages[clsName])
-		if shouldReportSuggestion:
-			helpMessages = [
-				# Translators: help text for search field in Windows 10 and other places.
-		 _("After typing search text, press up or down arrow keys to review list of suggestions.")
-			]
 		# Except for virtual buffers, do not proceed if we do have help messages from MRO lookup.
 		# Additional constraints.
 		# Just in case browse mode is active.
@@ -136,6 +129,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		helpMessages = []
 		if isinstance(curObj.treeInterceptor, BrowseModeDocumentTreeInterceptor):
 			return None
+		if hasattr(curObj, "helpText"):
+			helpMessages.append(curObj.helpText)
 		for entry in curObj.__class__.__mro__:
 			clsName = str(entry).split("'")[1]
 			if clsName in objectsHelpMessages:
