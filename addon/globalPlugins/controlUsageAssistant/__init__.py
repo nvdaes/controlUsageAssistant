@@ -44,14 +44,15 @@ _: Callable[[str], str]
 # before resorting to role-based messages.
 CUAMROLevel = 0
 
+
 class EnhancedSuggestion(NVDAObjects.behaviors.InputFieldWithSuggestions):
 
 	def event_suggestionsOpened(self):
 		super().event_suggestionsOpened()
 		self.helpText = (
 			# Translators: help text for search field in Windows 10 and other places.
-		 _("After typing search text, press up or down arrow keys to review list of suggestions.")
-			)
+			_("After typing search text, press up or down arrow keys to review list of suggestions.")
+		)
 
 	def event_suggestionsClosed(self):
 		self.helpText = None
