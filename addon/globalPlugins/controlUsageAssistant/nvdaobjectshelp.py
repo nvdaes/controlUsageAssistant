@@ -21,8 +21,8 @@ _: Callable[[str], str]
 
 objectsHelpMessages = {
 	# "NVDAObjects.behaviors.EditableTextWithSuggestions": _(
-		# Translators: help text for search field in Windows 10 and other places.
-		# "After typing search text, press up or down arrow keys to review list of suggestions."
+	# Translators: help text for search field in Windows 10 and other places.
+	# "After typing search text, press up or down arrow keys to review list of suggestions."
 	# ),
 	"NVDAObjects.behaviors.EditableText": _(
 		# Translators: Help message for edit boxes.
