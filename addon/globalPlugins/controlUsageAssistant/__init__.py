@@ -9,6 +9,8 @@ import wx
 
 import speech
 
+import NVDAObjects
+
 # NVDA+H: Obtain usage help on a particular control.
 # Start by looking at method resolution order (MRO) for object class hierarchy.
 # Then depending on the type of control and its state(s), lookup a map of control types and help messages.
@@ -19,7 +21,6 @@ from typing import Callable
 
 import globalPluginHandler
 import controlTypes
-import ui
 import api
 from browseMode import BrowseModeDocumentTreeInterceptor
 import scriptHandler
@@ -33,6 +34,7 @@ import addonHandler
 from .controltypeshelp import controlTypeHelpMessages, browseModeHelpMessages
 from .nvdaobjectshelp import objectsHelpMessages
 from .utils import confspec, getAutomaticSpeechSequence, AddonSettingsPanel
+from .securityUtils import secureBrowseableMessage  # Created by Cyrille (@CyrilleB79)
 
 addonHandler.initTranslation()
 
@@ -41,6 +43,19 @@ _: Callable[[str], str]
 # How many method resolution order (MRO) level help messages to consider
 # before resorting to role-based messages.
 CUAMROLevel = 0
+
+
+class EnhancedSuggestion(NVDAObjects.behaviors.InputFieldWithSuggestions):
+
+	def event_suggestionsOpened(self):
+		super().event_suggestionsOpened()
+		self.helpText = (
+			# Translators: help text for search field in Windows 10 and other places.
+			_("After typing search text, press up or down arrow keys to review list of suggestions.")
+		)
+
+	def event_suggestionsClosed(self):
+		self.helpText = None
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
@@ -75,7 +90,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_controlHelp(self, gesture):
 		obj = api.getFocusObject()
 		# The prototype UI message, the actual processing is done below.
-		ui.browseableMessage(self.getHelpMessage(obj), title=_("Control Usage Assistant"))
+		secureBrowseableMessage(self.getHelpMessage(obj), title=_("Control Usage Assistant"))
 
 	# GetHelpMessage: The actual function behind the script above.
 	def getHelpMessage(self, curObj):
@@ -115,6 +130,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		helpMessages = []
 		if isinstance(curObj.treeInterceptor, BrowseModeDocumentTreeInterceptor):
 			return None
+		if hasattr(curObj, "helpText"):
+			helpMessages.append(curObj.helpText)
 		for entry in curObj.__class__.__mro__:
 			clsName = str(entry).split("'")[1]
 			if clsName in objectsHelpMessages:
@@ -212,3 +229,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			pass
 		if message:
 			wx.CallAfter(self.reportMessage, message)
+
+	def chooseNVDAObjectOverlayClasses(self, obj, clsList):
+		if obj.role == controlTypes.Role.EDITABLETEXT:
+			clsList.insert(0, EnhancedSuggestion)
