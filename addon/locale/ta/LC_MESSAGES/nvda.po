@@ -17,6 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.7\n"
 
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"தேடப்படுவதற்கான உரையைத் தட்டச்சியவுடன், பட்டியலில் காட்டப்படும் பரிந்துரைகளைச் சீராய, மேல் "
+"- கீழ் அம்பு விசைகளை பயன்படுத்தவும். "
+
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -54,8 +62,8 @@ msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
 msgstr ""
-"உலாவும் நிலைக்கு மாறவும், விரைவு வழிநடத்தல் கட்டளைகளைப் பயன்படுத்தவும், என்விடிஏ"
-"+இடைவெளிப்பட்டை, அல்லது விடுபடு விசையை அழுத்தவும்"
+"உலாவும் நிலைக்கு மாறவும், விரைவு வழிநடத்தல் கட்டளைகளைப் பயன்படுத்தவும், "
+"என்விடிஏ+இடைவெளிப்பட்டை, அல்லது விடுபடு விசையை அழுத்தவும்"
 
 #. Translators: Help message for a checkbox.
 msgid "Press space bar to check or uncheck this check box."
@@ -123,8 +131,8 @@ msgid ""
 "for next tab and control+shift+tab for previous tab."
 msgstr ""
 "கீற்றுகளுக்கிடையே நகர, இடதம்பு, அல்லது வலதம்பு விசைகளை பயன்படுத்தவும். அடுத்த கீற்றுக்கு "
-"நகர, கட்டுப்பாடு+தத்தல் விசையை அழுத்தவும். முந்தைய கீற்றுக்கு நகர, கட்டுப்பாடு+மாற்றழுத்தி"
-"+தத்தல் விசையை அழுத்தவும்"
+"நகர, கட்டுப்பாடு+தத்தல் விசையை அழுத்தவும். முந்தைய கீற்றுக்கு நகர, "
+"கட்டுப்பாடு+மாற்றழுத்தி+தத்தல் விசையை அழுத்தவும்"
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
 msgid ""
@@ -186,16 +194,16 @@ msgstr ""
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
-"To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To type text into this edit field, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "இத்தொகு களத்தில் உரையைத் தட்டச்சிட, என்விடிஏ+இடைவெளிப்பட்டை, அல்லது உள்ளிடு விசையை "
 "அழுத்தி குவிமைய நிலைக்கு மாறவும்"
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
-"To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To select an item in the combo box, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "சேர்க்கைப் பெட்டியில் ஒரு உருப்படியைத் தெரிவு செய்ய, என்விடிஏ+இடைவெளிப்பட்டை, அல்லது "
 "உள்ளிடு விசையை அழுத்தி குவிமைய நிலைக்கு மாறவும்"
@@ -208,13 +216,12 @@ msgstr ""
 "இணையப் பக்கத்தைப் படிக்க, உலாவும் நிலை, விரைவு வழிநடத்தல் கட்டளைகள் ஆகியவைகளைப் "
 "பயன்படுத்தவும்"
 
-#. Translators: help text for search field in Windows 10 and other places.
-msgid ""
-"After typing search text, press up or down arrow keys to review list of "
-"suggestions."
+#. Translators: Help message for edit boxes.
+#, fuzzy
+msgid "Use arrow keys to move the cursor across text. You may type text here."
 msgstr ""
-"தேடப்படுவதற்கான உரையைத் தட்டச்சியவுடன், பட்டியலில் காட்டப்படும் பரிந்துரைகளைச் சீராய, மேல் "
-"- கீழ் அம்பு விசைகளை பயன்படுத்தவும். "
+"இப்பட்டியலில் இருக்கும் முந்தைய, அல்லது அடுத்த உருப்படிகளுக்கிடையே நகர, அம்பு விசைகளை "
+"பயன்படுத்தவும்; தெரிவாகியிருக்கும் உருப்படியை இயக்க, உள்ளிடு விசையை அழுத்தவும்"
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""
@@ -277,8 +284,8 @@ msgid ""
 msgstr ""
 "குவிமையத்தில் இருக்கும் கட்டுப்பாடுகளுடன் எவ்வாறு அளவளாவுவது என்றறிய இது உதவுகிறது."
 "கணினி, அல்லது விண்டோஸ்/என்விடிஏவின் துவக்க நிலை பயனர்களுக்கு இது பயன்படும்.\n"
-"\tதேர்வுப் பெட்டி, அட்டவணை போன்ற கட்டுப்பாடு குறித்த சிறு உதவிக் குறிப்பைப் பெற, என்விடிஏ"
-"+h விசையை அழுத்தவும் "
+"\tதேர்வுப் பெட்டி, அட்டவணை போன்ற கட்டுப்பாடு குறித்த சிறு உதவிக் குறிப்பைப் பெற, "
+"என்விடிஏ+h விசையை அழுத்தவும் "
 
 #~ msgid "Use the text navigation commands to read text"
 #~ msgstr "உரையை படிக்க, உரை வழிகாட்டிக் கட்டளைகளை பயன்படுத்தவும்"

@@ -18,6 +18,14 @@ msgstr ""
 "X-Generator: Poedit 3.3.2\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"Depois de escrever o texto a pesquisar, pressione as setas para cima ou para "
+"baixo para rever a lista de sugestões."
+
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -184,16 +192,16 @@ msgstr ""
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
-"To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To type text into this edit field, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Para escrever texto nesta caixa de edição, mude para o modo de foco, "
 "pressionando NVDA+Espaço ou a tecla \"ENTER\"."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
-"To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To select an item in the combo box, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Para seleccionar um ítem nesta caixa combinada, mude para o modo de foco, "
 "pressionando NVDA+Espaço ou a tecla \"ENTER\"."
@@ -206,13 +214,12 @@ msgstr ""
 "Use o modo de navegação ou os comandos de navegação rápida, para ler através "
 "desta página da internet."
 
-#. Translators: help text for search field in Windows 10 and other places.
-msgid ""
-"After typing search text, press up or down arrow keys to review list of "
-"suggestions."
+#. Translators: Help message for edit boxes.
+#, fuzzy
+msgid "Use arrow keys to move the cursor across text. You may type text here."
 msgstr ""
-"Depois de escrever o texto a pesquisar, pressione as setas para cima ou para "
-"baixo para rever a lista de sugestões."
+"Use as setas, para se mover para o anterior e para o próximo, entre os "
+"elementos desta lista."
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""

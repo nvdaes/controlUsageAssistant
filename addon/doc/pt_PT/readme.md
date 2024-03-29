@@ -20,6 +20,10 @@ Asistant category to configure add-on settings:
 * Pitch change for automatic messages: This spin box allows to set the pitch
   change when NVDA reads automatic messages (from -30 to +30).
 
+## Version 20240324.0.0
+
+* Improved support for edit controls and suggestions.
+
 ## Version 2023.02.19
 
 * The message configured for clickable objects will be reported after other

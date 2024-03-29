@@ -17,6 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.3.2\n"
 
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"Після введення тексту для пошуку скористайтеся клавішами стрілок вгору-вниз "
+"для переміщення між результатами пошуку."
+
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -204,13 +212,12 @@ msgstr ""
 "Використовуйте режим огляду та команди швидкої навігації, щоб прочитати веб-"
 "сторінку."
 
-#. Translators: help text for search field in Windows 10 and other places.
-msgid ""
-"After typing search text, press up or down arrow keys to review list of "
-"suggestions."
+#. Translators: Help message for edit boxes.
+#, fuzzy
+msgid "Use arrow keys to move the cursor across text. You may type text here."
 msgstr ""
-"Після введення тексту для пошуку скористайтеся клавішами стрілок вгору-вниз "
-"для переміщення між результатами пошуку."
+"Використовуйте клавіші стрілок для переходу до наступного або попереднього "
+"елемента у цьому списку."
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""

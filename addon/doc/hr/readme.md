@@ -21,6 +21,10 @@ kontrola:
 * Promjena tona za automatske poruke: Ovaj kotačić omogućuje mijenjanje tona
   kad NVDA čita automatske poruke (od −30 do +30).
 
+## Version 20240324.0.0
+
+* Improved support for edit controls and suggestions.
+
 ## Verzija 2023.02.19
 
 * Konfigurirana poruka za objekte na koje se može kliknuti bit će

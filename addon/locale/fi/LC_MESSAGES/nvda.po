@@ -18,6 +18,14 @@ msgstr ""
 "X-Generator: Poedit 1.6.11\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"Kun olet kirjoittanut haettavan tekstin, Tarkastele ehdotusten luetteloa "
+"painamalla ylä- tai alanuolta."
+
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -179,16 +187,16 @@ msgstr ""
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
-"To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To type text into this edit field, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Siirry vuorovaikutustilaan painamalla NVDA+Väli tai Enter kirjoittaaksesi "
 "tekstiä tähän muokkauskenttään."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
-"To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To select an item in the combo box, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Siirry vuorovaikutustilaan painamalla NVDA+välilyönti tai Enter valitaksesi "
 "kohteen yhdistelmäruudusta."
@@ -199,13 +207,11 @@ msgid ""
 "webpage."
 msgstr "Käytä selaustilaa ja pikanavigointikomentoja verkkosivun lukemiseen."
 
-#. Translators: help text for search field in Windows 10 and other places.
-msgid ""
-"After typing search text, press up or down arrow keys to review list of "
-"suggestions."
+#. Translators: Help message for edit boxes.
+#, fuzzy
+msgid "Use arrow keys to move the cursor across text. You may type text here."
 msgstr ""
-"Kun olet kirjoittanut haettavan tekstin, Tarkastele ehdotusten luetteloa "
-"painamalla ylä- tai alanuolta."
+"Siirry tämän listan seuraavaan tai edelliseen kohteeseen nuolinäppäimillä."
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""

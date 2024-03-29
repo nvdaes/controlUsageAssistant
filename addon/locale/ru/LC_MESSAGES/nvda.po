@@ -16,8 +16,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.10\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"После ввода текста для поиска нажмите стрелки вверх и вниз, Чтобы посмотеть "
+"список предложений."
 
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
@@ -186,19 +194,19 @@ msgstr ""
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
-"To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To type text into this edit field, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Для ввода текста в поле для редактирования, переключитесь в режим "
 "редактирования, нажав NVDA + ПРОБЕЛ или ВВОД"
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
-"To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To select an item in the combo box, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
-"Для выбора элемента в списке, перейдите в режим редактирования, нажав NVDA"
-"+ПРОБЕЛ или ВВОД"
+"Для выбора элемента в списке, перейдите в режим редактирования, нажав "
+"NVDA+ПРОБЕЛ или ВВОД"
 
 #. Translators: Help message for reading webpages.
 msgid ""
@@ -208,13 +216,12 @@ msgstr ""
 "Используйте режим обзора с быстрыми командами навигации, чтобы эффективно "
 "читать веб-страницу"
 
-#. Translators: help text for search field in Windows 10 and other places.
-msgid ""
-"After typing search text, press up or down arrow keys to review list of "
-"suggestions."
+#. Translators: Help message for edit boxes.
+#, fuzzy
+msgid "Use arrow keys to move the cursor across text. You may type text here."
 msgstr ""
-"После ввода текста для поиска нажмите стрелки вверх и вниз, Чтобы посмотеть "
-"список предложений."
+"Используйте клавиши со стрелками, чтобы перейти к следующему или предыдущему "
+"элементу в этом списке"
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""

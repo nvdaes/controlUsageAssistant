@@ -17,6 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.10\n"
 
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"Nakon upisivanja teksta pretrage, koristite strelice dole i gore da "
+"pregledate listu predloga."
+
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -172,21 +180,21 @@ msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
 "ENTER key."
 msgstr ""
-"Da izaberete radio dugme, prebacite se u režim fokusiranja komandom NVDA"
-"+razmak ili tasterom enter."
+"Da izaberete radio dugme, prebacite se u režim fokusiranja komandom "
+"NVDA+razmak ili tasterom enter."
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
-"To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To type text into this edit field, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
-"Da upišete tekst u ovo polje, prebacite se u režim fokusiranja komandom NVDA"
-"+razmak ili tasterom enter."
+"Da upišete tekst u ovo polje, prebacite se u režim fokusiranja komandom "
+"NVDA+razmak ili tasterom enter."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
-"To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To select an item in the combo box, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Da izaberete stavku u izbornom okviru, prebacite se u režim fokusiranja "
 "komandom  NVDA+space ili tasterom enter."
@@ -199,13 +207,10 @@ msgstr ""
 "Koristite režim pretraživanja i komande brze navigacije da pročitate Web "
 "stranicu."
 
-#. Translators: help text for search field in Windows 10 and other places.
-msgid ""
-"After typing search text, press up or down arrow keys to review list of "
-"suggestions."
-msgstr ""
-"Nakon upisivanja teksta pretrage, koristite strelice dole i gore da "
-"pregledate listu predloga."
+#. Translators: Help message for edit boxes.
+#, fuzzy
+msgid "Use arrow keys to move the cursor across text. You may type text here."
+msgstr "Koristite strelice da se krećete kroz stavke ove liste."
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""

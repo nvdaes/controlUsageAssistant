@@ -18,6 +18,14 @@ msgstr ""
 "X-Generator: Poedit 3.3.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"Aradığınız metni yazdıktan sonra, öneriler listesini incelemek için yukarı "
+"veya aşağı ok tuşlarına basın."
+
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -208,13 +216,10 @@ msgstr ""
 "Belge içinde dolaşmak için yön tuşlarını ya da hızlı dolaşım komutlarını "
 "kullanın."
 
-#. Translators: help text for search field in Windows 10 and other places.
-msgid ""
-"After typing search text, press up or down arrow keys to review list of "
-"suggestions."
-msgstr ""
-"Aradığınız metni yazdıktan sonra, öneriler listesini incelemek için yukarı "
-"veya aşağı ok tuşlarına basın."
+#. Translators: Help message for edit boxes.
+#, fuzzy
+msgid "Use arrow keys to move the cursor across text. You may type text here."
+msgstr "Listedeki seçenekler arasında dolaşmak için yön tuşlarını kullanın."
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""

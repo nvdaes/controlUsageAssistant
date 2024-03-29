@@ -17,6 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.3.2\n"
 
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"Nachdem Sie den Suchtext eingegeben haben, drücken Sie die Pfeiltasten nach "
+"oben oder unten, um die Liste der Vorschläge zu überprüfen."
+
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -218,13 +226,11 @@ msgstr ""
 "Verwenden Sie den Lesemodus oder die Schnellnavigationstasten, um sich durch "
 "die Webseite zu bewegen."
 
-#. Translators: help text for search field in Windows 10 and other places.
-msgid ""
-"After typing search text, press up or down arrow keys to review list of "
-"suggestions."
+#. Translators: Help message for edit boxes.
+#, fuzzy
+msgid "Use arrow keys to move the cursor across text. You may type text here."
 msgstr ""
-"Nachdem Sie den Suchtext eingegeben haben, drücken Sie die Pfeiltasten nach "
-"oben oder unten, um die Liste der Vorschläge zu überprüfen."
+"Verwenden Sie die Pfeiltasten, um einen Eintrag aus der Liste auszuwählen."
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""

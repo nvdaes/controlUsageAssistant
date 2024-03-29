@@ -19,6 +19,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Poedit 3.3.2\n"
 
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"След като въведете текст за търсене, натиснете стрелките за нагоре или "
+"надолу, за да прегледате списъка с предложения."
+
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -213,13 +221,12 @@ msgstr ""
 "Използвайте стрелките и командите за бърза навигация, за да прочетете "
 "страницата."
 
-#. Translators: help text for search field in Windows 10 and other places.
-msgid ""
-"After typing search text, press up or down arrow keys to review list of "
-"suggestions."
+#. Translators: Help message for edit boxes.
+#, fuzzy
+msgid "Use arrow keys to move the cursor across text. You may type text here."
 msgstr ""
-"След като въведете текст за търсене, натиснете стрелките за нагоре или "
-"надолу, за да прегледате списъка с предложения."
+"Използвайте стрелките, за да се придвижите до предишен или следващ елемент в "
+"този списък."
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""

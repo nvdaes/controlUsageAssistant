@@ -17,6 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.7\n"
 
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"Ko boste natipkali iskalno besedilo, pritisnite puščici gor ali dol za "
+"pregled seznama predlogov."
+
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -120,9 +128,9 @@ msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
 "for next tab and control+shift+tab for previous tab."
 msgstr ""
-"Uporabite puščici levo in desno za premik med zavihki ali pritisnite control"
-"+tab za prehod na naslednji zavihek ali control+shift+tab za prehod na "
-"prejšnji zavihek."
+"Uporabite puščici levo in desno za premik med zavihki ali pritisnite "
+"control+tab za prehod na naslednji zavihek ali control+shift+tab za prehod "
+"na prejšnji zavihek."
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
 msgid ""
@@ -184,16 +192,16 @@ msgstr ""
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
-"To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To type text into this edit field, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Za vnos besedila v to vnosno polje, preklopite v delovanje žarišča s "
 "kombinacijo NVDA+preslednica ali tipke ENTER."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
-"To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To select an item in the combo box, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Za izbiro postavke v spustnem seznamu pojdite v delovanje žarišča s "
 "pritiskom kombinacije NVDA+preslednica ali tipke ENTER."
@@ -206,13 +214,12 @@ msgstr ""
 "Uporabite brskalniško delovanje in ukaze hitrega krmiljenja za branje po "
 "spletni strani."
 
-#. Translators: help text for search field in Windows 10 and other places.
-msgid ""
-"After typing search text, press up or down arrow keys to review list of "
-"suggestions."
+#. Translators: Help message for edit boxes.
+#, fuzzy
+msgid "Use arrow keys to move the cursor across text. You may type text here."
 msgstr ""
-"Ko boste natipkali iskalno besedilo, pritisnite puščici gor ali dol za "
-"pregled seznama predlogov."
+"Uporabite puščice za premik na naslednjo ali prejšnjo postavko na izbranem "
+"seznamu."
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""
