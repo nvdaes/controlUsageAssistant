@@ -18,6 +18,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.3.2\n"
 
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"Después de teclear el texto a buscar, pulsa las flechas arriba y abajo para "
+"revisar la lista de sugerencias."
+
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -205,13 +213,12 @@ msgstr ""
 "Utiliza el modo exploración y las órdenes de navegación rápida para leer la "
 "página web."
 
-#. Translators: help text for search field in Windows 10 and other places.
-msgid ""
-"After typing search text, press up or down arrow keys to review list of "
-"suggestions."
+#. Translators: Help message for edit boxes.
+#, fuzzy
+msgid "Use arrow keys to move the cursor across text. You may type text here."
 msgstr ""
-"Después de teclear el texto a buscar, pulsa las flechas arriba y abajo para "
-"revisar la lista de sugerencias."
+"Utiliza las flechas para moverte al elemento siguiente o al anterior en esta "
+"lista."
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""

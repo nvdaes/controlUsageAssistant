@@ -21,6 +21,11 @@ l'extension :
   permet de définir la modification de la hauteur lorsque NVDA lit les
   messages automatiques (de -30 à +30).
 
+## Version 20240324.0.0
+
+* Amélioration de la prise en charge des contrôles d'édition et des
+  suggestions.
+
 ## Version 2023.02.19
 
 * Le message configuré pour les objets cliquables sera signalé après
@@ -75,7 +80,7 @@ l'extension :
 
 ## Version 2.1
 
-* Nouvelle langues et mises à jours d'autres
+* Nouvelle langues et mises à jours d'autres.
 
 ## Version 2.0
 
@@ -86,10 +91,10 @@ l'extension :
 * Ajout de message pour les formulaires dans les navigateurs en mode
   formulaire ou mode navigation (Internet Explorer, Adobe Reader, Mozilla
   Firefox, etc.).
-* Nouvelle langue : Danois
+* Nouvelle langue : Danois.
 
 ## Version 1.0
 
-* Première version
+* Première version.
 
 [[!tag dev stable]]

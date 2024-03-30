@@ -21,6 +21,10 @@ Usage Assistant para configurar las opciones del complemento:
   configurar el cambio de tono cuando NVDA lee mensajes automáticos (de -30
   a +30).
 
+## Versión 20240324.0.0
+
+* Soporte mejorado para los cuadros de edición y las sugerencias.
+
 ## Versión 2023.02.19
 
 * Se anunciará el mensaje configurado para objetos clicables después de

@@ -20,6 +20,10 @@ kategoria Kontrola użycia Asistant aby skonfigurować ustawienia dodatków:
   pozwala ustawić zmianę wysokości dźwięku, gdy NVDA odczytuje automatyczne
   wiadomości (od -30 do +30).
 
+## Version 20240324.0.0
+
+* Improved support for edit controls and suggestions.
+
 ## Wersja 2023.02.19
 
 * Komunikat skonfigurowany dla klikalnych obiektów będzie raportowany po

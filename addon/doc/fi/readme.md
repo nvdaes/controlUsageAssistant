@@ -23,6 +23,10 @@ lisäosan asetukset:
   avulla voit määrittää äänenkorkeuden muutoksen, jota NVDA käyttää
   lukiessaan automaattisia ilmoituksia (-30 - +30).
 
+## Version 20240324.0.0
+
+* Improved support for edit controls and suggestions.
+
 ## Versio 2023.02.19
 
 * Napsautettaville kohteille määritetty ilmoitus puhutaan muiden

@@ -17,6 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.2\n"
 
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"Når du har indtastet søgetekst, skal du trykke pil op eller pil ned for at "
+"gennemse listen over forslag."
+
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -178,21 +186,21 @@ msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
 "ENTER key."
 msgstr ""
-"For at vælge en radioknap, skift til fokustilstand ved at trykke på NVDA"
-"+Mellemrum eller Enter."
+"For at vælge en radioknap, skift til fokustilstand ved at trykke på "
+"NVDA+Mellemrum eller Enter."
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
-"To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To type text into this edit field, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "For at skrive tekst i dette redigeringsfelt, skift til fokustilstand ved at "
 "trykke NVDA+Mellemrum eller Enter."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
-"To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To select an item in the combo box, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "For at vælge et emne i comboboksen, skift til fokustilstand ved at trykke på "
 "NVDA+Mellemrum eller Enter."
@@ -203,13 +211,12 @@ msgid ""
 "webpage."
 msgstr "Brug gennemsynstilstand og bogstavnavigation til at læse websiden."
 
-#. Translators: help text for search field in Windows 10 and other places.
-msgid ""
-"After typing search text, press up or down arrow keys to review list of "
-"suggestions."
+#. Translators: Help message for edit boxes.
+#, fuzzy
+msgid "Use arrow keys to move the cursor across text. You may type text here."
 msgstr ""
-"Når du har indtastet søgetekst, skal du trykke pil op eller pil ned for at "
-"gennemse listen over forslag."
+"Brug piletasterne til at flytte til det forrige eller næste valg i denne "
+"liste."
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""

@@ -19,6 +19,14 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 3.2.2\n"
 
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"Po napisaniu tekstu wyszukiwania, naciśnij strzałkę w górę lub w dół aby "
+"przejrzeć listę podpowiedzi."
+
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -176,21 +184,21 @@ msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
 "ENTER key."
 msgstr ""
-"Aby wybrać przycisk opcji, przejdź do trybu formularza naciskając NVDA"
-"+spacja albo klawisz Enter."
+"Aby wybrać przycisk opcji, przejdź do trybu formularza naciskając "
+"NVDA+spacja albo klawisz Enter."
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
-"To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To type text into this edit field, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Aby wpisać tekst w tym polu edycji, przejdź do trybu formularza naciskając "
 "NVDA+spacja albo klawisz Enter."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
-"To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To select an item in the combo box, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Aby wybrać element w liście rozwijanej, przejdź do trybu formularza "
 "naciskając NVDA+spacja albo klawisz Enter."
@@ -203,13 +211,12 @@ msgstr ""
 "Użyj trybu przeglądania i poleceń szybkiej nawigacji, aby przeczytać stronę "
 "sieci Web."
 
-#. Translators: help text for search field in Windows 10 and other places.
-msgid ""
-"After typing search text, press up or down arrow keys to review list of "
-"suggestions."
+#. Translators: Help message for edit boxes.
+#, fuzzy
+msgid "Use arrow keys to move the cursor across text. You may type text here."
 msgstr ""
-"Po napisaniu tekstu wyszukiwania, naciśnij strzałkę w górę lub w dół aby "
-"przejrzeć listę podpowiedzi."
+"Użyj strzałek, aby przejść do następnego lub poprzedniego elementu na tej "
+"liście."
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""

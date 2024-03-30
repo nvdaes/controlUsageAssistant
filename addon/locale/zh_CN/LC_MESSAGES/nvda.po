@@ -18,6 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.4.3\n"
 
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr "输入搜索文本后，按向上或向下光标查看建议列表。"
+
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -159,14 +165,14 @@ msgstr "要选择单选按钮，请使用NVDA + 空格或按回车键切换到�
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
-"To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To type text into this edit field, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr "要将文本输入到此编辑框，请按NVDA + 空格或按回车键切换到焦点模式。"
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
-"To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To select an item in the combo box, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr "要在组合框中选择项目，请按NVDA + 空格或回车键切换到焦点模式。"
 
 #. Translators: Help message for reading webpages.
@@ -175,11 +181,10 @@ msgid ""
 "webpage."
 msgstr "使用浏览模式和单键导航来阅读网页。"
 
-#. Translators: help text for search field in Windows 10 and other places.
-msgid ""
-"After typing search text, press up or down arrow keys to review list of "
-"suggestions."
-msgstr "输入搜索文本后，按向上或向下光标查看建议列表。"
+#. Translators: Help message for edit boxes.
+#, fuzzy
+msgid "Use arrow keys to move the cursor across text. You may type text here."
+msgstr "使用光标移至此列表中的下一项或上一项。"
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""

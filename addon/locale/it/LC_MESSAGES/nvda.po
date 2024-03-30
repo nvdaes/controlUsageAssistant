@@ -17,6 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.10\n"
 
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"Dopo aver digitato il testo da cercare, premere i tasti freccia su e giù per "
+"consultare la lista dei suggerimenti."
+
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -56,8 +64,8 @@ msgid ""
 "browse mode by pressing NVDA+SPACE"
 msgstr ""
 "Per utilizzare la modalità navigazione e i comandi di navigazione facilitata "
-"per esplorare la pagina web, passare alla modalità navigazione premendo NVDA"
-"+spazio"
+"per esplorare la pagina web, passare alla modalità navigazione premendo "
+"NVDA+spazio"
 
 #. Translators: Help message for a checkbox.
 msgid "Press space bar to check or uncheck this check box."
@@ -188,16 +196,16 @@ msgstr ""
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
-"To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To type text into this edit field, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Per digitare testo in questo campo editqazione, passare alla modalità focus "
 "premendo NVDA + SPAZIO o il tasto Invio."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
-"To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To select an item in the combo box, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Per selezionare una voce nella casella combinata, passare alla modalità "
 "focus premendo NVDA + SPAZIO o il tasto Invio."
@@ -210,13 +218,12 @@ msgstr ""
 "Utilizzare la modalità navigazione e i comandi di navigazione facilitata per "
 "leggere la pagina web."
 
-#. Translators: help text for search field in Windows 10 and other places.
-msgid ""
-"After typing search text, press up or down arrow keys to review list of "
-"suggestions."
+#. Translators: Help message for edit boxes.
+#, fuzzy
+msgid "Use arrow keys to move the cursor across text. You may type text here."
 msgstr ""
-"Dopo aver digitato il testo da cercare, premere i tasti freccia su e giù per "
-"consultare la lista dei suggerimenti."
+"Utilizzare i tasti freccia per spostarsi alla voce successiva o precedente "
+"in questo elenco."
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""

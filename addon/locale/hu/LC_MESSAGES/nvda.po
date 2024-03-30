@@ -18,6 +18,14 @@ msgstr ""
 "X-Generator: Poedit 1.6.10\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"A keresőkifejezés beírása után használja a lenyíl és felnyíl billentyűket a "
+"javaslatok áttekintéséhez."
+
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -55,8 +63,8 @@ msgid ""
 "To use browse mode and quick navigation keys to read the webpage, switch to "
 "browse mode by pressing NVDA+SPACE"
 msgstr ""
-"A böngészőmód és a gyors navigációs gombok használatához nyomja meg az NVDA"
-"+szóköz billentyűparancsot"
+"A böngészőmód és a gyors navigációs gombok használatához nyomja meg az "
+"NVDA+szóköz billentyűparancsot"
 
 #. Translators: Help message for a checkbox.
 msgid "Press space bar to check or uncheck this check box."
@@ -182,16 +190,16 @@ msgstr ""
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
-"To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To type text into this edit field, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Szöveg begépeléséhez váltson fókuszmódra az NVDA+szóköz vagy az enter "
 "lenyomásával."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
-"To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To select an item in the combo box, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "A kombinált listamező egy elemének kiválasztásához váltson fókuszmódra az "
 "NVDA+szóköz vagy az enter lenyomásával."
@@ -204,13 +212,10 @@ msgstr ""
 "Használja a böngészőmódot és a gyorsnavigációs parancsokat a weboldal "
 "olvasásához."
 
-#. Translators: help text for search field in Windows 10 and other places.
-msgid ""
-"After typing search text, press up or down arrow keys to review list of "
-"suggestions."
-msgstr ""
-"A keresőkifejezés beírása után használja a lenyíl és felnyíl billentyűket a "
-"javaslatok áttekintéséhez."
+#. Translators: Help message for edit boxes.
+#, fuzzy
+msgid "Use arrow keys to move the cursor across text. You may type text here."
+msgstr "A nyílbillentyűk segítségével mozoghat a  lista elemei között"
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""

@@ -18,6 +18,12 @@ msgstr ""
 "X-Generator: Poedit 1.6.11\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr "Po zadaní textu si pozrite návrhy šípkami hore a dole."
+
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -112,8 +118,8 @@ msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
 "for next tab and control+shift+tab for previous tab."
 msgstr ""
-"Na pohyb po záložkách použite šípku vľavo a v pravo. Môžete tiež použiť ctrl"
-"+tab pre prechod na nasledujúcu a ctrl+shift+tab pre prechod na "
+"Na pohyb po záložkách použite šípku vľavo a v pravo. Môžete tiež použiť "
+"ctrl+tab pre prechod na nasledujúcu a ctrl+shift+tab pre prechod na "
 "predchádzajúcu záložku."
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
@@ -170,16 +176,16 @@ msgstr ""
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
-"To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To type text into this edit field, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Aby ste mohli písať text, prepnite sa do režimu fokusu pomocou klávesu Enter "
 "alebo nvda+medzera."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
-"To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To select an item in the combo box, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "Na vybratie možnosti zo zoznamového rámika sa prepnite do režimu fokusu "
 "pomocou klávesu Enter alebo nvda+medzera."
@@ -190,11 +196,10 @@ msgid ""
 "webpage."
 msgstr "Na pohyb po stránke použite šípky alebo klávesy rýchlej navigácie."
 
-#. Translators: help text for search field in Windows 10 and other places.
-msgid ""
-"After typing search text, press up or down arrow keys to review list of "
-"suggestions."
-msgstr "Po zadaní textu si pozrite návrhy šípkami hore a dole."
+#. Translators: Help message for edit boxes.
+#, fuzzy
+msgid "Use arrow keys to move the cursor across text. You may type text here."
+msgstr "na pohyb po položkách v tomto zozname použite šípky."
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""

@@ -18,6 +18,14 @@ msgstr ""
 "X-Generator: Poedit 1.6.10\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"بعد از تایپِ متنِ جستجو، برای مرورِ فهرستِ پیشنهادها، جهت‌نماهای بالا و پایین را "
+"بزنید."
+
 #. Translators: Input gesture category for Control Usage Assistant add-on.
 #. The prototype UI message, the actual processing is done below.
 #. Add-on summary, usually the user visible name of the addon.
@@ -181,16 +189,16 @@ msgstr ""
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
-"To type text into this edit field, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To type text into this edit field, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "برای تایپِ متن در این فیلدِ ویرایشی، با استفاده از کلیدهای NVDA + فاصله یا "
 "اینتر به حالتِ فرمان‌پذیری بروید."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
-"To select an item in the combo box, switch to focus mode by pressing NVDA"
-"+SPACE or ENTER key."
+"To select an item in the combo box, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
 msgstr ""
 "برای انتخاب یک مورد در جعبه‌ی کشویی، با استفاده از کلیدهای NVDA + فاصله یا "
 "اینتر به حالتِ فرمان‌پذیری بروید."
@@ -203,13 +211,11 @@ msgstr ""
 "برای خواندن و حرکت کردن در صفحه‌ی وب، از حالتِ مرور و فرمان‌های پِیمایِشِ سریع "
 "استفاده کنید."
 
-#. Translators: help text for search field in Windows 10 and other places.
-msgid ""
-"After typing search text, press up or down arrow keys to review list of "
-"suggestions."
+#. Translators: Help message for edit boxes.
+#, fuzzy
+msgid "Use arrow keys to move the cursor across text. You may type text here."
 msgstr ""
-"بعد از تایپِ متنِ جستجو، برای مرورِ فهرستِ پیشنهادها، جهت‌نماهای بالا و پایین را "
-"بزنید."
+"برای حرکت به موردِ بعدی یا قبلی در این فهرست، از کلیدهای جهت‌نما استفاده کنید."
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""

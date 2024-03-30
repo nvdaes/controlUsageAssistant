@@ -23,6 +23,10 @@ tilføjelsesindstillinger:
   indstille ændringen af tonehøjden, når NVDA læser automatiske beskeder
   (fra -30 til +30).
 
+## Version 20240324.0.0
+
+* Improved support for edit controls and suggestions.
+
 ## Version 2023.02.19
 
 * The message configured for clickable objects will be reported after other

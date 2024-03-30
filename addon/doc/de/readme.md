@@ -24,6 +24,10 @@ Erweiterungseinstellungen zu konfigurieren:
   können Sie die Tonhöhenänderung (von -30 bis +30)festlegen, wenn NVDA
   automatische Nachrichten liest.
 
+## Version 20240324.0.0
+
+* Improved support for edit controls and suggestions.
+
 ## Version 2023.02.19
 
 * Die für anklickbare Objekte konfigurierte Meldung wird nach anderen
