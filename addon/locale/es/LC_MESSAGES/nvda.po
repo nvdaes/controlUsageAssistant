@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-09-08 08:24+0200\n"
+"PO-Revision-Date: 2024-03-29 08:44+0100\n"
 "Last-Translator: José Manuel Delicado <jm.delicado@nvda.es>\n"
 "Language-Team: NVDA add-ons translation team <LL@li.org>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #. Translators: help text for search field in Windows 10 and other places.
 msgid ""
@@ -214,11 +214,10 @@ msgstr ""
 "página web."
 
 #. Translators: Help message for edit boxes.
-#, fuzzy
 msgid "Use arrow keys to move the cursor across text. You may type text here."
 msgstr ""
-"Utiliza las flechas para moverte al elemento siguiente o al anterior en esta "
-"lista."
+"Usa las flechas para desplazar el cursor por el texto. Puedes escribir texto "
+"aquí."
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""
