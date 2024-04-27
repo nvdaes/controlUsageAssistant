@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant 2.4\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2013-05-10 04:50-0700\n"
-"PO-Revision-Date: 2023-02-12 02:49+0800\n"
-"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"PO-Revision-Date: 2024-03-31 10:22+0800\n"
+"Last-Translator: Zhang Yunxi <zhyx-work@outlook.com>\n"
 "Language-Team: NVDASimplified Chinese team All volunteers <Copyright (C) "
 "2010-2019>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.3\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #. Translators: help text for search field in Windows 10 and other places.
 msgid ""
@@ -33,9 +33,8 @@ msgid "Control Usage Assistant"
 msgstr "控件使用助理"
 
 #. Translators: Input help message for command to show settings.
-#, fuzzy
 msgid "Shows the Control Usage Assistant settings."
-msgstr "控件使用助理"
+msgstr "显示控件使用助理设置。"
 
 #. Translators: Input help message for control help command.
 msgid "Presents a message on how to interact with the focused control."
@@ -62,15 +61,15 @@ msgstr "要使用浏览模式和快速导航键阅读网页，请按NVDA + 空�
 
 #. Translators: Help message for a checkbox.
 msgid "Press space bar to check or uncheck this check box."
-msgstr "按空格选中或取消选中此复选框。"
+msgstr "按空格键选中或取消选中此复选框。"
 
 #. Translators: Help message for working with radio buttons.
 msgid "Use the arrow keys to choose a radio button."
-msgstr "使用光标选择一个单选按钮。"
+msgstr "使用光标键选择一个单选按钮。"
 
 #. Translators: Help message for a list box.
 msgid "Use the arrow keys to read this box."
-msgstr "使用光标浏览此框。"
+msgstr "使用光标键浏览列表中的项目。"
 
 #. Translators: Help message for an edit field.
 msgid "Type text here."
@@ -78,35 +77,35 @@ msgstr "在此处输入文本。"
 
 #. Translators: Help message for a button.
 msgid "Press SPACE or ENTER to activate this button."
-msgstr "按空格或回车激活此按钮。"
+msgstr "按空格键或回车键激活此按钮。"
 
 #. Translators: Help message for menu items.
 msgid "Use the arrow keys to move between the menu items."
-msgstr "使用光标在菜单项之间移动。"
+msgstr "使用光标键选择菜单项。"
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
 msgid "Use up and down arrow keys to move through options in the pop-up menu."
-msgstr "使用上下光标在弹出的菜单中移动选项。"
+msgstr "使用上下光标键选择弹出的菜单选项。"
 
 #. Translators: Help message for a combo box.
 msgid ""
 "Use the arrow keys to move among choices in the combo box until the desired "
 "option is found."
-msgstr "使用光标在组合框中的选项之间移动，直到找到所需的选项。"
+msgstr "使用光标键寻找所需要的组合框项目。"
 
 #. Translators: Help message for a list view.
 msgid "Use the arrow keys to move to the next or previous item in this list."
-msgstr "使用光标移至此列表中的下一项或上一项。"
+msgstr "使用光标键移至此列表中的下一项或上一项。"
 
 #. Translators: Help message for activating links.
 msgid "Press SPACE or ENTER to activate this link."
-msgstr "按空格键或回车键激活此链接。"
+msgstr "按空格键或回车键激活该链接。"
 
 #. Translators: Help message for working with tree view items.
 msgid ""
 "Use the up and down arrow keys to select the items. Use left arrow to "
 "collapse and right arrow to expand."
-msgstr "用上下光标选择。用左光标折叠，用右光标展开。"
+msgstr "使用上下光标选择项目。使用左光标键或者右光标键折叠或者展开子项目。"
 
 #. Translators: Help message for navigating tabs,
 #. such as various property tabs for drive properties in My Computer.
@@ -114,8 +113,8 @@ msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
 "for next tab and control+shift+tab for previous tab."
 msgstr ""
-"使用左右光标键在选项卡之间移动，或者按Ctrl + Tab键切换到下一个选项卡，按Ctrl "
-"+ Shift + Tab 键切换到上一个选项卡。"
+"使用左右光标键切换选项卡，或者按Ctrl + Tab键切换到下一个选项卡，按Ctrl + "
+"Shift + Tab 键切换到上一个选项卡。"
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
 msgid ""
@@ -124,8 +123,8 @@ msgid ""
 "decrease in larger values, and press home and end keys to select maximum and "
 "minimum value."
 msgstr ""
-"使用左光标和下光标减小滑块中的值，使用上光标和右光标增大滑块中的值。使用上一"
-"页和下一页增加或减少较大的值，按Home和End键选择最大值和最小值。"
+"使用左光标和下光标减小滑块的值，使用上光标和右光标增大滑块的值。使用上翻页键"
+"和下翻页键增加或减少较大的值，按行首和键行尾键选择最大值或最小值。"
 
 #. Translators: Help message for working with progress bars.
 msgid "This is a progress bar, used to show progress of an operation."
@@ -182,9 +181,8 @@ msgid ""
 msgstr "使用浏览模式和单键导航来阅读网页。"
 
 #. Translators: Help message for edit boxes.
-#, fuzzy
 msgid "Use arrow keys to move the cursor across text. You may type text here."
-msgstr "使用光标移至此列表中的下一项或上一项。"
+msgstr "使用光标键在文本中间移动，并可以输入文本。"
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""
