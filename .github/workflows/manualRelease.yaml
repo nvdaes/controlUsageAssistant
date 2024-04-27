@@ -18,7 +18,6 @@ on:
 
 jobs:
   buildAndUpload:
-    continue-on-error: true
     runs-on: ubuntu-latest
 
     steps:
@@ -52,6 +51,7 @@ jobs:
         git config --global user.name github-actions
         git config --global user.email github-actions@github.com
         git commit -a -m "Update buildVars"
+        git pull
         git push origin HEAD:$default-branch
     - id: import_gpg
       if: ${{ inputs.signAddOn }}
