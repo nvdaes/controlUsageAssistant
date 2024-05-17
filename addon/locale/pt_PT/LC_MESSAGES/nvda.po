@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: controlUsageAssistant 3.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-04-08 01:04+1000\n"
-"PO-Revision-Date: 2023-07-27 23:30+0100\n"
+"PO-Revision-Date: 2024-05-10 22:41+0100\n"
 "Last-Translator: Ângelo Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4.4\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #. Translators: help text for search field in Windows 10 and other places.
@@ -35,9 +35,8 @@ msgid "Control Usage Assistant"
 msgstr "Assistente para uso de controlos"
 
 #. Translators: Input help message for command to show settings.
-#, fuzzy
 msgid "Shows the Control Usage Assistant settings."
-msgstr "Assistente para uso de controlos"
+msgstr "Mostra as configurações do Assistente de Utilização dos Controlos."
 
 #. Translators: Input help message for control help command.
 msgid "Presents a message on how to interact with the focused control."
@@ -215,11 +214,10 @@ msgstr ""
 "desta página da internet."
 
 #. Translators: Help message for edit boxes.
-#, fuzzy
 msgid "Use arrow keys to move the cursor across text. You may type text here."
 msgstr ""
-"Use as setas, para se mover para o anterior e para o próximo, entre os "
-"elementos desta lista."
+"Utilize as teclas de seta para deslocar o cursor através do texto. Pode "
+"escrever texto aqui."
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""
