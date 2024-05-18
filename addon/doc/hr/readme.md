@@ -1,6 +1,6 @@
 # Pomoćnik za primjenu kontrola #
 
-* Author: Joseph Lee, Noelia Ruiz Martínez
+* Autor: Joseph Lee, Noelia Ruiz Martínez
 
 Koristi ovaj dodatak i saznaj kako koristiti fokusiranu kontrolu. Pritisni
 NVDA+H za dobivanje kratke poruke o tome kako koristiti fokusirane kontrole,
@@ -21,9 +21,9 @@ kontrola:
 * Promjena tona za automatske poruke: Ovaj kotačić omogućuje mijenjanje tona
   kad NVDA čita automatske poruke (od −30 do +30).
 
-## Version 20240324.0.0
+## Verzija 20240324.0.0
 
-* Improved support for edit controls and suggestions.
+* Poboljšana podrška za uređivanje kontrola i prijedloga.
 
 ## Verzija 2023.02.19
 

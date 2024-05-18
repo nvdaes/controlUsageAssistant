@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2020-02-09 07:51+0100\n"
+"PO-Revision-Date: 2024-05-13 14:01+0300\n"
 "Last-Translator: Ruslan Kolodyazhni <eye0@rambler.ru>\n"
 "Language-Team: Translators <LL@li.org>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #. Translators: help text for search field in Windows 10 and other places.
 msgid ""
@@ -36,9 +36,8 @@ msgid "Control Usage Assistant"
 msgstr "Control Usage Assistant"
 
 #. Translators: Input help message for command to show settings.
-#, fuzzy
 msgid "Shows the Control Usage Assistant settings."
-msgstr "Control Usage Assistant"
+msgstr "Показывает настройки Control Usage Assistant."
 
 #. Translators: Input help message for control help command.
 msgid "Presents a message on how to interact with the focused control."
@@ -58,7 +57,7 @@ msgstr ""
 #. Translators: Additional message when working with forms in focus mode.
 msgid " To switch to browse mode, press NVDA+SPACE or escape key"
 msgstr ""
-". Для переключения в режим просмотра, нажмите NVDA+Пробел или клавишу эскейп"
+" Для переключения в режим просмотра, нажмите NVDA+Пробел или клавишу эскейп"
 
 #. Translators: Help message for reading a webpage while in focus mode.
 msgid ""
@@ -70,47 +69,47 @@ msgstr ""
 
 #. Translators: Help message for a checkbox.
 msgid "Press space bar to check or uncheck this check box."
-msgstr "Нажмите пробел, чтобы установить или снять флажок"
+msgstr "Нажмите пробел, чтобы установить или снять флажок."
 
 #. Translators: Help message for working with radio buttons.
 msgid "Use the arrow keys to choose a radio button."
-msgstr "Используйте клавиши со стрелками, чтобы выбрать радио кнопку"
+msgstr "Используйте клавиши-стрелки, чтобы выбрать радио кнопку."
 
 #. Translators: Help message for a list box.
 msgid "Use the arrow keys to read this box."
-msgstr "Используйте клавиши со стрелками, чтобы прочитать это окно"
+msgstr "Используйте клавиши-стрелки, чтобы прочитать это окно."
 
 #. Translators: Help message for an edit field.
 msgid "Type text here."
-msgstr "Введите текст здесь"
+msgstr "Введите текст здесь."
 
 #. Translators: Help message for a button.
 msgid "Press SPACE or ENTER to activate this button."
-msgstr "Нажмите пробел или ENTER, чтобы активировать эту кнопку"
+msgstr "Нажмите пробел или ENTER, чтобы активировать эту кнопку."
 
 #. Translators: Help message for menu items.
 msgid "Use the arrow keys to move between the menu items."
-msgstr "Используйте клавиши стрелок для перемещения между пунктами меню"
+msgstr "Используйте клавиши-стрелки для перемещения между пунктами меню."
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
 msgid "Use up and down arrow keys to move through options in the pop-up menu."
 msgstr ""
-"Используйте клавиши стрелок вверх и вниз для перемещения между опциями "
-"всплывающего меню"
+"Используйте клавиши-стрелки вверх и вниз для перемещения между опциями "
+"всплывающего меню."
 
 #. Translators: Help message for a combo box.
 msgid ""
 "Use the arrow keys to move among choices in the combo box until the desired "
 "option is found."
 msgstr ""
-"Используйте клавиши стрелок для перемещения в поле со списком пока не "
-"найдёте желаемую опцию"
+"Используйте клавиши-стрелки для перемещения по опциям комбинированного "
+"списка до тех пор, пока не найдёте желаемую опцию."
 
 #. Translators: Help message for a list view.
 msgid "Use the arrow keys to move to the next or previous item in this list."
 msgstr ""
-"Используйте клавиши со стрелками, чтобы перейти к следующему или предыдущему "
-"элементу в этом списке"
+"Используйте клавиши-стрелки для перехода  к следующему или предыдущему "
+"элементу списка."
 
 #. Translators: Help message for activating links.
 msgid "Press SPACE or ENTER to activate this link."
@@ -217,11 +216,10 @@ msgstr ""
 "читать веб-страницу"
 
 #. Translators: Help message for edit boxes.
-#, fuzzy
 msgid "Use arrow keys to move the cursor across text. You may type text here."
 msgstr ""
-"Используйте клавиши со стрелками, чтобы перейти к следующему или предыдущему "
-"элементу в этом списке"
+"Используйте клавиши-стрелки для перемещения курсора по тексту. Вы можете "
+"ввести текст здесь."
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""
@@ -234,26 +232,26 @@ msgstr ""
 #. Translators: Help message for moving between Excel spreadsheet cells.
 msgid "Use the arrow keys to move between spreadsheet cells."
 msgstr ""
-"Используйте клавиши стрелок для перемещения между ячейками электронной "
-"таблицы"
+"Используйте клавиши-стрелки для перемещения между ячейками электронной "
+"таблицы."
 
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
 msgid "Use the arrow keys to move between start screen tiles."
 msgstr ""
-"Используйте клавиши стрелок для перемещения между плитками стартового экрана"
+"Используйте клавиши-стрелки для перемещения между плитками стартового экрана."
 
 #. Translators: Message for moving between slides in slide view
 #. (a list of slides for a Powerpoint presentation).
 msgid "Use up and down arrow keys to move between slides."
-msgstr "Используйте стрелки вверх и вниз для перемещения между слайдами"
+msgstr "Используйте стрелки вверх и вниз для перемещения между слайдами."
 
 #. Translators: Help message for working with slide shows.
 msgid ""
 "Press SPACE or BACKSPACE to move between slides in the slide show. To end "
 "the slide show, press escape."
 msgstr ""
-"Нажимайте пробел или бэкспэйс Для перемещения между слайдами в слайд-шоу. ;"
-"Чтобы завершить показ слайдов, нажмите эскейп"
+"Нажимайте пробел или бэкспэйс Для перемещения между слайдами в слайд-шоу. "
+"Чтобы завершить показ слайдов, нажмите эскейп."
 
 #. Translators: label of a dialog.
 msgid "&Automatic messages for focus"
@@ -281,7 +279,6 @@ msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Allows you to find out how to interact with the focused control, useful for "
 "new computer users new to Windows and to NVDA.\n"
