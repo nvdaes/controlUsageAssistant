@@ -1,6 +1,6 @@
 # Control Usage Assistant-控件使用助理 #
 
-* Author: Joseph Lee, Noelia Ruiz Martínez
+* 作者： Joseph Lee, Noelia Ruiz Martínez
 
 借助此插件可了解如何与当前所聚焦的控件进行交互。例如，当聚焦到复选框、编辑框时，按 NVDA+H 来获取一段有关于使用当前控件的简短帮助。
 
@@ -12,9 +12,9 @@
 * 选择自动帮助信息的输出方式：在此复选框列表可以选择语音和盲文。
 * 输出自动帮助信息时的音高变化：该下拉组合框可以让您设置输出自动帮助信息时的音高变化，（从 -30 到 +30）。
 
-## Version 20240324.0.0
+## 版本20240324.0.0
 
-* Improved support for edit controls and suggestions.
+* 改进了对编辑框控件和建议的支持。
 
 ## 版本 2023.02.19
 
