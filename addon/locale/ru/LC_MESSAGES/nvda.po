@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-05-13 14:01+0300\n"
+"PO-Revision-Date: 2024-06-13 16:26+0300\n"
 "Last-Translator: Ruslan Kolodyazhni <eye0@rambler.ru>\n"
 "Language-Team: Translators <LL@li.org>\n"
 "Language: ru_RU\n"
@@ -52,7 +52,7 @@ msgstr "Нет справки для этого элемента управле�
 
 #. Translators: message presented at the end of help messages.
 msgid "Press escape to close this help screen."
-msgstr ""
+msgstr "Нажмите клавишу escape, чтобы закрыть экран справки."
 
 #. Translators: Additional message when working with forms in focus mode.
 msgid " To switch to browse mode, press NVDA+SPACE or escape key"
@@ -113,7 +113,7 @@ msgstr ""
 
 #. Translators: Help message for activating links.
 msgid "Press SPACE or ENTER to activate this link."
-msgstr "Нажмите пробел или ENTER, чтобы активировать ссылку"
+msgstr "Нажмите пробел или ENTER, чтобы активировать ссылку."
 
 #. Translators: Help message for working with tree view items.
 msgid ""
@@ -121,7 +121,7 @@ msgid ""
 "collapse and right arrow to expand."
 msgstr ""
 "Используйте стрелки вверх и вниз для выбора пункта. Используйте стрелку "
-"влево, чтобы закрыть и стрелку вправо, чтобы открыть"
+"влево, чтобы закрыть и стрелку вправо, чтобы открыть."
 
 #. Translators: Help message for navigating tabs,
 #. such as various property tabs for drive properties in My Computer.
@@ -129,9 +129,9 @@ msgid ""
 "Use the left and right arrow keys to move between tabs, or press control+tab "
 "for next tab and control+shift+tab for previous tab."
 msgstr ""
-"Используйте стрелки влево и вправо для перемещения между вкладками, или "
-"нажмите Ctrl+Tab для следующей вкладке и Ctrl+Shift+Tab для предыдущей "
-"вкладке"
+"Используйте стрелки влево-вправо для перемещения между вкладками, или "
+"нажмите Ctrl+Tab для перехода к следующей вкладке и Ctrl+Shift+Tab для "
+"перехода к предыдущей."
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
 msgid ""
@@ -142,8 +142,8 @@ msgid ""
 msgstr ""
 "Используйте стрелки влево и вниз для уменьшения и стрелки вверх и вправо для "
 "увеличения значения этого ползунка. Используйте страницу вверх и страницу "
-"вниз для регулировки ползунка с более широким шагом, для выбора максимума и "
-"минимума значений нажимайте клавиши начало и конец"
+"вниз для регулировки ползунка с более широким шагом, а начало и конец для "
+"выбора максимального и минимального значения."
 
 #. Translators: Help message for working with progress bars.
 msgid "This is a progress bar, used to show progress of an operation."
@@ -154,8 +154,8 @@ msgstr ""
 msgid ""
 "Press control, alt and arrow keys together to move between rows and columns."
 msgstr ""
-"Нажимайте Control, Alt и клавиши стрелок в комбинации для перемещения между "
-"строками и столбцами"
+"Нажимайте Control, Alt и клавиши-стрелки в комбинации для перемещения между "
+"строками и столбцами."
 
 #. Translators: Help message for navigating table cells.
 msgid ""
@@ -172,8 +172,8 @@ msgid ""
 "Use the arrow keys or object navigation commands to move through the "
 "document."
 msgstr ""
-"Используйте клавиши со стрелками или команды объекта навигации для "
-"перемещения по документу"
+"Используйте клавиши-стрелки или команды объектной навигации для перемещения "
+"по документу."
 
 #. Translators: Help message for terminal windows such as command prompt.
 msgid ""
@@ -181,15 +181,15 @@ msgid ""
 "the output."
 msgstr ""
 "Вводите команды в окне терминала и используйте команды чтения курсора "
-"навигатора для просмотра результатов"
+"навигатора для просмотра результатов."
 
 #. Translators: Help message for radio buttons while in browse mode.
 msgid ""
 "To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
 "ENTER key."
 msgstr ""
-"Для выбора радио-кнопки, переключитесь в режим фокусировки, нажав NVDA + "
-"ПРОБЕЛ или ВВОД"
+"Для выбора радио-кнопки, переключитесь в режим обзора, нажав NVDA + ПРОБЕЛ "
+"или клавишу ENTER."
 
 #. Translators: Help message for edit fields while in browse mode.
 msgid ""
@@ -197,15 +197,15 @@ msgid ""
 "NVDA+SPACE or ENTER key."
 msgstr ""
 "Для ввода текста в поле для редактирования, переключитесь в режим "
-"редактирования, нажав NVDA + ПРОБЕЛ или ВВОД"
+"редактирования, нажав NVDA + ПРОБЕЛ или клавишу ENTER."
 
 #. Translators: Help message for combo boxes in browse mode.
 msgid ""
 "To select an item in the combo box, switch to focus mode by pressing "
 "NVDA+SPACE or ENTER key."
 msgstr ""
-"Для выбора элемента в списке, перейдите в режим редактирования, нажав "
-"NVDA+ПРОБЕЛ или ВВОД"
+"Для выбора элемента в комбинированном списке, перейдите в режим "
+"редактирования, нажав NVDA+ПРОБЕЛ или клавишу ENTER."
 
 #. Translators: Help message for reading webpages.
 msgid ""
@@ -213,7 +213,7 @@ msgid ""
 "webpage."
 msgstr ""
 "Используйте режим обзора с быстрыми командами навигации, чтобы эффективно "
-"читать веб-страницу"
+"читать веб-страницу."
 
 #. Translators: Help message for edit boxes.
 msgid "Use arrow keys to move the cursor across text. You may type text here."
@@ -227,7 +227,7 @@ msgid ""
 "document."
 msgstr ""
 "Используйте режим обзора с быстрыми командами навигации, чтобы эффективно "
-"читать веб-страницу"
+"читать веб-страницу."
 
 #. Translators: Help message for moving between Excel spreadsheet cells.
 msgid "Use the arrow keys to move between spreadsheet cells."
@@ -255,27 +255,27 @@ msgstr ""
 
 #. Translators: label of a dialog.
 msgid "&Automatic messages for focus"
-msgstr ""
+msgstr "&Автоматические сообщения для элементов в фокусе"
 
 #. Translators: label of a dialog.
 msgid "Type the message to be used when an object can be activated"
-msgstr ""
+msgstr "Введите сообщение, которое будет использоваться при активации объекта"
 
 #. Translators: label of a dialog.
 msgid "Sele&ct output modes for automatic messages"
-msgstr ""
+msgstr "&Выбор режимов вывода автоматических сообщений"
 
 #. Translators: label of a dialog.
 msgid "Speech"
-msgstr ""
+msgstr "Речь"
 
 #. Translators: label of a dialog.
 msgid "Braille"
-msgstr ""
+msgstr "Брайль"
 
 #. Translators: label of a dialog.
 msgid "&Pitch change for automatic messages"
-msgstr ""
+msgstr "&Изменение высоты тона для автоматических сообщений"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
