@@ -2,71 +2,76 @@
 
 * Автор: Joseph Lee, Noelia Ruiz Martínez
 
-Use this add-on to find out how to interact with the focused control.  Press
-NVDA+H to obtain a short help message on interacting with the focused
-control, such as checkboxes, edit fields and so on.
+Используйте это дополнение, чтобы узнать, как взаимодействовать с типом
+управления в фокусе. Нажмите NVDA+H, чтобы получить короткую справку по
+взаимодействию с определённым типом управления, например, флажки, поля
+редактирования и так далее.
 
-Go to NVDA's menu, Preferences submenu, Settings dialog, Control Usage
-Asistant category to configure add-on settings:
+Перейдите в меню NVDA, подменю "Параметры", диалог "Настройки", категорию
+"Control Usage Asistant", чтобы настроить параметры дополнения:
 
-* Automatic messages for focus: Checked by default.
-* Type the message to be used when an object can be activated: You may
-  include a short message indicating the default or your configured gesture
-  to know if the current object has an associated action when pressing a
-  gesture like NVDA+enter in object navigation.
-* Select output modes for automatic messages: This list of checkboxes allows
-  to select speech and braille.
-* Pitch change for automatic messages: This spin box allows to set the pitch
-  change when NVDA reads automatic messages (from -30 to +30).
+* Автоматические сообщения для элементов в фокусе: по умолчанию включено.
+* Введите сообщение, которое будет использоваться при активации объекта: Вы
+  можете включить короткое сообщение с указанием жеста по умолчанию или
+  настроенного вами жеста, чтобы узнать, связано ли действие с текущим
+  объектом, при нажатии жеста, подобного NVDA+enter, в навигации по
+  объектам.
+* Выбор режимов вывода автоматических сообщений: Этот список флажков
+  позволяет выбрать речь и Брайль.
+* Изменение высоты тона для автоматических сообщений: Этот счётчик позволяет
+  настроить изменение высоты тона при считывании автоматических сообщений
+  NVDA (от -30 до +30).
 
 ## Версия 20240324.0.0
 
-* Improved support for edit controls and suggestions.
+* Улучшена поддержка элементов управления редактирования и предложений.
 
 ## Версия 2023.02.19
 
-* The message configured for clickable objects will be reported after other
-  properties.
-* Compatible with NVDA 2023.1.
+* Сообщение, настроенное для интерактивных объектов, будет отображаться
+  после других свойств.
+* Совместимо с NVDA 2023.1.
 
 ## Версия 2022.07.10
 
-* Added ability to set a message for object navigation, to announce if the
-  current object can be activated.
+* Добавлена возможность установки сообщения для навигации по объекту, чтобы
+  сообщить, может ли текущий объект быть активирован.
 
 ## Версия 2022.03.27
 
-* Requires NVDA 2022.1 or later.
+* Требуется NVDA 2022.1 или выше.
 
 ## Версия 22.01
 
-* Added support for automatic messages.
-* Improved support for requested messages in browse mode.
+* Добавлена поддержка автоматических сообщений.
+* Улучшена поддержка запрошенных сообщений в режиме просмотра.
 
 ## Версия 21.10
 
-* NVDA 2021.2 or later is required due to changes to NVDA that affects this
-  add-on.
+* Требуется NVDA 2021.2 или выше из-за изменений в NVDA, которые влияют на
+  это дополнение.
 
 ## Версия 20.10
 
-* Help messages are announced in languages other than English.
+* Сообщения о помощи публикуются на других языках, кроме английского.
 
 ## Версия 20.06
 
-* Resolved many coding style issues and potential bugs with Flake8.
-* NVDA will no longer appear to do nothing or play error tones when trying
-  to obtain help for certain browse mode controls.
+* Устранены многие проблемы со стилем кодирования и потенциальные ошибки с
+  помощью Flake8.
+* NVDA больше не будет отображать бездействие или воспроизводить сигналы об
+  ошибках при попытке получить справку по определенным элементам управления
+  в режиме обзора.
 
 ## Версия 20.01
 
-* NVDA 2019.3 or later is required.
+* Требуется NVDA 2019.3 или выше.
 
 ## Версия 3.0/19.11
 
 * Схема версий теперь год.месяц.
-* When NVDA+H is pressed, a help screen will be displayed instead of a flash
-  message being shown.
+* При нажатии клавиш NVDA+H вместо всплывающего сообщения будет отображен
+  экран справки.
 
 ## Версия 2.5
 
@@ -78,8 +83,8 @@ Asistant category to configure add-on settings:
 
 ## Версия 2.0
 
-* добавлены несколько сообщений для некоторых элементов управления, в том
-  числе окна терминала.
+* Добавлены справочные сообщения о дополнительных элементах управления,
+  включая окна терминала.
 * Добавлены сообщения справки для работы в некоторых областях приложений,
   таких как Microsoft Excel и Powerpoint и стартовый экран Windows 8.
 * Добавлены сообщения справки для работы с формами в обоих режимах, обзора и
