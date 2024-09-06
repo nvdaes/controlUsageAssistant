@@ -7,42 +7,45 @@ focalizado. Pressione NVDA+H para obter uma mensagem curta de ajuda sobre a
 interação com o controle em foco, como caixas de seleção, campos de edição e
 assim por diante.
 
-Go to NVDA's menu, Preferences submenu, Settings dialog, Control Usage
-Asistant category to configure add-on settings:
+Vá para NVDA menu, Preferências submenu, Diálogo de Configurações ,
+Assistente para uso de Controles, categorias para configurar complementos,
+configurações:
 
-* Automatic messages for focus: Checked by default.
-* Type the message to be used when an object can be activated: You may
-  include a short message indicating the default or your configured gesture
-  to know if the current object has an associated action when pressing a
-  gesture like NVDA+enter in object navigation.
-* Select output modes for automatic messages: This list of checkboxes allows
-  to select speech and braille.
-* Pitch change for automatic messages: This spin box allows to set the pitch
-  change when NVDA reads automatic messages (from -30 to +30).
+* * Mensagens automáticas para foco: Caixa de verificação Marcado por
+  padrão.
+* Digite a mensagem a ser usada quando um objeto puder ser ativado: Você
+  pode incluir uma mensagem curta indicando o gesto padrão ou o gesto
+  configurado para saber se o objeto atual tem uma ação associada ao
+  pressionar um gesto como NVDA+enter na navegação do objeto.
+* Selecione os modos de saída para mensagens automáticas: Essa lista de
+  caixas de seleção permite selecionar fala e braile.
+* Alteração de tom para mensagens automáticas: Essa caixa giratória permite
+  definir a mudança de tom quando o NVDA lê mensagens automáticas (de -30 a
+  +30).
 
 ## Version 20240324.0.0
 
-* Improved support for edit controls and suggestions.
+* Suporte aprimorado para controles de edição e sugestões.
 
-## Version 2023.02.19
+## Versão 2023.02
 
-* The message configured for clickable objects will be reported after other
-  properties.
-* Compatible with NVDA 2023.1.
+* A mensagem configurada para objetos clicáveis será informada depois de
+  outras propriedades.
+* Compatível com O NVDA2023.1.
 
-## Version 2022.07.10
+## Versão 2022.10
 
-* Added ability to set a message for object navigation, to announce if the
-  current object can be activated.
+* Foi adicionada a capacidade de definir uma mensagem para a navegação de
+  objetos, para anunciar se o objeto atual pode ser ativado.
 
 ## Version 2022.03.27
 
-* Requires NVDA 2022.1 or later.
+* Requer o NVDA 2022.1 ou posterior.
 
-## Version 22.01
+## Versão 22.01
 
-* Added support for automatic messages.
-* Improved support for requested messages in browse mode.
+* Foi adicionado suporte a mensagens automáticas.
+* Suporte aprimorado para mensagens solicitadas no modo de navegação.
 
 ## Versão 21.10
 
