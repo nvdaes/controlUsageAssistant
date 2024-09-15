@@ -18,17 +18,16 @@ on:
 
 jobs:
   buildAndUpload:
-    continue-on-error: true
     runs-on: ubuntu-latest
 
     steps:
     - id: checkoutCode
       name: Checkout code
-      uses: actions/checkout@v3
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v4
+      uses: actions/checkout@v4
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
       with:
-        python-version: 3.8
+        python-version: 3.11
     - name: Install dependencies
       run: |
         pip install scons markdown
@@ -52,7 +51,7 @@ jobs:
         git config --global user.name github-actions
         git config --global user.email github-actions@github.com
         git commit -a -m "Update buildVars"
-        git push origin HEAD:main
+        git push
     - id: import_gpg
       if: ${{ inputs.signAddOn }}
       name: Import GPG key
