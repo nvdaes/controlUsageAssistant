@@ -23,7 +23,7 @@ configurações:
   definir a mudança de tom quando o NVDA lê mensagens automáticas (de -30 a
   +30).
 
-## Version 20240324.0.0
+## Versão 20240324.0.0
 
 * Suporte aprimorado para controles de edição e sugestões.
 
@@ -33,18 +33,18 @@ configurações:
   outras propriedades.
 * Compatível com O NVDA2023.1.
 
-## Versão 2022.10
+## Versão 2022.07.10
 
-* Foi adicionada a capacidade de definir uma mensagem para a navegação de
+* Adicionada a capacidade de definir uma mensagem para a navegação de
   objetos, para anunciar se o objeto atual pode ser ativado.
 
-## Version 2022.03.27
+## Versão 2022.03.27
 
 * Requer o NVDA 2022.1 ou posterior.
 
 ## Versão 22.01
 
-* Foi adicionado suporte a mensagens automáticas.
+* Adicionado suporte para mensagens automáticas.
 * Suporte aprimorado para mensagens solicitadas no modo de navegação.
 
 ## Versão 21.10
