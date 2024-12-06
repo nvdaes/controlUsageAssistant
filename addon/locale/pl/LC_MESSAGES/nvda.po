@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'controlUsageAssistant' '2.0'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2013-09-17 04:18-0700\n"
-"PO-Revision-Date: 2023-03-12 02:44+0100\n"
+"PO-Revision-Date: 2024-12-01 10:27+0100\n"
 "Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
 "Language-Team: \n"
 "Language: pl_PL\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.5\n"
 
 #. Translators: help text for search field in Windows 10 and other places.
 msgid ""
@@ -36,9 +36,8 @@ msgid "Control Usage Assistant"
 msgstr "Control Usage Assistant"
 
 #. Translators: Input help message for command to show settings.
-#, fuzzy
 msgid "Shows the Control Usage Assistant settings."
-msgstr "Control Usage Assistant"
+msgstr "Pokazuje ustawienia dodatku Control usage assistant.."
 
 #. Translators: Input help message for control help command.
 msgid "Presents a message on how to interact with the focused control."
@@ -212,11 +211,9 @@ msgstr ""
 "sieci Web."
 
 #. Translators: Help message for edit boxes.
-#, fuzzy
 msgid "Use arrow keys to move the cursor across text. You may type text here."
 msgstr ""
-"Użyj strzałek, aby przejść do następnego lub poprzedniego elementu na tej "
-"liście."
+"Aby przemieszczać się po tekście, użyj strżałek Tutaj możesz wpisywać tekst."
 
 #. Translators: Help message for reading Adobe PDF documents.
 msgid ""
@@ -250,7 +247,7 @@ msgstr ""
 
 #. Translators: label of a dialog.
 msgid "&Automatic messages for focus"
-msgstr "&Automatyczne komunikaty dla fokusa"
+msgstr "&Automatyczne komunikaty dla fokusu"
 
 #. Translators: label of a dialog.
 msgid "Type the message to be used when an object can be activated"
@@ -259,7 +256,7 @@ msgstr ""
 
 #. Translators: label of a dialog.
 msgid "Sele&ct output modes for automatic messages"
-msgstr "Tryby wyjściowe Sele &ct dla automatycznych wiadomości"
+msgstr "&Wybierz tryb podawania wiadomości automatycznych"
 
 #. Translators: label of a dialog.
 msgid "Speech"
@@ -271,7 +268,7 @@ msgstr "Brajl"
 
 #. Translators: label of a dialog.
 msgid "&Pitch change for automatic messages"
-msgstr "&Zmiana wyskkości"
+msgstr "&Zmiana wysokości dla wiadomości automatycznych"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -281,11 +278,10 @@ msgid ""
 "\tPress NVDA+H to get a short help message on using the focused control, "
 "such as moving through tables, checkboxes and so on."
 msgstr ""
-"Pozwala dowiedzieć się, jak kontrolki sfokusowanej, co jest przydatne "
-"początkujących użytkowników komputerów i systemu Windows z NVDA.\n"
-"\tNaciśnij klawisze NVDA+H, aby uzyskać krótki komunikat o pomocy w zakresie "
-"korzystania z fokusu, takiego jak przechodzenie przez tabele, pola wyboru i "
-"tak dalej."
+"Pozwala dowiedzieć się o sposobie interakcji z kontrolką sfokusowaną, co "
+"jest przydatne dla użytkowników początkujących.\n"
+"\tNaciśnij NVDA+H Aby dowiedzieć się o tym, jak używać kontrolek takich jak "
+"tabel, pól wyboru i tak dalej."
 
 #~ msgid "Use the text navigation commands to read text"
 #~ msgstr "Użyj klawiszy nawigacji po tekście, aby przeczytać ten tekst"
