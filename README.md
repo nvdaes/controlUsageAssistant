@@ -79,5 +79,3 @@ Go to NVDA's menu, Preferences submenu, Settings dialog, Control Usage Asistant 
 ## Version 1.0
 
 * Initial version.
-
-
