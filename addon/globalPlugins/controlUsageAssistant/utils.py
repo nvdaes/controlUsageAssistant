@@ -44,8 +44,8 @@ class AddonSettingsPanel(SettingsPanel):
 
 	def makeSettings(self, settingsSizer):
 		sHelper = guiHelper.BoxSizerHelper(self, sizer=settingsSizer)
-		# Translators: label of a dialog.
 		self.focusMessagesCheckBox = sHelper.addItem(
+			# Translators: label of a dialog.
 			wx.CheckBox(self, label=_("&Automatic messages for focus")),
 		)
 		self.focusMessagesCheckBox.SetValue(config.conf["controlUsageAssistant"]["focusMessages"])
