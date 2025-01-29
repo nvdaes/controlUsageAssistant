@@ -2,12 +2,13 @@
 
 # Control Usage Assistant
 # A global plugin for NVDA
-# Copyright 2013-2022 Joseph Lee, Noelia Ruiz Martínez
+# Copyright 2013-2025 Joseph Lee, Noelia Ruiz Martínez
 # Released under GPL.
 
 import wx
 
 import speech
+from ui import browseableMessage
 
 import NVDAObjects
 
@@ -17,7 +18,7 @@ import NVDAObjects
 # If the control is used differently in apps, then lookup the app entry and give the customized message.
 # Extension plan: ability to get context-sensitive help on NVDA options.
 
-from typing import Callable
+from abc import Callable
 
 import globalPluginHandler
 import controlTypes
@@ -34,7 +35,6 @@ import addonHandler
 from .controltypeshelp import controlTypeHelpMessages, browseModeHelpMessages
 from .nvdaobjectshelp import objectsHelpMessages
 from .utils import confspec, getAutomaticSpeechSequence, AddonSettingsPanel
-from .securityUtils import secureBrowseableMessage  # Created by Cyrille (@CyrilleB79)
 
 addonHandler.initTranslation()
 
@@ -90,7 +90,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_controlHelp(self, gesture):
 		obj = api.getFocusObject()
 		# The prototype UI message, the actual processing is done below.
-		secureBrowseableMessage(self.getHelpMessage(obj), title=_("Control Usage Assistant"))
+		browseableMessage(self.getHelpMessage(obj), title=_("Control Usage Assistant"), copyButton=True, closeButton=True)
 
 	# GetHelpMessage: The actual function behind the script above.
 	def getHelpMessage(self, curObj):
