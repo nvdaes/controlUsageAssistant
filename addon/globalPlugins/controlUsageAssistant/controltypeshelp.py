@@ -63,7 +63,7 @@ controlTypeHelpMessages = {
 	controlTypes.Role.PROGRESSBAR: _("This is a progress bar, used to show progress of an operation."),
 	# Translators: Help message for navigating tables.
 	controlTypes.Role.TABLE: _(
-		"Press control, alt and arrow keys together to move between rows and columns."
+		"Press control, alt and arrow keys together to move between rows and columns.",
 	),
 	controlTypes.Role.TABLECELL: _(
 		# Translators: Help message for navigating table cells.

@@ -89,7 +89,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		obj = api.getFocusObject()
 		# The prototype UI message, the actual processing is done below.
 		browseableMessage(
-			self.getHelpMessage(obj), title=_("Control Usage Assistant"), copyButton=True, closeButton=True
+			self.getHelpMessage(obj),
+			title=_("Control Usage Assistant"),
+			copyButton=True,
+			closeButton=True,
 		)
 
 	# GetHelpMessage: The actual function behind the script above.
