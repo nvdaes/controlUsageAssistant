@@ -26,11 +26,11 @@ objectsHelpMessages = {
 	# ),
 	"NVDAObjects.behaviors.EditableText": _(
 		# Translators: Help message for edit boxes.
-		"Use arrow keys to move the cursor across text. You may type text here."
+		"Use arrow keys to move the cursor across text. You may type text here.",
 	),
 	"NVDAObjects.IAccessible.adobeAcrobat.Document": _(
 		# Translators: Help message for reading Adobe PDF documents.
-		"Use the browse mode and quick navigation commands to read through the PDF document."
+		"Use the browse mode and quick navigation commands to read through the PDF document.",
 	),
 	# Translators: Help message for moving between Excel spreadsheet cells.
 	"NVDAObjects.window.excel.ExcelCell": _("Use the arrow keys to move between spreadsheet cells."),
@@ -60,7 +60,7 @@ appModuleOverlayObjectsHelpMessages = {
 	"appModules.powerpnt.SlideShowWindow": _(
 		# Translators: Help message for working with slide shows.
 		"Press SPACE or BACKSPACE to move between slides in the slide show. "
-		"To end the slide show, press escape."
+		"To end the slide show, press escape.",
 	),
 }
 
