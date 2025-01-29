@@ -18,7 +18,7 @@ import NVDAObjects
 # If the control is used differently in apps, then lookup the app entry and give the customized message.
 # Extension plan: ability to get context-sensitive help on NVDA options.
 
-from abc import Callable
+from collections.abc import Callable
 
 import globalPluginHandler
 import controlTypes
