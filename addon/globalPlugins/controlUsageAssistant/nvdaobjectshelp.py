@@ -7,13 +7,10 @@
 # This module also serves as a home for messages for overlay classes found in app modules and global plugins.
 # Other add-ons should update this dictionary with help messages for their own overlay classes.
 
-from typing import Callable
-
 import addonHandler
 
 addonHandler.initTranslation()
 
-_: Callable[[str], str]
 
 # Help messages for objects: key = string representation of a class name, value = generic help message.
 # Base API classes (such as NVDAObjects.NVDAObject) are not included.

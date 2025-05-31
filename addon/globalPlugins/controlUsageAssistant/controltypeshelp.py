@@ -6,14 +6,11 @@
 # Each help messages dictionary records control roles and help messages.
 # If specific states are found, help messages will come from state-specific subsets.
 
-from typing import Callable
-
 import controlTypes
 import addonHandler
 
 addonHandler.initTranslation()
 
-_: Callable[[str], str]
 
 # Default help messages for controls: key = role, value = messages.
 # Source: NVDA pull request for issue 2699 (context-sensitive help)

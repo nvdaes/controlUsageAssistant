@@ -5,8 +5,6 @@
 # Released under GPL
 
 import wx
-from typing import Dict, Optional
-from typing import Callable
 
 import gui
 from gui import guiHelper
@@ -17,11 +15,9 @@ import addonHandler
 
 addonHandler.initTranslation()
 
-_: Callable[[str], str]
-
 ADDON_SUMMARY = addonHandler.getCodeAddon().manifest["summary"]
 
-confspec: Dict[str, str] = {
+confspec: dict[str, str] = {
 	"focusMessages": "boolean(default=True)",
 	"clickableObjectMessage": "string(default=" ")",
 	"speech": "boolean(default=False)",
@@ -30,7 +26,7 @@ confspec: Dict[str, str] = {
 }
 
 
-def getAutomaticSpeechSequence(message: str, speechCommand=None) -> Optional[types.SpeechSequence]:
+def getAutomaticSpeechSequence(message: str, speechCommand=None) -> types.SpeechSequence | None:
 	sequence = []
 	if speechCommand is not None:
 		sequence.append(speechCommand)
