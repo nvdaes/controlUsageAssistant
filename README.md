@@ -13,7 +13,7 @@ Go to NVDA's menu, Preferences submenu, Settings dialog, Control Usage Asistant 
 * Select output modes for automatic messages: This list of checkboxes allows to select speech and braille.
 * Pitch change for automatic messages: This spin box allows to set the pitch change when NVDA reads automatic messages (from -30 to +30).
 
-## Version (unreleased)
+## Version 20250611.0.0
 
 * Added copy and close buttons to messages presented in browse mode.
 
