@@ -7,13 +7,10 @@
 # This module also serves as a home for messages for overlay classes found in app modules and global plugins.
 # Other add-ons should update this dictionary with help messages for their own overlay classes.
 
-from typing import Callable
-
 import addonHandler
 
 addonHandler.initTranslation()
 
-_: Callable[[str], str]
 
 # Help messages for objects: key = string representation of a class name, value = generic help message.
 # Base API classes (such as NVDAObjects.NVDAObject) are not included.
@@ -26,11 +23,11 @@ objectsHelpMessages = {
 	# ),
 	"NVDAObjects.behaviors.EditableText": _(
 		# Translators: Help message for edit boxes.
-		"Use arrow keys to move the cursor across text. You may type text here."
+		"Use arrow keys to move the cursor across text. You may type text here.",
 	),
 	"NVDAObjects.IAccessible.adobeAcrobat.Document": _(
 		# Translators: Help message for reading Adobe PDF documents.
-		"Use the browse mode and quick navigation commands to read through the PDF document."
+		"Use the browse mode and quick navigation commands to read through the PDF document.",
 	),
 	# Translators: Help message for moving between Excel spreadsheet cells.
 	"NVDAObjects.window.excel.ExcelCell": _("Use the arrow keys to move between spreadsheet cells."),
@@ -60,7 +57,7 @@ appModuleOverlayObjectsHelpMessages = {
 	"appModules.powerpnt.SlideShowWindow": _(
 		# Translators: Help message for working with slide shows.
 		"Press SPACE or BACKSPACE to move between slides in the slide show. "
-		"To end the slide show, press escape."
+		"To end the slide show, press escape.",
 	),
 }
 

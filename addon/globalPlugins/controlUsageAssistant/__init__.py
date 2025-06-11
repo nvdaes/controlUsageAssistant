@@ -2,12 +2,13 @@
 
 # Control Usage Assistant
 # A global plugin for NVDA
-# Copyright 2013-2022 Joseph Lee, Noelia Ruiz Martínez
+# Copyright 2013-2025 Joseph Lee, Noelia Ruiz Martínez
 # Released under GPL.
 
 import wx
 
 import speech
+from ui import browseableMessage
 
 import NVDAObjects
 
@@ -17,7 +18,7 @@ import NVDAObjects
 # If the control is used differently in apps, then lookup the app entry and give the customized message.
 # Extension plan: ability to get context-sensitive help on NVDA options.
 
-from typing import Callable
+from collections.abc import Callable
 
 import globalPluginHandler
 import controlTypes
@@ -34,7 +35,6 @@ import addonHandler
 from .controltypeshelp import controlTypeHelpMessages, browseModeHelpMessages
 from .nvdaobjectshelp import objectsHelpMessages
 from .utils import confspec, getAutomaticSpeechSequence, AddonSettingsPanel
-from .securityUtils import secureBrowseableMessage  # Created by Cyrille (@CyrilleB79)
 
 addonHandler.initTranslation()
 
@@ -46,7 +46,6 @@ CUAMROLevel = 0
 
 
 class EnhancedSuggestion(NVDAObjects.behaviors.InputFieldWithSuggestions):
-
 	def event_suggestionsOpened(self):
 		super().event_suggestionsOpened()
 		self.helpText = (
@@ -59,7 +58,6 @@ class EnhancedSuggestion(NVDAObjects.behaviors.InputFieldWithSuggestions):
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
-
 	# Translators: Input gesture category for Control Usage Assistant add-on.
 	scriptCategory = _("Control Usage Assistant")
 
@@ -85,12 +83,17 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@scriptHandler.script(
 		# Translators: Input help message for control help command.
 		description=_("Presents a message on how to interact with the focused control."),
-		gesture="KB:NVDA+H"
+		gesture="KB:NVDA+H",
 	)
 	def script_controlHelp(self, gesture):
 		obj = api.getFocusObject()
 		# The prototype UI message, the actual processing is done below.
-		secureBrowseableMessage(self.getHelpMessage(obj), title=_("Control Usage Assistant"))
+		browseableMessage(
+			self.getHelpMessage(obj),
+			title=_("Control Usage Assistant"),
+			copyButton=True,
+			closeButton=True,
+		)
 
 	# GetHelpMessage: The actual function behind the script above.
 	def getHelpMessage(self, curObj):
@@ -149,7 +152,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	VBufForms = {
 		controlTypes.Role.RADIOBUTTON,
 		controlTypes.Role.EDITABLETEXT,
-		controlTypes.Role.COMBOBOX
+		controlTypes.Role.COMBOBOX,
 	}
 
 	# And the function for handling these:
@@ -169,7 +172,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				VBufmsg = _(
 					# Translators: Help message for reading a webpage while in focus mode.
 					"To use browse mode and quick navigation keys to read the webpage, "
-					"switch to browse mode by pressing NVDA+SPACE"
+					"switch to browse mode by pressing NVDA+SPACE",
 				)
 		else:
 			try:
@@ -207,7 +210,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def event_gainFocus(self, obj, nextHandler):
 		nextHandler()
-		if not config.conf["controlUsageAssistant"]["focusMessages"] or not self.shouldGetHelpAutomaticMessage():
+		if (
+			not config.conf["controlUsageAssistant"]["focusMessages"]
+			or not self.shouldGetHelpAutomaticMessage()
+		):
 			return
 		self.reportAutomaticHelpMessage(obj)
 
@@ -217,8 +223,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def event_becomeNavigatorObject(self, obj, nextHandler, isFocus):
 		nextHandler()
 		if (
-			isFocus or not self.shouldGetHelpAutomaticMessage()
-			or obj.appModule.productName == 'MicrosoftWindows.Client.CBS'
+			isFocus
+			or not self.shouldGetHelpAutomaticMessage()
+			or obj.appModule.productName == "MicrosoftWindows.Client.CBS"
 		):
 			return
 		message = None

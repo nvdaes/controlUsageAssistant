@@ -5,8 +5,6 @@
 # Released under GPL
 
 import wx
-from typing import Dict, Optional
-from typing import Callable
 
 import gui
 from gui import guiHelper
@@ -17,20 +15,18 @@ import addonHandler
 
 addonHandler.initTranslation()
 
-_: Callable[[str], str]
-
 ADDON_SUMMARY = addonHandler.getCodeAddon().manifest["summary"]
 
-confspec: Dict[str, str] = {
+confspec: dict[str, str] = {
 	"focusMessages": "boolean(default=True)",
-	"clickableObjectMessage": "string(default="")",
+	"clickableObjectMessage": "string(default=" ")",
 	"speech": "boolean(default=False)",
 	"braille": "boolean(default=False)",
 	"pitch": "integer(default=0)",
 }
 
 
-def getAutomaticSpeechSequence(message: str, speechCommand=None) -> Optional[types.SpeechSequence]:
+def getAutomaticSpeechSequence(message: str, speechCommand=None) -> types.SpeechSequence | None:
 	sequence = []
 	if speechCommand is not None:
 		sequence.append(speechCommand)
@@ -40,13 +36,14 @@ def getAutomaticSpeechSequence(message: str, speechCommand=None) -> Optional[typ
 
 
 class AddonSettingsPanel(SettingsPanel):
-
 	title = ADDON_SUMMARY
 
 	def makeSettings(self, settingsSizer):
 		sHelper = guiHelper.BoxSizerHelper(self, sizer=settingsSizer)
-		# Translators: label of a dialog.
-		self.focusMessagesCheckBox = sHelper.addItem(wx.CheckBox(self, label=_("&Automatic messages for focus")))
+		self.focusMessagesCheckBox = sHelper.addItem(
+			# Translators: label of a dialog.
+			wx.CheckBox(self, label=_("&Automatic messages for focus")),
+		)
 		self.focusMessagesCheckBox.SetValue(config.conf["controlUsageAssistant"]["focusMessages"])
 		# Translators: label of a dialog.
 		setClickableObjLabel = _("Type the message to be used when an object can be activated")
@@ -64,7 +61,9 @@ class AddonSettingsPanel(SettingsPanel):
 			_("Braille"),
 		]
 		self.outputModesList = sHelper.addLabeledControl(
-			outputModesLabel, gui.nvdaControls.CustomCheckListBox, choices=outputModesChoices
+			outputModesLabel,
+			gui.nvdaControls.CustomCheckListBox,
+			choices=outputModesChoices,
 		)
 		checkedItems = []
 		if config.conf["controlUsageAssistant"]["speech"]:
@@ -80,7 +79,7 @@ class AddonSettingsPanel(SettingsPanel):
 			gui.nvdaControls.SelectOnFocusSpinCtrl,
 			min=-30,
 			max=30,
-			initial=config.conf["controlUsageAssistant"]["pitch"]
+			initial=config.conf["controlUsageAssistant"]["pitch"],
 		)
 
 	def onSave(self):
