@@ -3,9 +3,9 @@ requires = ["setuptools~=72.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "clipContentsDesigner"
+name = "controlUsageAssistant"
 dynamic = ["version"]
-description = "clipContentsDesigner add-on for NVDA"
+description = "controlUsageAssistant add-on for NVDA"
 maintainers = [
 	{name = "Noelia ruiz Martínez", email = "nrm1977@gmail.com"},
 ]
@@ -73,7 +73,7 @@ logger-objects = ["logHandler.log"]
 "sconstruct" = ["F821"]
 
 [tool.pyright]
-venvPath = ".venv"
+venvPath = "../nvda/.venv"
 venv = "."
 pythonPlatform = "Windows"
 typeCheckingMode = "strict"
@@ -95,6 +95,7 @@ exclude = [
 # Tell pyright where to load python code from
 extraPaths = [
 	"./addon",
+	"../nvda/source",
 ]
 
 # General config
