@@ -23,6 +23,10 @@ tilføjelsesindstillinger:
   indstille ændringen af tonehøjden, når NVDA læser automatiske beskeder
   (fra -30 til +30).
 
+## Version 20250611.0.0
+
+* Added copy and close buttons to messages presented in browse mode.
+
 ## Version 20240324.0.0
 
 * Improved support for edit controls and suggestions.

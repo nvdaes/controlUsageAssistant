@@ -21,6 +21,10 @@ Asistant, щоб налаштувати додаток:
   налаштувати висоту, коли NVDA читає автоматичні повідомлення (від -30 до
   +30).
 
+## Version 20250611.0.0
+
+* Added copy and close buttons to messages presented in browse mode.
+
 ## Version 20240324.0.0
 
 * Improved support for edit controls and suggestions.

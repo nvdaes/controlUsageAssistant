@@ -23,6 +23,10 @@ lisäosan asetukset:
   avulla voit määrittää äänenkorkeuden muutoksen, jota NVDA käyttää
   lukiessaan automaattisia ilmoituksia (-30 - +30).
 
+## Versio 20250611.0.0
+
+* Lisätty Kopioi- ja Sulje-painikkeet selaustilassa näytettäviin viesteihin.
+
 ## Versio 20240324.0.0
 
 * Paranneltu tuki muokkaussäätimille ja ehdotuksille.
