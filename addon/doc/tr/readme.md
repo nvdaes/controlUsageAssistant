@@ -20,6 +20,10 @@ Ayarlar iletişim kutusu, Kontrol Kullanım Asistanı kategorisine gidin:
   otomatik mesajları okuduğunda (-30'dan +30'a) perde değişikliğini
   ayarlamanıza olanak tanır.
 
+## Sürüm 20250611.0.0
+
+* Tarama kipinde sunulan mesajlara kopyala ve kapat düğmeleri eklendi.
+
 ## Sürüm 20240324.0.0
 
 * Düzenleme kontrolleri ve önerileri için geliştirilmiş destek.

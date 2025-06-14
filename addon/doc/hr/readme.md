@@ -21,6 +21,10 @@ kontrola:
 * Promjena tona za automatske poruke: Ovaj kotačić omogućuje mijenjanje tona
   kad NVDA čita automatske poruke (od −30 do +30).
 
+## Version 20250611.0.0
+
+* Added copy and close buttons to messages presented in browse mode.
+
 ## Verzija 20240324.0.0
 
 * Poboljšana podrška za uređivanje kontrola i prijedloga.

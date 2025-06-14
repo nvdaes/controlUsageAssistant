@@ -23,6 +23,10 @@ configurações:
   definir a mudança de tom quando o NVDA lê mensagens automáticas (de -30 a
   +30).
 
+## Version 20250611.0.0
+
+* Added copy and close buttons to messages presented in browse mode.
+
 ## Versão 20240324.0.0
 
 * Suporte aprimorado para controles de edição e sugestões.

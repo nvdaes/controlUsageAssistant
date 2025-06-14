@@ -12,6 +12,10 @@
 * 自動メッセージの出力モードを選択: チェックボックスのこのリストで読み上げまたは点字を選べます。
 * 自動メッセージのピッチを変更: このスピンボックスで、NVDAが自動メッセージを読み上げる時に、ピッチを変更するか設定出来ます(-30から+30)。
 
+## Version 20250611.0.0
+
+* Added copy and close buttons to messages presented in browse mode.
+
 ## Version 20240324.0.0
 
 * Improved support for edit controls and suggestions.
