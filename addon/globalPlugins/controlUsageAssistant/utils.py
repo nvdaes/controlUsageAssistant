@@ -19,7 +19,7 @@ ADDON_SUMMARY = addonHandler.getCodeAddon().manifest["summary"]
 
 confspec: dict[str, str] = {
 	"focusMessages": "boolean(default=True)",
-	"clickableObjectMessage": "string(default=)",
+	"clickableObjectMessage": "string(default=" ")",
 	"speech": "boolean(default=False)",
 	"braille": "boolean(default=False)",
 	"pitch": "integer(default=0)",
