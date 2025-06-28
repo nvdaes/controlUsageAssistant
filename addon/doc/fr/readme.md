@@ -23,7 +23,8 @@ l'extension :
 
 ## Version 20250611.0.0
 
-* Added copy and close buttons to messages presented in browse mode.
+* Ajouter des boutons Copier et Fermer aux messages présentés en Mode
+  Navigation.
 
 ## Version 20240324.0.0
 
