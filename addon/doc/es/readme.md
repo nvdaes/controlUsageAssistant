@@ -21,9 +21,10 @@ Usage Assistant para configurar las opciones del complemento:
   configurar el cambio de tono cuando NVDA lee mensajes automáticos (de -30
   a +30).
 
-## Version 20250611.0.0
+## Versión 20250611.0.0
 
-* Added copy and close buttons to messages presented in browse mode.
+* Se han añadido botones Copiar y Cerrar a los mensajes presentados en modo
+  exploración.
 
 ## Versión 20240324.0.0
 
