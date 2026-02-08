@@ -1,5 +1,3 @@
-# -*- coding: UTF-8 -*-
-
 # Control Usage Assistant
 # A global plugin for NVDA
 # Copyright 2013-2025 Joseph Lee, Noelia Ruiz Martínez
@@ -17,8 +15,6 @@ import NVDAObjects
 # Then depending on the type of control and its state(s), lookup a map of control types and help messages.
 # If the control is used differently in apps, then lookup the app entry and give the customized message.
 # Extension plan: ability to get context-sensitive help on NVDA options.
-
-from collections.abc import Callable
 
 import globalPluginHandler
 import controlTypes
@@ -38,11 +34,11 @@ from .utils import confspec, getAutomaticSpeechSequence, AddonSettingsPanel
 
 addonHandler.initTranslation()
 
-_: Callable[[str], str]
-
 # How many method resolution order (MRO) level help messages to consider
 # before resorting to role-based messages.
 CUAMROLevel = 0
+# Translators: Message presented when there is no help for this control.
+NO_HELP_MESSAGE = _("No help for this control")
 
 
 class EnhancedSuggestion(NVDAObjects.behaviors.InputFieldWithSuggestions):
@@ -123,8 +119,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			# Last resort: If we fail to obtain any default or app-specific message
 			# (because there is no entry for the role in the help messages), give the below message.
 			else:
-				# Translators: Message presented when there is no help message for the focused control.
-				helpMessages.append(_("No help for this control"))
+				helpMessages.append(NO_HELP_MESSAGE)
 		# Translators: message presented at the end of help messages.
 		helpMessages.append(_("Press escape to close this help screen."))
 		return "\n".join(helpMessages)
@@ -199,11 +194,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def reportAutomaticHelpMessage(self, obj):
 		if not self.shouldGetHelpAutomaticMessage():
 			return
-		try:
-			message = self.getAutomaticHelpMessage(obj)
-		except KeyError:
-			return
-		if message == self.automaticHelpMessage:
+		message = self.getAutomaticHelpMessage(obj)
+		if message == self.automaticHelpMessage or message is None:
 			return
 		self.reportMessage(message)
 		self.automaticHelpMessage = message

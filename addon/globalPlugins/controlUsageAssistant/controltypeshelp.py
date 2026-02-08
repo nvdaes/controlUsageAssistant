@@ -26,6 +26,8 @@ controlTypeHelpMessages = {
 	controlTypes.Role.EDITABLETEXT: _("Type text here."),
 	# Translators: Help message for a button.
 	controlTypes.Role.BUTTON: _("Press SPACE or ENTER to activate this button."),
+	# Translators: Help message for a toggle button.
+	controlTypes.Role.TOGGLEBUTTON: _("Press SPACE or ENTER to toggle this button."),
 	# Translators: Help message for menu items.
 	controlTypes.Role.MENUITEM: _("Use the arrow keys to move between the menu items."),
 	# Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
