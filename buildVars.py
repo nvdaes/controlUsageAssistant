@@ -39,7 +39,7 @@ addon_info: AddonInfo = {
 	"addon_description": _("""Allows you to find out how to interact with the focused control, useful for new computer users new to Windows and to NVDA."""),
 	# Each key is the name of the dictionary,
 	# version
-	"addon_version": "20250809.0.0",
+	"addon_version": "20250809.1.0",
 	# Brief changelog for this version
 	"addon_changelog": _(
 		# Translators: what's new content for the add-on version to be shown in the add-on store
