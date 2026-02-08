@@ -43,9 +43,9 @@ addon_info: AddonInfo = {
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
 	"addon_changelog": _(
-		"""* Requires NVDA 2026.1 or later.
+     """* Requires NVDA 2026.1 or later.
 		* Added help message for toggle buttons.""",
-	),
+ ),
 	# with keys inside recording the following attributes:
 	# displayName (name of the speech dictionary shown to users and translatable),
 	# Author(s)
