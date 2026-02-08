@@ -3,49 +3,77 @@
 # Build customizations
 # Change this file instead of sconstruct or manifest files, whenever possible.
 
+# Use AddonInfo TypedDict for add-on information, as in the template
+from typing import TypedDict
+try:
+	from site_scons.site_tools.NVDATool.typings import AddonInfo
+except ImportError:
+	class AddonInfo(TypedDict):
+		addon_name: str
+		addon_summary: str
+		addon_description: str
+		addon_version: str
+		addon_changelog: str
+		addon_author: str
+		addon_url: str | None
+		addon_sourceURL: str | None
+		addon_docFileName: str
+		addon_minimumNVDAVersion: str | None
+		addon_lastTestedNVDAVersion: str | None
+		addon_updateChannel: str | None
+		addon_license: str | None
+		addon_licenseURL: str | None
 
-# Since some strings in `addon_info` are translatable,
-# we need to include them in the .po files.
-# Gettext recognizes only strings given as parameters to the `_` function.
-# To avoid initializing translations in this module we simply roll our own "fake" `_` function
-# which returns whatever is given to it as an argument.
 def _(arg):
 	return arg
 
-
-# Add-on information variables
-addon_info = {
+addon_info: AddonInfo = {
 	# add-on Name/identifier, internal for NVDA
 	"addon_name": "controlUsageAssistant",
-	# Add-on summary, usually the user visible name of the addon.
-	# Translators: Summary for this add-on
-	# to be shown on installation and add-on information.
+	# Add-on summary/title, usually the user visible name of the add-on
+	# Translators: Summary/title for this add-on
+	# to be shown on installation and add-on information found in add-on store
 	"addon_summary": _("Control Usage Assistant"),
 	# Add-on description
-	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-	"addon_description": _("""Allows you to find out how to interact with the focused control, useful for new computer users new to Windows and to NVDA.
-	Press NVDA+H to get a short help message on using the focused control, such as moving through tables, checkboxes and so on."""),
+	# Translators: Long description to be shown for this add-on on add-on information from add-on store
+	"addon_description": _("""Allows you to find out how to interact with the focused control, useful for new computer users new to Windows and to NVDA."""),
+	# Each key is the name of the dictionary,
 	# version
 	"addon_version": "20250809.0.0",
+	# Brief changelog for this version
+	"addon_changelog": _(
+		# Translators: what's new content for the add-on version to be shown in the add-on store
+		"""* Requires NVDA 2026.1 or later.
+		* Added help message for toggle buttons.""",
+ ),
+	# with keys inside recording the following attributes:
+	# displayName (name of the speech dictionary shown to users and translatable),
 	# Author(s)
 	"addon_author": "Joseph Lee <joseph.lee22590@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>",
 	# URL for the add-on documentation support
 	"addon_url": "https://github.com/nvdaes/controlUsageAssistant",
+	# URL for the add-on repository where the source code can be found
+	"addon_sourceURL": None,
 	# Documentation file name
 	"addon_docFileName": "readme.html",
-	# Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)
-	"addon_minimumNVDAVersion": "2025.1",
-	# Last NVDA version supported/tested (e.g. "2018.4.0", ideally more recent than minimum version)
-	"addon_lastTestedNVDAVersion": "2025.2.0",
+	# Minimum NVDA version supported (e.g. "2019.3.0", minor version is optional)
+	"addon_minimumNVDAVersion": "2026.1",
+	# Last NVDA version supported/tested (e.g. "2024.4.0", ideally more recent than minimum version)
+	"addon_lastTestedNVDAVersion": "2026.1",
 	# Add-on update channel (default is None, denoting stable releases,
 	# and for development releases, use "dev".)
 	# Do not change unless you know what you are doing!
 	"addon_updateChannel": None,
+	# Add-on license such as GPL 2
+	"addon_license": None,
+	# URL for the license document the add-on is licensed under
+	"addon_licenseURL": None,
 }
-
+	# mandatory (True when always enabled, False when not.
+symbolDictionaries = {}
 
 # Define the python files that are the sources of your add-on.
-# You can either list every file (using ""/") as a path separator,
+# You can either list every file (using "/") as a path separator,
 # or use glob expressions.
 # For example to include all files with a ".py" extension from the "globalPlugins" dir of your add-on
 # the list can be written as follows:
@@ -66,9 +94,7 @@ excludedFiles = []
 # For example, set baseLanguage to "es" if your add-on is primarily written in spanish.
 baseLanguage = "en"
 
-# Markdown extensions for add-on documentation
-# Most add-ons do not require additional Markdown extensions.
-# If you need to add support for markup such as tables, fill out the below list.
-# Extensions string must be of the form "markdown.extensions.extensionName"
-# e.g. "markdown.extensions.tables" to add tables.
 markdownExtensions = []
+
+# List of braille tables used by the add-on (required by SConstruct)
+brailleTables = []
