@@ -60,11 +60,7 @@ addon_info = AddonInfo(
 # https://scons.org/doc/production/HTML/scons-user/apd.html
 pythonSources: list[str] = [
 	"addon/*.py",
-	"addon/appModules/*.py",
-	"addon/appModules/splcommon/*.py",
-	"addon/appModules/splstudio/*.py",
-	"addon/appModules/splengine/*.py",
-	"addon/globalPlugins/splUtils.py",
+	"addon/globalPlugins/controlUsageAssistant/*.py",
 ]
 
 # Files that contain strings for translation. Usually your python sources
