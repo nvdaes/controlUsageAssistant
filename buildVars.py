@@ -23,7 +23,7 @@ addon_info = AddonInfo(
 	# Translators: Long description to be shown for this add-on on add-on information from add-on store
 	addon_description=_("""Allows you to find out how to interact with the focused control, useful for new computer users new to Windows and to NVDA."""),
 	# version
-	addon_version="20250809.2.2",
+	addon_version="20250809.2.0",
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
 	addon_changelog=_("""* Fixed changelog format.
