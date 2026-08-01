@@ -1,254 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: nvdaaddons\n"
+"Project-Id-Version: 'controlUsageAssistant' '0.2codeReview'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-07-27 00:25+0000\n"
-"PO-Revision-Date: 2026-07-27 00:28\n"
-"Last-Translator: \n"
-"Language-Team: Korean\n"
-"Language: ko_KR\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-07-25 14:02-0800\n"
+"Last-Translator: Joseph Lee <joseph.lee22590@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: nvdaaddons\n"
-"X-Crowdin-Project-ID: 780748\n"
-"X-Crowdin-Language: ko\n"
-"X-Crowdin-File: controlUsageAssistant.pot\n"
-"X-Crowdin-File-ID: 260\n"
+"X-Generator: Poedit 1.5.5\n"
 
-#. Translators: Help message for a checkbox.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:20
-msgid "Press space bar to check or uncheck this check box."
-msgstr "스페이스를 눌러 선택 또는 해제하십시오"
-
-#. Translators: Help message for working with radio buttons.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:22
-msgid "Use the arrow keys to choose a radio button."
-msgstr "방향키를 사용하여 라디오 버튼을 선택하십시오"
-
-#. Translators: Help message for a list box.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:24
-msgid "Use the arrow keys to read this box."
-msgstr "방향키를 사용하여 박스 내용을 읽으십시오"
-
-#. Translators: Help message for an edit field.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:26
-msgid "Type text here."
-msgstr "텍스트를 입력하십시오"
-
-#. Translators: Help message for a button.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:28
-msgid "Press SPACE or ENTER to activate this button."
-msgstr "스페이스나 엔터를 눌러 버튼을 실행하십시오"
-
-#. Translators: Help message for a toggle button.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:30
-msgid "Press SPACE or ENTER to toggle this button."
+#. Script category.
+#. Translators: Input gesture category for Control Usage Assistant add-on.
+msgid "Control Usage Assistant"
 msgstr ""
 
-#. Translators: Help message for menu items.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:32
-msgid "Use the arrow keys to move between the menu items."
-msgstr "방향키를 사용하여 각 메뉴 옵션으로 이동하십시오"
+#. Translators: Input help message for obtain control help command.
+msgid "Presents a short message on how to interact with the focused control."
+msgstr "특정 컨트롤 사용법을 간단하게 알려줍니다"
 
-#. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:34
-msgid "Use up and down arrow keys to move through options in the pop-up menu."
-msgstr "위/아래 방향키를 사용하여 팝업 메뉴 옵션으로 이동하십시오"
-
-#. Translators: Help message for a combo box.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:37
-msgid "Use the arrow keys to move among choices in the combo box until the desired option is found."
-msgstr "방향키를 사용하여 콤보 박스 내 옵션으로 이동하십시오"
-
-#. Translators: Help message for a list view.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:40
-msgid "Use the arrow keys to move to the next or previous item in this list."
-msgstr "위나 아래 방향키를 사용하여 목록 항목을 선택하십시오"
-
-#. Translators: Help message for activating links.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:42
-msgid "Press SPACE or ENTER to activate this link."
-msgstr "스페이스나 엔터를 눌러 링크를 실행하십시오"
-
-#. Translators: Help message for working with tree view items.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:45
-msgid "Use the up and down arrow keys to select the items. Use left arrow to collapse and right arrow to expand."
-msgstr "위/아래 방향키로 항목을 선택하고 왼쪽/오른쪽 방향키를 사용하여 트리뷰를 열거나 닫으십시오"
-
-#. Translators: Help message for navigating tabs,
-#. such as various property tabs for drive properties in My Computer.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:51
-msgid "Use the left and right arrow keys to move between tabs, or press control+tab for next tab and control+shift+tab for previous tab."
-msgstr "왼쪽/오른쪽 방향키를 사용하여 탭을 이동하거나 CTRL+Tab을 눌러 다음 탭으로 CTRL+Shift+TAB을 눌러 이전 탭으로 이동하십시오"
-
-#. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:56
-msgid "Use the left and down arrow keys to decrease and up and right arrow keys to increase the value in this slider. Use page up and page down to increase or decrease in larger values, and press home and end keys to select maximum and minimum value."
-msgstr "이 슬라이더에서 왼쪽/아래쪽 방향키로 낮은 설정값을 오른쪽/위쪽 방향키로 높은 설정값을 선택하십시오. Page up/Page down을 사용하여 설정값을 선택하거나 Home/end를 눌러 최대 또는 최소값을 선택하십시오"
-
-#. Translators: Help message for working with progress bars.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:62
-msgid "This is a progress bar, used to show progress of an operation."
-msgstr "This is a progress bar, used to show progress of an operation."
-
-#. Translators: Help message for navigating tables.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:65
-msgid "Press control, alt and arrow keys together to move between rows and columns."
-msgstr "컨트롤, 얼트와 방향키를 사용하여 표 셀을 이동하십시오"
-
-#. Translators: Help message for navigating table cells.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:69
-msgid "Press Control+Alt+arrow keys to other table cells. Pressing left or right arrow keys will navigate between columns, and up and down arrow keys will navigate by row."
-msgstr "Press Control+Alt+arrow keys to other table cells. Pressing left or right arrow keys will navigate between columns, and up and down arrow keys will navigate by row."
-
-#. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:75
-msgid "Use the arrow keys or object navigation commands to move through the document."
-msgstr "방향키나 객체 탐색 명령을 사용하여 문서를 읽으십시오"
-
-#. Translators: Help message for terminal windows such as command prompt.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:79
-msgid "Type commands in the terminal window and use review cursor commands to read the output."
-msgstr "터미널 창에 명령을 입력한 후 리뷰 명령으로 텍스트를 읽으십시오"
-
-#. Translators: Help message for radio buttons while in browse mode.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:87
-msgid "To select a radio button, switch to focus mode by pressing NVDA+SPACE or ENTER key."
-msgstr "NVDA+SPACE 또는 ENTER 키를 눌러 포커스 모드로 전환하여 라디오 버튼을 선택하십시오"
-
-#. Translators: Help message for edit fields while in browse mode.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:91
-msgid "To type text into this edit field, switch to focus mode by pressing NVDA+SPACE or ENTER key."
-msgstr "NVDA+SPACE 또는 ENTER 키를 눌러 포커스 모드로 전환하여 입력창에 텍스트를 입력하십시오"
-
-#. Translators: Help message for combo boxes in browse mode.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:95
-msgid "To select an item in the combo box, switch to focus mode by pressing NVDA+SPACE or ENTER key."
-msgstr "NVDA+SPACE 또는 ENTER 키를 눌러 포커스 모드로 전환하여 콤보박스 항목을 선택하십시오"
-
-#. Translators: Help message for reading webpages.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:99
-msgid "Use the browse mode and quick navigation commands to read through the webpage."
-msgstr "브라우즈 모드나 객체 탐색 명령을 사용하여 웹페이지를 읽으십시오"
-
-#. Translators: Help message for edit boxes.
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:26
-msgid "Use arrow keys to move the cursor across text. You may type text here."
-msgstr ""
-
-#. Translators: Help message for reading Adobe PDF documents.
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:30
-msgid "Use the browse mode and quick navigation commands to read through the PDF document."
-msgstr "브라우즈 모드나 객체 탐색 명령을 사용하여 PDF 문서를 읽으십시오"
-
-#. Translators: Help message for moving between Excel spreadsheet cells.
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:33
-msgid "Use the arrow keys to move between spreadsheet cells."
-msgstr "방향키를 사용하여 각 셀로 이동하십시오"
-
-#. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:39
-msgid "Use the arrow keys to move between start screen tiles."
-msgstr "방향키를 사용하여 시작 화면 타일을 이동하십시오"
-
-#. Translators: Message for moving between slides in slide view
-#. (a list of slides for a Powerpoint presentation).
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:55
-msgid "Use up and down arrow keys to move between slides."
-msgstr "위/아래 방향키를 사용하여 각 슬라이드로 이동하십시오"
-
-#. Translators: Help message for working with slide shows.
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:59
-msgid "Press SPACE or BACKSPACE to move between slides in the slide show. To end the slide show, press escape."
-msgstr "SPACE나 BACKSPACE를 눌러 슬라이드쇼 슬라이드를 이동하십시오. 슬라이드쇼를 종료하려면 escape 키를 누르십시오"
-
-#. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:45
-msgid "&Automatic messages for focus"
-msgstr ""
-
-#. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:49
-msgid "Type the message to be used when an object can be activated"
-msgstr ""
-
-#. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:56
-msgid "Sele&ct output modes for automatic messages"
-msgstr "Sele&ct output modes for automatic messages"
-
-#. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:59
-msgid "Speech"
-msgstr "Speech"
-
-#. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:61
-msgid "Braille"
-msgstr "Braille"
-
-#. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:76
-msgid "&Pitch change for automatic messages"
-msgstr "&Pitch change for automatic messages"
-
-#. Translators: Message presented when there is no help for this control.
-#. Translators: Message presented when there's no help for this control.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:41
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:177
+#. Translators: Message presented when there is no help message for the focused control.
 msgid "No help for this control"
 msgstr "컨트롤에 대한 도움말이 없습니다"
 
-#. Translators: help text for search field in Windows 10 and other places.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:49
-msgid "After typing search text, press up or down arrow keys to review list of suggestions."
-msgstr "After typing search text, press up or down arrow keys to review list of suggestions."
-
-#. Translators: Input gesture category for Control Usage Assistant add-on.
-#. Add-on summary/title, usually the user visible name of the add-on
-#. Translators: Summary/title for this add-on
-#. to be shown on installation and add-on information found in add-on store
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:58
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:89 buildVars.py:20
-msgid "Control Usage Assistant"
-msgstr "Control Usage Assistant"
-
-#. Translators: Input help message for command to show settings.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:74
-msgid "Shows the Control Usage Assistant settings."
-msgstr ""
-
-#. Translators: Input help message for control help command.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:81
-msgid "Presents a message on how to interact with the focused control."
-msgstr "포커스된 컨트롤 사용법을 간단하게 알려줍니다"
-
-#. Translators: message presented at the end of help messages.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:124
-msgid "Press escape to close this help screen."
-msgstr "Press escape to close this help screen."
-
 #. Translators: Additional message when working with forms in focus mode.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:162
-msgid " To switch to browse mode, press NVDA+SPACE or escape key"
+msgid ". To switch to browse mode, press NVDA+SPACE or escape key"
 msgstr "브라우즈 모드로 전환하려면 NVDA+SPACE나 escape 키를 누르십시오"
 
 #. Translators: Help message for reading a webpage while in focus mode.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:169
-msgid "To use browse mode and quick navigation keys to read the webpage, switch to browse mode by pressing NVDA+SPACE"
-msgstr "브라우즈 모드 또는 첫 글자 키를 사용하려면 NVDA+SPACE를 눌러 브라우즈 모드로 전환하십시오"
+msgid ""
+"To use browse mode and quick navigation keys to read the webpage, switch to "
+"browse mode by pressing NVDA+SPACE"
+msgstr ""
+"브라우즈 모드 또는 첫 글자 키를 사용하려면 NVDA+SPACE를 눌러 브라우즈 모드로 "
+"전환하십시오"
+
+#. Default: universal across apps and states.
+#. Translators: Help message for a checkbox.
+msgid "Press space to check or uncheck the checkbox"
+msgstr "스페이스를 눌러 선택 또는 해제하십시오"
+
+#. Translators: Help message for working with radio buttons.
+msgid "Use the arrow keys to choose a radio button"
+msgstr "방향키를 사용하여 라디오 버튼을을 선택하십시오"
+
+#. Translators: Help message for a list box.
+msgid "Use the arrow keys to read this box"
+msgstr "방향키를 사용하여 박스 내용을 읽으십시오"
+
+#. Translators: Help message for an edit field.
+msgid "Type text here"
+msgstr "텍스트를 입력하십시오"
+
+#. Translators: Help message for a read-only control.
+msgid "Use the text navigation commands to read text"
+msgstr "텍스트 읽기 명령을 사용하여 텍스트를 읽으십시오"
+
+#. Translators: Help message for a button.
+msgid "Press SPACE or ENTER to activate this button"
+msgstr "스페이스나 엔터를 눌러 버튼을 실행하십시오"
+
+#. Translators: Help message for menu items.
+msgid "Use the arrow keys to move between the menu items"
+msgstr "방향키를 사용하여 각 메뉴 옵션으로 이동하십시오"
+
+#. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
+msgid "Use up and down arrow keys to move through options in the pop-up menu"
+msgstr "위/아래 방향키를 사용하여 팝업 메뉴 옵션으로 이동하십시오"
+
+#. Translators: Help message for a combo box.
+msgid ""
+"Use the arrow keys to move among choices in the combo box until the desired "
+"option is found"
+msgstr "방향키를 사용하여 콤보 박스 내 옵션으로 이동하십시오"
+
+#. Translators: Help message for a list view.
+msgid "Use the arrow keys to move to the next or previous item in this list"
+msgstr "위나 아래 방향키를 사용하여 목록 항목을 선택하십시오"
+
+#. Translators: Help message for activating links.
+msgid "Press SPACE or ENTER to activate this link"
+msgstr "스페이스나 엔터를 눌러 링크를 실행하십시오"
+
+#. Translators: Help message for working with tree view items.
+msgid ""
+"Use the up and down arrow keys to select the items. Use left arrow to "
+"collapse and right arrow to expand"
+msgstr ""
+"위/아래 방향키로 항목을 선택하고 왼쪽/오른쪽 방향키를 사용하여 트리뷰를 열거"
+"나 닫으십시오"
+
+#. Translators: Help message for navigating tabs, such as various property tabs for drive properties in My Computer.
+msgid ""
+"Use the left and right arrow keys to move between tabs, or press control+tab "
+"for next tab and control+shift+tab for previous tab"
+msgstr ""
+"왼쪽/오른쪽 방향키를 사용하여 탭을 이동하거나 CTRL+Tab을 눌러 다음 탭으로 "
+"CTRL+Shift+TAB을 눌러 이전 탭으로 이동하십시오"
+
+#. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
+msgid ""
+"Use the left and down arrow keys to decrease and up and right arrow keys to "
+"increase the value in this slider. Use page up and page down to increase or "
+"decrease in larger values, and press home and end keys to select maximum and "
+"minimum value"
+msgstr ""
+"이 슬라이더에서 왼쪽/아래쪽 방향키로 낮은 설정값을 오른쪽/위쪽 방향키로 높은 "
+"설정값을 선택하십시오. Page up/Page down을 사용하여 설정값을 선택하거나 Home/"
+"end를 눌러 최대 또는 최소값을 선택하십시오"
+
+#. Translators: Help message for navigating tables.
+msgid ""
+"Press control, alt and arrow keys together to move between rows and columns"
+msgstr "컴트로, 얼트와 방향키를 사용하여 표 셀을 이동하십시오"
+
+#. Translators: Help message for navigating table cells.
+msgid "Press control, alt and arrow keys together to move between table cells"
+msgstr "컴트롤, Alt와 방향키를 사용하여 표 셀을 이동하십시오"
+
+#. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
+msgid ""
+"Use the arrow keys or object navigation commands to move through the document"
+msgstr "방향키나 객체 탐색 명령을 사용하여 문서를 읽으십시오"
+
+#. Translators: Help message for terminal windows such as command prompt.
+msgid ""
+"Type commands in the terminal window and use review cursor commands to read "
+"the output"
+msgstr "터미널 창에 명령을 입력한 후 리뷰 명령으로 텍스트를 읽으십시오"
+
+#. 200: Virtual Buffer.
+#. Translators: Help message for radio buttons while in browse mode.
+msgid ""
+"To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
+"ENTER key"
+msgstr ""
+"NVDA+SPACE 또는 ENTER 키를 눌러 포커스 모드로 전환하여 라디오 버튼을 선택하십"
+"시오"
+
+#. Translators: Help message for edit fields while in browse mode.
+msgid ""
+"To type text into this edit field, switch to focus mode by pressing NVDA"
+"+SPACE or ENTER key"
+msgstr ""
+"NVDA+SPACE 또는 ENTER 키를 눌러 포커스 모드로 전환하여 입력창에 텍스트를 입력"
+"하십시오"
+
+#. Translators: Help message for combo boxes in browse mode.
+msgid ""
+"To select an item in the combo box, switch to focus mode by pressing NVDA"
+"+SPACE or ENTER key"
+msgstr ""
+"NVDA+SPACE 또는 ENTER 키를 눌러 포커스 모드로 전환하여 콤보박스 항목을 선택하"
+"십시오"
+
+#. Translators: Help message for reading webpages.
+msgid ""
+"Use the browse mode and quick navigation commands to read through the webpage"
+msgstr "브라우즈 모드나 객체 탐색 명령을 사용하여 웹페이지를 읽으십시오"
+
+#. App-specific case 1: AppeModule for app is present.
+#. 300: Explorer (to deal with specific cases.
+#. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
+msgid "Use the arrow keys to move between start screen tiles"
+msgstr "방향키를 사용하여 시작 화면 타일을 이동하십시오"
+
+#. 400: Microsoft powerpoint (powerpnt):
+#. Translators: Message for moving between slides in slide view (a list of slides for a Powerpoint presentation).
+msgid "Use up and down arrow keys to move between slides"
+msgstr "위 라애 방향키를 사용하여 각 슬라이드로 이동하십시오"
+
+#. Translators: Help message for working with slide shows.
+msgid ""
+"Press SPACE or BACKSPACE to move between slides in the slide show. To end "
+"the slide show, press escape"
+msgstr ""
+"SPACE나 BACKSPACE를 눌러 슬라이드쇼 슬라이드를 이동하십시오. 슬라이드쇼를 종"
+"료하려면 escape 키를 누르십시오"
+
+#. App-specific case 2: AppeModule for app is not present (use processes).
+#. -300: Excel.
+#. Translators: Help message for moving between Excel spreadsheet cells.
+msgid "Use the arrow keys to move between spreadsheet cells"
+msgstr "방향키를 사용하여 각 셀로 이동하십시오"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-on store
-#: buildVars.py:23
-msgid "Allows you to find out how to interact with the focused control, useful for new computer users new to Windows and to NVDA."
-msgstr ""
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+msgid ""
+"Control Usage Assistant - get brief help on interacting with the focused "
+"control"
+msgstr "컨트롤 사용 도우미"
 
-#. Brief changelog for this version
-#. Translators: what's new content for the add-on version to be shown in the add-on store
-#: buildVars.py:28
-msgid "* Compatible with NVDA 2026.1."
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+msgid ""
+"Allows you to find out how to interact with the focused control, useful for "
+"new computer users new to Windows and to NvDA.\n"
+"\tPress NvDA+H to get a short help message on using the focused control, "
+"such as moving through tables, checkboxes and so on."
 msgstr ""
-
+"포커스된 컨트롤 사용 방법을 알려줍니다.\n"
+"\tNVDA+H를 눌러 특정 컨트롤 사용 방법 (예: 표 행 및 열 이동, 체크박스 선택 방"
+"법 등)을 확인하십시오"
