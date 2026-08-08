@@ -1,254 +1,303 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: nvdaaddons\n"
+"Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-07-27 00:25+0000\n"
-"PO-Revision-Date: 2026-07-29 15:37\n"
-"Last-Translator: \n"
-"Language-Team: Hungarian\n"
-"Language: hu_HU\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2020-07-27 20:42+0100\n"
+"Last-Translator: OAron <info@o-soft.hu>\n"
+"Language-Team: HU <LL@li.org>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: nvdaaddons\n"
-"X-Crowdin-Project-ID: 780748\n"
-"X-Crowdin-Language: hu\n"
-"X-Crowdin-File: controlUsageAssistant.pot\n"
-"X-Crowdin-File-ID: 260\n"
+
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"A keresőkifejezés beírása után használja a lenyíl és felnyíl billentyűket a "
+"javaslatok áttekintéséhez."
+
+#. Translators: Input gesture category for Control Usage Assistant add-on.
+#. The prototype UI message, the actual processing is done below.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information.
+msgid "Control Usage Assistant"
+msgstr "Tájékoztató üzemmód"
+
+#. Translators: Input help message for command to show settings.
+#, fuzzy
+msgid "Shows the Control Usage Assistant settings."
+msgstr "Tájékoztató üzemmód"
+
+#. Translators: Input help message for control help command.
+msgid "Presents a message on how to interact with the focused control."
+msgstr ""
+"Megjelenít egy rövid üzenetet az aktív elem használatával kapcsolatban."
+
+#. Translators: Message presented when there is no help message for the focused control.
+#. Translators: Message presented when there's no help for this control.
+msgid "No help for this control"
+msgstr "Nem tartozik súgó ehhez az elemhez"
+
+#. Translators: message presented at the end of help messages.
+msgid "Press escape to close this help screen."
+msgstr ""
+
+#. Translators: Additional message when working with forms in focus mode.
+msgid " To switch to browse mode, press NVDA+SPACE or escape key"
+msgstr ""
+"Böngészőmódra váltáshoz nyomja meg az NVDA+szóköz, vagy az escape billentyűt."
+
+#. Translators: Help message for reading a webpage while in focus mode.
+msgid ""
+"To use browse mode and quick navigation keys to read the webpage, switch to "
+"browse mode by pressing NVDA+SPACE"
+msgstr ""
+"A böngészőmód és a gyors navigációs gombok használatához nyomja meg az "
+"NVDA+szóköz billentyűparancsot"
 
 #. Translators: Help message for a checkbox.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:20
 msgid "Press space bar to check or uncheck this check box."
-msgstr "Nyomja meg a szóközt a jelölőnégyzet bejelöléséhez vagy a bejelölés eltávolításához."
+msgstr ""
+"Nyomja meg a szóközt a jelölőnégyzet bejelöléséhez vagy a bejelölés "
+"eltávolításához."
 
 #. Translators: Help message for working with radio buttons.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:22
 msgid "Use the arrow keys to choose a radio button."
 msgstr "Használja a nyílbillentyűket egy választógomb kiválasztásához."
 
 #. Translators: Help message for a list box.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:24
 msgid "Use the arrow keys to read this box."
 msgstr "Használja a nyílbillentyűket a lista elemein való mozgáshoz."
 
 #. Translators: Help message for an edit field.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:26
 msgid "Type text here."
 msgstr "Ez egy beviteli mező, ide írja a szöveget"
 
 #. Translators: Help message for a button.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:28
 msgid "Press SPACE or ENTER to activate this button."
 msgstr "használja a szóköz vagy az enter billentyűt a gomb megnyomásához."
 
-#. Translators: Help message for a toggle button.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:30
-msgid "Press SPACE or ENTER to toggle this button."
-msgstr ""
-
 #. Translators: Help message for menu items.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:32
 msgid "Use the arrow keys to move between the menu items."
 msgstr "Használja a nyíl billentyűket a menüben való mozgáshoz"
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:34
 msgid "Use up and down arrow keys to move through options in the pop-up menu."
 msgstr "A felnyíl és lenyíl billentyűkkel mozoghat a helyi menüben."
 
 #. Translators: Help message for a combo box.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:37
-msgid "Use the arrow keys to move among choices in the combo box until the desired option is found."
-msgstr "A nyílbillentyűk segítségével válassza ki az önnek megfelelő opciót a listából."
+msgid ""
+"Use the arrow keys to move among choices in the combo box until the desired "
+"option is found."
+msgstr ""
+"A nyílbillentyűk segítségével válassza ki az önnek megfelelő opciót a "
+"listából."
 
 #. Translators: Help message for a list view.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:40
 msgid "Use the arrow keys to move to the next or previous item in this list."
 msgstr "A nyílbillentyűk segítségével mozoghat a  lista elemei között"
 
 #. Translators: Help message for activating links.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:42
 msgid "Press SPACE or ENTER to activate this link."
 msgstr "Nyomja meg a szóközvagy az enter billentyűt a hivatkozásra ugráshoz."
 
 #. Translators: Help message for working with tree view items.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:45
-msgid "Use the up and down arrow keys to select the items. Use left arrow to collapse and right arrow to expand."
-msgstr "A Felnyíllal és Lenyíllal választhat ki egy elemet, amit a Jobbnyíllal nyithat ki, ill. a Balnyíllal zárhat be."
+msgid ""
+"Use the up and down arrow keys to select the items. Use left arrow to "
+"collapse and right arrow to expand."
+msgstr ""
+"A Felnyíllal és Lenyíllal választhat ki egy elemet, amit a Jobbnyíllal "
+"nyithat ki, ill. a Balnyíllal zárhat be."
 
 #. Translators: Help message for navigating tabs,
 #. such as various property tabs for drive properties in My Computer.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:51
-msgid "Use the left and right arrow keys to move between tabs, or press control+tab for next tab and control+shift+tab for previous tab."
-msgstr "A Balnyíl és Jobbnyíl segítségével mozoghat a füleken, a Ctrl+tab billentyűparancs a következő fülre vált, míg a Ctrl+Shift+Tab parancs az előző fülre."
+msgid ""
+"Use the left and right arrow keys to move between tabs, or press control+tab "
+"for next tab and control+shift+tab for previous tab."
+msgstr ""
+"A Balnyíl és Jobbnyíl segítségével mozoghat a füleken, a Ctrl+tab "
+"billentyűparancs a következő fülre vált, míg a Ctrl+Shift+Tab parancs az "
+"előző fülre."
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:56
-msgid "Use the left and down arrow keys to decrease and up and right arrow keys to increase the value in this slider. Use page up and page down to increase or decrease in larger values, and press home and end keys to select maximum and minimum value."
-msgstr "a Balnyíl vagy Lenyíl segítségével csökkentheti, a Jobbnyíl vagy Felnyíl  segítségével növelheti az értéket a csúszkán. A PageUp és PageDown billentyűkkel nagyobb lépésekben változtathat. A Home és End gombokkal azonnal a maximális ill. a minimális értékre ugorhat."
+msgid ""
+"Use the left and down arrow keys to decrease and up and right arrow keys to "
+"increase the value in this slider. Use page up and page down to increase or "
+"decrease in larger values, and press home and end keys to select maximum and "
+"minimum value."
+msgstr ""
+"a Balnyíl vagy Lenyíl segítségével csökkentheti, a Jobbnyíl vagy Felnyíl  "
+"segítségével növelheti az értéket a csúszkán. A PageUp és PageDown "
+"billentyűkkel nagyobb lépésekben változtathat. A Home és End gombokkal "
+"azonnal a maximális ill. a minimális értékre ugorhat."
 
 #. Translators: Help message for working with progress bars.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:62
 msgid "This is a progress bar, used to show progress of an operation."
 msgstr "Ez egy folyamatjelző, megmutatja hol tart az aktuális művelet"
 
 #. Translators: Help message for navigating tables.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:65
-msgid "Press control, alt and arrow keys together to move between rows and columns."
-msgstr "A Ctrl+Alt+Nyílbillentyűk paranccsal mozoghat a táblázat cellái között. Felnyíl és Lenyíl a sorok közti, ill. Balnyíl és jobbnyíl az oszlopok közti mozgáshoz."
+msgid ""
+"Press control, alt and arrow keys together to move between rows and columns."
+msgstr ""
+"A Ctrl+Alt+Nyílbillentyűk paranccsal mozoghat a táblázat cellái között. "
+"Felnyíl és Lenyíl a sorok közti, ill. Balnyíl és jobbnyíl az oszlopok közti "
+"mozgáshoz."
 
 #. Translators: Help message for navigating table cells.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:69
-msgid "Press Control+Alt+arrow keys to other table cells. Pressing left or right arrow keys will navigate between columns, and up and down arrow keys will navigate by row."
-msgstr "A Ctrl+Alt+Nyílbillentyűk paranccsal mozoghat a táblázat cellái között. Felnyíl és Lenyíl a sorok közti, ill. Balnyíl és jobbnyíl az oszlopok közti mozgáshoz."
+msgid ""
+"Press Control+Alt+arrow keys to other table cells. Pressing left or right "
+"arrow keys will navigate between columns, and up and down arrow keys will "
+"navigate by row."
+msgstr ""
+"A Ctrl+Alt+Nyílbillentyűk paranccsal mozoghat a táblázat cellái között. "
+"Felnyíl és Lenyíl a sorok közti, ill. Balnyíl és jobbnyíl az oszlopok közti "
+"mozgáshoz."
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:75
-msgid "Use the arrow keys or object navigation commands to move through the document."
-msgstr "a nyílbillentyűkkel vagy az elemnavigációs parancsok használatával mozoghat a dokumentumban."
+msgid ""
+"Use the arrow keys or object navigation commands to move through the "
+"document."
+msgstr ""
+"a nyílbillentyűkkel vagy az elemnavigációs parancsok használatával mozoghat "
+"a dokumentumban."
 
 #. Translators: Help message for terminal windows such as command prompt.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:79
-msgid "Type commands in the terminal window and use review cursor commands to read the output."
-msgstr "Gépelje be a parancsokat a terminál ablakba, majd használja az áttekintő kurzor navigációs parancsait a visszaolvasáshoz."
+msgid ""
+"Type commands in the terminal window and use review cursor commands to read "
+"the output."
+msgstr ""
+"Gépelje be a parancsokat a terminál ablakba, majd használja az áttekintő "
+"kurzor navigációs parancsait a visszaolvasáshoz."
 
 #. Translators: Help message for radio buttons while in browse mode.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:87
-msgid "To select a radio button, switch to focus mode by pressing NVDA+SPACE or ENTER key."
-msgstr "Egy választógomb kiválasztásához váltson fókuszmódra az NVDA+szóköz vagy az enter lenyomásával."
+msgid ""
+"To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
+"ENTER key."
+msgstr ""
+"Egy választógomb kiválasztásához váltson fókuszmódra az NVDA+szóköz vagy az "
+"enter lenyomásával."
 
 #. Translators: Help message for edit fields while in browse mode.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:91
-msgid "To type text into this edit field, switch to focus mode by pressing NVDA+SPACE or ENTER key."
-msgstr "Szöveg begépeléséhez váltson fókuszmódra az NVDA+szóköz vagy az enter lenyomásával."
+msgid ""
+"To type text into this edit field, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
+msgstr ""
+"Szöveg begépeléséhez váltson fókuszmódra az NVDA+szóköz vagy az enter "
+"lenyomásával."
 
 #. Translators: Help message for combo boxes in browse mode.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:95
-msgid "To select an item in the combo box, switch to focus mode by pressing NVDA+SPACE or ENTER key."
-msgstr "A kombinált listamező egy elemének kiválasztásához váltson fókuszmódra az NVDA+szóköz vagy az enter lenyomásával."
+msgid ""
+"To select an item in the combo box, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
+msgstr ""
+"A kombinált listamező egy elemének kiválasztásához váltson fókuszmódra az "
+"NVDA+szóköz vagy az enter lenyomásával."
 
 #. Translators: Help message for reading webpages.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:99
-msgid "Use the browse mode and quick navigation commands to read through the webpage."
-msgstr "Használja a böngészőmódot és a gyorsnavigációs parancsokat a weboldal olvasásához."
+msgid ""
+"Use the browse mode and quick navigation commands to read through the "
+"webpage."
+msgstr ""
+"Használja a böngészőmódot és a gyorsnavigációs parancsokat a weboldal "
+"olvasásához."
 
 #. Translators: Help message for edit boxes.
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:26
+#, fuzzy
 msgid "Use arrow keys to move the cursor across text. You may type text here."
-msgstr ""
+msgstr "A nyílbillentyűk segítségével mozoghat a  lista elemei között"
 
 #. Translators: Help message for reading Adobe PDF documents.
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:30
-msgid "Use the browse mode and quick navigation commands to read through the PDF document."
-msgstr "Használja a böngészőmódot és a gyorsnavigációs parancsokat a pdf-dokumentum olvasásához."
+msgid ""
+"Use the browse mode and quick navigation commands to read through the PDF "
+"document."
+msgstr ""
+"Használja a böngészőmódot és a gyorsnavigációs parancsokat a pdf-dokumentum "
+"olvasásához."
 
 #. Translators: Help message for moving between Excel spreadsheet cells.
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:33
 msgid "Use the arrow keys to move between spreadsheet cells."
 msgstr "A nyílbillentyűkkel mozoghat a munkafüzet cellái között."
 
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:39
 msgid "Use the arrow keys to move between start screen tiles."
 msgstr "Használja a nyílbillentyűket a kezdőképernyő csempéin való mozgáshoz."
 
 #. Translators: Message for moving between slides in slide view
 #. (a list of slides for a Powerpoint presentation).
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:55
 msgid "Use up and down arrow keys to move between slides."
-msgstr "Használja a lenyíl és felnyíl billentyűket a diák között való mozgáshoz"
+msgstr ""
+"Használja a lenyíl és felnyíl billentyűket a diák között való mozgáshoz"
 
 #. Translators: Help message for working with slide shows.
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:59
-msgid "Press SPACE or BACKSPACE to move between slides in the slide show. To end the slide show, press escape."
-msgstr "Diavetítés közben a szóköz és a backspace billentyűkkel mozoghat a diák között előre és hátra, a diavetítést az escape billentyűvel állíthatja le."
+msgid ""
+"Press SPACE or BACKSPACE to move between slides in the slide show. To end "
+"the slide show, press escape."
+msgstr ""
+"Diavetítés közben a szóköz és a backspace billentyűkkel mozoghat a diák "
+"között előre és hátra, a diavetítést az escape billentyűvel állíthatja le."
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:45
 msgid "&Automatic messages for focus"
 msgstr ""
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:49
 msgid "Type the message to be used when an object can be activated"
 msgstr ""
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:56
 msgid "Sele&ct output modes for automatic messages"
 msgstr ""
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:59
 msgid "Speech"
 msgstr ""
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:61
 msgid "Braille"
 msgstr ""
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:76
 msgid "&Pitch change for automatic messages"
 msgstr ""
 
-#. Translators: Message presented when there is no help for this control.
-#. Translators: Message presented when there's no help for this control.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:41
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:177
-msgid "No help for this control"
-msgstr "Nem tartozik súgó ehhez az elemhez"
-
-#. Translators: help text for search field in Windows 10 and other places.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:49
-msgid "After typing search text, press up or down arrow keys to review list of suggestions."
-msgstr "A keresőkifejezés beírása után használja a lenyíl és felnyíl billentyűket a javaslatok áttekintéséhez."
-
-#. Translators: Input gesture category for Control Usage Assistant add-on.
-#. Add-on summary/title, usually the user visible name of the add-on
-#. Translators: Summary/title for this add-on
-#. to be shown on installation and add-on information found in add-on store
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:58
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:89 buildVars.py:20
-msgid "Control Usage Assistant"
-msgstr "Tájékoztató üzemmód"
-
-#. Translators: Input help message for command to show settings.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:74
-msgid "Shows the Control Usage Assistant settings."
-msgstr ""
-
-#. Translators: Input help message for control help command.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:81
-msgid "Presents a message on how to interact with the focused control."
-msgstr "Megjelenít egy rövid üzenetet az aktív elem használatával kapcsolatban."
-
-#. Translators: message presented at the end of help messages.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:124
-msgid "Press escape to close this help screen."
-msgstr ""
-
-#. Translators: Additional message when working with forms in focus mode.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:162
-msgid " To switch to browse mode, press NVDA+SPACE or escape key"
-msgstr "Böngészőmódra váltáshoz nyomja meg az NVDA+szóköz, vagy az escape billentyűt."
-
-#. Translators: Help message for reading a webpage while in focus mode.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:169
-msgid "To use browse mode and quick navigation keys to read the webpage, switch to browse mode by pressing NVDA+SPACE"
-msgstr "A böngészőmód és a gyors navigációs gombok használatához nyomja meg az NVDA+szóköz billentyűparancsot"
-
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-on store
-#: buildVars.py:23
-msgid "Allows you to find out how to interact with the focused control, useful for new computer users new to Windows and to NVDA."
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
+msgid ""
+"Allows you to find out how to interact with the focused control, useful for "
+"new computer users new to Windows and to NVDA.\n"
+"\tPress NVDA+H to get a short help message on using the focused control, "
+"such as moving through tables, checkboxes and so on."
 msgstr ""
+"Bővebb információt kaphat az aktív elem használatáról, ami főleg a kezdő "
+"számítógép felhasználóknak hasznos.\n"
+"\tNyomja meg az NVDA+h billentyűparancsot az üzenet meghallgatásához, pl. "
+"egy táblázatban megtudhatja hogyan mozoghat a cellákon és a sorokon "
+"billentyűparancsok segítségével."
 
-#. Brief changelog for this version
-#. Translators: what's new content for the add-on version to be shown in the add-on store
-#: buildVars.py:28
-msgid "* Compatible with NVDA 2026.1."
-msgstr ""
+#~ msgid "Use the text navigation commands to read text"
+#~ msgstr "Használja a szöveg navigációs billentyűparancsokat az elolvasáshoz"
 
+#~ msgid ""
+#~ "Press control, alt and arrow keys together to move between table cells"
+#~ msgstr ""
+#~ "A control+alt+nyilak egyidejű megnyomásával mozoghat a táblázat cellái "
+#~ "között."
+
+#~ msgid ""
+#~ "Control Usage Assistant - get brief help on interacting with the focused "
+#~ "control"
+#~ msgstr ""
+#~ "Tájékoztató üzemmód - rövid segítséget kaphat arról, hogy hogyan kell "
+#~ "használni az aktív vezérlőelemet."

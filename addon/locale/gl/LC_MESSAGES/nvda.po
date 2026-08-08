@@ -1,254 +1,301 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: nvdaaddons\n"
+"Project-Id-Version: 'controlUsageAssistant' '1.0-devMilestone2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-07-27 00:25+0000\n"
-"PO-Revision-Date: 2026-07-29 15:37\n"
-"Last-Translator: \n"
-"Language-Team: Galician\n"
-"Language: gl_ES\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2023-10-06 23:27+0200\n"
+"Last-Translator: Juan C. Buño <oprisniki@gmail.com>\n"
+"Language-Team: NVDA Add-ons translation team <LL@li.org>\n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: nvdaaddons\n"
-"X-Crowdin-Project-ID: 780748\n"
-"X-Crowdin-Language: gl\n"
-"X-Crowdin-File: controlUsageAssistant.pot\n"
-"X-Crowdin-File-ID: 260\n"
+"X-Generator: Poedit 3.4\n"
+
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"Despois de escribir o texto da procura, preme as frechas arriba ou abaixo "
+"para revisar a lista de suxestións."
+
+#. Translators: Input gesture category for Control Usage Assistant add-on.
+#. The prototype UI message, the actual processing is done below.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information.
+msgid "Control Usage Assistant"
+msgstr "Control Usage Assistant"
+
+#. Translators: Input help message for command to show settings.
+msgid "Shows the Control Usage Assistant settings."
+msgstr "Amosa as opcións do Control Usage Assistant."
+
+#. Translators: Input help message for control help command.
+msgid "Presents a message on how to interact with the focused control."
+msgstr "Presenta unha mensaxe sobre como interactuar co control enfocado."
+
+#. Translators: Message presented when there is no help message for the focused control.
+#. Translators: Message presented when there's no help for this control.
+msgid "No help for this control"
+msgstr "Non hai axuda para este control"
+
+#. Translators: message presented at the end of help messages.
+msgid "Press escape to close this help screen."
+msgstr "Preme escape para pechar esta pantalla de axuda."
+
+#. Translators: Additional message when working with forms in focus mode.
+msgid " To switch to browse mode, press NVDA+SPACE or escape key"
+msgstr " Para cambiar ó modo navegación, preme NVDA+ESPAZO ou a tecla escape"
+
+#. Translators: Help message for reading a webpage while in focus mode.
+msgid ""
+"To use browse mode and quick navigation keys to read the webpage, switch to "
+"browse mode by pressing NVDA+SPACE"
+msgstr ""
+"Para usar o modo navegación e as ordes de navegación rápida para ler a "
+"páxina web, cambia o modo navegación premendo NVDA+ESPAZO"
 
 #. Translators: Help message for a checkbox.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:20
 msgid "Press space bar to check or uncheck this check box."
 msgstr "Preme espazo para marcar ou desmarcar a caixa de verificación."
 
 #. Translators: Help message for working with radio buttons.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:22
 msgid "Use the arrow keys to choose a radio button."
 msgstr "Usa as frechas para escoller  un botón de opción."
 
 #. Translators: Help message for a list box.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:24
 msgid "Use the arrow keys to read this box."
 msgstr "Usa as frechas para ler este cadro."
 
 #. Translators: Help message for an edit field.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:26
 msgid "Type text here."
 msgstr "Teclea texto aquí."
 
 #. Translators: Help message for a button.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:28
 msgid "Press SPACE or ENTER to activate this button."
 msgstr "Preme ESPAZO ou INTRO para activar este botón."
 
-#. Translators: Help message for a toggle button.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:30
-msgid "Press SPACE or ENTER to toggle this button."
-msgstr ""
-
 #. Translators: Help message for menu items.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:32
 msgid "Use the arrow keys to move between the menu items."
 msgstr "Usa as frechas para moverte entre os elementos do menú."
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:34
 msgid "Use up and down arrow keys to move through options in the pop-up menu."
-msgstr "Usa as frechas arriba e abaixo para moverte polas opcións no menú despregable."
+msgstr ""
+"Usa as frechas arriba e abaixo para moverte polas opcións no menú "
+"despregable."
 
 #. Translators: Help message for a combo box.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:37
-msgid "Use the arrow keys to move among choices in the combo box until the desired option is found."
-msgstr "Usa as frechas para moverte polas opcións no cadro combinado ate atopar a desexada."
+msgid ""
+"Use the arrow keys to move among choices in the combo box until the desired "
+"option is found."
+msgstr ""
+"Usa as frechas para moverte polas opcións no cadro combinado ate atopar a "
+"desexada."
 
 #. Translators: Help message for a list view.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:40
 msgid "Use the arrow keys to move to the next or previous item in this list."
-msgstr "Usa as frechas para moverte ó elemento seguinte e anterior nesta lista."
+msgstr ""
+"Usa as frechas para moverte ó elemento seguinte e anterior nesta lista."
 
 #. Translators: Help message for activating links.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:42
 msgid "Press SPACE or ENTER to activate this link."
 msgstr "Preme ESPAZO ou INTRO para activar esta liga."
 
 #. Translators: Help message for working with tree view items.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:45
-msgid "Use the up and down arrow keys to select the items. Use left arrow to collapse and right arrow to expand."
-msgstr "Usa as frechas arriba ou abaixo para seleccionar os elementos. Usa cursor esquerdo para contraer ou cursor dereito para expandir."
+msgid ""
+"Use the up and down arrow keys to select the items. Use left arrow to "
+"collapse and right arrow to expand."
+msgstr ""
+"Usa as frechas arriba ou abaixo para seleccionar os elementos. Usa cursor "
+"esquerdo para contraer ou cursor dereito para expandir."
 
 #. Translators: Help message for navigating tabs,
 #. such as various property tabs for drive properties in My Computer.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:51
-msgid "Use the left and right arrow keys to move between tabs, or press control+tab for next tab and control+shift+tab for previous tab."
-msgstr "Usa as frechas esquerdo ou dereito para moverte entre pestanas, ou preme control+tab para a seguinte pestana e control+shift+tab para pestana anterior."
+msgid ""
+"Use the left and right arrow keys to move between tabs, or press control+tab "
+"for next tab and control+shift+tab for previous tab."
+msgstr ""
+"Usa as frechas esquerdo ou dereito para moverte entre pestanas, ou preme "
+"control+tab para a seguinte pestana e control+shift+tab para pestana "
+"anterior."
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:56
-msgid "Use the left and down arrow keys to decrease and up and right arrow keys to increase the value in this slider. Use page up and page down to increase or decrease in larger values, and press home and end keys to select maximum and minimum value."
-msgstr "Usa as frechas esquerdo ou dereito para diminuir e cursores arriba ou dereito para aumentar o valor neste deslizador. Usa retroceso de páxina ou avance de páxina para aumentar ou diminuir en valores máis longos, e preme inicio ou fin para seleccionar valores máximo ou mínimo."
+msgid ""
+"Use the left and down arrow keys to decrease and up and right arrow keys to "
+"increase the value in this slider. Use page up and page down to increase or "
+"decrease in larger values, and press home and end keys to select maximum and "
+"minimum value."
+msgstr ""
+"Usa as frechas esquerdo ou dereito para diminuir e cursores arriba ou "
+"dereito para aumentar o valor neste deslizador. Usa retroceso de páxina ou "
+"avance de páxina para aumentar ou diminuir en valores máis longos, e preme "
+"inicio ou fin para seleccionar valores máximo ou mínimo."
 
 #. Translators: Help message for working with progress bars.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:62
 msgid "This is a progress bar, used to show progress of an operation."
-msgstr "Isto é unha barra de progreso, utilizada para amosar o progreso dunha operación."
+msgstr ""
+"Isto é unha barra de progreso, utilizada para amosar o progreso dunha "
+"operación."
 
 #. Translators: Help message for navigating tables.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:65
-msgid "Press control, alt and arrow keys together to move between rows and columns."
-msgstr "Preme control, alt e algunha tecla de frecha á vez para moverte entre filas e columnas."
+msgid ""
+"Press control, alt and arrow keys together to move between rows and columns."
+msgstr ""
+"Preme control, alt e algunha tecla de frecha á vez para moverte entre filas "
+"e columnas."
 
 #. Translators: Help message for navigating table cells.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:69
-msgid "Press Control+Alt+arrow keys to other table cells. Pressing left or right arrow keys will navigate between columns, and up and down arrow keys will navigate by row."
-msgstr "Preme Control+Alt+frechas para outra cela da táboa. Premendo as frechas esquerda e dereita navegarase por columnas, e as frechas arriba e abaixo navegarán entre filas."
+msgid ""
+"Press Control+Alt+arrow keys to other table cells. Pressing left or right "
+"arrow keys will navigate between columns, and up and down arrow keys will "
+"navigate by row."
+msgstr ""
+"Preme Control+Alt+frechas para outra cela da táboa. Premendo as frechas "
+"esquerda e dereita navegarase por columnas, e as frechas arriba e abaixo "
+"navegarán entre filas."
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:75
-msgid "Use the arrow keys or object navigation commands to move through the document."
-msgstr "Usa as frechas ou as ordes de navegación de obxectos para moverte polo documento."
+msgid ""
+"Use the arrow keys or object navigation commands to move through the "
+"document."
+msgstr ""
+"Usa as frechas ou as ordes de navegación de obxectos para moverte polo "
+"documento."
 
 #. Translators: Help message for terminal windows such as command prompt.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:79
-msgid "Type commands in the terminal window and use review cursor commands to read the output."
-msgstr "Escribe ordes na ventá da terminal e usa ordes do cursor de revisión para ler a saída."
+msgid ""
+"Type commands in the terminal window and use review cursor commands to read "
+"the output."
+msgstr ""
+"Escribe ordes na ventá da terminal e usa ordes do cursor de revisión para "
+"ler a saída."
 
 #. Translators: Help message for radio buttons while in browse mode.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:87
-msgid "To select a radio button, switch to focus mode by pressing NVDA+SPACE or ENTER key."
-msgstr "Para seleccionar  un botón de opción, cambia ó modo foco premendo NVDA+ESPAZO ou a tecla INTRO."
+msgid ""
+"To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
+"ENTER key."
+msgstr ""
+"Para seleccionar  un botón de opción, cambia ó modo foco premendo "
+"NVDA+ESPAZO ou a tecla INTRO."
 
 #. Translators: Help message for edit fields while in browse mode.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:91
-msgid "To type text into this edit field, switch to focus mode by pressing NVDA+SPACE or ENTER key."
-msgstr "Para teclear texto neste campo de edición, cambia ó modo foco premendo NVDA+ESPAZO ou a tecla INTRO."
+msgid ""
+"To type text into this edit field, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
+msgstr ""
+"Para teclear texto neste campo de edición, cambia ó modo foco premendo "
+"NVDA+ESPAZO ou a tecla INTRO."
 
 #. Translators: Help message for combo boxes in browse mode.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:95
-msgid "To select an item in the combo box, switch to focus mode by pressing NVDA+SPACE or ENTER key."
-msgstr "Para seleccionar un elemento do cadro combinado, cambia ó modo foco premendo NVDA+ESPAZO ou a tecla INTRO."
+msgid ""
+"To select an item in the combo box, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
+msgstr ""
+"Para seleccionar un elemento do cadro combinado, cambia ó modo foco premendo "
+"NVDA+ESPAZO ou a tecla INTRO."
 
 #. Translators: Help message for reading webpages.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:99
-msgid "Use the browse mode and quick navigation commands to read through the webpage."
-msgstr "Usa o modo navegación e as ordes de navegación rápida para ler a páxina web."
+msgid ""
+"Use the browse mode and quick navigation commands to read through the "
+"webpage."
+msgstr ""
+"Usa o modo navegación e as ordes de navegación rápida para ler a páxina web."
 
 #. Translators: Help message for edit boxes.
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:26
+#, fuzzy
 msgid "Use arrow keys to move the cursor across text. You may type text here."
 msgstr ""
+"Usa as frechas para moverte ó elemento seguinte e anterior nesta lista."
 
 #. Translators: Help message for reading Adobe PDF documents.
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:30
-msgid "Use the browse mode and quick navigation commands to read through the PDF document."
-msgstr "Usa o modo navegación e as ordes de navegación rápida para ler o documento PDF."
+msgid ""
+"Use the browse mode and quick navigation commands to read through the PDF "
+"document."
+msgstr ""
+"Usa o modo navegación e as ordes de navegación rápida para ler o documento "
+"PDF."
 
 #. Translators: Help message for moving between Excel spreadsheet cells.
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:33
 msgid "Use the arrow keys to move between spreadsheet cells."
-msgstr "Usa as teclas do cursor para moverte entre as celas da folla de cálculo."
+msgstr ""
+"Usa as teclas do cursor para moverte entre as celas da folla de cálculo."
 
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:39
 msgid "Use the arrow keys to move between start screen tiles."
 msgstr "Usa as frechas para moverte entre  os mosaicos da pantalla de inicio."
 
 #. Translators: Message for moving between slides in slide view
 #. (a list of slides for a Powerpoint presentation).
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:55
 msgid "Use up and down arrow keys to move between slides."
 msgstr "Usa as frechas arriba e abaixo para moverte entre diapositivas."
 
 #. Translators: Help message for working with slide shows.
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:59
-msgid "Press SPACE or BACKSPACE to move between slides in the slide show. To end the slide show, press escape."
-msgstr "Preme ESPAZO ou RETROCESO para moverte entre diapositivas na presentación de diapositivas. Para rematar a presentación de diapositivas, preme escape."
+msgid ""
+"Press SPACE or BACKSPACE to move between slides in the slide show. To end "
+"the slide show, press escape."
+msgstr ""
+"Preme ESPAZO ou RETROCESO para moverte entre diapositivas na presentación de "
+"diapositivas. Para rematar a presentación de diapositivas, preme escape."
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:45
 msgid "&Automatic messages for focus"
 msgstr "Mensaxes &automáticas para o foco"
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:49
 msgid "Type the message to be used when an object can be activated"
 msgstr "Escribe a mensaxe a utilizar cando un obxecto pode activarse"
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:56
 msgid "Sele&ct output modes for automatic messages"
 msgstr "Sele&ccionar modos de saída para mensaxes automáticas"
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:59
 msgid "Speech"
 msgstr "Voz"
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:61
 msgid "Braille"
 msgstr "Braille"
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:76
 msgid "&Pitch change for automatic messages"
 msgstr "Cambio de &ton para mensaxes automáticas"
 
-#. Translators: Message presented when there is no help for this control.
-#. Translators: Message presented when there's no help for this control.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:41
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:177
-msgid "No help for this control"
-msgstr "Non hai axuda para este control"
-
-#. Translators: help text for search field in Windows 10 and other places.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:49
-msgid "After typing search text, press up or down arrow keys to review list of suggestions."
-msgstr "Despois de escribir o texto da procura, preme as frechas arriba ou abaixo para revisar a lista de suxestións."
-
-#. Translators: Input gesture category for Control Usage Assistant add-on.
-#. Add-on summary/title, usually the user visible name of the add-on
-#. Translators: Summary/title for this add-on
-#. to be shown on installation and add-on information found in add-on store
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:58
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:89 buildVars.py:20
-msgid "Control Usage Assistant"
-msgstr "Control Usage Assistant"
-
-#. Translators: Input help message for command to show settings.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:74
-msgid "Shows the Control Usage Assistant settings."
-msgstr "Amosa as opcións do Control Usage Assistant."
-
-#. Translators: Input help message for control help command.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:81
-msgid "Presents a message on how to interact with the focused control."
-msgstr "Presenta unha mensaxe sobre como interactuar co control enfocado."
-
-#. Translators: message presented at the end of help messages.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:124
-msgid "Press escape to close this help screen."
-msgstr "Preme escape para pechar esta pantalla de axuda."
-
-#. Translators: Additional message when working with forms in focus mode.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:162
-msgid " To switch to browse mode, press NVDA+SPACE or escape key"
-msgstr " Para cambiar ó modo navegación, preme NVDA+ESPAZO ou a tecla escape"
-
-#. Translators: Help message for reading a webpage while in focus mode.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:169
-msgid "To use browse mode and quick navigation keys to read the webpage, switch to browse mode by pressing NVDA+SPACE"
-msgstr "Para usar o modo navegación e as ordes de navegación rápida para ler a páxina web, cambia o modo navegación premendo NVDA+ESPAZO"
-
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-on store
-#: buildVars.py:23
-msgid "Allows you to find out how to interact with the focused control, useful for new computer users new to Windows and to NVDA."
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"Allows you to find out how to interact with the focused control, useful for "
+"new computer users new to Windows and to NVDA.\n"
+"\tPress NVDA+H to get a short help message on using the focused control, "
+"such as moving through tables, checkboxes and so on."
 msgstr ""
+"Permíteche atopar a maneira de como interactuar co control enfocado, útil "
+"para usuarios aprendices de ordenador novos en Windows e novos en NVDA.\n"
+"\tPreme NVDA+H para obter unha mensaxe de  axuda curta sobre a utilización "
+"do control enfocado, como o movemento polas táboas, caixas de verificación, "
+"etc."
 
-#. Brief changelog for this version
-#. Translators: what's new content for the add-on version to be shown in the add-on store
-#: buildVars.py:28
-msgid "* Compatible with NVDA 2026.1."
-msgstr ""
+#~ msgid "Use the text navigation commands to read text"
+#~ msgstr "Usa as ordes de navegación de texto para lelo"
 
+#~ msgid ""
+#~ "Press control, alt and arrow keys together to move between table cells"
+#~ msgstr ""
+#~ "Preme control, alt e algún cursor á vez para moverte entre as celdas da "
+#~ "táboa"
+
+#~ msgid ""
+#~ "Control Usage Assistant - get brief help on interacting with the focused "
+#~ "control"
+#~ msgstr ""
+#~ "Control Usage Assistant - da unha axuda breve sobre a interactuación co "
+#~ "control enfocado"
