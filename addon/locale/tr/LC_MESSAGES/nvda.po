@@ -1,308 +1,254 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: Kontrol Kullanım Asistanı\n"
+"Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-04-10 23:17+0300\n"
-"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
-"Language-Team: tr <cagrid@hotmail.com>\n"
+"POT-Creation-Date: 2026-08-10 00:11+0000\n"
+"PO-Revision-Date: 2026-08-10 00:12\n"
+"Last-Translator: \n"
+"Language-Team: Turkish\n"
 "Language: tr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.2\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-
-#. Translators: help text for search field in Windows 10 and other places.
-msgid ""
-"After typing search text, press up or down arrow keys to review list of "
-"suggestions."
-msgstr ""
-"Aradığınız metni yazdıktan sonra, öneriler listesini incelemek için yukarı "
-"veya aşağı ok tuşlarına basın."
-
-#. Translators: Input gesture category for Control Usage Assistant add-on.
-#. The prototype UI message, the actual processing is done below.
-#. Add-on summary, usually the user visible name of the addon.
-#. Translators: Summary for this add-on
-#. to be shown on installation and add-on information.
-msgid "Control Usage Assistant"
-msgstr "Kontrol Kullanım Asistanı"
-
-#. Translators: Input help message for command to show settings.
-msgid "Shows the Control Usage Assistant settings."
-msgstr "Kontrol Kullanım Asistanı ayarlarını gösterir."
-
-#. Translators: Input help message for control help command.
-msgid "Presents a message on how to interact with the focused control."
-msgstr ""
-"Üzerinde bulunulan kontrolle nasıl etkileşim kurulabileceğiyle ilgili kısa "
-"bir mesaj okur."
-
-#. Translators: Message presented when there is no help message for the focused control.
-#. Translators: Message presented when there's no help for this control.
-msgid "No help for this control"
-msgstr "Bu kontrol için yardım mevcut değil"
-
-#. Translators: message presented at the end of help messages.
-msgid "Press escape to close this help screen."
-msgstr "Bu yardım ekranını kapatmak için Esc tuşuna basın."
-
-#. Translators: Additional message when working with forms in focus mode.
-msgid " To switch to browse mode, press NVDA+SPACE or escape key"
-msgstr " Tarama kipine geçmek için NVDA+aralık ya da esc tuşuna basın"
-
-#. Translators: Help message for reading a webpage while in focus mode.
-msgid ""
-"To use browse mode and quick navigation keys to read the webpage, switch to "
-"browse mode by pressing NVDA+SPACE"
-msgstr ""
-"Tarama kipine geçmek ve çabuk dolaşım tuşlarını kullanabilmek için "
-"NVDA+aralık tuşuna basın"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: nvdaaddons\n"
+"X-Crowdin-Project-ID: 780748\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: controlUsageAssistant.pot\n"
+"X-Crowdin-File-ID: 260\n"
 
 #. Translators: Help message for a checkbox.
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:20
 msgid "Press space bar to check or uncheck this check box."
-msgstr ""
-"Onay kutusunu işaretlemek ya da işaretini kaldırmak için aralık çubuğuna "
-"basın."
+msgstr "Onay kutusunu işaretlemek ya da işaretini kaldırmak için aralık çubuğuna basın."
 
 #. Translators: Help message for working with radio buttons.
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:22
 msgid "Use the arrow keys to choose a radio button."
 msgstr "Seçim düğmelerinden birini tercih etmek için yön tuşlarını kullanın."
 
 #. Translators: Help message for a list box.
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:24
 msgid "Use the arrow keys to read this box."
 msgstr "Bu kutuyu okumak için yön tuşlarını kullanın."
 
 #. Translators: Help message for an edit field.
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:26
 msgid "Type text here."
 msgstr "Buraya metin girin."
 
 #. Translators: Help message for a button.
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:28
 msgid "Press SPACE or ENTER to activate this button."
-msgstr ""
-"Bu düğmeyi etkinleştirmek için aralık çubuğunu ya da enter tuşunu kullanın."
+msgstr "Bu düğmeyi etkinleştirmek için aralık çubuğunu ya da enter tuşunu kullanın."
+
+#. Translators: Help message for a toggle button.
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:30
+msgid "Press SPACE or ENTER to toggle this button."
+msgstr "Bu düğmeyi değiştirmek için Aralık veya ENTER tuşuna basın."
 
 #. Translators: Help message for menu items.
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:32
 msgid "Use the arrow keys to move between the menu items."
 msgstr "Menü ögeleri arasında dolaşmak için yön tuşlarını kullanın."
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:34
 msgid "Use up and down arrow keys to move through options in the pop-up menu."
-msgstr ""
-"Açılır menü içindeki seçenekler arasında dolaşmak için yukarı ve aşağı yön "
-"tuşlarını kullanın."
+msgstr "Açılır menü içindeki seçenekler arasında dolaşmak için yukarı ve aşağı yön tuşlarını kullanın."
 
 #. Translators: Help message for a combo box.
-msgid ""
-"Use the arrow keys to move among choices in the combo box until the desired "
-"option is found."
-msgstr ""
-"Seçim kutusundaki ilgilendiğiniz seçeneği bulmak için yön tuşlarını kullanın."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:37
+msgid "Use the arrow keys to move among choices in the combo box until the desired option is found."
+msgstr "Seçim kutusundaki ilgilendiğiniz seçeneği bulmak için yön tuşlarını kullanın."
 
 #. Translators: Help message for a list view.
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:40
 msgid "Use the arrow keys to move to the next or previous item in this list."
 msgstr "Listedeki seçenekler arasında dolaşmak için yön tuşlarını kullanın."
 
 #. Translators: Help message for activating links.
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:42
 msgid "Press SPACE or ENTER to activate this link."
-msgstr ""
-"Bu bağlantıyı etkinleştirmek için aralık çubuğunu ya da enter tuşunu "
-"kullanın."
+msgstr "Bu bağlantıyı etkinleştirmek için aralık çubuğunu ya da enter tuşunu kullanın."
 
 #. Translators: Help message for working with tree view items.
-msgid ""
-"Use the up and down arrow keys to select the items. Use left arrow to "
-"collapse and right arrow to expand."
-msgstr ""
-"Ögeler arasında dolaşmak için yukarı ve aşağı yön tuşlarını, ağaç "
-"görünümündeki dalı kapatmak için sol yön, genişletmek için sağ yön tuşunu "
-"kullanın."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:45
+msgid "Use the up and down arrow keys to select the items. Use left arrow to collapse and right arrow to expand."
+msgstr "Ögeler arasında dolaşmak için yukarı ve aşağı yön tuşlarını, ağaç görünümündeki dalı kapatmak için sol yön, genişletmek için sağ yön tuşunu kullanın."
 
 #. Translators: Help message for navigating tabs,
 #. such as various property tabs for drive properties in My Computer.
-msgid ""
-"Use the left and right arrow keys to move between tabs, or press control+tab "
-"for next tab and control+shift+tab for previous tab."
-msgstr ""
-"Sekme sayfaları arasında dolaşmak için sol ve sağ yön tuşlarını kullanın. Ya "
-"da sonraki sekme için CTRL+tab ve önceki sekme için CTRL+shift+tab tuşlarını "
-"kullanın."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:51
+msgid "Use the left and right arrow keys to move between tabs, or press control+tab for next tab and control+shift+tab for previous tab."
+msgstr "Sekme sayfaları arasında dolaşmak için sol ve sağ yön tuşlarını kullanın. Ya da sonraki sekme için CTRL+tab ve önceki sekme için CTRL+shift+tab tuşlarını kullanın."
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
-msgid ""
-"Use the left and down arrow keys to decrease and up and right arrow keys to "
-"increase the value in this slider. Use page up and page down to increase or "
-"decrease in larger values, and press home and end keys to select maximum and "
-"minimum value."
-msgstr ""
-"Aşama çubuğundaki değeri düşürmek için sol ya da aşağı yön tuşunu, artırmak "
-"için sağ ya da yukarı yön tuşunu kullanın. değeri geniş ölçeklerle artırıp "
-"azaltamak için page up ve page down tuşlarını, değeri minimum düzeye "
-"getirmek için end, maksimum düzeye getirmek için home tuşlarını kullanın."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:56
+msgid "Use the left and down arrow keys to decrease and up and right arrow keys to increase the value in this slider. Use page up and page down to increase or decrease in larger values, and press home and end keys to select maximum and minimum value."
+msgstr "Aşama çubuğundaki değeri düşürmek için sol ya da aşağı yön tuşunu, artırmak için sağ ya da yukarı yön tuşunu kullanın. değeri geniş ölçeklerle artırıp azaltamak için page up ve page down tuşlarını, değeri minimum düzeye getirmek için end, maksimum düzeye getirmek için home tuşlarını kullanın."
 
 #. Translators: Help message for working with progress bars.
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:62
 msgid "This is a progress bar, used to show progress of an operation."
-msgstr ""
-"Bu, bir işlemin ilerlemesini göstermek için kullanılan bir aşama çubuğudur."
+msgstr "Bu, bir işlemin ilerlemesini göstermek için kullanılan bir aşama çubuğudur."
 
 #. Translators: Help message for navigating tables.
-msgid ""
-"Press control, alt and arrow keys together to move between rows and columns."
-msgstr ""
-"Satır ve sütunlar arasında dolaşmak için kontrol, alt ve yön tuşlarını "
-"birlikte kullanın."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:65
+msgid "Press control, alt and arrow keys together to move between rows and columns."
+msgstr "Satır ve sütunlar arasında dolaşmak için kontrol, alt ve yön tuşlarını birlikte kullanın."
 
 #. Translators: Help message for navigating table cells.
-msgid ""
-"Press Control+Alt+arrow keys to other table cells. Pressing left or right "
-"arrow keys will navigate between columns, and up and down arrow keys will "
-"navigate by row."
-msgstr ""
-"Tablonun diğer hücrelerine gitmek için control+alt tuşlarıyla birlikte yön "
-"tuşlarını kullanın. Sol ve sağ yön tuşları sütünlar, alt ve üst yön tuşları "
-"ise satırlar arasında dolaşmanızı sağlar."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:69
+msgid "Press Control+Alt+arrow keys to other table cells. Pressing left or right arrow keys will navigate between columns, and up and down arrow keys will navigate by row."
+msgstr "Tablonun diğer hücrelerine gitmek için control+alt tuşlarıyla birlikte yön tuşlarını kullanın. Sol ve sağ yön tuşları sütünlar, alt ve üst yön tuşları ise satırlar arasında dolaşmanızı sağlar."
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
-msgid ""
-"Use the arrow keys or object navigation commands to move through the "
-"document."
-msgstr ""
-"Belge içinde dolaşmak için yön tuşlarını ya da nesne dolaşım komutlarını "
-"kullanın."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:75
+msgid "Use the arrow keys or object navigation commands to move through the document."
+msgstr "Belge içinde dolaşmak için yön tuşlarını ya da nesne dolaşım komutlarını kullanın."
 
 #. Translators: Help message for terminal windows such as command prompt.
-msgid ""
-"Type commands in the terminal window and use review cursor commands to read "
-"the output."
-msgstr ""
-"Komutları terminal penceresinde yazın ve sonucu incelemek için metin "
-"inceleme komutlarını kullanın."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:79
+msgid "Type commands in the terminal window and use review cursor commands to read the output."
+msgstr "Komutları terminal penceresinde yazın ve sonucu incelemek için metin inceleme komutlarını kullanın."
 
 #. Translators: Help message for radio buttons while in browse mode.
-msgid ""
-"To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
-"ENTER key."
-msgstr ""
-"Bir seçim düğmesini seçmek için, NVDA+aralık ya da enter tuşuyla odak kipine "
-"geçin."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:87
+msgid "To select a radio button, switch to focus mode by pressing NVDA+SPACE or ENTER key."
+msgstr "Bir seçim düğmesini seçmek için, NVDA+aralık ya da enter tuşuyla odak kipine geçin."
 
 #. Translators: Help message for edit fields while in browse mode.
-msgid ""
-"To type text into this edit field, switch to focus mode by pressing "
-"NVDA+SPACE or ENTER key."
-msgstr ""
-"Bu yazı alanına giriş yapabilmek için NVDA+aralık ya da enter tuşunu "
-"kullanarak odak kipine geçin."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:91
+msgid "To type text into this edit field, switch to focus mode by pressing NVDA+SPACE or ENTER key."
+msgstr "Bu yazı alanına giriş yapabilmek için NVDA+aralık ya da enter tuşunu kullanarak odak kipine geçin."
 
 #. Translators: Help message for combo boxes in browse mode.
-msgid ""
-"To select an item in the combo box, switch to focus mode by pressing "
-"NVDA+SPACE or ENTER key."
-msgstr ""
-"Seçim kutusunda dolaşmak için NVDA+aralık ya da enter tuşuyla odak kipine "
-"geçin."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:95
+msgid "To select an item in the combo box, switch to focus mode by pressing NVDA+SPACE or ENTER key."
+msgstr "Seçim kutusunda dolaşmak için NVDA+aralık ya da enter tuşuyla odak kipine geçin."
 
 #. Translators: Help message for reading webpages.
-msgid ""
-"Use the browse mode and quick navigation commands to read through the "
-"webpage."
-msgstr ""
-"Belge içinde dolaşmak için yön tuşlarını ya da hızlı dolaşım komutlarını "
-"kullanın."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:99
+msgid "Use the browse mode and quick navigation commands to read through the webpage."
+msgstr "Belge içinde dolaşmak için yön tuşlarını ya da hızlı dolaşım komutlarını kullanın."
 
 #. Translators: Help message for edit boxes.
+#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:26
 msgid "Use arrow keys to move the cursor across text. You may type text here."
-msgstr ""
-"İmleci metin üzerinde hareket ettirmek için ok tuşlarını kullanın. Buraya "
-"metin yazabilirsiniz."
+msgstr "İmleci metin üzerinde hareket ettirmek için ok tuşlarını kullanın. Buraya metin yazabilirsiniz."
 
 #. Translators: Help message for reading Adobe PDF documents.
-msgid ""
-"Use the browse mode and quick navigation commands to read through the PDF "
-"document."
-msgstr ""
-"PDF belgesi içinde dolaşmak için yön tuşlarını ya da hızlı dolaşım "
-"komutlarını kullanın."
+#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:30
+msgid "Use the browse mode and quick navigation commands to read through the PDF document."
+msgstr "PDF belgesi içinde dolaşmak için yön tuşlarını ya da hızlı dolaşım komutlarını kullanın."
 
 #. Translators: Help message for moving between Excel spreadsheet cells.
+#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:33
 msgid "Use the arrow keys to move between spreadsheet cells."
 msgstr "Hücreler arasında dolaşmak için yön tuşlarını kullanın."
 
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
+#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:39
 msgid "Use the arrow keys to move between start screen tiles."
-msgstr ""
-"Başlat ekranındaki bölümler arasında dolaşmak için yön tuşlarını kullanın."
+msgstr "Başlat ekranındaki bölümler arasında dolaşmak için yön tuşlarını kullanın."
 
 #. Translators: Message for moving between slides in slide view
 #. (a list of slides for a Powerpoint presentation).
+#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:55
 msgid "Use up and down arrow keys to move between slides."
-msgstr ""
-"Slaytlar arasında geçiş yapmak için yukarı ve aşağı ok tuşlarını kullanın."
+msgstr "Slaytlar arasında geçiş yapmak için yukarı ve aşağı ok tuşlarını kullanın."
 
 #. Translators: Help message for working with slide shows.
-msgid ""
-"Press SPACE or BACKSPACE to move between slides in the slide show. To end "
-"the slide show, press escape."
-msgstr ""
-"Slayt gösterisindeki slaytlar arasında dolaşmak için aralık ve geri sil "
-"tuşlarını kullanın. Slayt gösterisini sonlandırmak için escape tuşuna basın."
+#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:59
+msgid "Press SPACE or BACKSPACE to move between slides in the slide show. To end the slide show, press escape."
+msgstr "Slayt gösterisindeki slaytlar arasında dolaşmak için aralık ve geri sil tuşlarını kullanın. Slayt gösterisini sonlandırmak için escape tuşuna basın."
 
 #. Translators: label of a dialog.
+#: addon\globalPlugins\controlUsageAssistant\utils.py:45
 msgid "&Automatic messages for focus"
-msgstr "Odak için otomatik mesajlar"
+msgstr "Od&ak için otomatik mesajlar"
 
 #. Translators: label of a dialog.
+#: addon\globalPlugins\controlUsageAssistant\utils.py:49
 msgid "Type the message to be used when an object can be activated"
-msgstr "Bir nesnenin etkinleştirilebileceği zaman kullanılacak mesajı yazın"
+msgstr "Bir nesne etkinleştirilebildiğinde kullanılacak mesajı yazın"
 
 #. Translators: label of a dialog.
+#: addon\globalPlugins\controlUsageAssistant\utils.py:56
 msgid "Sele&ct output modes for automatic messages"
 msgstr "Otomatik mesajlar için çıkış modlarını seçin&belirleyin"
 
 #. Translators: label of a dialog.
+#: addon\globalPlugins\controlUsageAssistant\utils.py:59
 msgid "Speech"
 msgstr "Konuşma"
 
 #. Translators: label of a dialog.
+#: addon\globalPlugins\controlUsageAssistant\utils.py:61
 msgid "Braille"
 msgstr "Braille"
 
 #. Translators: label of a dialog.
+#: addon\globalPlugins\controlUsageAssistant\utils.py:76
 msgid "&Pitch change for automatic messages"
 msgstr "&Otomatik mesajlar için kalınlık değişikliği"
 
+#. Translators: Message presented when there is no help for this control.
+#. Translators: Message presented when there's no help for this control.
+#: addon\globalPlugins\controlUsageAssistant\__init__.py:41
+#: addon\globalPlugins\controlUsageAssistant\__init__.py:177
+msgid "No help for this control"
+msgstr "Bu kontrol için yardım mevcut değil"
+
+#. Translators: help text for search field in Windows 10 and other places.
+#: addon\globalPlugins\controlUsageAssistant\__init__.py:49
+msgid "After typing search text, press up or down arrow keys to review list of suggestions."
+msgstr "Aradığınız metni yazdıktan sonra, öneriler listesini incelemek için yukarı veya aşağı ok tuşlarına basın."
+
+#. Translators: Input gesture category for Control Usage Assistant add-on.
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: addon\globalPlugins\controlUsageAssistant\__init__.py:58
+#: addon\globalPlugins\controlUsageAssistant\__init__.py:89 buildVars.py:20
+msgid "Control Usage Assistant"
+msgstr "Kontrol Kullanım Asistanı"
+
+#. Translators: Input help message for command to show settings.
+#: addon\globalPlugins\controlUsageAssistant\__init__.py:74
+msgid "Shows the Control Usage Assistant settings."
+msgstr "Kontrol Kullanım Asistanı ayarlarını gösterir."
+
+#. Translators: Input help message for control help command.
+#: addon\globalPlugins\controlUsageAssistant\__init__.py:81
+msgid "Presents a message on how to interact with the focused control."
+msgstr "Üzerinde bulunulan kontrolle nasıl etkileşim kurulabileceğiyle ilgili kısa bir mesaj okur."
+
+#. Translators: message presented at the end of help messages.
+#: addon\globalPlugins\controlUsageAssistant\__init__.py:124
+msgid "Press escape to close this help screen."
+msgstr "Bu yardım ekranını kapatmak için Esc tuşuna basın."
+
+#. Translators: Additional message when working with forms in focus mode.
+#: addon\globalPlugins\controlUsageAssistant\__init__.py:162
+msgid " To switch to browse mode, press NVDA+SPACE or escape key"
+msgstr " Tarama kipine geçmek için NVDA+aralık ya da esc tuşuna basın"
+
+#. Translators: Help message for reading a webpage while in focus mode.
+#: addon\globalPlugins\controlUsageAssistant\__init__.py:169
+msgid "To use browse mode and quick navigation keys to read the webpage, switch to browse mode by pressing NVDA+SPACE"
+msgstr "Tarama kipine geçmek ve çabuk dolaşım tuşlarını kullanabilmek için NVDA+aralık tuşuna basın"
+
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-msgid ""
-"Allows you to find out how to interact with the focused control, useful for "
-"new computer users new to Windows and to NVDA.\n"
-"\tPress NVDA+H to get a short help message on using the focused control, "
-"such as moving through tables, checkboxes and so on."
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:23
+msgid "Allows you to find out how to interact with the focused control, useful for new computer users new to Windows and to NVDA."
+msgstr "Odaklanmış kontrolle nasıl etkileşim kuracağınızı öğrenmenizi sağlar; Windows ve NVDA'ya yeni başlayan yeni bilgisayar kullanıcıları için faydalıdır."
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:28
+msgid "* Updates to translations."
 msgstr ""
-"Odaklanan kontrolle nasıl etkileşim kurabileceğinizle ilgili yardım almanızı "
-"sağlar, bilgisayar ve NVDA'yı yeni kullanmaya başlayanlar için faydalı "
-"olabilir.\n"
-"\tOdaklanan kontrolle ilgili, örneğin bir tablo, liste, menü vb, kısa bir "
-"yardım almak için NvDA+H tuşlarına basın."
 
-#~ msgid "Use the text navigation commands to read text"
-#~ msgstr "Metni okumak için metin navigasyon komutlarını kullanın"
-
-#~ msgid ""
-#~ "Press control, alt and arrow keys together to move between table cells"
-#~ msgstr ""
-#~ "Tablo hücreleri arasında dolaşmak için kontrol, alt ve yön tuşlarını "
-#~ "birlikte kullanın."
-
-#~ msgid ""
-#~ "Control Usage Assistant - get brief help on interacting with the focused "
-#~ "control"
-#~ msgstr ""
-#~ "Kontrol kullanım asistanı - odaklanan kontrol için kısa bir yönlendirme "
-#~ "mesajı dinleyin"
