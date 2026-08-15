@@ -1,254 +1,295 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: nvdaaddons\n"
+"Project-Id-Version: controlUsageAssistant\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-08-10 00:11+0000\n"
-"PO-Revision-Date: 2026-08-10 00:12\n"
-"Last-Translator: \n"
-"Language-Team: Finnish\n"
-"Language: fi_FI\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2024-03-29 09:08+0200\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
+"Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: nvdaaddons\n"
-"X-Crowdin-Project-ID: 780748\n"
-"X-Crowdin-Language: fi\n"
-"X-Crowdin-File: controlUsageAssistant.pot\n"
-"X-Crowdin-File-ID: 260\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. Translators: help text for search field in Windows 10 and other places.
+msgid ""
+"After typing search text, press up or down arrow keys to review list of "
+"suggestions."
+msgstr ""
+"Kun olet kirjoittanut haettavan tekstin, Tarkastele ehdotusten luetteloa "
+"painamalla ylä- tai alanuolta."
+
+#. Translators: Input gesture category for Control Usage Assistant add-on.
+#. The prototype UI message, the actual processing is done below.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information.
+msgid "Control Usage Assistant"
+msgstr "Säätimen käyttöapu"
+
+#. Translators: Input help message for command to show settings.
+msgid "Shows the Control Usage Assistant settings."
+msgstr "Näyttää Säätimen käyttöavun asetukset."
+
+#. Translators: Input help message for control help command.
+msgid "Presents a message on how to interact with the focused control."
+msgstr ""
+"Näyttää ohjeen siitä, miten aktiivisen säätimen kanssa ollaan "
+"vuorovaikutuksessa."
+
+#. Translators: Message presented when there is no help message for the focused control.
+#. Translators: Message presented when there's no help for this control.
+msgid "No help for this control"
+msgstr "Tälle säätimelle ei ole ohjetta."
+
+#. Translators: message presented at the end of help messages.
+msgid "Press escape to close this help screen."
+msgstr "Sulje tämä ohje painamalla Esc."
+
+#. Translators: Additional message when working with forms in focus mode.
+msgid " To switch to browse mode, press NVDA+SPACE or escape key"
+msgstr ". Siirry selaustilaan painamalla NVDA+Väli tai Esc."
+
+#. Translators: Help message for reading a webpage while in focus mode.
+msgid ""
+"To use browse mode and quick navigation keys to read the webpage, switch to "
+"browse mode by pressing NVDA+SPACE"
+msgstr ""
+"Siirry selaustilaan käyttääksesi sitä ja pikanavigointinäppäimiä verkkosivun "
+"lukemiseen painamalla NVDA+Väli."
 
 #. Translators: Help message for a checkbox.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:20
 msgid "Press space bar to check or uncheck this check box."
-msgstr "Valitse tämä valintaruutu tai poista sen valinta painamalla välilyöntiä."
+msgstr ""
+"Valitse tämä valintaruutu tai poista sen valinta painamalla välilyöntiä."
 
 #. Translators: Help message for working with radio buttons.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:22
 msgid "Use the arrow keys to choose a radio button."
 msgstr "Valitse valintapainike nuolinäppäimillä."
 
 #. Translators: Help message for a list box.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:24
 msgid "Use the arrow keys to read this box."
 msgstr "Lue tätä ruutua nuolinäppäimillä."
 
 #. Translators: Help message for an edit field.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:26
 msgid "Type text here."
 msgstr "Kirjoita tekstiä tähän."
 
 #. Translators: Help message for a button.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:28
 msgid "Press SPACE or ENTER to activate this button."
 msgstr "Aktivoi tämä painike painamalla välilyöntiä tai Enteriä."
 
-#. Translators: Help message for a toggle button.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:30
-msgid "Press SPACE or ENTER to toggle this button."
-msgstr ""
-
 #. Translators: Help message for menu items.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:32
 msgid "Use the arrow keys to move between the menu items."
 msgstr "Liiku valikkokohteiden välillä nuolinäppäimillä."
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:34
 msgid "Use up and down arrow keys to move through options in the pop-up menu."
-msgstr "Liiku ponnahdusvalikon vaihtoehtojen välillä ylä- ja alanuolinäppäimillä."
+msgstr ""
+"Liiku ponnahdusvalikon vaihtoehtojen välillä ylä- ja alanuolinäppäimillä."
 
 #. Translators: Help message for a combo box.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:37
-msgid "Use the arrow keys to move among choices in the combo box until the desired option is found."
-msgstr "Liiku yhdistelmäruudun valintojen välillä nuolinäppäimillä, kunnes haluttu vaihtoehto on löytynyt."
+msgid ""
+"Use the arrow keys to move among choices in the combo box until the desired "
+"option is found."
+msgstr ""
+"Liiku yhdistelmäruudun valintojen välillä nuolinäppäimillä, kunnes haluttu "
+"vaihtoehto on löytynyt."
 
 #. Translators: Help message for a list view.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:40
 msgid "Use the arrow keys to move to the next or previous item in this list."
-msgstr "Siirry tämän listan seuraavaan tai edelliseen kohteeseen nuolinäppäimillä."
+msgstr ""
+"Siirry tämän listan seuraavaan tai edelliseen kohteeseen nuolinäppäimillä."
 
 #. Translators: Help message for activating links.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:42
 msgid "Press SPACE or ENTER to activate this link."
 msgstr "Avaa tämä linkki painamalla välilyöntiä tai Enteriä."
 
 #. Translators: Help message for working with tree view items.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:45
-msgid "Use the up and down arrow keys to select the items. Use left arrow to collapse and right arrow to expand."
-msgstr "Valitse kohde ylä- ja alanuolinäppäimillä. Supista vasemmalla nuolella ja laajenna oikealla."
+msgid ""
+"Use the up and down arrow keys to select the items. Use left arrow to "
+"collapse and right arrow to expand."
+msgstr ""
+"Valitse kohde ylä- ja alanuolinäppäimillä. Supista vasemmalla nuolella ja "
+"laajenna oikealla."
 
 #. Translators: Help message for navigating tabs,
 #. such as various property tabs for drive properties in My Computer.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:51
-msgid "Use the left and right arrow keys to move between tabs, or press control+tab for next tab and control+shift+tab for previous tab."
-msgstr "Siirry välilehtien välillä vasemmalla ja oikealla nuolinäppäimellä tai siirry seuraavaan välilehteen painamalla Ctrl+Sarkain ja edelliseen painamalla Ctrl+Vaihto+Sarkain."
+msgid ""
+"Use the left and right arrow keys to move between tabs, or press control+tab "
+"for next tab and control+shift+tab for previous tab."
+msgstr ""
+"Siirry välilehtien välillä vasemmalla ja oikealla nuolinäppäimellä tai "
+"siirry seuraavaan välilehteen painamalla Ctrl+Sarkain ja edelliseen "
+"painamalla Ctrl+Vaihto+Sarkain."
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:56
-msgid "Use the left and down arrow keys to decrease and up and right arrow keys to increase the value in this slider. Use page up and page down to increase or decrease in larger values, and press home and end keys to select maximum and minimum value."
-msgstr "Pienennä tämän liukusäätimen arvoa vasemmalla tai alanuolinäppäimellä ja suurenna ylä- tai oikealla nuolinäppäimellä. Suurenna tai pienennä suurempina arvoina Page up- ja Page down -näppäimillä sekä valitse suurin ja pienin arvo painamalla Home- tai End-näppäintä."
+msgid ""
+"Use the left and down arrow keys to decrease and up and right arrow keys to "
+"increase the value in this slider. Use page up and page down to increase or "
+"decrease in larger values, and press home and end keys to select maximum and "
+"minimum value."
+msgstr ""
+"Pienennä tämän liukusäätimen arvoa vasemmalla tai alanuolinäppäimellä ja "
+"suurenna ylä- tai oikealla nuolinäppäimellä. Suurenna tai pienennä "
+"suurempina arvoina Page up- ja Page down -näppäimillä sekä valitse suurin ja "
+"pienin arvo painamalla Home- tai End-näppäintä."
 
 #. Translators: Help message for working with progress bars.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:62
 msgid "This is a progress bar, used to show progress of an operation."
-msgstr "Tämä on edistymispalkki, jota käytetään TOIMINNON EDISTYMISEN NÄYTTÄMISEEN."
+msgstr ""
+"Tämä on edistymispalkki, jota käytetään TOIMINNON EDISTYMISEN NÄYTTÄMISEEN."
 
 #. Translators: Help message for navigating tables.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:65
-msgid "Press control, alt and arrow keys together to move between rows and columns."
-msgstr "Liiku rivien ja sarakkeiden välillä painamalla Ctrl- ja Alt-näppäimiä yhdessä nuolinäppäinten kanssa."
+msgid ""
+"Press control, alt and arrow keys together to move between rows and columns."
+msgstr ""
+"Liiku rivien ja sarakkeiden välillä painamalla Ctrl- ja Alt-näppäimiä "
+"yhdessä nuolinäppäinten kanssa."
 
 #. Translators: Help message for navigating table cells.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:69
-msgid "Press Control+Alt+arrow keys to other table cells. Pressing left or right arrow keys will navigate between columns, and up and down arrow keys will navigate by row."
-msgstr "Siirry muihin taulukon soluihin painamalla Ctrl+Alt+nuolinäppäimiä. Vasemman tai oikean nuolinäppäimen  painaminen liikkuu sarakkeiden välillä  ."
+msgid ""
+"Press Control+Alt+arrow keys to other table cells. Pressing left or right "
+"arrow keys will navigate between columns, and up and down arrow keys will "
+"navigate by row."
+msgstr ""
+"Siirry muihin taulukon soluihin painamalla Ctrl+Alt+nuolinäppäimiä. Vasemman "
+"tai oikean nuolinäppäimen  painaminen liikkuu sarakkeiden välillä  ."
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:75
-msgid "Use the arrow keys or object navigation commands to move through the document."
+msgid ""
+"Use the arrow keys or object navigation commands to move through the "
+"document."
 msgstr "Liiku asiakirjassa nuolinäppäimillä tai objektinavigointikomennoilla."
 
 #. Translators: Help message for terminal windows such as command prompt.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:79
-msgid "Type commands in the terminal window and use review cursor commands to read the output."
-msgstr "Kirjoita komennot pääteikkunaan ja lue tuloste tarkastelukohdistinkomennoilla."
+msgid ""
+"Type commands in the terminal window and use review cursor commands to read "
+"the output."
+msgstr ""
+"Kirjoita komennot pääteikkunaan ja lue tuloste "
+"tarkastelukohdistinkomennoilla."
 
 #. Translators: Help message for radio buttons while in browse mode.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:87
-msgid "To select a radio button, switch to focus mode by pressing NVDA+SPACE or ENTER key."
-msgstr "Siirry vuorovaikutustilaan painamalla NVDA+Väli tai Enter valitaksesi valintapainikkeen."
+msgid ""
+"To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
+"ENTER key."
+msgstr ""
+"Siirry vuorovaikutustilaan painamalla NVDA+Väli tai Enter valitaksesi "
+"valintapainikkeen."
 
 #. Translators: Help message for edit fields while in browse mode.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:91
-msgid "To type text into this edit field, switch to focus mode by pressing NVDA+SPACE or ENTER key."
-msgstr "Siirry vuorovaikutustilaan painamalla NVDA+Väli tai Enter kirjoittaaksesi tekstiä tähän muokkauskenttään."
+msgid ""
+"To type text into this edit field, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
+msgstr ""
+"Siirry vuorovaikutustilaan painamalla NVDA+Väli tai Enter kirjoittaaksesi "
+"tekstiä tähän muokkauskenttään."
 
 #. Translators: Help message for combo boxes in browse mode.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:95
-msgid "To select an item in the combo box, switch to focus mode by pressing NVDA+SPACE or ENTER key."
-msgstr "Siirry vuorovaikutustilaan painamalla NVDA+välilyönti tai Enter valitaksesi kohteen yhdistelmäruudusta."
+msgid ""
+"To select an item in the combo box, switch to focus mode by pressing "
+"NVDA+SPACE or ENTER key."
+msgstr ""
+"Siirry vuorovaikutustilaan painamalla NVDA+välilyönti tai Enter valitaksesi "
+"kohteen yhdistelmäruudusta."
 
 #. Translators: Help message for reading webpages.
-#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:99
-msgid "Use the browse mode and quick navigation commands to read through the webpage."
+msgid ""
+"Use the browse mode and quick navigation commands to read through the "
+"webpage."
 msgstr "Käytä selaustilaa ja pikanavigointikomentoja verkkosivun lukemiseen."
 
 #. Translators: Help message for edit boxes.
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:26
 msgid "Use arrow keys to move the cursor across text. You may type text here."
-msgstr ""
+msgstr "Liiku tekstissä nuolinäppäimillä. Voit kirjoittaa tähän."
 
 #. Translators: Help message for reading Adobe PDF documents.
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:30
-msgid "Use the browse mode and quick navigation commands to read through the PDF document."
-msgstr "Käytä selaustilaa ja pikanavigointikomentoja PDF-asiakirjan lukemiseen."
+msgid ""
+"Use the browse mode and quick navigation commands to read through the PDF "
+"document."
+msgstr ""
+"Käytä selaustilaa ja pikanavigointikomentoja PDF-asiakirjan lukemiseen."
 
 #. Translators: Help message for moving between Excel spreadsheet cells.
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:33
 msgid "Use the arrow keys to move between spreadsheet cells."
 msgstr "Liiku laskentataulukon solujen välillä nuolinäppäimillä."
 
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:39
 msgid "Use the arrow keys to move between start screen tiles."
 msgstr "Liiku aloitusnäytön ruutujen välillä nuolinäppäimillä."
 
 #. Translators: Message for moving between slides in slide view
 #. (a list of slides for a Powerpoint presentation).
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:55
 msgid "Use up and down arrow keys to move between slides."
 msgstr "Liiku diojen välillä ylä- ja alanuolinäppäimillä."
 
 #. Translators: Help message for working with slide shows.
-#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:59
-msgid "Press SPACE or BACKSPACE to move between slides in the slide show. To end the slide show, press escape."
-msgstr "Liiku diaesityksen diojen välillä painamalla välilyöntiä tai Askelpalautinta. Lopeta diaesitys painamalla Esc-näppäintä."
+msgid ""
+"Press SPACE or BACKSPACE to move between slides in the slide show. To end "
+"the slide show, press escape."
+msgstr ""
+"Liiku diaesityksen diojen välillä painamalla välilyöntiä tai "
+"Askelpalautinta. Lopeta diaesitys painamalla Esc-näppäintä."
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:45
 msgid "&Automatic messages for focus"
-msgstr ""
+msgstr "&Automaattiset kohdistuksen ilmoitukset"
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:49
 msgid "Type the message to be used when an object can be activated"
-msgstr ""
+msgstr "Kirjoita ilmoitus, jota käytetään, kun objekti voidaan aktivoida"
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:56
 msgid "Sele&ct output modes for automatic messages"
 msgstr "Va&litse automaattisten ilmoitusten tulostustilat"
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:59
 msgid "Speech"
 msgstr "Puhe"
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:61
 msgid "Braille"
 msgstr "Pistekirjoitus"
 
 #. Translators: label of a dialog.
-#: addon\globalPlugins\controlUsageAssistant\utils.py:76
 msgid "&Pitch change for automatic messages"
 msgstr "Ää&nenkorkeuden muutos automaattisille ilmoituksille"
 
-#. Translators: Message presented when there is no help for this control.
-#. Translators: Message presented when there's no help for this control.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:41
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:177
-msgid "No help for this control"
-msgstr "Tälle säätimelle ei ole ohjetta."
-
-#. Translators: help text for search field in Windows 10 and other places.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:49
-msgid "After typing search text, press up or down arrow keys to review list of suggestions."
-msgstr "Kun olet kirjoittanut haettavan tekstin, Tarkastele ehdotusten luetteloa painamalla ylä- tai alanuolta."
-
-#. Translators: Input gesture category for Control Usage Assistant add-on.
-#. Add-on summary/title, usually the user visible name of the add-on
-#. Translators: Summary/title for this add-on
-#. to be shown on installation and add-on information found in add-on store
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:58
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:89 buildVars.py:20
-msgid "Control Usage Assistant"
-msgstr "Säätimen käyttöapu"
-
-#. Translators: Input help message for command to show settings.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:74
-msgid "Shows the Control Usage Assistant settings."
-msgstr ""
-
-#. Translators: Input help message for control help command.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:81
-msgid "Presents a message on how to interact with the focused control."
-msgstr "Näyttää ohjeen siitä, miten aktiivisen säätimen kanssa ollaan vuorovaikutuksessa."
-
-#. Translators: message presented at the end of help messages.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:124
-msgid "Press escape to close this help screen."
-msgstr "Sulje tämä ohje painamalla Esc."
-
-#. Translators: Additional message when working with forms in focus mode.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:162
-msgid " To switch to browse mode, press NVDA+SPACE or escape key"
-msgstr ". Siirry selaustilaan painamalla NVDA+Väli tai Esc."
-
-#. Translators: Help message for reading a webpage while in focus mode.
-#: addon\globalPlugins\controlUsageAssistant\__init__.py:169
-msgid "To use browse mode and quick navigation keys to read the webpage, switch to browse mode by pressing NVDA+SPACE"
-msgstr "Siirry selaustilaan käyttääksesi sitä ja pikanavigointinäppäimiä verkkosivun lukemiseen painamalla NVDA+Väli."
-
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-on store
-#: buildVars.py:23
-msgid "Allows you to find out how to interact with the focused control, useful for new computer users new to Windows and to NVDA."
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"Allows you to find out how to interact with the focused control, useful for "
+"new computer users new to Windows and to NVDA.\n"
+"\tPress NVDA+H to get a short help message on using the focused control, "
+"such as moving through tables, checkboxes and so on."
 msgstr ""
+"Tämän lisäosan avulla on mahdollista selvittää, miten aktiivisen säätimen "
+"kanssa ollaan vuorovaikutuksessa, mistä on hyötyä aloitteleville tietokoneen "
+"käyttäjille, jotka eivät ole vielä tottuneet Windowsiin ja NVDA:han.\n"
+"\tPaina NVDA+H saadaksesi lyhyen ohjeen aktiivisen säätimen käytöstä, kuten "
+"esim. taulukoiden välillä liikkumisesta, valintaruuduista jne."
 
-#. Brief changelog for this version
-#. Translators: what's new content for the add-on version to be shown in the add-on store
-#: buildVars.py:28
-msgid "* Updates to translations."
-msgstr ""
+#~ msgid "Use the text navigation commands to read text"
+#~ msgstr ""
+#~ "Käytä tämän tekstin lukemiseen tekstissä liikkumiseen tarkoitettuja "
+#~ "komentoja."
 
+#~ msgid ""
+#~ "Press control, alt and arrow keys together to move between table cells"
+#~ msgstr ""
+#~ "Liiku taulukon solujen välillä painamalla Control- ja Alt-näppäimiä "
+#~ "yhdessä nuolinäppäinten kanssa."
+
+#~ msgid ""
+#~ "Control Usage Assistant - get brief help on interacting with the focused "
+#~ "control"
+#~ msgstr ""
+#~ "Säätimen käyttöapu - antaa lyhyen ohjeen aktiivisen säätimen käytöstä"
