@@ -1,294 +1,254 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: controlUsageAssistant 3.0-dev\n"
-"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2016-04-08 01:04+1000\n"
-"PO-Revision-Date: 2023-09-09 16:49+0100\n"
-"Last-Translator: Nikola Jović <wwenikola123@gmail.com>\n"
-"Language-Team: Serbian <wwenikola123@gmail.com>\n"
-"Language: sr\n"
+"Project-Id-Version: nvdaaddons\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-08-10 00:11+0000\n"
+"PO-Revision-Date: 2026-08-16 05:41\n"
+"Last-Translator: \n"
+"Language-Team: Serbian (Latin)\n"
+"Language: sr_CS\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
-
-#. Translators: help text for search field in Windows 10 and other places.
-msgid ""
-"After typing search text, press up or down arrow keys to review list of "
-"suggestions."
-msgstr ""
-"Nakon upisivanja teksta pretrage, koristite strelice dole i gore da "
-"pregledate listu predloga."
-
-#. Translators: Input gesture category for Control Usage Assistant add-on.
-#. The prototype UI message, the actual processing is done below.
-#. Add-on summary, usually the user visible name of the addon.
-#. Translators: Summary for this add-on
-#. to be shown on installation and add-on information.
-msgid "Control Usage Assistant"
-msgstr "Asistent za korišćenje kontrola"
-
-#. Translators: Input help message for command to show settings.
-msgid "Shows the Control Usage Assistant settings."
-msgstr "Prikazuje podešavanja asistenta za korišćenje kontrola."
-
-#. Translators: Input help message for control help command.
-msgid "Presents a message on how to interact with the focused control."
-msgstr "Prikazuje poruku koja objašnjava interakciju sa fokusiranom kontrolom"
-
-#. Translators: Message presented when there is no help message for the focused control.
-#. Translators: Message presented when there's no help for this control.
-msgid "No help for this control"
-msgstr "Nema pomoći za ovu kontrolu"
-
-#. Translators: message presented at the end of help messages.
-msgid "Press escape to close this help screen."
-msgstr "Pritisnite Escape da zatvorite ovaj ekran pomoći."
-
-#. Translators: Additional message when working with forms in focus mode.
-msgid " To switch to browse mode, press NVDA+SPACE or escape key"
-msgstr ""
-"Da se prebacite u režim pretraživanja, Pritisnite NVDA+razmak ili taster "
-"escape"
-
-#. Translators: Help message for reading a webpage while in focus mode.
-msgid ""
-"To use browse mode and quick navigation keys to read the webpage, switch to "
-"browse mode by pressing NVDA+SPACE"
-msgstr ""
-"Da biste koristili brzu navigaciju i čitali Web stranicu, pređite u režim "
-"pretraživanja komandom NVDA+razmak."
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Crowdin-Project: nvdaaddons\n"
+"X-Crowdin-Project-ID: 780748\n"
+"X-Crowdin-Language: sr-CS\n"
+"X-Crowdin-File: controlUsageAssistant.pot\n"
+"X-Crowdin-File-ID: 260\n"
 
 #. Translators: Help message for a checkbox.
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:20
 msgid "Press space bar to check or uncheck this check box."
-msgstr ""
-"Pritisnite razmak da bi ste označili ili uklonili oznaku sa ovog izbornog "
-"polja"
+msgstr "Pritisnite razmak da bi ste označili ili uklonili oznaku sa ovog izbornog polja"
 
 #. Translators: Help message for working with radio buttons.
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:22
 msgid "Use the arrow keys to choose a radio button."
 msgstr "Koristite strelice da izaberete radio dugme"
 
 #. Translators: Help message for a list box.
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:24
 msgid "Use the arrow keys to read this box."
 msgstr "Koristite strelice da čitate ovo polje"
 
 #. Translators: Help message for an edit field.
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:26
 msgid "Type text here."
 msgstr "Upišite tekst ovde"
 
 #. Translators: Help message for a button.
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:28
 msgid "Press SPACE or ENTER to activate this button."
 msgstr "Pritisnite razmak ili enter da aktivirate ovo dugme."
 
+#. Translators: Help message for a toggle button.
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:30
+msgid "Press SPACE or ENTER to toggle this button."
+msgstr ""
+
 #. Translators: Help message for menu items.
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:32
 msgid "Use the arrow keys to move between the menu items."
 msgstr "Koristite strelice da se krećete kroz stavke menija."
 
 #. Translators: Help message for pop-up menu (so-called context menu, activated by presing Applications key).
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:34
 msgid "Use up and down arrow keys to move through options in the pop-up menu."
 msgstr "Koristite strelice da se krećete kroz opcije u iskačućem meniju."
 
 #. Translators: Help message for a combo box.
-msgid ""
-"Use the arrow keys to move among choices in the combo box until the desired "
-"option is found."
-msgstr ""
-"Koristite strelice da se krećete kroz opcije izbornog okvira dok ne "
-"pronađete željenu opciju."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:37
+msgid "Use the arrow keys to move among choices in the combo box until the desired option is found."
+msgstr "Koristite strelice da se krećete kroz opcije izbornog okvira dok ne pronađete željenu opciju."
 
 #. Translators: Help message for a list view.
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:40
 msgid "Use the arrow keys to move to the next or previous item in this list."
 msgstr "Koristite strelice da se krećete kroz stavke ove liste."
 
 #. Translators: Help message for activating links.
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:42
 msgid "Press SPACE or ENTER to activate this link."
 msgstr "Pritisnite razmak ili enter da aktivirate ovaj link."
 
 #. Translators: Help message for working with tree view items.
-msgid ""
-"Use the up and down arrow keys to select the items. Use left arrow to "
-"collapse and right arrow to expand."
-msgstr ""
-"Koristite strelice gore i dole da se krećete kroz stavke. Koristite strelicu "
-"desno da proširite stavku ili strelicu levo da je skupite."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:45
+msgid "Use the up and down arrow keys to select the items. Use left arrow to collapse and right arrow to expand."
+msgstr "Koristite strelice gore i dole da se krećete kroz stavke. Koristite strelicu desno da proširite stavku ili strelicu levo da je skupite."
 
 #. Translators: Help message for navigating tabs,
 #. such as various property tabs for drive properties in My Computer.
-msgid ""
-"Use the left and right arrow keys to move between tabs, or press control+tab "
-"for next tab and control+shift+tab for previous tab."
-msgstr ""
-"Koristite strelice levo i desno da se krećete kroz kartice, ili pritisnite "
-"kontrol+tab za sledeću karticu i kontrol+šift+tab za prethodnu karticu."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:51
+msgid "Use the left and right arrow keys to move between tabs, or press control+tab for next tab and control+shift+tab for previous tab."
+msgstr "Koristite strelice levo i desno da se krećete kroz kartice, ili pritisnite kontrol+tab za sledeću karticu i kontrol+šift+tab za prethodnu karticu."
 
 #. Translators: Help message for working with slider controls such as volume mixer in Windows 7.
-msgid ""
-"Use the left and down arrow keys to decrease and up and right arrow keys to "
-"increase the value in this slider. Use page up and page down to increase or "
-"decrease in larger values, and press home and end keys to select maximum and "
-"minimum value."
-msgstr ""
-"Koristite strelice desno i gore da povećate vrednost a strelice levoi dole "
-"da smanjite vrednost ovog klizača. Koristite page up i down da povećate i "
-"smanjite vrednost u većim količinama, a home i end da povećate i smanjite "
-"vrednost na najmanju i najveću količinu."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:56
+msgid "Use the left and down arrow keys to decrease and up and right arrow keys to increase the value in this slider. Use page up and page down to increase or decrease in larger values, and press home and end keys to select maximum and minimum value."
+msgstr "Koristite strelice desno i gore da povećate vrednost a strelice levoi dole da smanjite vrednost ovog klizača. Koristite page up i down da povećate i smanjite vrednost u većim količinama, a home i end da povećate i smanjite vrednost na najmanju i najveću količinu."
 
 #. Translators: Help message for working with progress bars.
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:62
 msgid "This is a progress bar, used to show progress of an operation."
-msgstr ""
-"Ovo je traka napredovanja, koristi se da prikaže napredak neke operacije."
+msgstr "Ovo je traka napredovanja, koristi se da prikaže napredak neke operacije."
 
 #. Translators: Help message for navigating tables.
-msgid ""
-"Press control, alt and arrow keys together to move between rows and columns."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:65
+msgid "Press control, alt and arrow keys together to move between rows and columns."
 msgstr "Pritisnite kontrol, alt i strelice da se krećete kroz redove i kolone."
 
 #. Translators: Help message for navigating table cells.
-msgid ""
-"Press Control+Alt+arrow keys to other table cells. Pressing left or right "
-"arrow keys will navigate between columns, and up and down arrow keys will "
-"navigate by row."
-msgstr ""
-"Pritisnite ctrl plus alt plus strelice za navigaciju kroz ćelije tabele. "
-"Strelice levo i desno kreću se kroz različite kolone, dok se strelice gore i "
-"dole kreću kroz različite redove."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:69
+msgid "Press Control+Alt+arrow keys to other table cells. Pressing left or right arrow keys will navigate between columns, and up and down arrow keys will navigate by row."
+msgstr "Pritisnite ctrl plus alt plus strelice za navigaciju kroz ćelije tabele. Strelice levo i desno kreću se kroz različite kolone, dok se strelice gore i dole kreću kroz različite redove."
 
 #. Translators: Help message for reading documents (mostly encountered in Internet Explorer windows).
-msgid ""
-"Use the arrow keys or object navigation commands to move through the "
-"document."
-msgstr ""
-"Koristite strelice ili komande objektne navigacije da se krećete kroz "
-"dokument."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:75
+msgid "Use the arrow keys or object navigation commands to move through the document."
+msgstr "Koristite strelice ili komande objektne navigacije da se krećete kroz dokument."
 
 #. Translators: Help message for terminal windows such as command prompt.
-msgid ""
-"Type commands in the terminal window and use review cursor commands to read "
-"the output."
-msgstr ""
-"Upišite komande u prozor terminala i koristite komande preglednog kursora da "
-"pregledate izlaz."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:79
+msgid "Type commands in the terminal window and use review cursor commands to read the output."
+msgstr "Upišite komande u prozor terminala i koristite komande preglednog kursora da pregledate izlaz."
 
 #. Translators: Help message for radio buttons while in browse mode.
-msgid ""
-"To select a radio button, switch to focus mode by pressing NVDA+SPACE or "
-"ENTER key."
-msgstr ""
-"Da izaberete radio dugme, prebacite se u režim fokusiranja komandom "
-"NVDA+razmak ili tasterom enter."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:87
+msgid "To select a radio button, switch to focus mode by pressing NVDA+SPACE or ENTER key."
+msgstr "Da izaberete radio dugme, prebacite se u režim fokusiranja komandom NVDA+razmak ili tasterom enter."
 
 #. Translators: Help message for edit fields while in browse mode.
-msgid ""
-"To type text into this edit field, switch to focus mode by pressing "
-"NVDA+SPACE or ENTER key."
-msgstr ""
-"Da upišete tekst u ovo polje, prebacite se u režim fokusiranja komandom "
-"NVDA+razmak ili tasterom enter."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:91
+msgid "To type text into this edit field, switch to focus mode by pressing NVDA+SPACE or ENTER key."
+msgstr "Da upišete tekst u ovo polje, prebacite se u režim fokusiranja komandom NVDA+razmak ili tasterom enter."
 
 #. Translators: Help message for combo boxes in browse mode.
-msgid ""
-"To select an item in the combo box, switch to focus mode by pressing "
-"NVDA+SPACE or ENTER key."
-msgstr ""
-"Da izaberete stavku u izbornom okviru, prebacite se u režim fokusiranja "
-"komandom  NVDA+space ili tasterom enter."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:95
+msgid "To select an item in the combo box, switch to focus mode by pressing NVDA+SPACE or ENTER key."
+msgstr "Da izaberete stavku u izbornom okviru, prebacite se u režim fokusiranja komandom  NVDA+space ili tasterom enter."
 
 #. Translators: Help message for reading webpages.
-msgid ""
-"Use the browse mode and quick navigation commands to read through the "
-"webpage."
-msgstr ""
-"Koristite režim pretraživanja i komande brze navigacije da pročitate Web "
-"stranicu."
+#: addon\globalPlugins\controlUsageAssistant\controltypeshelp.py:99
+msgid "Use the browse mode and quick navigation commands to read through the webpage."
+msgstr "Koristite režim pretraživanja i komande brze navigacije da pročitate Web stranicu."
 
 #. Translators: Help message for edit boxes.
-#, fuzzy
+#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:26
 msgid "Use arrow keys to move the cursor across text. You may type text here."
-msgstr "Koristite strelice da se krećete kroz stavke ove liste."
+msgstr ""
 
 #. Translators: Help message for reading Adobe PDF documents.
-msgid ""
-"Use the browse mode and quick navigation commands to read through the PDF "
-"document."
-msgstr ""
-"Koristite režim pretraživanja i komande brze navigacije da pročitate PDF "
-"dokument."
+#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:30
+msgid "Use the browse mode and quick navigation commands to read through the PDF document."
+msgstr "Koristite režim pretraživanja i komande brze navigacije da pročitate PDF dokument."
 
 #. Translators: Help message for moving between Excel spreadsheet cells.
+#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:33
 msgid "Use the arrow keys to move between spreadsheet cells."
 msgstr "Koristite strelice da se krećete kroz ćelije radnog lista."
 
 #. Translators: Message for moving between Windows 8 start screen tiles (Windows 8 only).
+#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:39
 msgid "Use the arrow keys to move between start screen tiles."
 msgstr "Koristite strelice da se krećete kroz stavke Start ekrana."
 
 #. Translators: Message for moving between slides in slide view
 #. (a list of slides for a Powerpoint presentation).
+#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:55
 msgid "Use up and down arrow keys to move between slides."
 msgstr "Koristite strelice da se krećete kroz slajdove."
 
 #. Translators: Help message for working with slide shows.
-msgid ""
-"Press SPACE or BACKSPACE to move between slides in the slide show. To end "
-"the slide show, press escape."
-msgstr ""
-"Pritisnite razmak ili backspace da se krećete kroz slajdove u slajd šou. Da "
-"završite slajd šou, pritisnite escape."
+#: addon\globalPlugins\controlUsageAssistant\nvdaobjectshelp.py:59
+msgid "Press SPACE or BACKSPACE to move between slides in the slide show. To end the slide show, press escape."
+msgstr "Pritisnite razmak ili backspace da se krećete kroz slajdove u slajd šou. Da završite slajd šou, pritisnite escape."
 
 #. Translators: label of a dialog.
+#: addon\globalPlugins\controlUsageAssistant\utils.py:45
 msgid "&Automatic messages for focus"
 msgstr "&Automatske poruke za fokus"
 
 #. Translators: label of a dialog.
+#: addon\globalPlugins\controlUsageAssistant\utils.py:49
 msgid "Type the message to be used when an object can be activated"
 msgstr "Upišite poruku koja će se koristiti kada objekat može da se aktivira"
 
 #. Translators: label of a dialog.
+#: addon\globalPlugins\controlUsageAssistant\utils.py:56
 msgid "Sele&ct output modes for automatic messages"
 msgstr "Iza&berite režim prikazivanja za automatske poruke"
 
 #. Translators: label of a dialog.
+#: addon\globalPlugins\controlUsageAssistant\utils.py:59
 msgid "Speech"
 msgstr "Govor"
 
 #. Translators: label of a dialog.
+#: addon\globalPlugins\controlUsageAssistant\utils.py:61
 msgid "Braille"
 msgstr "Brajev"
 
 #. Translators: label of a dialog.
+#: addon\globalPlugins\controlUsageAssistant\utils.py:76
 msgid "&Pitch change for automatic messages"
 msgstr "&Promena visine za automatske poruke"
 
+#. Translators: Message presented when there is no help for this control.
+#. Translators: Message presented when there's no help for this control.
+#: addon\globalPlugins\controlUsageAssistant\__init__.py:41
+#: addon\globalPlugins\controlUsageAssistant\__init__.py:177
+msgid "No help for this control"
+msgstr "Nema pomoći za ovu kontrolu"
+
+#. Translators: help text for search field in Windows 10 and other places.
+#: addon\globalPlugins\controlUsageAssistant\__init__.py:49
+msgid "After typing search text, press up or down arrow keys to review list of suggestions."
+msgstr "Nakon upisivanja teksta pretrage, koristite strelice dole i gore da pregledate listu predloga."
+
+#. Translators: Input gesture category for Control Usage Assistant add-on.
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: addon\globalPlugins\controlUsageAssistant\__init__.py:58
+#: addon\globalPlugins\controlUsageAssistant\__init__.py:89 buildVars.py:20
+msgid "Control Usage Assistant"
+msgstr "Asistent za korišćenje kontrola"
+
+#. Translators: Input help message for command to show settings.
+#: addon\globalPlugins\controlUsageAssistant\__init__.py:74
+msgid "Shows the Control Usage Assistant settings."
+msgstr "Prikazuje podešavanja asistenta za korišćenje kontrola."
+
+#. Translators: Input help message for control help command.
+#: addon\globalPlugins\controlUsageAssistant\__init__.py:81
+msgid "Presents a message on how to interact with the focused control."
+msgstr "Prikazuje poruku koja objašnjava interakciju sa fokusiranom kontrolom"
+
+#. Translators: message presented at the end of help messages.
+#: addon\globalPlugins\controlUsageAssistant\__init__.py:124
+msgid "Press escape to close this help screen."
+msgstr "Pritisnite Escape da zatvorite ovaj ekran pomoći."
+
+#. Translators: Additional message when working with forms in focus mode.
+#: addon\globalPlugins\controlUsageAssistant\__init__.py:162
+msgid " To switch to browse mode, press NVDA+SPACE or escape key"
+msgstr "Da se prebacite u režim pretraživanja, Pritisnite NVDA+razmak ili taster escape"
+
+#. Translators: Help message for reading a webpage while in focus mode.
+#: addon\globalPlugins\controlUsageAssistant\__init__.py:169
+msgid "To use browse mode and quick navigation keys to read the webpage, switch to browse mode by pressing NVDA+SPACE"
+msgstr "Da biste koristili brzu navigaciju i čitali Web stranicu, pređite u režim pretraživanja komandom NVDA+razmak."
+
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-msgid ""
-"Allows you to find out how to interact with the focused control, useful for "
-"new computer users new to Windows and to NVDA.\n"
-"\tPress NVDA+H to get a short help message on using the focused control, "
-"such as moving through tables, checkboxes and so on."
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:23
+msgid "Allows you to find out how to interact with the focused control, useful for new computer users new to Windows and to NVDA."
 msgstr ""
-"Dozvoljava vam da saznate kako da koristite fokusiranu kontrolu, korisno za "
-"nove korisnike računara kao i Windowsa i programa NVDA.\n"
-"\tPritisnite NVDA+H da dobijete kratku poruku pomoći za korišćenje kontrole "
-"sa programom NVDA, kao što je kretanje kroz tabele, izborna polja i tako "
-"dalje."
 
-#~ msgid "Use the text navigation commands to read text"
-#~ msgstr "Koristite komande za navigaciju kroz tekst da biste čitali tekst"
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:28
+msgid "* Updates to translations."
+msgstr ""
 
-#~ msgid ""
-#~ "Press control, alt and arrow keys together to move between table cells"
-#~ msgstr "Pritisnite kontrol, alt i strelice da se krećete kroz ćelije tabele"
-
-#~ msgid ""
-#~ "Control Usage Assistant - get brief help on interacting with the focused "
-#~ "control"
-#~ msgstr ""
-#~ "Control Usage Assistant - Dobijanje kratke pomoći za interakciju sa "
-#~ "različitim kontrolama"
